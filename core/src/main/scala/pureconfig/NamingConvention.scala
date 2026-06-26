@@ -9,14 +9,14 @@ trait NamingConvention {
 
 trait CapitalizedWordsNamingConvention extends NamingConvention {
   def toTokens(s: String): Seq[String] = {
-    ArraySeq.unsafeWrapArray(CapitalizedWordsNamingConvention.wordBreakPattern.split(s)).map(_.toLowerCase)
+    ArraySeq.unsafeWrapArray(WordBreakSplitter.splitWords(s)).map(_.toLowerCase)
   }
 }
 
-object CapitalizedWordsNamingConvention {
-  private val wordBreakPattern =
-    String.format("%s|%s|%s", "(?<=[A-Z])(?=[A-Z][a-z])", "(?<=[^A-Z])(?=[A-Z])", "(?<=[A-Za-z])(?=[^A-Za-z])").r
-}
+// The actual word-break splitting is delegated to `WordBreakSplitter`, defined per-platform under
+// `scala-jvm/` and `scala-native/`. The JVM implementation uses a lookbehind/lookahead regex; Scala
+// Native's RE2 regex engine does not support lookbehind/lookahead, so the Native variant implements
+// the same word-break logic by hand. See NamingConventionPlatform.scala in those source dirs.
 
 /** CamelCase identifiers look like `camelCase` and `useMorePureconfig`
   * @see

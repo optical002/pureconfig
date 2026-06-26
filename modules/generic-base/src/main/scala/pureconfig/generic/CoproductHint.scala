@@ -89,7 +89,7 @@ class FieldCoproductHint[A](key: String) extends CoproductHint[A] {
       case co: ConfigObject =>
         Map(key -> fieldValue(name)).toConfig.withFallback(co.toConfig)
       case _ =>
-        throw CoproductHintException(WrongType(value.valueType, Set(ConfigValueType.OBJECT)))
+        throw CoproductHintException(WrongType(value.valueType(), Set(ConfigValueType.OBJECT)))
     }
   }
 }

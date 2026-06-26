@@ -22,7 +22,7 @@ case class ConfigReaderFailures(head: ConfigReaderFailure, tail: ConfigReaderFai
     def descriptionWithOrigin(failure: ConfigReaderFailure, indent: Int): String = {
       val failureLines = failure.description.split("\n")
       (failure.origin.fold(s"${tabs(indent)}- ${failureLines.head}")(f =>
-        s"${tabs(indent)}- (${f.description}) ${failureLines.head}"
+        s"${tabs(indent)}- (${f.description()}) ${failureLines.head}"
       ) ::
         failureLines.tail.map(l => s"${tabs(indent + 1)}$l").toList).mkString("\n")
     }

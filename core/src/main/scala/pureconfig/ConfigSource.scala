@@ -92,7 +92,7 @@ trait ConfigSource {
 final class ConfigObjectSource private (getConf: () => Result[Config]) extends ConfigSource {
 
   def value(): Result[ConfigObject] =
-    config().flatMap(_.resolveSafe()).map(_.root)
+    config().flatMap(_.resolveSafe()).map(_.root())
 
   // Avoids unnecessary cast on `ConfigCursor#asObjectCursor`.
   override def cursor(): Result[ConfigCursor] =
@@ -196,7 +196,7 @@ object ConfigSource {
 
   /** A config source that always provides empty configs.
     */
-  val empty = ConfigObjectSource(Right(ConfigFactory.empty))
+  val empty = ConfigObjectSource(Right(ConfigFactory.empty()))
 
   /** A config source for the default reference config in Typesafe Config (`reference.conf` resources provided by
     * libraries). Like Typesafe Config, it provides an empty object if `reference.conf` files are not found.

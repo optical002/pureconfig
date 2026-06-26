@@ -317,7 +317,7 @@ object ConfigCursor {
             lazy val tryDouble = Try(s.toDouble).map(ConfigValueFactory.fromAnyRef)
             tryLong.orElse(tryDouble) match {
               case Success(value) => Right(value)
-              case Failure(_) => Left(WrongType(configValue.valueType, Set(NUMBER)))
+              case Failure(_) => Left(WrongType(configValue.valueType(), Set(NUMBER)))
             }
 
           case ConfigValueType.NULL if s == "null" =>
@@ -409,7 +409,7 @@ case class ConfigListCursor(listValue: ConfigList, pathElems: List[String], offs
     else {
       val newValue = ConfigValueFactory
         .fromAnyRef(listValue.asScala.drop(1).asJava)
-        .withOrigin(listValue.origin)
+        .withOrigin(listValue.origin())
         .asInstanceOf[ConfigList]
 
       Some(ConfigListCursor(newValue, pathElems, offset = offset + 1))

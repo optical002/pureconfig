@@ -18,6 +18,81 @@ ThisBuild / libraryDependencySchemes ++= Seq(
 lazy val core = (project in file("core"))
   .enablePlugins(BoilerplatePlugin)
   .settings(commonSettings)
+  .settings(
+    // JVM-only aggregate sources (BasicReaders/BasicWriters mixing in java.time/URL traits).
+    // The Native variant uses `scala-native/` instead. See BasicReaders.scala / BasicWriters.scala.
+    Compile / unmanagedSourceDirectories += baseDirectory.value / "src" / "main" / "scala-jvm"
+  )
+
+// --- Scala Native port ---
+// Native variants live in the same source dirs but use a separate `target-native` output and
+// Scala 3 only. The JVM-only Typesafe Config dependency (declared in core/build.sbt) is replaced
+// by the SHocon fork's value-tree `com.typesafe.config` shim (published as the single Scala Native
+// artifact `org.akka-js:shocon-parser`), which provides the same package/class names so the core
+// sources compile unchanged.
+// Pinned to Scala 3.8.1 / scala-native 0.5.10 to match the published shocon artifact and the
+// downstream godot logic-constructor consumer (all jars in a native link must share one combo).
+lazy val scala3Native = "3.8.1"
+
+lazy val nativeSettings = Seq(
+  scalaVersion := scala3Native,
+  crossScalaVersions := Seq(scala3Native),
+  target := baseDirectory.value / "target-native",
+  // The native shim and pureconfig itself are not part of the upstream scalafmt/scalafix setup;
+  // keep those JVM-oriented compile hooks off the native variants to avoid spurious failures.
+  scalafmtOnCompile := false,
+  scalafixOnCompile := false,
+  // drop the JVM-only Typesafe Config dependency inherited from core/build.sbt. `core/build.sbt`
+  // appends it via `libraryDependencies +=` *after* these settings, so we exclude at resolution
+  // time instead of filtering `libraryDependencies` (which would be re-added).
+  excludeDependencies += ExclusionRule("com.typesafe", "config"),
+  // The replacement backend: SHocon fork's `com.typesafe.config` shim, resolved from its raw-git
+  // Maven repo. `%%%`-equivalent cross suffix -> `_native0.5_3`.
+  resolvers += "shocon-native" at
+    "https://raw.githubusercontent.com/optical002/shocon/maven/maven",
+  libraryDependencies +=
+    ("org.akka-js" % "shocon-parser" % "1.0.0-native").cross(ScalaNativeCrossVersion.binary),
+  // Publish the Native artifacts as a fixed (non-SNAPSHOT) version into a Maven-layout folder
+  // committed to this repo's `maven` branch and served raw from GitHub — mirroring the shocon
+  // fork's hosting pattern. Consumers add the matching raw.githubusercontent resolver.
+  version := "1.0.0-native",
+  isSnapshot := false,
+  publishTo := Some(
+    Resolver.file("github-maven", (ThisBuild / baseDirectory).value / "maven")
+  )
+)
+
+lazy val coreNative = (project in file("core"))
+  .enablePlugins(ScalaNativePlugin, BoilerplatePlugin)
+  .settings(commonSettings)
+  .settings(nativeSettings)
+  .settings(
+    moduleName := "pureconfig-core",
+    // Native-only aggregate sources (BasicReaders/BasicWriters omitting the java.time/URL traits
+    // that are unavailable on Scala Native). The ScalaNativePlugin does not auto-add `scala-native`
+    // in this build, so add it explicitly. See BasicReaders.scala / BasicWriters.scala.
+    Compile / unmanagedSourceDirectories += baseDirectory.value / "src" / "main" / "scala-native"
+  )
+
+lazy val genericBaseNative = (project in file("modules/generic-base"))
+  .enablePlugins(ScalaNativePlugin)
+  .settings(commonSettings)
+  .settings(nativeSettings)
+  .settings(moduleName := "pureconfig-generic-base")
+  .dependsOn(coreNative)
+
+// A throwaway native app used to exercise `nativeLink` end-to-end (parse -> cursor -> reader,
+// including Scala 3 `derives` derivation). Not published. Run with `nativeSmoke/nativeLink` and
+// then execute the produced binary.
+lazy val nativeSmoke = (project in file("native-smoke"))
+  .enablePlugins(ScalaNativePlugin)
+  .settings(commonSettings)
+  .settings(nativeSettings)
+  .settings(
+    publish / skip := true,
+    Compile / mainClass := Some("pureconfig.smoke.Main")
+  )
+  .dependsOn(coreNative)
 
 lazy val testkit = (project in file("testkit"))
   .settings(commonSettings)

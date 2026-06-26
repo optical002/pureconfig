@@ -21,9 +21,9 @@ object ErrorUtil {
         ConfigReader.Result.fail(onIOFailure.get(Option(e.getCause)))
 
       case e: ConfigException.Parse =>
-        val msg = (if (e.origin != null)
+        val msg = (if (e.origin() != null)
                      // Removing the error origin from the exception message since origin is stored and used separately:
-                     e.getMessage.stripPrefix(s"${e.origin.description}: ")
+                     e.getMessage.stripPrefix(s"${e.origin().description()}: ")
                    else
                      e.getMessage).stripSuffix(".")
         ConfigReader.Result.fail(CannotParse(msg, Some(e.origin())))

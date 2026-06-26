@@ -38,11 +38,20 @@ trait JavaEnumWriter {
   implicit def javaEnumWriter[A <: java.lang.Enum[A]]: ConfigWriter[A] = ConfigWriter.toDefaultString[A]
 }
 
+/** Trait containing a `ConfigWriter` instance for `java.net.URL`.
+  *
+  * Isolated from [[UriAndPathWriters]] because `java.net.URL` is unavailable on Scala Native; the Native aggregate
+  * ([[BasicWriters]]) does not mix this trait in.
+  */
+trait UrlWriter {
+
+  implicit val urlConfigWriter: ConfigWriter[URL] = ConfigWriter.toDefaultString[URL]
+}
+
 /** Trait containing `ConfigWriter` instances for classes related to file system paths and URIs.
   */
 trait UriAndPathWriters {
 
-  implicit val urlConfigWriter: ConfigWriter[URL] = ConfigWriter.toDefaultString[URL]
   implicit val uuidConfigWriter: ConfigWriter[UUID] = ConfigWriter.toDefaultString[UUID]
   implicit val pathConfigWriter: ConfigWriter[Path] = ConfigWriter.toDefaultString[Path]
   implicit val fileConfigWriter: ConfigWriter[File] = ConfigWriter.toDefaultString[File]
@@ -126,17 +135,5 @@ trait TypesafeConfigWriters {
   }
 }
 
-/** Trait containing `ConfigWriter` instances for primitive types and simple classes in Java and Scala standard
-  * libraries.
-  */
-trait BasicWriters
-    extends PrimitiveWriters
-    with JavaEnumWriter
-    with UriAndPathWriters
-    with RegexWriters
-    with JavaTimeWriters
-    with DurationWriters
-    with NumericWriters
-    with TypesafeConfigWriters
-
-object BasicWriters extends BasicWriters
+// The aggregate `trait BasicWriters` / `object BasicWriters` are defined per-platform under
+// `scala-jvm/` and `scala-native/` (see note at the top of this file).

@@ -71,12 +71,21 @@ trait JavaEnumReader {
     configurable.genericJavaEnumReader[A](identity)
 }
 
+/** Trait containing a `ConfigReader` instance for `java.net.URL`.
+  *
+  * Isolated from [[UriAndPathReaders]] because `java.net.URL` is unavailable on Scala Native; the Native aggregate
+  * ([[BasicReaders]]) does not mix this trait in.
+  */
+trait UrlReader {
+
+  implicit val urlConfigReader: ConfigReader[URL] =
+    ConfigReader.fromNonEmptyString[URL](catchReadError(new URI(_).toURL()))
+}
+
 /** Trait containing `ConfigReader` instances for classes related to file system paths and URIs.
   */
 trait UriAndPathReaders {
 
-  implicit val urlConfigReader: ConfigReader[URL] =
-    ConfigReader.fromNonEmptyString[URL](catchReadError(new URI(_).toURL()))
   implicit val uuidConfigReader: ConfigReader[UUID] =
     ConfigReader.fromNonEmptyString[UUID](catchReadError(UUID.fromString))
   implicit val pathConfigReader: ConfigReader[Path] = ConfigReader.fromString[Path](catchReadError(Paths.get(_)))
@@ -193,17 +202,5 @@ trait TypesafeConfigReaders {
     }
 }
 
-/** Trait containing `ConfigReader` instances for primitive types and simple classes in Java and Scala standard
-  * libraries.
-  */
-trait BasicReaders
-    extends PrimitiveReaders
-    with JavaEnumReader
-    with UriAndPathReaders
-    with RegexReaders
-    with JavaTimeReaders
-    with DurationReaders
-    with NumericReaders
-    with TypesafeConfigReaders
-
-object BasicReaders extends BasicReaders
+// The aggregate `trait BasicReaders` / `object BasicReaders` are defined per-platform under
+// `scala-jvm/` and `scala-native/` (see note at the top of this file).
