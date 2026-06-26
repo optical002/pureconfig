@@ -1,0 +1,15 @@
+[warn] -- Warning: /home/optick/work/pureconfig/core/src/main/scala/pureconfig/BasicWriters.scala:82:9 
+[warn] 82 |  private[this] def yearToString(year: Year): String =
+[warn]    |         ^^^^^^
+[warn]    |Ignoring [this] qualifier.
+[warn]    |The syntax `private[this]` will be deprecated in the future; just write `private` instead.
+[warn]    |See: https://docs.scala-lang.org/scala3/reference/dropped-features/this-qualifier.html
+[warn]    |This construct can be rewritten automatically under -rewrite -source 3.4-migration.
+[warn] -- Warning: /home/optick/work/pureconfig/core/src/main/scala/pureconfig/BasicWriters.scala:85:9 
+[warn] 85 |  private[this] def chronoUnitToString(chronoUnit: ChronoUnit): String =
+[warn]    |         ^^^^^^
+[warn]    |Ignoring [this] qualifier.
+[warn]    |The syntax `private[this]` will be deprecated in the future; just write `private` instead.
+[warn]    |See: https://docs.scala-lang.org/scala3/reference/dropped-features/this-qualifier.html
+[warn]    |This construct can be rewritten automatically under -rewrite -source 3.4-migration.
+[warn] two warnings found

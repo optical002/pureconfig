@@ -1,0 +1,3 @@
+[debug] writing Ivy file /home/optick/work/pureconfig/modules/generic-base/target-native/scala-3.8.1/resolution-cache/com.github.pureconfig/pureconfig-generic-base_native0.5_3/1.0.0-native/resolved.xml.xml
+[warn] versionScheme setting is empty; set `ThisBuild / versionScheme := Some("early-semver")`, `Some("semver-spec")` or `Some("pvp")`
+[warn] so tooling can use it for eviction errors etc - https://www.scala-sbt.org/1.x/docs/Publishing.html

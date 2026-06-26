@@ -1,0 +1,65 @@
+[debug] Created transactional ClassFileManager with tempDir = /home/optick/work/pureconfig/modules/generic-base/target-native/scala-3.8.1/classes.bak
+[debug] About to delete class files:
+[debug] 	CoproductHint$Attempt$.class
+[debug] 	CoproductHint.class
+[debug] 	CoproductHint$Use.class
+[debug] 	CoproductHint$Attempt.class
+[debug] 	FieldCoproductHint.class
+[debug] 	CoproductHint$Action.class
+[debug] 	CoproductHint$Use$.class
+[debug] 	FieldCoproductHint$.class
+[debug] 	CoproductHint$.class
+[debug] 	FirstSuccessCoproductHint.class
+[debug] 	CoproductHint$Attempt$.tasty
+[debug] 	CoproductHint.tasty
+[debug] 	CoproductHint$Use.tasty
+[debug] 	CoproductHint$Attempt.tasty
+[debug] 	FieldCoproductHint.tasty
+[debug] 	CoproductHint$Action.tasty
+[debug] 	CoproductHint$Use$.tasty
+[debug] 	FieldCoproductHint$.tasty
+[debug] 	CoproductHint$.tasty
+[debug] 	FirstSuccessCoproductHint.tasty
+[debug] We backup class files:
+[debug] 	CoproductHint$Attempt$.class
+[debug] 	CoproductHint.class
+[debug] 	CoproductHint$Use.class
+[debug] 	CoproductHint$Attempt.class
+[debug] 	FieldCoproductHint.class
+[debug] 	CoproductHint$Action.class
+[debug] 	CoproductHint$Use$.class
+[debug] 	FieldCoproductHint$.class
+[debug] 	CoproductHint$.class
+[debug] 	FirstSuccessCoproductHint.class
+[debug] 	CoproductHint$Attempt$.tasty
+[debug] 	CoproductHint.tasty
+[debug] 	CoproductHint$Use.tasty
+[debug] 	CoproductHint$Attempt.tasty
+[debug] 	FieldCoproductHint.tasty
+[debug] 	CoproductHint$Action.tasty
+[debug] 	CoproductHint$Use$.tasty
+[debug] 	FieldCoproductHint$.tasty
+[debug] 	CoproductHint$.tasty
+[debug] 	FirstSuccessCoproductHint.tasty
+[debug] Registering generated classes:
+[debug] 	CoproductHint$Attempt$.class
+[debug] 	CoproductHint.class
+[debug] 	CoproductHint$Use.class
+[debug] 	CoproductHint$Attempt.class
+[debug] 	FieldCoproductHint.class
+[debug] 	CoproductHint$Action.class
+[debug] 	CoproductHint$Use$.class
+[debug] 	FieldCoproductHint$.class
+[debug] 	CoproductHint$.class
+[debug] 	FirstSuccessCoproductHint.class
+[debug] 	CoproductHint$Attempt$.tasty
+[debug] 	CoproductHint.tasty
+[debug] 	CoproductHint$Use.tasty
+[debug] 	CoproductHint$Attempt.tasty
+[debug] 	FieldCoproductHint.tasty
+[debug] 	CoproductHint$Action.tasty
+[debug] 	CoproductHint$Use$.tasty
+[debug] 	FieldCoproductHint$.tasty
+[debug] 	CoproductHint$.tasty
+[debug] 	FirstSuccessCoproductHint.tasty
+[debug] Removing the temporary directory used for backing up class files: /home/optick/work/pureconfig/modules/generic-base/target-native/scala-3.8.1/classes.bak

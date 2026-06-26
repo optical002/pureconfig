@@ -1,0 +1,3 @@
+[debug] Found 2 template files in /home/optick/work/pureconfig/core/src/main/boilerplate.
+[debug] Template 'ProductReaders.scala.template' older than target. Ignoring.
+[debug] Template 'ProductWriters.scala.template' older than target. Ignoring.

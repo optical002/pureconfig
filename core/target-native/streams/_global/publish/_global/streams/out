@@ -1,0 +1,10 @@
+[debug] 	starting transaction: publish during transaction will be done in 
+[debug] 		/home/optick/work/pureconfig/maven/com/github/pureconfig/pureconfig-core_native0.5_3/1.0.0-native.part
+[debug] 	and on commit moved to 
+[debug] 		/home/optick/work/pureconfig/maven/com/github/pureconfig/pureconfig-core_native0.5_3/1.0.0-native
+[info] 	published pureconfig-core_native0.5_3 to /home/optick/work/pureconfig/maven/com/github/pureconfig/pureconfig-core_native0.5_3/1.0.0-native.part/pureconfig-core_native0.5_3-1.0.0-native.pom
+[info] 	published pureconfig-core_native0.5_3 to /home/optick/work/pureconfig/maven/com/github/pureconfig/pureconfig-core_native0.5_3/1.0.0-native.part/pureconfig-core_native0.5_3-1.0.0-native.jar
+[info] 	published pureconfig-core_native0.5_3 to /home/optick/work/pureconfig/maven/com/github/pureconfig/pureconfig-core_native0.5_3/1.0.0-native.part/pureconfig-core_native0.5_3-1.0.0-native-sources.jar
+[info] 	published pureconfig-core_native0.5_3 to /home/optick/work/pureconfig/maven/com/github/pureconfig/pureconfig-core_native0.5_3/1.0.0-native.part/pureconfig-core_native0.5_3-1.0.0-native-javadoc.jar
+[info] 	publish commited: moved /home/optick/work/pureconfig/maven/com/github/pureconfig/pureconfig-core_native0.5_3/1.0.0-native.part 
+[info] 		to /home/optick/work/pureconfig/maven/com/github/pureconfig/pureconfig-core_native0.5_3/1.0.0-native

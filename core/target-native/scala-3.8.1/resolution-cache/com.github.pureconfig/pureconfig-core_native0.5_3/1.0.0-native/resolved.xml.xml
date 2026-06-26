@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
+  <info organisation="com.github.pureconfig" module="pureconfig-core_native0.5_3" revision="1.0.0-native">
+    <description homepage="https://github.com/pureconfig/pureconfig">pureconfig-core</description>
+  </info>
+  <configurations>
+    <conf name="plugin" visibility="public" description=""/>
+    <conf name="pom" visibility="public" description=""/>
+    <conf extends="runtime" name="test" visibility="public" description=""/>
+    <conf name="provided" visibility="public" description=""/>
+    <conf extends="compile,optional,provided" name="compile-internal" visibility="public" description=""/>
+    <conf name="scalafix" visibility="public" description=""/>
+    <conf name="docs" visibility="public" description=""/>
+    <conf name="scoveragePlugin" visibility="public" description=""/>
+    <conf name="optional" visibility="public" description=""/>
+    <conf name="compile" visibility="public" description=""/>
+    <conf extends="test,optional,provided" name="test-internal" visibility="public" description=""/>
+    <conf name="scala-repl-tool" visibility="public" description=""/>
+    <conf name="scala-tool" visibility="public" description=""/>
+    <conf name="scala-doc-tool" visibility="public" description=""/>
+    <conf name="sources" visibility="public" description=""/>
+    <conf extends="compile" name="runtime" visibility="public" description=""/>
+    <conf extends="runtime,optional" name="runtime-internal" visibility="public" description=""/>
+  </configurations>
+  <publications>
+    <artifact name="pureconfig-core_native0.5_3" type="jar" ext="jar" conf="compile"/>
+    <artifact e:classifier="sources" name="pureconfig-core_native0.5_3" type="src" ext="jar" conf="sources"/>
+    <artifact e:classifier="javadoc" name="pureconfig-core_native0.5_3" type="doc" ext="jar" conf="docs"/>
+    <artifact name="pureconfig-core_native0.5_3" type="pom" ext="pom" conf="pom"/>
+  </publications>
+  <dependencies>
+    <dependency org="org.scala-lang" name="scala3-compiler_3" rev="3.8.1" conf="scala-tool-&gt;default(compile)"> </dependency>
+    <dependency org="org.scala-lang" name="scaladoc_3" rev="3.8.1" conf="scala-doc-tool-&gt;default(compile)"> </dependency>
+    <dependency org="org.scala-lang" name="scala3-repl_3" rev="3.8.1" conf="scala-repl-tool-&gt;default(compile)"> </dependency>
+    <dependency org="org.scala-lang" name="scala3-library_3" rev="3.8.1" conf="compile-&gt;default(runtime)"> </dependency>
+    <dependency org="org.scala-native" name="test-interface_native0.5_3" rev="0.5.10" conf="test-&gt;default(runtime)"> </dependency>
+    <dependency org="org.scala-native" name="scala3lib_native0.5_3" rev="3.8.1+0.5.10" conf="compile-&gt;default(runtime)"> </dependency>
+    <dependency org="org.scala-native" name="nscplugin_3.8.1" rev="0.5.10" conf="plugin-&gt;default(compile)"> </dependency>
+    <dependency org="org.scala-native" name="nativelib_native0.5_3" rev="0.5.10" conf="compile-&gt;default(runtime)"> </dependency>
+    <dependency org="org.scala-native" name="clib_native0.5_3" rev="0.5.10" conf="compile-&gt;default(runtime)"> </dependency>
+    <dependency org="org.scala-native" name="posixlib_native0.5_3" rev="0.5.10" conf="compile-&gt;default(runtime)"> </dependency>
+    <dependency org="org.scala-native" name="windowslib_native0.5_3" rev="0.5.10" conf="compile-&gt;default(runtime)"> </dependency>
+    <dependency org="org.scala-native" name="javalib_native0.5_3" rev="0.5.10" conf="compile-&gt;default(runtime)"> </dependency>
+    <dependency org="org.scala-native" name="auxlib_native0.5_3" rev="0.5.10" conf="compile-&gt;default(runtime)"> </dependency>
+    <dependency org="org.akka-js" name="shocon-parser_native0.5_3" rev="1.0.0-native" conf="compile-&gt;default(runtime)"> </dependency>
+    <dependency org="com.typesafe" name="config" rev="1.4.9" conf="compile-&gt;default(runtime)"> </dependency>
+  </dependencies>
+</ivy-module>

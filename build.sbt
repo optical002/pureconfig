@@ -132,6 +132,7 @@ lazy val circe = module(project) in file("modules/circe")
 lazy val cron4s = module(project) in file("modules/cron4s")
 lazy val enum = module(project) in file("modules/enum")
 lazy val enumeratum = module(project) in file("modules/enumeratum")
+lazy val framework = module(project) in file("modules/framework")
 lazy val fs2 = module(project) in file("modules/fs2")
 lazy val generic = genericModule(project) in file("modules/generic") dependsOn `generic-base`
 lazy val `generic-scala3` = genericModule(project) in file("modules/generic-scala3") dependsOn `generic-base`
