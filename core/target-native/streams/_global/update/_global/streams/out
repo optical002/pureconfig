@@ -1,3 +1,4 @@
-[debug] not up to date. inChanged = true, force = false
+[warn] shocon-parser_native0.5_3.jar no longer exists at /home/optick/.ivy2/local/org.akka-js/shocon-parser_native0.5_3/1.0.0-native/jars/shocon-parser_native0.5_3.jar
+[debug] not up to date. inChanged = false, force = false
 [debug] Updating coreNative...
 [debug] Done updating coreNative

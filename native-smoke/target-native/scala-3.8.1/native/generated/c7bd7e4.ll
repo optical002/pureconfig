@@ -2,411 +2,413 @@ declare i32 @scalanative_personality(...)
 declare ptr @scalanative_catch(ptr)
 
 @"_SM7__constG1-0" = private unnamed_addr constant [1 x ptr] [ ptr @"_SM20java.io.SerializableG4type" ]
-@"_SM7__constG1-1" = private unnamed_addr constant { ptr, i32, i32, [41 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 41, i32 2, [41 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 110, i16 105, i16 111, i16 46, i16 99, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 46, i16 67, i16 104, i16 97, i16 114, i16 97, i16 99, i16 116, i16 101, i16 114, i16 67, i16 111, i16 100, i16 105, i16 110, i16 103, i16 69, i16 120, i16 99, i16 101, i16 112, i16 116, i16 105, i16 111, i16 110 ] }
-@"_SM7__constG1-2" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG1-1", i32 0, i32 41, i32 -364395260 }
-@"_SM7__constG1-3" = private unnamed_addr constant [7 x i32] [ i32 8, i32 16, i32 24, i32 32, i32 48, i32 56, i32 -1 ]
+@"_SM7__constG1-1" = private unnamed_addr constant { ptr, ptr, i32, i32, [41 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 41, i32 2, [41 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 110, i16 105, i16 111, i16 46, i16 99, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 46, i16 67, i16 104, i16 97, i16 114, i16 97, i16 99, i16 116, i16 101, i16 114, i16 67, i16 111, i16 100, i16 105, i16 110, i16 103, i16 69, i16 120, i16 99, i16 101, i16 112, i16 116, i16 105, i16 111, i16 110 ] }
+@"_SM7__constG1-2" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG1-1", i32 0, i32 41, i32 -364395260 }
+@"_SM7__constG1-3" = private unnamed_addr constant [7 x i32] [ i32 16, i32 24, i32 32, i32 40, i32 56, i32 64, i32 -1 ]
 @"_SM7__constG1-4" = private unnamed_addr constant [1 x { i32, ptr }] [ { i32, ptr } { i32 -2147483621, ptr null } ]
 @"_SM7__constG1-5" = private unnamed_addr constant [1 x ptr] [ ptr @"_SM20java.lang.ComparableG4type" ]
-@"_SM7__constG1-6" = private unnamed_addr constant { ptr, i32, i32, [24 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 24, i32 2, [24 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 110, i16 105, i16 111, i16 46, i16 99, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 46, i16 67, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116 ] }
-@"_SM7__constG1-7" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG1-6", i32 0, i32 24, i32 1479543012 }
-@"_SM7__constG1-8" = private unnamed_addr constant [5 x i32] [ i32 8, i32 16, i32 24, i32 40, i32 -1 ]
+@"_SM7__constG1-6" = private unnamed_addr constant { ptr, ptr, i32, i32, [24 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 24, i32 2, [24 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 110, i16 105, i16 111, i16 46, i16 99, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 46, i16 67, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116 ] }
+@"_SM7__constG1-7" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG1-6", i32 0, i32 24, i32 1479543012 }
+@"_SM7__constG1-8" = private unnamed_addr constant [5 x i32] [ i32 16, i32 24, i32 32, i32 48, i32 -1 ]
 @"_SM7__constG1-9" = private unnamed_addr constant [1 x ptr] [ ptr @"_SM24java.nio.charset.CharsetD9compareToL16java.lang.ObjectiEO" ]
 @"_SM7__constG2-10" = private unnamed_addr constant [1 x { i32, ptr }] [ { i32, ptr } { i32 -2147483516, ptr @"_SM7__constG1-9" } ]
 @"_SM7__constG2-11" = private unnamed_addr constant [0 x ptr] [  ]
-@"_SM7__constG2-12" = private unnamed_addr constant { ptr, i32, i32, [25 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 25, i32 2, [25 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 110, i16 105, i16 111, i16 46, i16 99, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 46, i16 67, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 36 ] }
-@"_SM7__constG2-13" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG2-12", i32 0, i32 25, i32 -1378806848 }
-@"_SM7__constG2-14" = private unnamed_addr constant [2 x i32] [ i32 8, i32 -1 ]
+@"_SM7__constG2-12" = private unnamed_addr constant { ptr, ptr, i32, i32, [25 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 25, i32 2, [25 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 110, i16 105, i16 111, i16 46, i16 99, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 46, i16 67, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 36 ] }
+@"_SM7__constG2-13" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG2-12", i32 0, i32 25, i32 -1378806848 }
+@"_SM7__constG2-14" = private unnamed_addr constant [2 x i32] [ i32 16, i32 -1 ]
 @"_SM7__constG2-15" = private unnamed_addr constant [0 x { i32, ptr }] [  ]
 @"_SM7__constG2-16" = private unnamed_addr constant [1 x ptr] [ ptr @"_SM15scala.Function0G4type" ]
-@"_SM7__constG2-17" = private unnamed_addr constant { ptr, i32, i32, [35 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 35, i32 2, [35 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 110, i16 105, i16 111, i16 46, i16 99, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 46, i16 67, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 36, i16 36, i16 36, i16 76, i16 97, i16 109, i16 98, i16 100, i16 97, i16 36, i16 49 ] }
-@"_SM7__constG2-18" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG2-17", i32 0, i32 35, i32 -688337164 }
-@"_SM7__constG2-19" = private unnamed_addr constant [3 x i32] [ i32 8, i32 16, i32 -1 ]
+@"_SM7__constG2-17" = private unnamed_addr constant { ptr, ptr, i32, i32, [35 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 35, i32 2, [35 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 110, i16 105, i16 111, i16 46, i16 99, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 46, i16 67, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 36, i16 36, i16 36, i16 76, i16 97, i16 109, i16 98, i16 100, i16 97, i16 36, i16 49 ] }
+@"_SM7__constG2-18" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG2-17", i32 0, i32 35, i32 -688337164 }
+@"_SM7__constG2-19" = private unnamed_addr constant [3 x i32] [ i32 16, i32 24, i32 -1 ]
 @"_SM7__constG2-20" = private unnamed_addr constant [2 x ptr] [ ptr @"_SM15scala.Function0D12apply$mcV$spuEO", ptr @"_SM35java.nio.charset.Charset$$$Lambda$1D5applyL16java.lang.ObjectEO" ]
-@"_SM7__constG2-21" = private unnamed_addr constant [1 x { i32, ptr }] [ { i32, ptr } { i32 -2147481280, ptr @"_SM7__constG2-20" } ]
+@"_SM7__constG2-21" = private unnamed_addr constant [1 x { i32, ptr }] [ { i32, ptr } { i32 -2147481248, ptr @"_SM7__constG2-20" } ]
 @"_SM7__constG2-22" = private unnamed_addr constant [1 x ptr] [ ptr @"_SM27java.util.function.ConsumerG4type" ]
-@"_SM7__constG2-23" = private unnamed_addr constant { ptr, i32, i32, [36 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 36, i32 2, [36 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 110, i16 105, i16 111, i16 46, i16 99, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 46, i16 67, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 36, i16 36, i16 36, i16 76, i16 97, i16 109, i16 98, i16 100, i16 97, i16 36, i16 49, i16 48 ] }
-@"_SM7__constG2-24" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG2-23", i32 0, i32 36, i32 136384444 }
+@"_SM7__constG2-23" = private unnamed_addr constant { ptr, ptr, i32, i32, [36 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 36, i32 2, [36 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 110, i16 105, i16 111, i16 46, i16 99, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 46, i16 67, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 36, i16 36, i16 36, i16 76, i16 97, i16 109, i16 98, i16 100, i16 97, i16 36, i16 49, i16 48 ] }
+@"_SM7__constG2-24" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG2-23", i32 0, i32 36, i32 136384444 }
 @"_SM7__constG2-25" = private unnamed_addr constant [1 x ptr] [ ptr @"_SM36java.nio.charset.Charset$$$Lambda$10D6acceptL16java.lang.ObjectuEO" ]
 @"_SM7__constG2-26" = private unnamed_addr constant [1 x { i32, ptr }] [ { i32, ptr } { i32 -2147482720, ptr @"_SM7__constG2-25" } ]
 @"_SM7__constG2-27" = private unnamed_addr constant [3 x ptr] [ ptr @"_SM15scala.Function1G4type", ptr @"_SM20java.io.SerializableG4type", ptr @"_SM34scala.runtime.function.JProcedure1G4type" ]
-@"_SM7__constG2-28" = private unnamed_addr constant { ptr, i32, i32, [35 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 35, i32 2, [35 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 110, i16 105, i16 111, i16 46, i16 99, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 46, i16 67, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 36, i16 36, i16 36, i16 76, i16 97, i16 109, i16 98, i16 100, i16 97, i16 36, i16 52 ] }
-@"_SM7__constG2-29" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG2-28", i32 0, i32 35, i32 -688337161 }
+@"_SM7__constG2-28" = private unnamed_addr constant { ptr, ptr, i32, i32, [35 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 35, i32 2, [35 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 110, i16 105, i16 111, i16 46, i16 99, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 46, i16 67, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 36, i16 36, i16 36, i16 76, i16 97, i16 109, i16 98, i16 100, i16 97, i16 36, i16 52 ] }
+@"_SM7__constG2-29" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG2-28", i32 0, i32 35, i32 -688337161 }
 @"_SM7__constG2-30" = private unnamed_addr constant [1 x ptr] [ ptr @"_SM35java.nio.charset.Charset$$$Lambda$4D9applyVoidL16java.lang.ObjectuEO" ]
 @"_SM7__constG2-31" = private unnamed_addr constant [4 x ptr] [ ptr @"_SM34scala.runtime.function.JProcedure1D5applyL16java.lang.ObjectL16java.lang.ObjectEO", ptr @"_SM15scala.Function1D13apply$mcZI$spizEO", ptr @"_SM15scala.Function1D13apply$mcII$spiiEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ]
-@"_SM7__constG2-32" = private unnamed_addr constant [4 x { i32, ptr }] [ { i32, ptr } { i32 -2147480224, ptr @"_SM7__constG2-30" }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 -2147483646, ptr @"_SM7__constG2-31" }, { i32, ptr } { i32 -2147483621, ptr null } ]
-@"_SM7__constG2-33" = private unnamed_addr constant { ptr, i32, i32, [35 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 35, i32 2, [35 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 110, i16 105, i16 111, i16 46, i16 99, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 46, i16 67, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 36, i16 36, i16 36, i16 76, i16 97, i16 109, i16 98, i16 100, i16 97, i16 36, i16 53 ] }
-@"_SM7__constG2-34" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG2-33", i32 0, i32 35, i32 -688337160 }
+@"_SM7__constG2-32" = private unnamed_addr constant [4 x { i32, ptr }] [ { i32, ptr } { i32 -2147480096, ptr @"_SM7__constG2-30" }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 -2147483646, ptr @"_SM7__constG2-31" }, { i32, ptr } { i32 -2147483621, ptr null } ]
+@"_SM7__constG2-33" = private unnamed_addr constant { ptr, ptr, i32, i32, [35 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 35, i32 2, [35 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 110, i16 105, i16 111, i16 46, i16 99, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 46, i16 67, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 36, i16 36, i16 36, i16 76, i16 97, i16 109, i16 98, i16 100, i16 97, i16 36, i16 53 ] }
+@"_SM7__constG2-34" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG2-33", i32 0, i32 35, i32 -688337160 }
 @"_SM7__constG2-35" = private unnamed_addr constant [1 x ptr] [ ptr @"_SM35java.nio.charset.Charset$$$Lambda$5D9applyVoidL16java.lang.ObjectuEO" ]
-@"_SM7__constG2-36" = private unnamed_addr constant [4 x { i32, ptr }] [ { i32, ptr } { i32 -2147480224, ptr @"_SM7__constG2-35" }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 -2147483646, ptr @"_SM7__constG2-31" }, { i32, ptr } { i32 -2147483621, ptr null } ]
-@"_SM7__constG2-37" = private unnamed_addr constant { ptr, i32, i32, [35 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 35, i32 2, [35 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 110, i16 105, i16 111, i16 46, i16 99, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 46, i16 67, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 36, i16 36, i16 36, i16 76, i16 97, i16 109, i16 98, i16 100, i16 97, i16 36, i16 54 ] }
-@"_SM7__constG2-38" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG2-37", i32 0, i32 35, i32 -688337159 }
+@"_SM7__constG2-36" = private unnamed_addr constant [4 x { i32, ptr }] [ { i32, ptr } { i32 -2147480096, ptr @"_SM7__constG2-35" }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 -2147483646, ptr @"_SM7__constG2-31" }, { i32, ptr } { i32 -2147483621, ptr null } ]
+@"_SM7__constG2-37" = private unnamed_addr constant { ptr, ptr, i32, i32, [35 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 35, i32 2, [35 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 110, i16 105, i16 111, i16 46, i16 99, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 46, i16 67, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 36, i16 36, i16 36, i16 76, i16 97, i16 109, i16 98, i16 100, i16 97, i16 36, i16 54 ] }
+@"_SM7__constG2-38" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG2-37", i32 0, i32 35, i32 -688337159 }
 @"_SM7__constG2-39" = private unnamed_addr constant [1 x ptr] [ ptr @"_SM35java.nio.charset.Charset$$$Lambda$6D9applyVoidL16java.lang.ObjectuEO" ]
-@"_SM7__constG2-40" = private unnamed_addr constant [4 x { i32, ptr }] [ { i32, ptr } { i32 -2147480224, ptr @"_SM7__constG2-39" }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 -2147483646, ptr @"_SM7__constG2-31" }, { i32, ptr } { i32 -2147483621, ptr null } ]
-@"_SM7__constG2-41" = private unnamed_addr constant { ptr, i32, i32, [35 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 35, i32 2, [35 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 110, i16 105, i16 111, i16 46, i16 99, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 46, i16 67, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 36, i16 36, i16 36, i16 76, i16 97, i16 109, i16 98, i16 100, i16 97, i16 36, i16 55 ] }
-@"_SM7__constG2-42" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG2-41", i32 0, i32 35, i32 -688337158 }
+@"_SM7__constG2-40" = private unnamed_addr constant [4 x { i32, ptr }] [ { i32, ptr } { i32 -2147480096, ptr @"_SM7__constG2-39" }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 -2147483646, ptr @"_SM7__constG2-31" }, { i32, ptr } { i32 -2147483621, ptr null } ]
+@"_SM7__constG2-41" = private unnamed_addr constant { ptr, ptr, i32, i32, [35 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 35, i32 2, [35 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 110, i16 105, i16 111, i16 46, i16 99, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 46, i16 67, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 36, i16 36, i16 36, i16 76, i16 97, i16 109, i16 98, i16 100, i16 97, i16 36, i16 55 ] }
+@"_SM7__constG2-42" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG2-41", i32 0, i32 35, i32 -688337158 }
 @"_SM7__constG2-43" = private unnamed_addr constant [1 x ptr] [ ptr @"_SM35java.nio.charset.Charset$$$Lambda$7D9applyVoidL16java.lang.ObjectuEO" ]
-@"_SM7__constG2-44" = private unnamed_addr constant [4 x { i32, ptr }] [ { i32, ptr } { i32 -2147480224, ptr @"_SM7__constG2-43" }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 -2147483646, ptr @"_SM7__constG2-31" }, { i32, ptr } { i32 -2147483621, ptr null } ]
-@"_SM7__constG2-45" = private unnamed_addr constant { ptr, i32, i32, [35 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 35, i32 2, [35 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 110, i16 105, i16 111, i16 46, i16 99, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 46, i16 67, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 36, i16 36, i16 36, i16 76, i16 97, i16 109, i16 98, i16 100, i16 97, i16 36, i16 56 ] }
-@"_SM7__constG2-46" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG2-45", i32 0, i32 35, i32 -688337157 }
+@"_SM7__constG2-44" = private unnamed_addr constant [4 x { i32, ptr }] [ { i32, ptr } { i32 -2147480096, ptr @"_SM7__constG2-43" }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 -2147483646, ptr @"_SM7__constG2-31" }, { i32, ptr } { i32 -2147483621, ptr null } ]
+@"_SM7__constG2-45" = private unnamed_addr constant { ptr, ptr, i32, i32, [35 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 35, i32 2, [35 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 110, i16 105, i16 111, i16 46, i16 99, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 46, i16 67, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 36, i16 36, i16 36, i16 76, i16 97, i16 109, i16 98, i16 100, i16 97, i16 36, i16 56 ] }
+@"_SM7__constG2-46" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG2-45", i32 0, i32 35, i32 -688337157 }
 @"_SM7__constG2-47" = private unnamed_addr constant [1 x ptr] [ ptr @"_SM35java.nio.charset.Charset$$$Lambda$8D9applyVoidL16java.lang.ObjectuEO" ]
-@"_SM7__constG2-48" = private unnamed_addr constant [4 x { i32, ptr }] [ { i32, ptr } { i32 -2147480224, ptr @"_SM7__constG2-47" }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 -2147483646, ptr @"_SM7__constG2-31" }, { i32, ptr } { i32 -2147483621, ptr null } ]
-@"_SM7__constG2-49" = private unnamed_addr constant { ptr, i32, i32, [35 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 35, i32 2, [35 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 110, i16 105, i16 111, i16 46, i16 99, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 46, i16 67, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 36, i16 36, i16 36, i16 76, i16 97, i16 109, i16 98, i16 100, i16 97, i16 36, i16 57 ] }
-@"_SM7__constG2-50" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG2-49", i32 0, i32 35, i32 -688337156 }
+@"_SM7__constG2-48" = private unnamed_addr constant [4 x { i32, ptr }] [ { i32, ptr } { i32 -2147480096, ptr @"_SM7__constG2-47" }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 -2147483646, ptr @"_SM7__constG2-31" }, { i32, ptr } { i32 -2147483621, ptr null } ]
+@"_SM7__constG2-49" = private unnamed_addr constant { ptr, ptr, i32, i32, [35 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 35, i32 2, [35 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 110, i16 105, i16 111, i16 46, i16 99, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 46, i16 67, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 36, i16 36, i16 36, i16 76, i16 97, i16 109, i16 98, i16 100, i16 97, i16 36, i16 57 ] }
+@"_SM7__constG2-50" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG2-49", i32 0, i32 35, i32 -688337156 }
 @"_SM7__constG2-51" = private unnamed_addr constant [1 x ptr] [ ptr @"_SM35java.nio.charset.Charset$$$Lambda$9D9applyVoidL16java.lang.ObjectuEO" ]
-@"_SM7__constG2-52" = private unnamed_addr constant [4 x { i32, ptr }] [ { i32, ptr } { i32 -2147480224, ptr @"_SM7__constG2-51" }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 -2147483646, ptr @"_SM7__constG2-31" }, { i32, ptr } { i32 -2147483621, ptr null } ]
+@"_SM7__constG2-52" = private unnamed_addr constant [4 x { i32, ptr }] [ { i32, ptr } { i32 -2147480096, ptr @"_SM7__constG2-51" }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 -2147483646, ptr @"_SM7__constG2-31" }, { i32, ptr } { i32 -2147483621, ptr null } ]
 @"_SM7__constG2-53" = private unnamed_addr constant [1 x ptr] [ ptr @"_SM27java.util.function.SupplierG4type" ]
-@"_SM7__constG2-54" = private unnamed_addr constant { ptr, i32, i32, [34 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 34, i32 2, [34 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 110, i16 105, i16 111, i16 46, i16 99, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 46, i16 67, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 36, i16 36, i16 76, i16 97, i16 109, i16 98, i16 100, i16 97, i16 36, i16 49 ] }
-@"_SM7__constG2-55" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG2-54", i32 0, i32 34, i32 1930602264 }
+@"_SM7__constG2-54" = private unnamed_addr constant { ptr, ptr, i32, i32, [34 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 34, i32 2, [34 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 110, i16 105, i16 111, i16 46, i16 99, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 46, i16 67, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 36, i16 36, i16 76, i16 97, i16 109, i16 98, i16 100, i16 97, i16 36, i16 49 ] }
+@"_SM7__constG2-55" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG2-54", i32 0, i32 34, i32 1930602264 }
 @"_SM7__constG2-56" = private unnamed_addr constant [1 x ptr] [ ptr @"_SM34java.nio.charset.Charset$$Lambda$1D3getL16java.lang.ObjectEO" ]
-@"_SM7__constG2-57" = private unnamed_addr constant [1 x { i32, ptr }] [ { i32, ptr } { i32 -2147479584, ptr @"_SM7__constG2-56" } ]
-@"_SM7__constG2-58" = private unnamed_addr constant { ptr, i32, i32, [34 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 34, i32 2, [34 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 110, i16 105, i16 111, i16 46, i16 99, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 46, i16 67, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 36, i16 36, i16 76, i16 97, i16 109, i16 98, i16 100, i16 97, i16 36, i16 50 ] }
-@"_SM7__constG2-59" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG2-58", i32 0, i32 34, i32 1930602265 }
+@"_SM7__constG2-57" = private unnamed_addr constant [1 x { i32, ptr }] [ { i32, ptr } { i32 -2147479424, ptr @"_SM7__constG2-56" } ]
+@"_SM7__constG2-58" = private unnamed_addr constant { ptr, ptr, i32, i32, [34 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 34, i32 2, [34 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 110, i16 105, i16 111, i16 46, i16 99, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 46, i16 67, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 36, i16 36, i16 76, i16 97, i16 109, i16 98, i16 100, i16 97, i16 36, i16 50 ] }
+@"_SM7__constG2-59" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG2-58", i32 0, i32 34, i32 1930602265 }
 @"_SM7__constG2-60" = private unnamed_addr constant [1 x ptr] [ ptr @"_SM34java.nio.charset.Charset$$Lambda$2D3getL16java.lang.ObjectEO" ]
-@"_SM7__constG2-61" = private unnamed_addr constant [1 x { i32, ptr }] [ { i32, ptr } { i32 -2147479584, ptr @"_SM7__constG2-60" } ]
-@"_SM7__constG2-62" = private unnamed_addr constant { ptr, i32, i32, [31 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 31, i32 2, [31 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 110, i16 105, i16 111, i16 46, i16 99, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 46, i16 67, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 68, i16 101, i16 99, i16 111, i16 100, i16 101, i16 114 ] }
-@"_SM7__constG2-63" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG2-62", i32 0, i32 31, i32 1592472256 }
-@"_SM7__constG2-64" = private unnamed_addr constant { ptr, i32, i32, [31 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 31, i32 2, [31 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 110, i16 105, i16 111, i16 46, i16 99, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 46, i16 67, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 69, i16 110, i16 99, i16 111, i16 100, i16 101, i16 114 ] }
-@"_SM7__constG2-65" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG2-64", i32 0, i32 31, i32 -1557329000 }
-@"_SM7__constG2-66" = private unnamed_addr constant { ptr, i32, i32, [38 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 38, i32 2, [38 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 110, i16 105, i16 111, i16 46, i16 99, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 46, i16 67, i16 111, i16 100, i16 101, i16 114, i16 77, i16 97, i16 108, i16 102, i16 117, i16 110, i16 99, i16 116, i16 105, i16 111, i16 110, i16 69, i16 114, i16 114, i16 111, i16 114 ] }
-@"_SM7__constG2-67" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG2-66", i32 0, i32 38, i32 -1965373803 }
-@"_SM7__constG2-68" = private unnamed_addr constant { ptr, i32, i32, [28 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 28, i32 2, [28 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 110, i16 105, i16 111, i16 46, i16 99, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 46, i16 67, i16 111, i16 100, i16 101, i16 114, i16 82, i16 101, i16 115, i16 117, i16 108, i16 116 ] }
-@"_SM7__constG2-69" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG2-68", i32 0, i32 28, i32 199847994 }
+@"_SM7__constG2-61" = private unnamed_addr constant [1 x { i32, ptr }] [ { i32, ptr } { i32 -2147479424, ptr @"_SM7__constG2-60" } ]
+@"_SM7__constG2-62" = private unnamed_addr constant { ptr, ptr, i32, i32, [31 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 31, i32 2, [31 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 110, i16 105, i16 111, i16 46, i16 99, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 46, i16 67, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 68, i16 101, i16 99, i16 111, i16 100, i16 101, i16 114 ] }
+@"_SM7__constG2-63" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG2-62", i32 0, i32 31, i32 1592472256 }
+@"_SM7__constG2-64" = private unnamed_addr constant { ptr, ptr, i32, i32, [31 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 31, i32 2, [31 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 110, i16 105, i16 111, i16 46, i16 99, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 46, i16 67, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 69, i16 110, i16 99, i16 111, i16 100, i16 101, i16 114 ] }
+@"_SM7__constG2-65" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG2-64", i32 0, i32 31, i32 -1557329000 }
+@"_SM7__constG2-66" = private unnamed_addr constant { ptr, ptr, i32, i32, [38 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 38, i32 2, [38 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 110, i16 105, i16 111, i16 46, i16 99, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 46, i16 67, i16 111, i16 100, i16 101, i16 114, i16 77, i16 97, i16 108, i16 102, i16 117, i16 110, i16 99, i16 116, i16 105, i16 111, i16 110, i16 69, i16 114, i16 114, i16 111, i16 114 ] }
+@"_SM7__constG2-67" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG2-66", i32 0, i32 38, i32 -1965373803 }
+@"_SM7__constG2-68" = private unnamed_addr constant { ptr, ptr, i32, i32, [28 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 28, i32 2, [28 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 110, i16 105, i16 111, i16 46, i16 99, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 46, i16 67, i16 111, i16 100, i16 101, i16 114, i16 82, i16 101, i16 115, i16 117, i16 108, i16 116 ] }
+@"_SM7__constG2-69" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG2-68", i32 0, i32 28, i32 199847994 }
 @"_SM7__constG2-70" = private unnamed_addr constant [1 x i32] [ i32 -1 ]
-@"_SM7__constG2-71" = private unnamed_addr constant { ptr, i32, i32, [29 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 29, i32 2, [29 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 110, i16 105, i16 111, i16 46, i16 99, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 46, i16 67, i16 111, i16 100, i16 101, i16 114, i16 82, i16 101, i16 115, i16 117, i16 108, i16 116, i16 36 ] }
-@"_SM7__constG2-72" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG2-71", i32 0, i32 29, i32 1900320554 }
-@"_SM7__constG2-73" = private unnamed_addr constant [13 x i32] [ i32 8, i32 16, i32 24, i32 32, i32 40, i32 48, i32 56, i32 64, i32 72, i32 80, i32 88, i32 96, i32 -1 ]
-@"_SM7__constG2-74" = private unnamed_addr constant { ptr, i32, i32, [39 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 39, i32 2, [39 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 110, i16 105, i16 111, i16 46, i16 99, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 46, i16 67, i16 111, i16 100, i16 101, i16 114, i16 82, i16 101, i16 115, i16 117, i16 108, i16 116, i16 36, i16 36, i16 36, i16 76, i16 97, i16 109, i16 98, i16 100, i16 97, i16 36, i16 49 ] }
-@"_SM7__constG2-75" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG2-74", i32 0, i32 39, i32 -724134434 }
+@"_SM7__constG2-71" = private unnamed_addr constant { ptr, ptr, i32, i32, [29 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 29, i32 2, [29 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 110, i16 105, i16 111, i16 46, i16 99, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 46, i16 67, i16 111, i16 100, i16 101, i16 114, i16 82, i16 101, i16 115, i16 117, i16 108, i16 116, i16 36 ] }
+@"_SM7__constG2-72" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG2-71", i32 0, i32 29, i32 1900320554 }
+@"_SM7__constG2-73" = private unnamed_addr constant [13 x i32] [ i32 16, i32 24, i32 32, i32 40, i32 48, i32 56, i32 64, i32 72, i32 80, i32 88, i32 96, i32 104, i32 -1 ]
+@"_SM7__constG2-74" = private unnamed_addr constant { ptr, ptr, i32, i32, [39 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 39, i32 2, [39 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 110, i16 105, i16 111, i16 46, i16 99, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 46, i16 67, i16 111, i16 100, i16 101, i16 114, i16 82, i16 101, i16 115, i16 117, i16 108, i16 116, i16 36, i16 36, i16 36, i16 76, i16 97, i16 109, i16 98, i16 100, i16 97, i16 36, i16 49 ] }
+@"_SM7__constG2-75" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG2-74", i32 0, i32 39, i32 -724134434 }
 @"_SM7__constG2-76" = private unnamed_addr constant [2 x ptr] [ ptr @"_SM15scala.Function0D12apply$mcV$spuEO", ptr @"_SM39java.nio.charset.CoderResult$$$Lambda$1D5applyL16java.lang.ObjectEO" ]
-@"_SM7__constG2-77" = private unnamed_addr constant [1 x { i32, ptr }] [ { i32, ptr } { i32 -2147481280, ptr @"_SM7__constG2-76" } ]
-@"_SM7__constG2-78" = private unnamed_addr constant { ptr, i32, i32, [39 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 39, i32 2, [39 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 110, i16 105, i16 111, i16 46, i16 99, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 46, i16 67, i16 111, i16 100, i16 101, i16 114, i16 82, i16 101, i16 115, i16 117, i16 108, i16 116, i16 36, i16 36, i16 36, i16 76, i16 97, i16 109, i16 98, i16 100, i16 97, i16 36, i16 50 ] }
-@"_SM7__constG2-79" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG2-78", i32 0, i32 39, i32 -724134433 }
+@"_SM7__constG2-77" = private unnamed_addr constant [1 x { i32, ptr }] [ { i32, ptr } { i32 -2147481248, ptr @"_SM7__constG2-76" } ]
+@"_SM7__constG2-78" = private unnamed_addr constant { ptr, ptr, i32, i32, [39 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 39, i32 2, [39 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 110, i16 105, i16 111, i16 46, i16 99, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 46, i16 67, i16 111, i16 100, i16 101, i16 114, i16 82, i16 101, i16 115, i16 117, i16 108, i16 116, i16 36, i16 36, i16 36, i16 76, i16 97, i16 109, i16 98, i16 100, i16 97, i16 36, i16 50 ] }
+@"_SM7__constG2-79" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG2-78", i32 0, i32 39, i32 -724134433 }
 @"_SM7__constG2-80" = private unnamed_addr constant [2 x ptr] [ ptr @"_SM15scala.Function0D12apply$mcV$spuEO", ptr @"_SM39java.nio.charset.CoderResult$$$Lambda$2D5applyL16java.lang.ObjectEO" ]
-@"_SM7__constG2-81" = private unnamed_addr constant [1 x { i32, ptr }] [ { i32, ptr } { i32 -2147481280, ptr @"_SM7__constG2-80" } ]
-@"_SM7__constG2-82" = private unnamed_addr constant { ptr, i32, i32, [34 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 34, i32 2, [34 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 110, i16 105, i16 111, i16 46, i16 99, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 46, i16 67, i16 111, i16 100, i16 105, i16 110, i16 103, i16 69, i16 114, i16 114, i16 111, i16 114, i16 65, i16 99, i16 116, i16 105, i16 111, i16 110 ] }
-@"_SM7__constG2-83" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG2-82", i32 0, i32 34, i32 -755311060 }
-@"_SM7__constG2-84" = private unnamed_addr constant { ptr, i32, i32, [35 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 35, i32 2, [35 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 110, i16 105, i16 111, i16 46, i16 99, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 46, i16 67, i16 111, i16 100, i16 105, i16 110, i16 103, i16 69, i16 114, i16 114, i16 111, i16 114, i16 65, i16 99, i16 116, i16 105, i16 111, i16 110, i16 36 ] }
-@"_SM7__constG2-85" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG2-84", i32 0, i32 35, i32 -1939806344 }
-@"_SM7__constG2-86" = private unnamed_addr constant [4 x i32] [ i32 8, i32 16, i32 24, i32 -1 ]
-@"_SM7__constG2-87" = private unnamed_addr constant { ptr, i32, i32, [40 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 40, i32 2, [40 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 110, i16 105, i16 111, i16 46, i16 99, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 46, i16 77, i16 97, i16 108, i16 102, i16 111, i16 114, i16 109, i16 101, i16 100, i16 73, i16 110, i16 112, i16 117, i16 116, i16 69, i16 120, i16 99, i16 101, i16 112, i16 116, i16 105, i16 111, i16 110 ] }
-@"_SM7__constG2-88" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG2-87", i32 0, i32 40, i32 2111608792 }
-@"_SM7__constG2-89" = private unnamed_addr constant { ptr, i32, i32, [33 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 33, i32 2, [33 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 110, i16 105, i16 111, i16 46, i16 99, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 46, i16 83, i16 116, i16 97, i16 110, i16 100, i16 97, i16 114, i16 100, i16 67, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 115 ] }
-@"_SM7__constG2-90" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG2-89", i32 0, i32 33, i32 -457006612 }
-@"_SM7__constG2-91" = private unnamed_addr constant { ptr, i32, i32, [34 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 34, i32 2, [34 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 110, i16 105, i16 111, i16 46, i16 99, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 46, i16 83, i16 116, i16 97, i16 110, i16 100, i16 97, i16 114, i16 100, i16 67, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 115, i16 36 ] }
-@"_SM7__constG2-92" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG2-91", i32 0, i32 34, i32 -1282303048 }
-@"_SM7__constG2-93" = private unnamed_addr constant { ptr, i32, i32, [45 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 45, i32 2, [45 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 110, i16 105, i16 111, i16 46, i16 99, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 46, i16 85, i16 110, i16 109, i16 97, i16 112, i16 112, i16 97, i16 98, i16 108, i16 101, i16 67, i16 104, i16 97, i16 114, i16 97, i16 99, i16 116, i16 101, i16 114, i16 69, i16 120, i16 99, i16 101, i16 112, i16 116, i16 105, i16 111, i16 110 ] }
-@"_SM7__constG2-94" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG2-93", i32 0, i32 45, i32 2141149813 }
-@"_SM7__constG2-95" = private unnamed_addr constant { ptr, i32, i32, [44 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 44, i32 2, [44 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 110, i16 105, i16 111, i16 46, i16 99, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 46, i16 85, i16 110, i16 115, i16 117, i16 112, i16 112, i16 111, i16 114, i16 116, i16 101, i16 100, i16 67, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 69, i16 120, i16 99, i16 101, i16 112, i16 116, i16 105, i16 111, i16 110 ] }
-@"_SM7__constG2-96" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG2-95", i32 0, i32 44, i32 -848589744 }
-@"_SM7__constG2-97" = private unnamed_addr constant [8 x i32] [ i32 8, i32 16, i32 24, i32 32, i32 48, i32 56, i32 72, i32 -1 ]
-@"_SM7__constG2-98" = private unnamed_addr constant { ptr, i32, i32, [10 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 10, i32 2, [10 x i16] [ i16 105, i16 115, i16 111, i16 45, i16 56, i16 56, i16 53, i16 57, i16 45, i16 49 ] }
-@"_SM7__constG2-99" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG2-98", i32 0, i32 10, i32 -2034918256 }
-@"_SM7__constG3-100" = private unnamed_addr constant { ptr, i32, i32, [9 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 9, i32 2, [9 x i16] [ i16 105, i16 115, i16 111, i16 56, i16 56, i16 53, i16 57, i16 45, i16 49 ] }
-@"_SM7__constG3-101" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-100", i32 0, i32 9, i32 -859186419 }
-@"_SM7__constG3-102" = private unnamed_addr constant { ptr, i32, i32, [10 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 10, i32 2, [10 x i16] [ i16 105, i16 115, i16 111, i16 95, i16 56, i16 56, i16 53, i16 57, i16 95, i16 49 ] }
-@"_SM7__constG3-103" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-102", i32 0, i32 10, i32 -609405616 }
-@"_SM7__constG3-104" = private unnamed_addr constant { ptr, i32, i32, [9 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 9, i32 2, [9 x i16] [ i16 105, i16 115, i16 111, i16 56, i16 56, i16 53, i16 57, i16 95, i16 49 ] }
-@"_SM7__constG3-105" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-104", i32 0, i32 9, i32 -859184869 }
-@"_SM7__constG3-106" = private unnamed_addr constant { ptr, i32, i32, [10 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 10, i32 2, [10 x i16] [ i16 105, i16 115, i16 111, i16 95, i16 56, i16 56, i16 53, i16 57, i16 45, i16 49 ] }
-@"_SM7__constG3-107" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-106", i32 0, i32 10, i32 -609407166 }
-@"_SM7__constG3-108" = private unnamed_addr constant { ptr, i32, i32, [6 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 6, i32 2, [6 x i16] [ i16 56, i16 56, i16 53, i16 57, i16 95, i16 49 ] }
-@"_SM7__constG3-109" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-108", i32 0, i32 6, i32 1656586326 }
-@"_SM7__constG3-110" = private unnamed_addr constant { ptr, i32, i32, [15 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 15, i32 2, [15 x i16] [ i16 105, i16 115, i16 111, i16 95, i16 56, i16 56, i16 53, i16 57, i16 45, i16 49, i16 58, i16 49, i16 57, i16 56, i16 55 ] }
-@"_SM7__constG3-111" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-110", i32 0, i32 15, i32 270565471 }
-@"_SM7__constG3-112" = private unnamed_addr constant { ptr, i32, i32, [6 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 6, i32 2, [6 x i16] [ i16 108, i16 97, i16 116, i16 105, i16 110, i16 49 ] }
-@"_SM7__constG3-113" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-112", i32 0, i32 6, i32 -1109877331 }
-@"_SM7__constG3-114" = private unnamed_addr constant { ptr, i32, i32, [11 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 11, i32 2, [11 x i16] [ i16 99, i16 115, i16 105, i16 115, i16 111, i16 108, i16 97, i16 116, i16 105, i16 110, i16 49 ] }
-@"_SM7__constG3-115" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-114", i32 0, i32 11, i32 2035544066 }
-@"_SM7__constG3-116" = private unnamed_addr constant { ptr, i32, i32, [2 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 2, i32 2, [2 x i16] [ i16 108, i16 49 ] }
-@"_SM7__constG3-117" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-116", i32 0, i32 2, i32 3397 }
-@"_SM7__constG3-118" = private unnamed_addr constant { ptr, i32, i32, [7 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 7, i32 2, [7 x i16] [ i16 105, i16 98, i16 109, i16 45, i16 56, i16 49, i16 57 ] }
-@"_SM7__constG3-119" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-118", i32 0, i32 7, i32 1606322567 }
-@"_SM7__constG3-120" = private unnamed_addr constant { ptr, i32, i32, [6 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 6, i32 2, [6 x i16] [ i16 105, i16 98, i16 109, i16 56, i16 49, i16 57 ] }
-@"_SM7__constG3-121" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-120", i32 0, i32 6, i32 -1195098772 }
-@"_SM7__constG3-122" = private unnamed_addr constant { ptr, i32, i32, [5 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 5, i32 2, [5 x i16] [ i16 99, i16 112, i16 56, i16 49, i16 57 ] }
-@"_SM7__constG3-123" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-122", i32 0, i32 5, i32 94820563 }
-@"_SM7__constG3-124" = private unnamed_addr constant { ptr, i32, i32, [3 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 3, i32 2, [3 x i16] [ i16 56, i16 49, i16 57 ] }
-@"_SM7__constG3-125" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-124", i32 0, i32 3, i32 55392 }
-@"_SM7__constG3-126" = private unnamed_addr constant { ptr, i32, i32, [10 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 10, i32 2, [10 x i16] [ i16 105, i16 115, i16 111, i16 45, i16 105, i16 114, i16 45, i16 49, i16 48, i16 48 ] }
-@"_SM7__constG3-127" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-126", i32 0, i32 10, i32 -578771563 }
-@"_SM7__constG3-128" = private unnamed_addr constant { ptr, i32, i32, [8 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 8, i32 2, [8 x i16] [ i16 117, i16 115, i16 45, i16 97, i16 115, i16 99, i16 105, i16 105 ] }
-@"_SM7__constG3-129" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-128", i32 0, i32 8, i32 -1884495006 }
-@"_SM7__constG3-130" = private unnamed_addr constant { ptr, i32, i32, [6 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 6, i32 2, [6 x i16] [ i16 97, i16 115, i16 99, i16 105, i16 105, i16 55 ] }
-@"_SM7__constG3-131" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-130", i32 0, i32 6, i32 -1408681210 }
-@"_SM7__constG3-132" = private unnamed_addr constant { ptr, i32, i32, [5 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 5, i32 2, [5 x i16] [ i16 97, i16 115, i16 99, i16 105, i16 105 ] }
-@"_SM7__constG3-133" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-132", i32 0, i32 5, i32 93106001 }
-@"_SM7__constG3-134" = private unnamed_addr constant { ptr, i32, i32, [7 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 7, i32 2, [7 x i16] [ i16 99, i16 115, i16 97, i16 115, i16 99, i16 105, i16 105 ] }
-@"_SM7__constG3-135" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-134", i32 0, i32 7, i32 1054009569 }
-@"_SM7__constG3-136" = private unnamed_addr constant { ptr, i32, i32, [7 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 7, i32 2, [7 x i16] [ i16 100, i16 101, i16 102, i16 97, i16 117, i16 108, i16 116 ] }
-@"_SM7__constG3-137" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-136", i32 0, i32 7, i32 1544803905 }
-@"_SM7__constG3-138" = private unnamed_addr constant { ptr, i32, i32, [5 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 5, i32 2, [5 x i16] [ i16 99, i16 112, i16 51, i16 54, i16 55 ] }
-@"_SM7__constG3-139" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-138", i32 0, i32 5, i32 94815911 }
-@"_SM7__constG3-140" = private unnamed_addr constant { ptr, i32, i32, [6 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 6, i32 2, [6 x i16] [ i16 105, i16 98, i16 109, i16 51, i16 54, i16 55 ] }
-@"_SM7__constG3-141" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-140", i32 0, i32 6, i32 -1195103424 }
-@"_SM7__constG3-142" = private unnamed_addr constant { ptr, i32, i32, [9 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 9, i32 2, [9 x i16] [ i16 105, i16 115, i16 111, i16 54, i16 52, i16 54, i16 45, i16 117, i16 115 ] }
-@"_SM7__constG3-143" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-142", i32 0, i32 9, i32 -920118248 }
-@"_SM7__constG3-144" = private unnamed_addr constant { ptr, i32, i32, [3 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 3, i32 2, [3 x i16] [ i16 54, i16 52, i16 54 ] }
-@"_SM7__constG3-145" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-144", i32 0, i32 3, i32 53560 }
-@"_SM7__constG3-146" = private unnamed_addr constant { ptr, i32, i32, [16 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 16, i32 2, [16 x i16] [ i16 105, i16 115, i16 111, i16 95, i16 54, i16 52, i16 54, i16 46, i16 105, i16 114, i16 118, i16 58, i16 49, i16 57, i16 56, i16 51 ] }
-@"_SM7__constG3-147" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-146", i32 0, i32 16, i32 1416342400 }
-@"_SM7__constG3-148" = private unnamed_addr constant { ptr, i32, i32, [16 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 16, i32 2, [16 x i16] [ i16 105, i16 115, i16 111, i16 95, i16 54, i16 52, i16 54, i16 46, i16 105, i16 114, i16 118, i16 58, i16 49, i16 57, i16 57, i16 49 ] }
-@"_SM7__constG3-149" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-148", i32 0, i32 16, i32 1416342429 }
-@"_SM7__constG3-150" = private unnamed_addr constant { ptr, i32, i32, [14 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 14, i32 2, [14 x i16] [ i16 97, i16 110, i16 115, i16 105, i16 95, i16 120, i16 51, i16 46, i16 52, i16 45, i16 49, i16 57, i16 56, i16 54 ] }
-@"_SM7__constG3-151" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-150", i32 0, i32 14, i32 1305323958 }
-@"_SM7__constG3-152" = private unnamed_addr constant { ptr, i32, i32, [14 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 14, i32 2, [14 x i16] [ i16 97, i16 110, i16 115, i16 105, i16 95, i16 120, i16 51, i16 46, i16 52, i16 45, i16 49, i16 57, i16 54, i16 56 ] }
-@"_SM7__constG3-153" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-152", i32 0, i32 14, i32 1305323898 }
-@"_SM7__constG3-154" = private unnamed_addr constant { ptr, i32, i32, [8 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 8, i32 2, [8 x i16] [ i16 105, i16 115, i16 111, i16 45, i16 105, i16 114, i16 45, i16 54 ] }
-@"_SM7__constG3-155" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-154", i32 0, i32 8, i32 517832922 }
-@"_SM7__constG3-156" = private unnamed_addr constant { ptr, i32, i32, [5 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 5, i32 2, [5 x i16] [ i16 117, i16 116, i16 102, i16 45, i16 56 ] }
-@"_SM7__constG3-157" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-156", i32 0, i32 5, i32 111607186 }
-@"_SM7__constG3-158" = private unnamed_addr constant { ptr, i32, i32, [4 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 4, i32 2, [4 x i16] [ i16 117, i16 116, i16 102, i16 56 ] }
-@"_SM7__constG3-159" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-158", i32 0, i32 4, i32 3600241 }
-@"_SM7__constG3-160" = private unnamed_addr constant { ptr, i32, i32, [17 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 17, i32 2, [17 x i16] [ i16 117, i16 110, i16 105, i16 99, i16 111, i16 100, i16 101, i16 45, i16 49, i16 45, i16 49, i16 45, i16 117, i16 116, i16 102, i16 45, i16 56 ] }
-@"_SM7__constG3-161" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-160", i32 0, i32 17, i32 815511658 }
-@"_SM7__constG3-162" = private unnamed_addr constant { ptr, i32, i32, [8 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 8, i32 2, [8 x i16] [ i16 117, i16 116, i16 102, i16 45, i16 49, i16 54, i16 98, i16 101 ] }
-@"_SM7__constG3-163" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-162", i32 0, i32 8, i32 584837518 }
-@"_SM7__constG3-164" = private unnamed_addr constant { ptr, i32, i32, [8 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 8, i32 2, [8 x i16] [ i16 117, i16 116, i16 102, i16 95, i16 49, i16 54, i16 98, i16 101 ] }
-@"_SM7__constG3-165" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-164", i32 0, i32 8, i32 631013568 }
-@"_SM7__constG3-166" = private unnamed_addr constant { ptr, i32, i32, [10 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 10, i32 2, [10 x i16] [ i16 120, i16 45, i16 117, i16 116, i16 102, i16 45, i16 49, i16 54, i16 98, i16 101 ] }
-@"_SM7__constG3-167" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-166", i32 0, i32 10, i32 -1253018813 }
-@"_SM7__constG3-168" = private unnamed_addr constant { ptr, i32, i32, [15 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 15, i32 2, [15 x i16] [ i16 105, i16 115, i16 111, i16 45, i16 49, i16 48, i16 54, i16 52, i16 54, i16 45, i16 117, i16 99, i16 115, i16 45, i16 50 ] }
-@"_SM7__constG3-169" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-168", i32 0, i32 15, i32 1079772846 }
-@"_SM7__constG3-170" = private unnamed_addr constant { ptr, i32, i32, [18 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 18, i32 2, [18 x i16] [ i16 117, i16 110, i16 105, i16 99, i16 111, i16 100, i16 101, i16 98, i16 105, i16 103, i16 117, i16 110, i16 109, i16 97, i16 114, i16 107, i16 101, i16 100 ] }
-@"_SM7__constG3-171" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-170", i32 0, i32 18, i32 -1252060664 }
-@"_SM7__constG3-172" = private unnamed_addr constant { ptr, i32, i32, [8 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 8, i32 2, [8 x i16] [ i16 117, i16 116, i16 102, i16 45, i16 49, i16 54, i16 108, i16 101 ] }
-@"_SM7__constG3-173" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-172", i32 0, i32 8, i32 584837828 }
-@"_SM7__constG3-174" = private unnamed_addr constant { ptr, i32, i32, [8 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 8, i32 2, [8 x i16] [ i16 117, i16 116, i16 102, i16 95, i16 49, i16 54, i16 108, i16 101 ] }
-@"_SM7__constG3-175" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-174", i32 0, i32 8, i32 631013878 }
-@"_SM7__constG3-176" = private unnamed_addr constant { ptr, i32, i32, [10 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 10, i32 2, [10 x i16] [ i16 120, i16 45, i16 117, i16 116, i16 102, i16 45, i16 49, i16 54, i16 108, i16 101 ] }
-@"_SM7__constG3-177" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-176", i32 0, i32 10, i32 -1253018503 }
-@"_SM7__constG3-178" = private unnamed_addr constant { ptr, i32, i32, [21 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 21, i32 2, [21 x i16] [ i16 117, i16 110, i16 105, i16 99, i16 111, i16 100, i16 101, i16 108, i16 105, i16 116, i16 116, i16 108, i16 101, i16 117, i16 110, i16 109, i16 97, i16 114, i16 107, i16 101, i16 100 ] }
-@"_SM7__constG3-179" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-178", i32 0, i32 21, i32 -960533224 }
-@"_SM7__constG3-180" = private unnamed_addr constant { ptr, i32, i32, [6 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 6, i32 2, [6 x i16] [ i16 117, i16 116, i16 102, i16 45, i16 49, i16 54 ] }
-@"_SM7__constG3-181" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-180", i32 0, i32 6, i32 -835144693 }
-@"_SM7__constG3-182" = private unnamed_addr constant { ptr, i32, i32, [6 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 6, i32 2, [6 x i16] [ i16 117, i16 116, i16 102, i16 95, i16 49, i16 54 ] }
-@"_SM7__constG3-183" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-182", i32 0, i32 6, i32 -835096643 }
-@"_SM7__constG3-184" = private unnamed_addr constant { ptr, i32, i32, [7 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 7, i32 2, [7 x i16] [ i16 117, i16 110, i16 105, i16 99, i16 111, i16 100, i16 101 ] }
-@"_SM7__constG3-185" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-184", i32 0, i32 7, i32 -287016227 }
-@"_SM7__constG3-186" = private unnamed_addr constant { ptr, i32, i32, [10 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 10, i32 2, [10 x i16] [ i16 117, i16 110, i16 105, i16 99, i16 111, i16 100, i16 101, i16 98, i16 105, i16 103 ] }
-@"_SM7__constG3-187" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-186", i32 0, i32 10, i32 779565315 }
-@"_SM7__constG3-188" = private unnamed_addr constant { ptr, i32, i32, [19 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 19, i32 2, [19 x i16] [ i16 115, i16 104, i16 111, i16 117, i16 108, i16 100, i16 32, i16 110, i16 111, i16 116, i16 32, i16 103, i16 101, i16 116, i16 32, i16 104, i16 101, i16 114, i16 101 ] }
-@"_SM7__constG3-189" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-188", i32 0, i32 19, i32 -849617292 }
-@"_SM7__constG3-190" = private unnamed_addr constant { ptr, i32, i32, [22 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 22, i32 2, [22 x i16] [ i16 110, i16 117, i16 108, i16 108, i16 32, i16 67, i16 111, i16 100, i16 105, i16 110, i16 103, i16 69, i16 114, i16 114, i16 111, i16 114, i16 65, i16 99, i16 116, i16 105, i16 111, i16 110 ] }
-@"_SM7__constG3-191" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-190", i32 0, i32 22, i32 -646354405 }
-@"_SM7__constG3-192" = private unnamed_addr constant { ptr, i32, i32, [10 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 10, i32 2, [10 x i16] [ i16 77, i16 65, i16 76, i16 70, i16 79, i16 82, i16 77, i16 69, i16 68, i16 91 ] }
-@"_SM7__constG3-193" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-192", i32 0, i32 10, i32 -121952224 }
-@"_SM7__constG3-194" = private unnamed_addr constant { ptr, i32, i32, [1 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 1, i32 2, [1 x i16] [ i16 93 ] }
-@"_SM7__constG3-195" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-194", i32 0, i32 1, i32 93 }
-@"_SM7__constG3-196" = private unnamed_addr constant { ptr, i32, i32, [11 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 11, i32 2, [11 x i16] [ i16 85, i16 78, i16 77, i16 65, i16 80, i16 80, i16 65, i16 66, i16 76, i16 69, i16 91 ] }
-@"_SM7__constG3-197" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-196", i32 0, i32 11, i32 -348459596 }
-@"_SM7__constG3-198" = private unnamed_addr constant { ptr, i32, i32, [8 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 8, i32 2, [8 x i16] [ i16 79, i16 86, i16 69, i16 82, i16 70, i16 76, i16 79, i16 87 ] }
-@"_SM7__constG3-199" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-198", i32 0, i32 8, i32 1312269314 }
-@"_SM7__constG3-200" = private unnamed_addr constant { ptr, i32, i32, [9 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 9, i32 2, [9 x i16] [ i16 85, i16 78, i16 68, i16 69, i16 82, i16 70, i16 76, i16 79, i16 87 ] }
-@"_SM7__constG3-201" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-200", i32 0, i32 9, i32 1759455206 }
-@"_SM7__constG3-202" = private unnamed_addr constant { ptr, i32, i32, [6 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 6, i32 2, [6 x i16] [ i16 73, i16 71, i16 78, i16 79, i16 82, i16 69 ] }
-@"_SM7__constG3-203" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-202", i32 0, i32 6, i32 -2137067054 }
-@"_SM7__constG3-204" = private unnamed_addr constant { ptr, i32, i32, [7 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 7, i32 2, [7 x i16] [ i16 82, i16 69, i16 80, i16 76, i16 65, i16 67, i16 69 ] }
-@"_SM7__constG3-205" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-204", i32 0, i32 7, i32 1812479636 }
-@"_SM7__constG3-206" = private unnamed_addr constant { ptr, i32, i32, [6 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 6, i32 2, [6 x i16] [ i16 82, i16 69, i16 80, i16 79, i16 82, i16 84 ] }
-@"_SM7__constG3-207" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-206", i32 0, i32 6, i32 -1881192140 }
-@"_SM7__constG3-208" = private unnamed_addr constant { ptr, i32, i32, [15 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 15, i32 2, [15 x i16] [ i16 73, i16 110, i16 112, i16 117, i16 116, i16 32, i16 108, i16 101, i16 110, i16 103, i16 116, i16 104, i16 32, i16 61, i16 32 ] }
-@"_SM7__constG3-209" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG3-208", i32 0, i32 15, i32 -2060905977 }
-@"_SM36scala.scalanative.runtime.CharArray$G8instance" = external global { ptr }
+@"_SM7__constG2-81" = private unnamed_addr constant [1 x { i32, ptr }] [ { i32, ptr } { i32 -2147481248, ptr @"_SM7__constG2-80" } ]
+@"_SM7__constG2-82" = private unnamed_addr constant { ptr, ptr, i32, i32, [34 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 34, i32 2, [34 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 110, i16 105, i16 111, i16 46, i16 99, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 46, i16 67, i16 111, i16 100, i16 105, i16 110, i16 103, i16 69, i16 114, i16 114, i16 111, i16 114, i16 65, i16 99, i16 116, i16 105, i16 111, i16 110 ] }
+@"_SM7__constG2-83" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG2-82", i32 0, i32 34, i32 -755311060 }
+@"_SM7__constG2-84" = private unnamed_addr constant { ptr, ptr, i32, i32, [35 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 35, i32 2, [35 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 110, i16 105, i16 111, i16 46, i16 99, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 46, i16 67, i16 111, i16 100, i16 105, i16 110, i16 103, i16 69, i16 114, i16 114, i16 111, i16 114, i16 65, i16 99, i16 116, i16 105, i16 111, i16 110, i16 36 ] }
+@"_SM7__constG2-85" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG2-84", i32 0, i32 35, i32 -1939806344 }
+@"_SM7__constG2-86" = private unnamed_addr constant [4 x i32] [ i32 16, i32 24, i32 32, i32 -1 ]
+@"_SM7__constG2-87" = private unnamed_addr constant { ptr, ptr, i32, i32, [40 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 40, i32 2, [40 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 110, i16 105, i16 111, i16 46, i16 99, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 46, i16 77, i16 97, i16 108, i16 102, i16 111, i16 114, i16 109, i16 101, i16 100, i16 73, i16 110, i16 112, i16 117, i16 116, i16 69, i16 120, i16 99, i16 101, i16 112, i16 116, i16 105, i16 111, i16 110 ] }
+@"_SM7__constG2-88" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG2-87", i32 0, i32 40, i32 2111608792 }
+@"_SM7__constG2-89" = private unnamed_addr constant { ptr, ptr, i32, i32, [33 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 33, i32 2, [33 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 110, i16 105, i16 111, i16 46, i16 99, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 46, i16 83, i16 116, i16 97, i16 110, i16 100, i16 97, i16 114, i16 100, i16 67, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 115 ] }
+@"_SM7__constG2-90" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG2-89", i32 0, i32 33, i32 -457006612 }
+@"_SM7__constG2-91" = private unnamed_addr constant { ptr, ptr, i32, i32, [34 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 34, i32 2, [34 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 110, i16 105, i16 111, i16 46, i16 99, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 46, i16 83, i16 116, i16 97, i16 110, i16 100, i16 97, i16 114, i16 100, i16 67, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 115, i16 36 ] }
+@"_SM7__constG2-92" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG2-91", i32 0, i32 34, i32 -1282303048 }
+@"_SM7__constG2-93" = private unnamed_addr constant { ptr, ptr, i32, i32, [45 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 45, i32 2, [45 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 110, i16 105, i16 111, i16 46, i16 99, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 46, i16 85, i16 110, i16 109, i16 97, i16 112, i16 112, i16 97, i16 98, i16 108, i16 101, i16 67, i16 104, i16 97, i16 114, i16 97, i16 99, i16 116, i16 101, i16 114, i16 69, i16 120, i16 99, i16 101, i16 112, i16 116, i16 105, i16 111, i16 110 ] }
+@"_SM7__constG2-94" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG2-93", i32 0, i32 45, i32 2141149813 }
+@"_SM7__constG2-95" = private unnamed_addr constant { ptr, ptr, i32, i32, [44 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 44, i32 2, [44 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 110, i16 105, i16 111, i16 46, i16 99, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 46, i16 85, i16 110, i16 115, i16 117, i16 112, i16 112, i16 111, i16 114, i16 116, i16 101, i16 100, i16 67, i16 104, i16 97, i16 114, i16 115, i16 101, i16 116, i16 69, i16 120, i16 99, i16 101, i16 112, i16 116, i16 105, i16 111, i16 110 ] }
+@"_SM7__constG2-96" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG2-95", i32 0, i32 44, i32 -848589744 }
+@"_SM7__constG2-97" = private unnamed_addr constant [8 x i32] [ i32 16, i32 24, i32 32, i32 40, i32 56, i32 64, i32 80, i32 -1 ]
+@"_SM7__constG2-98" = private unnamed_addr constant { ptr, ptr, i32, i32, [10 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 10, i32 2, [10 x i16] [ i16 105, i16 115, i16 111, i16 45, i16 56, i16 56, i16 53, i16 57, i16 45, i16 49 ] }
+@"_SM7__constG2-99" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG2-98", i32 0, i32 10, i32 -2034918256 }
+@"_SM7__constG3-100" = private unnamed_addr constant { ptr, ptr, i32, i32, [9 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 9, i32 2, [9 x i16] [ i16 105, i16 115, i16 111, i16 56, i16 56, i16 53, i16 57, i16 45, i16 49 ] }
+@"_SM7__constG3-101" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-100", i32 0, i32 9, i32 -859186419 }
+@"_SM7__constG3-102" = private unnamed_addr constant { ptr, ptr, i32, i32, [10 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 10, i32 2, [10 x i16] [ i16 105, i16 115, i16 111, i16 95, i16 56, i16 56, i16 53, i16 57, i16 95, i16 49 ] }
+@"_SM7__constG3-103" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-102", i32 0, i32 10, i32 -609405616 }
+@"_SM7__constG3-104" = private unnamed_addr constant { ptr, ptr, i32, i32, [9 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 9, i32 2, [9 x i16] [ i16 105, i16 115, i16 111, i16 56, i16 56, i16 53, i16 57, i16 95, i16 49 ] }
+@"_SM7__constG3-105" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-104", i32 0, i32 9, i32 -859184869 }
+@"_SM7__constG3-106" = private unnamed_addr constant { ptr, ptr, i32, i32, [10 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 10, i32 2, [10 x i16] [ i16 105, i16 115, i16 111, i16 95, i16 56, i16 56, i16 53, i16 57, i16 45, i16 49 ] }
+@"_SM7__constG3-107" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-106", i32 0, i32 10, i32 -609407166 }
+@"_SM7__constG3-108" = private unnamed_addr constant { ptr, ptr, i32, i32, [6 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 6, i32 2, [6 x i16] [ i16 56, i16 56, i16 53, i16 57, i16 95, i16 49 ] }
+@"_SM7__constG3-109" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-108", i32 0, i32 6, i32 1656586326 }
+@"_SM7__constG3-110" = private unnamed_addr constant { ptr, ptr, i32, i32, [15 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 15, i32 2, [15 x i16] [ i16 105, i16 115, i16 111, i16 95, i16 56, i16 56, i16 53, i16 57, i16 45, i16 49, i16 58, i16 49, i16 57, i16 56, i16 55 ] }
+@"_SM7__constG3-111" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-110", i32 0, i32 15, i32 270565471 }
+@"_SM7__constG3-112" = private unnamed_addr constant { ptr, ptr, i32, i32, [6 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 6, i32 2, [6 x i16] [ i16 108, i16 97, i16 116, i16 105, i16 110, i16 49 ] }
+@"_SM7__constG3-113" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-112", i32 0, i32 6, i32 -1109877331 }
+@"_SM7__constG3-114" = private unnamed_addr constant { ptr, ptr, i32, i32, [11 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 11, i32 2, [11 x i16] [ i16 99, i16 115, i16 105, i16 115, i16 111, i16 108, i16 97, i16 116, i16 105, i16 110, i16 49 ] }
+@"_SM7__constG3-115" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-114", i32 0, i32 11, i32 2035544066 }
+@"_SM7__constG3-116" = private unnamed_addr constant { ptr, ptr, i32, i32, [2 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 2, i32 2, [2 x i16] [ i16 108, i16 49 ] }
+@"_SM7__constG3-117" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-116", i32 0, i32 2, i32 3397 }
+@"_SM7__constG3-118" = private unnamed_addr constant { ptr, ptr, i32, i32, [7 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 7, i32 2, [7 x i16] [ i16 105, i16 98, i16 109, i16 45, i16 56, i16 49, i16 57 ] }
+@"_SM7__constG3-119" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-118", i32 0, i32 7, i32 1606322567 }
+@"_SM7__constG3-120" = private unnamed_addr constant { ptr, ptr, i32, i32, [6 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 6, i32 2, [6 x i16] [ i16 105, i16 98, i16 109, i16 56, i16 49, i16 57 ] }
+@"_SM7__constG3-121" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-120", i32 0, i32 6, i32 -1195098772 }
+@"_SM7__constG3-122" = private unnamed_addr constant { ptr, ptr, i32, i32, [5 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 5, i32 2, [5 x i16] [ i16 99, i16 112, i16 56, i16 49, i16 57 ] }
+@"_SM7__constG3-123" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-122", i32 0, i32 5, i32 94820563 }
+@"_SM7__constG3-124" = private unnamed_addr constant { ptr, ptr, i32, i32, [3 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 3, i32 2, [3 x i16] [ i16 56, i16 49, i16 57 ] }
+@"_SM7__constG3-125" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-124", i32 0, i32 3, i32 55392 }
+@"_SM7__constG3-126" = private unnamed_addr constant { ptr, ptr, i32, i32, [10 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 10, i32 2, [10 x i16] [ i16 105, i16 115, i16 111, i16 45, i16 105, i16 114, i16 45, i16 49, i16 48, i16 48 ] }
+@"_SM7__constG3-127" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-126", i32 0, i32 10, i32 -578771563 }
+@"_SM7__constG3-128" = private unnamed_addr constant { ptr, ptr, i32, i32, [8 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 8, i32 2, [8 x i16] [ i16 117, i16 115, i16 45, i16 97, i16 115, i16 99, i16 105, i16 105 ] }
+@"_SM7__constG3-129" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-128", i32 0, i32 8, i32 -1884495006 }
+@"_SM7__constG3-130" = private unnamed_addr constant { ptr, ptr, i32, i32, [6 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 6, i32 2, [6 x i16] [ i16 97, i16 115, i16 99, i16 105, i16 105, i16 55 ] }
+@"_SM7__constG3-131" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-130", i32 0, i32 6, i32 -1408681210 }
+@"_SM7__constG3-132" = private unnamed_addr constant { ptr, ptr, i32, i32, [5 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 5, i32 2, [5 x i16] [ i16 97, i16 115, i16 99, i16 105, i16 105 ] }
+@"_SM7__constG3-133" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-132", i32 0, i32 5, i32 93106001 }
+@"_SM7__constG3-134" = private unnamed_addr constant { ptr, ptr, i32, i32, [7 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 7, i32 2, [7 x i16] [ i16 99, i16 115, i16 97, i16 115, i16 99, i16 105, i16 105 ] }
+@"_SM7__constG3-135" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-134", i32 0, i32 7, i32 1054009569 }
+@"_SM7__constG3-136" = private unnamed_addr constant { ptr, ptr, i32, i32, [7 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 7, i32 2, [7 x i16] [ i16 100, i16 101, i16 102, i16 97, i16 117, i16 108, i16 116 ] }
+@"_SM7__constG3-137" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-136", i32 0, i32 7, i32 1544803905 }
+@"_SM7__constG3-138" = private unnamed_addr constant { ptr, ptr, i32, i32, [5 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 5, i32 2, [5 x i16] [ i16 99, i16 112, i16 51, i16 54, i16 55 ] }
+@"_SM7__constG3-139" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-138", i32 0, i32 5, i32 94815911 }
+@"_SM7__constG3-140" = private unnamed_addr constant { ptr, ptr, i32, i32, [6 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 6, i32 2, [6 x i16] [ i16 105, i16 98, i16 109, i16 51, i16 54, i16 55 ] }
+@"_SM7__constG3-141" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-140", i32 0, i32 6, i32 -1195103424 }
+@"_SM7__constG3-142" = private unnamed_addr constant { ptr, ptr, i32, i32, [9 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 9, i32 2, [9 x i16] [ i16 105, i16 115, i16 111, i16 54, i16 52, i16 54, i16 45, i16 117, i16 115 ] }
+@"_SM7__constG3-143" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-142", i32 0, i32 9, i32 -920118248 }
+@"_SM7__constG3-144" = private unnamed_addr constant { ptr, ptr, i32, i32, [3 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 3, i32 2, [3 x i16] [ i16 54, i16 52, i16 54 ] }
+@"_SM7__constG3-145" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-144", i32 0, i32 3, i32 53560 }
+@"_SM7__constG3-146" = private unnamed_addr constant { ptr, ptr, i32, i32, [16 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 16, i32 2, [16 x i16] [ i16 105, i16 115, i16 111, i16 95, i16 54, i16 52, i16 54, i16 46, i16 105, i16 114, i16 118, i16 58, i16 49, i16 57, i16 56, i16 51 ] }
+@"_SM7__constG3-147" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-146", i32 0, i32 16, i32 1416342400 }
+@"_SM7__constG3-148" = private unnamed_addr constant { ptr, ptr, i32, i32, [16 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 16, i32 2, [16 x i16] [ i16 105, i16 115, i16 111, i16 95, i16 54, i16 52, i16 54, i16 46, i16 105, i16 114, i16 118, i16 58, i16 49, i16 57, i16 57, i16 49 ] }
+@"_SM7__constG3-149" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-148", i32 0, i32 16, i32 1416342429 }
+@"_SM7__constG3-150" = private unnamed_addr constant { ptr, ptr, i32, i32, [14 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 14, i32 2, [14 x i16] [ i16 97, i16 110, i16 115, i16 105, i16 95, i16 120, i16 51, i16 46, i16 52, i16 45, i16 49, i16 57, i16 56, i16 54 ] }
+@"_SM7__constG3-151" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-150", i32 0, i32 14, i32 1305323958 }
+@"_SM7__constG3-152" = private unnamed_addr constant { ptr, ptr, i32, i32, [14 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 14, i32 2, [14 x i16] [ i16 97, i16 110, i16 115, i16 105, i16 95, i16 120, i16 51, i16 46, i16 52, i16 45, i16 49, i16 57, i16 54, i16 56 ] }
+@"_SM7__constG3-153" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-152", i32 0, i32 14, i32 1305323898 }
+@"_SM7__constG3-154" = private unnamed_addr constant { ptr, ptr, i32, i32, [8 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 8, i32 2, [8 x i16] [ i16 105, i16 115, i16 111, i16 45, i16 105, i16 114, i16 45, i16 54 ] }
+@"_SM7__constG3-155" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-154", i32 0, i32 8, i32 517832922 }
+@"_SM7__constG3-156" = private unnamed_addr constant { ptr, ptr, i32, i32, [5 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 5, i32 2, [5 x i16] [ i16 117, i16 116, i16 102, i16 45, i16 56 ] }
+@"_SM7__constG3-157" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-156", i32 0, i32 5, i32 111607186 }
+@"_SM7__constG3-158" = private unnamed_addr constant { ptr, ptr, i32, i32, [4 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 4, i32 2, [4 x i16] [ i16 117, i16 116, i16 102, i16 56 ] }
+@"_SM7__constG3-159" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-158", i32 0, i32 4, i32 3600241 }
+@"_SM7__constG3-160" = private unnamed_addr constant { ptr, ptr, i32, i32, [17 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 17, i32 2, [17 x i16] [ i16 117, i16 110, i16 105, i16 99, i16 111, i16 100, i16 101, i16 45, i16 49, i16 45, i16 49, i16 45, i16 117, i16 116, i16 102, i16 45, i16 56 ] }
+@"_SM7__constG3-161" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-160", i32 0, i32 17, i32 815511658 }
+@"_SM7__constG3-162" = private unnamed_addr constant { ptr, ptr, i32, i32, [8 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 8, i32 2, [8 x i16] [ i16 117, i16 116, i16 102, i16 45, i16 49, i16 54, i16 98, i16 101 ] }
+@"_SM7__constG3-163" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-162", i32 0, i32 8, i32 584837518 }
+@"_SM7__constG3-164" = private unnamed_addr constant { ptr, ptr, i32, i32, [8 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 8, i32 2, [8 x i16] [ i16 117, i16 116, i16 102, i16 95, i16 49, i16 54, i16 98, i16 101 ] }
+@"_SM7__constG3-165" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-164", i32 0, i32 8, i32 631013568 }
+@"_SM7__constG3-166" = private unnamed_addr constant { ptr, ptr, i32, i32, [10 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 10, i32 2, [10 x i16] [ i16 120, i16 45, i16 117, i16 116, i16 102, i16 45, i16 49, i16 54, i16 98, i16 101 ] }
+@"_SM7__constG3-167" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-166", i32 0, i32 10, i32 -1253018813 }
+@"_SM7__constG3-168" = private unnamed_addr constant { ptr, ptr, i32, i32, [15 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 15, i32 2, [15 x i16] [ i16 105, i16 115, i16 111, i16 45, i16 49, i16 48, i16 54, i16 52, i16 54, i16 45, i16 117, i16 99, i16 115, i16 45, i16 50 ] }
+@"_SM7__constG3-169" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-168", i32 0, i32 15, i32 1079772846 }
+@"_SM7__constG3-170" = private unnamed_addr constant { ptr, ptr, i32, i32, [18 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 18, i32 2, [18 x i16] [ i16 117, i16 110, i16 105, i16 99, i16 111, i16 100, i16 101, i16 98, i16 105, i16 103, i16 117, i16 110, i16 109, i16 97, i16 114, i16 107, i16 101, i16 100 ] }
+@"_SM7__constG3-171" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-170", i32 0, i32 18, i32 -1252060664 }
+@"_SM7__constG3-172" = private unnamed_addr constant { ptr, ptr, i32, i32, [8 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 8, i32 2, [8 x i16] [ i16 117, i16 116, i16 102, i16 45, i16 49, i16 54, i16 108, i16 101 ] }
+@"_SM7__constG3-173" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-172", i32 0, i32 8, i32 584837828 }
+@"_SM7__constG3-174" = private unnamed_addr constant { ptr, ptr, i32, i32, [8 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 8, i32 2, [8 x i16] [ i16 117, i16 116, i16 102, i16 95, i16 49, i16 54, i16 108, i16 101 ] }
+@"_SM7__constG3-175" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-174", i32 0, i32 8, i32 631013878 }
+@"_SM7__constG3-176" = private unnamed_addr constant { ptr, ptr, i32, i32, [10 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 10, i32 2, [10 x i16] [ i16 120, i16 45, i16 117, i16 116, i16 102, i16 45, i16 49, i16 54, i16 108, i16 101 ] }
+@"_SM7__constG3-177" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-176", i32 0, i32 10, i32 -1253018503 }
+@"_SM7__constG3-178" = private unnamed_addr constant { ptr, ptr, i32, i32, [21 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 21, i32 2, [21 x i16] [ i16 117, i16 110, i16 105, i16 99, i16 111, i16 100, i16 101, i16 108, i16 105, i16 116, i16 116, i16 108, i16 101, i16 117, i16 110, i16 109, i16 97, i16 114, i16 107, i16 101, i16 100 ] }
+@"_SM7__constG3-179" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-178", i32 0, i32 21, i32 -960533224 }
+@"_SM7__constG3-180" = private unnamed_addr constant { ptr, ptr, i32, i32, [6 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 6, i32 2, [6 x i16] [ i16 117, i16 116, i16 102, i16 45, i16 49, i16 54 ] }
+@"_SM7__constG3-181" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-180", i32 0, i32 6, i32 -835144693 }
+@"_SM7__constG3-182" = private unnamed_addr constant { ptr, ptr, i32, i32, [6 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 6, i32 2, [6 x i16] [ i16 117, i16 116, i16 102, i16 95, i16 49, i16 54 ] }
+@"_SM7__constG3-183" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-182", i32 0, i32 6, i32 -835096643 }
+@"_SM7__constG3-184" = private unnamed_addr constant { ptr, ptr, i32, i32, [7 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 7, i32 2, [7 x i16] [ i16 117, i16 110, i16 105, i16 99, i16 111, i16 100, i16 101 ] }
+@"_SM7__constG3-185" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-184", i32 0, i32 7, i32 -287016227 }
+@"_SM7__constG3-186" = private unnamed_addr constant { ptr, ptr, i32, i32, [10 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 10, i32 2, [10 x i16] [ i16 117, i16 110, i16 105, i16 99, i16 111, i16 100, i16 101, i16 98, i16 105, i16 103 ] }
+@"_SM7__constG3-187" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-186", i32 0, i32 10, i32 779565315 }
+@"_SM7__constG3-188" = private unnamed_addr constant { ptr, ptr, i32, i32, [19 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 19, i32 2, [19 x i16] [ i16 115, i16 104, i16 111, i16 117, i16 108, i16 100, i16 32, i16 110, i16 111, i16 116, i16 32, i16 103, i16 101, i16 116, i16 32, i16 104, i16 101, i16 114, i16 101 ] }
+@"_SM7__constG3-189" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-188", i32 0, i32 19, i32 -849617292 }
+@"_SM7__constG3-190" = private unnamed_addr constant { ptr, ptr, i32, i32, [22 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 22, i32 2, [22 x i16] [ i16 110, i16 117, i16 108, i16 108, i16 32, i16 67, i16 111, i16 100, i16 105, i16 110, i16 103, i16 69, i16 114, i16 114, i16 111, i16 114, i16 65, i16 99, i16 116, i16 105, i16 111, i16 110 ] }
+@"_SM7__constG3-191" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-190", i32 0, i32 22, i32 -646354405 }
+@"_SM7__constG3-192" = private unnamed_addr constant { ptr, ptr, i32, i32, [10 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 10, i32 2, [10 x i16] [ i16 77, i16 65, i16 76, i16 70, i16 79, i16 82, i16 77, i16 69, i16 68, i16 91 ] }
+@"_SM7__constG3-193" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-192", i32 0, i32 10, i32 -121952224 }
+@"_SM7__constG3-194" = private unnamed_addr constant { ptr, ptr, i32, i32, [1 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 1, i32 2, [1 x i16] [ i16 93 ] }
+@"_SM7__constG3-195" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-194", i32 0, i32 1, i32 93 }
+@"_SM7__constG3-196" = private unnamed_addr constant { ptr, ptr, i32, i32, [11 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 11, i32 2, [11 x i16] [ i16 85, i16 78, i16 77, i16 65, i16 80, i16 80, i16 65, i16 66, i16 76, i16 69, i16 91 ] }
+@"_SM7__constG3-197" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-196", i32 0, i32 11, i32 -348459596 }
+@"_SM7__constG3-198" = private unnamed_addr constant { ptr, ptr, i32, i32, [8 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 8, i32 2, [8 x i16] [ i16 79, i16 86, i16 69, i16 82, i16 70, i16 76, i16 79, i16 87 ] }
+@"_SM7__constG3-199" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-198", i32 0, i32 8, i32 1312269314 }
+@"_SM7__constG3-200" = private unnamed_addr constant { ptr, ptr, i32, i32, [9 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 9, i32 2, [9 x i16] [ i16 85, i16 78, i16 68, i16 69, i16 82, i16 70, i16 76, i16 79, i16 87 ] }
+@"_SM7__constG3-201" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-200", i32 0, i32 9, i32 1759455206 }
+@"_SM7__constG3-202" = private unnamed_addr constant { ptr, ptr, i32, i32, [6 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 6, i32 2, [6 x i16] [ i16 73, i16 71, i16 78, i16 79, i16 82, i16 69 ] }
+@"_SM7__constG3-203" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-202", i32 0, i32 6, i32 -2137067054 }
+@"_SM7__constG3-204" = private unnamed_addr constant { ptr, ptr, i32, i32, [7 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 7, i32 2, [7 x i16] [ i16 82, i16 69, i16 80, i16 76, i16 65, i16 67, i16 69 ] }
+@"_SM7__constG3-205" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-204", i32 0, i32 7, i32 1812479636 }
+@"_SM7__constG3-206" = private unnamed_addr constant { ptr, ptr, i32, i32, [6 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 6, i32 2, [6 x i16] [ i16 82, i16 69, i16 80, i16 79, i16 82, i16 84 ] }
+@"_SM7__constG3-207" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-206", i32 0, i32 6, i32 -1881192140 }
+@"_SM7__constG3-208" = private unnamed_addr constant { ptr, ptr, i32, i32, [15 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 15, i32 2, [15 x i16] [ i16 73, i16 110, i16 112, i16 117, i16 116, i16 32, i16 108, i16 101, i16 110, i16 103, i16 116, i16 104, i16 32, i16 61, i16 32 ] }
+@"_SM7__constG3-209" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG3-208", i32 0, i32 15, i32 -2060905977 }
+@"_SM36scala.scalanative.runtime.CharArray$G8instance" = external global { ptr, ptr }
 
-declare dereferenceable_or_null(32) ptr @"_SM23java.lang.StringBuilderD8toStringL16java.lang.StringEO"(ptr)
-@"_SM27java.util.function.ConsumerG4type" = external global { ptr, i32, i32, ptr, ptr }
+declare dereferenceable_or_null(40) ptr @"_SM23java.lang.StringBuilderD8toStringL16java.lang.StringEO"(ptr)
+@"_SM27java.util.function.ConsumerG4type" = external global { ptr, ptr, i32, i32, ptr, ptr }
 
 declare i1 @"_SM15java.nio.BufferD12hasRemainingzEO"(ptr) inlinehint
-@"_SM15scala.Function0G4type" = external global { ptr, i32, i32, ptr, ptr }
-@"_SM31java.lang.IllegalStateExceptionG4type" = external global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] }
-@"_SM34java.lang.IllegalArgumentExceptionG4type" = external global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] }
-@"_SM28niocharset.StandardCharsets$G8instance" = external global { ptr }
+@"_SM15scala.Function0G4type" = external global { ptr, ptr, i32, i32, ptr, ptr }
+@"_SM31java.lang.IllegalStateExceptionG4type" = external global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] }
+@"_SM34java.lang.IllegalArgumentExceptionG4type" = external global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] }
+@"_SM28niocharset.StandardCharsets$G8instance" = external global { ptr, ptr }
 
 declare ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr) noinline
 
-declare nonnull dereferenceable(16) ptr @"_SM14scala.package$D3SeqL31scala.collection.immutable.Seq$EO"(ptr) inlinehint
+declare nonnull dereferenceable(24) ptr @"_SM14scala.package$D3SeqL31scala.collection.immutable.Seq$EO"(ptr) inlinehint
 
-declare dereferenceable_or_null(16) ptr @"_SM36scala.scalanative.runtime.CharArray$D5allociL35scala.scalanative.runtime.CharArrayEO"(ptr, i32) inlinehint
-@"_SM15java.lang.ErrorG4type" = external global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] }
-@"_SM20java.io.SerializableG4type" = external global { ptr, i32, i32, ptr, ptr }
+declare dereferenceable_or_null(24) ptr @"_SM36scala.scalanative.runtime.CharArray$D5allociL35scala.scalanative.runtime.CharArrayEO"(ptr, i32) inlinehint
+@"_SM15java.lang.ErrorG4type" = external global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] }
+@"_SM20java.io.SerializableG4type" = external global { ptr, ptr, i32, i32, ptr, ptr }
 
 declare ptr @"_SM34scala.scalanative.runtime.package$D16throwOutOfBoundsiinEO"(ptr, i32, i32)
-@"_SM23scala.runtime.LazyVals$G8instance" = external global { ptr }
-@"_SM28scala.runtime.Scala3RunTime$G8instance" = external global { ptr }
+@"_SM23scala.runtime.LazyVals$G8instance" = external global { ptr, ptr }
+@"_SM28scala.runtime.Scala3RunTime$G8instance" = external global { ptr, ptr }
 
-declare dereferenceable_or_null(56) ptr @"_SM19java.nio.CharBufferD4flipL19java.nio.CharBufferEO"(ptr) inlinehint
+declare dereferenceable_or_null(64) ptr @"_SM19java.nio.CharBufferD4flipL19java.nio.CharBufferEO"(ptr) inlinehint
 
-declare dereferenceable_or_null(24) ptr @"_SM23java.lang.StringBuilderD6appendiL23java.lang.StringBuilderEO"(ptr, i32)
-@"_SM35scala.scalanative.runtime.LazyVals$G8instance" = external global { ptr }
+declare dereferenceable_or_null(32) ptr @"_SM23java.lang.StringBuilderD6appendiL23java.lang.StringBuilderEO"(ptr, i32)
+@"_SM35scala.scalanative.runtime.LazyVals$G8instance" = external global { ptr, ptr }
 
 declare void @"_SM35scala.scalanative.runtime.LazyVals$D7setFlagR_iiuEO"(ptr, ptr, i32, i32) inlinehint
-@"_SM16scala.MatchErrorG4type" = external global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] }
-@"_SM23java.lang.StringBuilderG4type" = external global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] }
-@"_SM14scala.package$G8instance" = external global { ptr }
-@"_SM34scala.runtime.function.JProcedure1G4type" = external global { ptr, i32, i32, ptr, ptr }
-@"_SM16java.lang.StringG4type" = external global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] }
+@"_SM16scala.MatchErrorG4type" = external global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] }
+@"_SM23java.lang.StringBuilderG4type" = external global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [6 x ptr] }
+@"_SM14scala.package$G8instance" = external global { ptr, ptr }
+@"_SM34scala.runtime.function.JProcedure1G4type" = external global { ptr, ptr, i32, i32, ptr, ptr }
+@"_SM16java.lang.StringG4type" = external global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] }
 
-declare nonnull dereferenceable(56) ptr @"_SM28niocharset.StandardCharsets$D10ISO_8859_1L24java.nio.charset.CharsetEO"(ptr)
+declare nonnull dereferenceable(64) ptr @"_SM28niocharset.StandardCharsets$D10ISO_8859_1L24java.nio.charset.CharsetEO"(ptr)
 
-declare dereferenceable_or_null(8) ptr @"_SM34scala.runtime.function.JProcedure1D5applyL16java.lang.ObjectL16java.lang.ObjectEO"(ptr, ptr)
+declare dereferenceable_or_null(16) ptr @"_SM34scala.runtime.function.JProcedure1D5applyL16java.lang.ObjectL16java.lang.ObjectEO"(ptr, ptr)
 
 declare i32 @"_SM16java.lang.ObjectD8hashCodeiEO"(ptr) inlinehint
 
-declare dereferenceable_or_null(8) ptr @"_SM36scala.collection.SeqFactory$DelegateD5applyL30scala.collection.immutable.SeqL23scala.collection.SeqOpsEO"(ptr, ptr)
-@"_SM33java.nio.BufferUnderflowExceptionG4type" = external global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] }
+declare dereferenceable_or_null(16) ptr @"_SM36scala.collection.SeqFactory$DelegateD5applyL30scala.collection.immutable.SeqL23scala.collection.SeqOpsEO"(ptr, ptr)
+@"_SM33java.nio.BufferUnderflowExceptionG4type" = external global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] }
 
-declare dereferenceable_or_null(8) ptr @"_SM36scala.collection.MapFactory$DelegateD5emptyL16java.lang.ObjectEO"(ptr)
+declare dereferenceable_or_null(16) ptr @"_SM36scala.collection.MapFactory$DelegateD5emptyL16java.lang.ObjectEO"(ptr)
 
-declare dereferenceable_or_null(56) ptr @"_SM19java.nio.CharBufferD3putL16java.lang.StringL19java.nio.CharBufferEO"(ptr, ptr)
+declare dereferenceable_or_null(64) ptr @"_SM19java.nio.CharBufferD3putL16java.lang.StringL19java.nio.CharBufferEO"(ptr, ptr)
 
 declare ptr @"_SM34scala.scalanative.runtime.package$D14throwClassCastR_R_nEO"(ptr, ptr, ptr) noinline
 
-declare dereferenceable_or_null(56) ptr @"_SM20java.nio.ByteBuffer$D8allocateiL19java.nio.ByteBufferEO"(ptr, i32)
+declare dereferenceable_or_null(64) ptr @"_SM20java.nio.ByteBuffer$D8allocateiL19java.nio.ByteBufferEO"(ptr, i32)
 
 declare ptr @"scalanative_throw"(ptr)
 
 declare i32 @"_SM21scala.runtime.StaticsD7anyHashL16java.lang.ObjectiEo"(ptr) inlinehint
-@"__modules" = external global [508 x ptr]
+@"__modules" = external global [565 x ptr]
 
 declare i32 @"_SM16java.lang.StringD6lengthiEO"(ptr) inlinehint
 
 declare i32 @"_SM15java.nio.BufferD8capacityiEO"(ptr)
-@"_SM20java.nio.ByteBuffer$G8instance" = external global { ptr }
+@"_SM20java.nio.ByteBuffer$G8instance" = external global { ptr, ptr }
 
 declare i1 @"_SM35scala.scalanative.runtime.LazyVals$D3CASR_jiizEO"(ptr, ptr, i64, i32, i32) inlinehint
 
 declare void @"_SM15scala.Function0D12apply$mcV$spuEO"(ptr)
 
-declare dereferenceable_or_null(32) ptr @"_SM19java.lang.ThrowableD10getMessageL16java.lang.StringEO"(ptr)
+declare dereferenceable_or_null(40) ptr @"_SM19java.lang.ThrowableD10getMessageL16java.lang.StringEO"(ptr)
 
-declare dereferenceable_or_null(32) ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO"(ptr) inlinehint
+declare dereferenceable_or_null(40) ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO"(ptr) inlinehint
 
-declare ptr @"_SM35scala.scalanative.runtime.LazyVals$D17wait4NotificationR_jiuEO"(ptr, ptr, i64, i32)
+declare void @"_SM35scala.scalanative.runtime.LazyVals$D17wait4NotificationR_jiuEO"(ptr, ptr, i64, i32)
 
 declare i32 @"_SM15java.nio.BufferD8positioniEO"(ptr)
-@"_SM20java.nio.CharBuffer$G8instance" = external global { ptr }
+@"_SM20java.nio.CharBuffer$G8instance" = external global { ptr, ptr }
 
 declare ptr @"_SM34scala.scalanative.runtime.package$D14throwUndefinednEO"(ptr) noinline
 
-declare dereferenceable_or_null(56) ptr @"_SM19java.nio.ByteBufferD4flipL19java.nio.ByteBufferEO"(ptr) inlinehint
+declare dereferenceable_or_null(64) ptr @"_SM19java.nio.ByteBufferD4flipL19java.nio.ByteBufferEO"(ptr) inlinehint
 
 declare ptr @"scalanative_GC_alloc_small"(ptr, i64)
 
-declare dereferenceable_or_null(32) ptr @"_SM16java.lang.StringD8toStringL16java.lang.StringEO"(ptr)
+declare dereferenceable_or_null(40) ptr @"_SM16java.lang.StringD8toStringL16java.lang.StringEO"(ptr)
 
 declare i32 @"_SM16java.lang.StringD19compareToIgnoreCaseL16java.lang.StringiEO"(ptr, ptr)
 
-declare dereferenceable_or_null(56) ptr @"_SM19java.nio.CharBufferD3putL19java.nio.CharBufferL19java.nio.CharBufferEO"(ptr, ptr) noinline
+declare dereferenceable_or_null(64) ptr @"_SM19java.nio.CharBufferD3putL19java.nio.CharBufferL19java.nio.CharBufferEO"(ptr, ptr) noinline
 
-declare nonnull dereferenceable(56) ptr @"_SM28niocharset.StandardCharsets$D8US_ASCIIL24java.nio.charset.CharsetEO"(ptr)
+declare nonnull dereferenceable(64) ptr @"_SM28niocharset.StandardCharsets$D8US_ASCIIL24java.nio.charset.CharsetEO"(ptr)
 
 declare i1 @"_SM15scala.Function1D13apply$mcZI$spizEO"(ptr, i32)
-@"_SM19java.lang.ThrowableG4type" = external global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] }
+@"_SM19java.lang.ThrowableG4type" = external global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] }
 
-declare dereferenceable_or_null(16) ptr @"_SM22java.lang.ThreadLocal$G4load"() noinline
+declare dereferenceable_or_null(40) ptr @"_SM22java.lang.ThreadLocal$G4load"()
 
-declare dereferenceable_or_null(32) ptr @"_SM16java.lang.StringD11toLowerCaseL16java.lang.StringEO"(ptr)
-@"_SM39java.lang.UnsupportedOperationExceptionG4type" = external global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] }
-@"_SM28scala.collection.mutable.MapG4type" = external global { ptr, i32, i32, ptr, ptr }
-@"_SM35scala.scalanative.runtime.CharArrayG4type" = external global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [6 x ptr] }
-@"_SM19java.io.IOExceptionG4type" = external global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] }
+declare dereferenceable_or_null(40) ptr @"_SM16java.lang.StringD11toLowerCaseL16java.lang.StringEO"(ptr)
+@"_SM39java.lang.UnsupportedOperationExceptionG4type" = external global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] }
+@"_SM28scala.collection.mutable.MapG4type" = external global { ptr, ptr, i32, i32, ptr, ptr }
+@"_SM35scala.scalanative.runtime.CharArrayG4type" = external global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [6 x ptr] }
+@"_SM19java.io.IOExceptionG4type" = external global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] }
 
 declare i64 @"_SM23scala.runtime.LazyVals$D5STATEjijEO"(ptr, i64, i32)
 
-declare dereferenceable_or_null(16) ptr @"_SM27scala.runtime.ScalaRunTime$D12wrapRefArrayLAL16java.lang.Object_L35scala.collection.immutable.ArraySeqEO"(ptr, ptr)
+declare ptr @"__scalanative_loadModule"(ptr, ptr, i64, ptr)
+
+declare dereferenceable_or_null(24) ptr @"_SM27scala.runtime.ScalaRunTime$D12wrapRefArrayLAL16java.lang.Object_L35scala.collection.immutable.ArraySeqEO"(ptr, ptr)
 
 declare void @"_SM35scala.scalanative.runtime.ThrowableRzE"(ptr, i1) noinline
 
-declare nonnull dereferenceable(56) ptr @"_SM28niocharset.StandardCharsets$D8UTF_16LEL24java.nio.charset.CharsetEO"(ptr)
+declare nonnull dereferenceable(64) ptr @"_SM28niocharset.StandardCharsets$D8UTF_16LEL24java.nio.charset.CharsetEO"(ptr)
 
-declare dereferenceable_or_null(8) ptr @"_SM21java.lang.ThreadLocalD3getL16java.lang.ObjectEO"(ptr)
+declare dereferenceable_or_null(16) ptr @"_SM21java.lang.ThreadLocalD3getL16java.lang.ObjectEO"(ptr)
 
-declare dereferenceable_or_null(16) ptr @"_SM29scala.collection.mutable.Map$G4load"() noinline
+declare dereferenceable_or_null(24) ptr @"_SM29scala.collection.mutable.Map$G4load"()
 
-declare dereferenceable_or_null(56) ptr @"_SM19java.nio.CharBufferD8positioniL19java.nio.CharBufferEO"(ptr, i32) inlinehint
+declare dereferenceable_or_null(64) ptr @"_SM19java.nio.CharBufferD8positioniL19java.nio.CharBufferEO"(ptr, i32) inlinehint
 
 declare i32 @"_SM15scala.Function1D13apply$mcII$spiiEO"(ptr, i32)
 
 declare i1 @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO"(ptr, ptr) inlinehint
 
-declare dereferenceable_or_null(56) ptr @"_SM19java.nio.ByteBufferD8positioniL19java.nio.ByteBufferEO"(ptr, i32) inlinehint
+declare dereferenceable_or_null(64) ptr @"_SM19java.nio.ByteBufferD8positioniL19java.nio.ByteBufferEO"(ptr, i32) inlinehint
 
-declare dereferenceable_or_null(24) ptr @"_SM23java.lang.StringBuilderD6appendL16java.lang.StringL23java.lang.StringBuilderEO"(ptr, ptr)
+declare dereferenceable_or_null(32) ptr @"_SM23java.lang.StringBuilderD6appendL16java.lang.StringL23java.lang.StringBuilderEO"(ptr, ptr)
 
-declare dereferenceable_or_null(56) ptr @"_SM19java.nio.ByteBufferD3putL19java.nio.ByteBufferL19java.nio.ByteBufferEO"(ptr, ptr) noinline
+declare dereferenceable_or_null(64) ptr @"_SM19java.nio.ByteBufferD3putL19java.nio.ByteBufferL19java.nio.ByteBufferEO"(ptr, ptr) noinline
 
-declare nonnull dereferenceable(32) ptr @"_SM22java.lang.ThreadLocal$D11withInitialL27java.util.function.SupplierL21java.lang.ThreadLocalEO"(ptr, ptr)
-@"_SM15scala.Function1G4type" = external global { ptr, i32, i32, ptr, ptr }
+declare dereferenceable_or_null(32) ptr @"_SM22java.lang.ThreadLocal$D11withInitialL27java.util.function.SupplierL21java.lang.ThreadLocalEO"(ptr, ptr)
+@"_SM15scala.Function1G4type" = external global { ptr, ptr, i32, i32, ptr, ptr }
 
 declare void @"_SM23java.util.ServiceLoaderD7forEachL27java.util.function.ConsumeruEO"(ptr, ptr) alwaysinline
 
-declare dereferenceable_or_null(16) ptr @"_SM38scala.scalanative.runtime.ObjectArray$D5allociL37scala.scalanative.runtime.ObjectArrayEO"(ptr, i32) inlinehint
+declare dereferenceable_or_null(24) ptr @"_SM38scala.scalanative.runtime.ObjectArray$D5allociL37scala.scalanative.runtime.ObjectArrayEO"(ptr, i32) inlinehint
 
-declare dereferenceable_or_null(32) ptr @"_SM19java.lang.ThrowableD8toStringL16java.lang.StringEO"(ptr)
+declare dereferenceable_or_null(40) ptr @"_SM19java.lang.ThrowableD8toStringL16java.lang.StringEO"(ptr)
 
-declare dereferenceable_or_null(72) ptr @"_SM19java.lang.ThrowableD8getCauseL19java.lang.ThrowableEO"(ptr)
+declare dereferenceable_or_null(80) ptr @"_SM19java.lang.ThrowableD8getCauseL19java.lang.ThrowableEO"(ptr)
 
 declare i32 @"_SM15java.nio.BufferD9remainingiEO"(ptr) inlinehint
 
-declare nonnull dereferenceable(56) ptr @"_SM28niocharset.StandardCharsets$D8UTF_16BEL24java.nio.charset.CharsetEO"(ptr)
-@"_SM36java.nio.charset.spi.CharsetProviderG4type" = external global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] }
+declare nonnull dereferenceable(64) ptr @"_SM28niocharset.StandardCharsets$D8UTF_16BEL24java.nio.charset.CharsetEO"(ptr)
+@"_SM36java.nio.charset.spi.CharsetProviderG4type" = external global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] }
 
-declare nonnull dereferenceable(56) ptr @"_SM28niocharset.StandardCharsets$D6UTF_16L24java.nio.charset.CharsetEO"(ptr)
-@"_SM15java.lang.ClassG4type" = external global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] }
-@"_SM27scala.runtime.ScalaRunTime$G8instance" = external global { ptr }
+declare nonnull dereferenceable(64) ptr @"_SM28niocharset.StandardCharsets$D6UTF_16L24java.nio.charset.CharsetEO"(ptr)
+@"_SM15java.lang.ClassG4type" = external global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] }
+@"_SM27scala.runtime.ScalaRunTime$G8instance" = external global { ptr, ptr }
 
-declare dereferenceable_or_null(16) ptr @"_SM27scala.runtime.BoxesRunTime$D12boxToIntegeriL17java.lang.IntegerEO"(ptr, i32) inlinehint
-@"_SM20java.lang.ComparableG4type" = external global { ptr, i32, i32, ptr, ptr }
-@"_SM38scala.scalanative.runtime.ObjectArray$G8instance" = external global { ptr }
+declare dereferenceable_or_null(24) ptr @"_SM27scala.runtime.BoxesRunTime$D12boxToIntegeriL17java.lang.IntegerEO"(ptr, i32) inlinehint
+@"_SM20java.lang.ComparableG4type" = external global { ptr, ptr, i32, i32, ptr, ptr }
+@"_SM38scala.scalanative.runtime.ObjectArray$G8instance" = external global { ptr, ptr }
 
-declare dereferenceable_or_null(56) ptr @"_SM19java.nio.ByteBufferD3putLAb_L19java.nio.ByteBufferEO"(ptr, ptr)
+declare dereferenceable_or_null(64) ptr @"_SM19java.nio.ByteBufferD3putLAb_L19java.nio.ByteBufferEO"(ptr, ptr)
 
 declare void @"_SM16scala.MatchErrorRL16java.lang.ObjectE"(ptr, ptr)
 
-declare nonnull dereferenceable(64) ptr @"_SM28niocharset.StandardCharsets$D5UTF_8L24java.nio.charset.CharsetEO"(ptr)
+declare nonnull dereferenceable(72) ptr @"_SM28niocharset.StandardCharsets$D5UTF_8L24java.nio.charset.CharsetEO"(ptr)
 
 declare i64 @"_SM35scala.scalanative.runtime.LazyVals$D3getR_jEO"(ptr, ptr) alwaysinline
-@"_SM23java.util.ServiceLoaderG4type" = external global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] }
-@"_SM32java.nio.BufferOverflowExceptionG4type" = external global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] }
-@"_SM16java.lang.ObjectG4type" = external global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] }
+@"_SM23java.util.ServiceLoaderG4type" = external global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] }
+@"_SM32java.nio.BufferOverflowExceptionG4type" = external global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] }
+@"_SM16java.lang.ObjectG4type" = external global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] }
 
 declare ptr @"_SM28scala.runtime.Scala3RunTime$D12assertFailednEO"(ptr)
-@"_SM24java.lang.AssertionErrorG4type" = external global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] }
+@"_SM24java.lang.AssertionErrorG4type" = external global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] }
 
 declare i1 @"_SM16java.lang.StringD6equalsL16java.lang.ObjectzEO"(ptr, ptr)
 
-declare dereferenceable_or_null(56) ptr @"_SM20java.nio.CharBuffer$D8allocateiL19java.nio.CharBufferEO"(ptr, i32)
-@"_SM27java.util.function.SupplierG4type" = external global { ptr, i32, i32, ptr, ptr }
-@"_SM41java.nio.charset.CharacterCodingExceptionG4type" = hidden global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] } { { ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", i32 443, i32 1, ptr @"_SM7__constG1-0", ptr @"_SM7__constG1-2" }, i32 72, i32 445, ptr @"_SM7__constG1-3", i32 0, ptr @"_SM7__constG1-4", ptr @"_SM19java.io.IOExceptionG4type", [5 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM19java.lang.ThrowableD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO", ptr @"_SM19java.lang.ThrowableD8getCauseL19java.lang.ThrowableEO", ptr @"_SM19java.lang.ThrowableD10getMessageL16java.lang.StringEO" ] }
-@"_SM24java.nio.charset.CharsetG4type" = hidden global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] } { { ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", i32 753, i32 1, ptr @"_SM7__constG1-5", ptr @"_SM7__constG1-7" }, i32 48, i32 761, ptr @"_SM7__constG1-8", i32 0, ptr @"_SM7__constG2-10", ptr @"_SM16java.lang.ObjectG4type", [5 x ptr] [ ptr @"_SM24java.nio.charset.CharsetD8hashCodeiEO", ptr @"_SM24java.nio.charset.CharsetD8toStringL16java.lang.StringEO", ptr @"_SM24java.nio.charset.CharsetD6equalsL16java.lang.ObjectzEO", ptr null, ptr null ] }
-@"_SM25java.nio.charset.Charset$G4type" = hidden global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", i32 1238, i32 0, ptr @"_SM7__constG2-11", ptr @"_SM7__constG2-13" }, i32 24, i32 1238, ptr @"_SM7__constG2-14", i32 0, ptr @"_SM7__constG2-15", ptr @"_SM16java.lang.ObjectG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
-@"_SM35java.nio.charset.Charset$$$Lambda$1G4type" = hidden global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", i32 694, i32 1, ptr @"_SM7__constG2-16", ptr @"_SM7__constG2-18" }, i32 24, i32 694, ptr @"_SM7__constG2-19", i32 0, ptr @"_SM7__constG2-21", ptr @"_SM16java.lang.ObjectG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
-@"_SM36java.nio.charset.Charset$$$Lambda$10G4type" = hidden global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", i32 1318, i32 1, ptr @"_SM7__constG2-22", ptr @"_SM7__constG2-24" }, i32 24, i32 1318, ptr @"_SM7__constG2-19", i32 0, ptr @"_SM7__constG2-26", ptr @"_SM16java.lang.ObjectG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
-@"_SM35java.nio.charset.Charset$$$Lambda$4G4type" = hidden global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", i32 1078, i32 3, ptr @"_SM7__constG2-27", ptr @"_SM7__constG2-29" }, i32 24, i32 1078, ptr @"_SM7__constG2-19", i32 3, ptr @"_SM7__constG2-32", ptr @"_SM16java.lang.ObjectG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
-@"_SM35java.nio.charset.Charset$$$Lambda$5G4type" = hidden global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", i32 645, i32 3, ptr @"_SM7__constG2-27", ptr @"_SM7__constG2-34" }, i32 24, i32 645, ptr @"_SM7__constG2-19", i32 3, ptr @"_SM7__constG2-36", ptr @"_SM16java.lang.ObjectG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
-@"_SM35java.nio.charset.Charset$$$Lambda$6G4type" = hidden global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", i32 1420, i32 3, ptr @"_SM7__constG2-27", ptr @"_SM7__constG2-38" }, i32 24, i32 1420, ptr @"_SM7__constG2-19", i32 3, ptr @"_SM7__constG2-40", ptr @"_SM16java.lang.ObjectG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
-@"_SM35java.nio.charset.Charset$$$Lambda$7G4type" = hidden global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", i32 541, i32 3, ptr @"_SM7__constG2-27", ptr @"_SM7__constG2-42" }, i32 24, i32 541, ptr @"_SM7__constG2-19", i32 3, ptr @"_SM7__constG2-44", ptr @"_SM16java.lang.ObjectG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
-@"_SM35java.nio.charset.Charset$$$Lambda$8G4type" = hidden global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", i32 716, i32 3, ptr @"_SM7__constG2-27", ptr @"_SM7__constG2-46" }, i32 24, i32 716, ptr @"_SM7__constG2-19", i32 3, ptr @"_SM7__constG2-48", ptr @"_SM16java.lang.ObjectG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
-@"_SM35java.nio.charset.Charset$$$Lambda$9G4type" = hidden global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", i32 956, i32 3, ptr @"_SM7__constG2-27", ptr @"_SM7__constG2-50" }, i32 24, i32 956, ptr @"_SM7__constG2-19", i32 3, ptr @"_SM7__constG2-52", ptr @"_SM16java.lang.ObjectG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
-@"_SM34java.nio.charset.Charset$$Lambda$1G4type" = hidden global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", i32 121, i32 1, ptr @"_SM7__constG2-53", ptr @"_SM7__constG2-55" }, i32 16, i32 121, ptr @"_SM7__constG2-14", i32 0, ptr @"_SM7__constG2-57", ptr @"_SM16java.lang.ObjectG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
-@"_SM34java.nio.charset.Charset$$Lambda$2G4type" = hidden global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", i32 1501, i32 1, ptr @"_SM7__constG2-53", ptr @"_SM7__constG2-59" }, i32 16, i32 1501, ptr @"_SM7__constG2-14", i32 0, ptr @"_SM7__constG2-61", ptr @"_SM16java.lang.ObjectG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
-@"_SM31java.nio.charset.CharsetDecoderG4type" = hidden global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] } { { ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", i32 1293, i32 0, ptr @"_SM7__constG2-11", ptr @"_SM7__constG2-63" }, i32 56, i32 1296, ptr @"_SM7__constG1-8", i32 0, ptr @"_SM7__constG2-15", ptr @"_SM16java.lang.ObjectG4type", [5 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO", ptr @"_SM31java.nio.charset.CharsetDecoderD9implResetuEO", ptr null ] }
-@"_SM31java.nio.charset.CharsetEncoderG4type" = hidden global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] } { { ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", i32 570, i32 0, ptr @"_SM7__constG2-11", ptr @"_SM7__constG2-65" }, i32 56, i32 573, ptr @"_SM7__constG1-8", i32 0, ptr @"_SM7__constG2-15", ptr @"_SM16java.lang.ObjectG4type", [5 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO", ptr @"_SM31java.nio.charset.CharsetEncoderD9implResetuEO", ptr null ] }
-@"_SM38java.nio.charset.CoderMalfunctionErrorG4type" = hidden global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] } { { ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", i32 391, i32 1, ptr @"_SM7__constG1-0", ptr @"_SM7__constG2-67" }, i32 72, i32 391, ptr @"_SM7__constG1-3", i32 0, ptr @"_SM7__constG1-4", ptr @"_SM15java.lang.ErrorG4type", [5 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM19java.lang.ThrowableD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO", ptr @"_SM19java.lang.ThrowableD8getCauseL19java.lang.ThrowableEO", ptr @"_SM19java.lang.ThrowableD10getMessageL16java.lang.StringEO" ] }
-@"_SM28java.nio.charset.CoderResultG4type" = hidden global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", i32 888, i32 0, ptr @"_SM7__constG2-11", ptr @"_SM7__constG2-69" }, i32 16, i32 888, ptr @"_SM7__constG2-70", i32 0, ptr @"_SM7__constG2-15", ptr @"_SM16java.lang.ObjectG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM28java.nio.charset.CoderResultD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
-@"_SM29java.nio.charset.CoderResult$G4type" = hidden global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", i32 854, i32 0, ptr @"_SM7__constG2-11", ptr @"_SM7__constG2-72" }, i32 104, i32 854, ptr @"_SM7__constG2-73", i32 0, ptr @"_SM7__constG2-15", ptr @"_SM16java.lang.ObjectG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
-@"_SM39java.nio.charset.CoderResult$$$Lambda$1G4type" = hidden global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", i32 1677, i32 1, ptr @"_SM7__constG2-16", ptr @"_SM7__constG2-75" }, i32 24, i32 1677, ptr @"_SM7__constG2-14", i32 0, ptr @"_SM7__constG2-77", ptr @"_SM16java.lang.ObjectG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
-@"_SM39java.nio.charset.CoderResult$$$Lambda$2G4type" = hidden global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", i32 1687, i32 1, ptr @"_SM7__constG2-16", ptr @"_SM7__constG2-79" }, i32 24, i32 1687, ptr @"_SM7__constG2-14", i32 0, ptr @"_SM7__constG2-81", ptr @"_SM16java.lang.ObjectG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
-@"_SM34java.nio.charset.CodingErrorActionG4type" = hidden global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", i32 46, i32 0, ptr @"_SM7__constG2-11", ptr @"_SM7__constG2-83" }, i32 16, i32 46, ptr @"_SM7__constG2-14", i32 0, ptr @"_SM7__constG2-15", ptr @"_SM16java.lang.ObjectG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM34java.nio.charset.CodingErrorActionD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
-@"_SM35java.nio.charset.CodingErrorAction$G4type" = hidden global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", i32 1698, i32 0, ptr @"_SM7__constG2-11", ptr @"_SM7__constG2-85" }, i32 32, i32 1698, ptr @"_SM7__constG2-86", i32 0, ptr @"_SM7__constG2-15", ptr @"_SM16java.lang.ObjectG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
-@"_SM40java.nio.charset.MalformedInputExceptionG4type" = hidden global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] } { { ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", i32 445, i32 1, ptr @"_SM7__constG1-0", ptr @"_SM7__constG2-88" }, i32 72, i32 445, ptr @"_SM7__constG1-3", i32 0, ptr @"_SM7__constG1-4", ptr @"_SM41java.nio.charset.CharacterCodingExceptionG4type", [5 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM19java.lang.ThrowableD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO", ptr @"_SM19java.lang.ThrowableD8getCauseL19java.lang.ThrowableEO", ptr @"_SM40java.nio.charset.MalformedInputExceptionD10getMessageL16java.lang.StringEO" ] }
-@"_SM33java.nio.charset.StandardCharsetsG4type" = hidden global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", i32 1240, i32 0, ptr @"_SM7__constG2-11", ptr @"_SM7__constG2-90" }, i32 8, i32 1240, ptr @"_SM7__constG2-70", i32 0, ptr @"_SM7__constG2-15", ptr @"_SM16java.lang.ObjectG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
-@"_SM34java.nio.charset.StandardCharsets$G4type" = hidden global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", i32 1757, i32 0, ptr @"_SM7__constG2-11", ptr @"_SM7__constG2-92" }, i32 8, i32 1757, ptr @"_SM7__constG2-70", i32 0, ptr @"_SM7__constG2-15", ptr @"_SM16java.lang.ObjectG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
-@"_SM34java.nio.charset.StandardCharsets$G8instance" = hidden global { ptr } { ptr @"_SM34java.nio.charset.StandardCharsets$G4type" }
-@"_SM45java.nio.charset.UnmappableCharacterExceptionG4type" = hidden global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] } { { ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", i32 444, i32 1, ptr @"_SM7__constG1-0", ptr @"_SM7__constG2-94" }, i32 72, i32 444, ptr @"_SM7__constG1-3", i32 0, ptr @"_SM7__constG1-4", ptr @"_SM41java.nio.charset.CharacterCodingExceptionG4type", [5 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM19java.lang.ThrowableD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO", ptr @"_SM19java.lang.ThrowableD8getCauseL19java.lang.ThrowableEO", ptr @"_SM45java.nio.charset.UnmappableCharacterExceptionD10getMessageL16java.lang.StringEO" ] }
-@"_SM44java.nio.charset.UnsupportedCharsetExceptionG4type" = hidden global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] } { { ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", i32 435, i32 1, ptr @"_SM7__constG1-0", ptr @"_SM7__constG2-96" }, i32 80, i32 435, ptr @"_SM7__constG2-97", i32 0, ptr @"_SM7__constG1-4", ptr @"_SM34java.lang.IllegalArgumentExceptionG4type", [5 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM19java.lang.ThrowableD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO", ptr @"_SM19java.lang.ThrowableD8getCauseL19java.lang.ThrowableEO", ptr @"_SM19java.lang.ThrowableD10getMessageL16java.lang.StringEO" ] }
+declare dereferenceable_or_null(64) ptr @"_SM20java.nio.CharBuffer$D8allocateiL19java.nio.CharBufferEO"(ptr, i32)
+@"_SM27java.util.function.SupplierG4type" = external global { ptr, ptr, i32, i32, ptr, ptr }
+@"_SM41java.nio.charset.CharacterCodingExceptionG4type" = hidden global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] } { { ptr, ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", ptr null, i32 1175, i32 1, ptr @"_SM7__constG1-0", ptr @"_SM7__constG1-2" }, i32 80, i32 1177, ptr @"_SM7__constG1-3", i32 0, ptr @"_SM7__constG1-4", ptr @"_SM19java.io.IOExceptionG4type", [5 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM19java.lang.ThrowableD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO", ptr @"_SM19java.lang.ThrowableD8getCauseL19java.lang.ThrowableEO", ptr @"_SM19java.lang.ThrowableD10getMessageL16java.lang.StringEO" ] }
+@"_SM24java.nio.charset.CharsetG4type" = hidden global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] } { { ptr, ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", ptr null, i32 1380, i32 1, ptr @"_SM7__constG1-5", ptr @"_SM7__constG1-7" }, i32 56, i32 1388, ptr @"_SM7__constG1-8", i32 0, ptr @"_SM7__constG2-10", ptr @"_SM16java.lang.ObjectG4type", [5 x ptr] [ ptr @"_SM24java.nio.charset.CharsetD8hashCodeiEO", ptr @"_SM24java.nio.charset.CharsetD8toStringL16java.lang.StringEO", ptr @"_SM24java.nio.charset.CharsetD6equalsL16java.lang.ObjectzEO", ptr null, ptr null ] }
+@"_SM25java.nio.charset.Charset$G4type" = hidden global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", ptr null, i32 1654, i32 0, ptr @"_SM7__constG2-11", ptr @"_SM7__constG2-13" }, i32 32, i32 1654, ptr @"_SM7__constG2-14", i32 0, ptr @"_SM7__constG2-15", ptr @"_SM16java.lang.ObjectG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
+@"_SM35java.nio.charset.Charset$$$Lambda$1G4type" = hidden global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", ptr null, i32 974, i32 1, ptr @"_SM7__constG2-16", ptr @"_SM7__constG2-18" }, i32 32, i32 974, ptr @"_SM7__constG2-19", i32 0, ptr @"_SM7__constG2-21", ptr @"_SM16java.lang.ObjectG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
+@"_SM36java.nio.charset.Charset$$$Lambda$10G4type" = hidden global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", ptr null, i32 884, i32 1, ptr @"_SM7__constG2-22", ptr @"_SM7__constG2-24" }, i32 32, i32 884, ptr @"_SM7__constG2-19", i32 0, ptr @"_SM7__constG2-26", ptr @"_SM16java.lang.ObjectG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
+@"_SM35java.nio.charset.Charset$$$Lambda$4G4type" = hidden global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", ptr null, i32 151, i32 3, ptr @"_SM7__constG2-27", ptr @"_SM7__constG2-29" }, i32 32, i32 151, ptr @"_SM7__constG2-19", i32 3, ptr @"_SM7__constG2-32", ptr @"_SM16java.lang.ObjectG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
+@"_SM35java.nio.charset.Charset$$$Lambda$5G4type" = hidden global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", ptr null, i32 197, i32 3, ptr @"_SM7__constG2-27", ptr @"_SM7__constG2-34" }, i32 32, i32 197, ptr @"_SM7__constG2-19", i32 3, ptr @"_SM7__constG2-36", ptr @"_SM16java.lang.ObjectG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
+@"_SM35java.nio.charset.Charset$$$Lambda$6G4type" = hidden global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", ptr null, i32 406, i32 3, ptr @"_SM7__constG2-27", ptr @"_SM7__constG2-38" }, i32 32, i32 406, ptr @"_SM7__constG2-19", i32 3, ptr @"_SM7__constG2-40", ptr @"_SM16java.lang.ObjectG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
+@"_SM35java.nio.charset.Charset$$$Lambda$7G4type" = hidden global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", ptr null, i32 330, i32 3, ptr @"_SM7__constG2-27", ptr @"_SM7__constG2-42" }, i32 32, i32 330, ptr @"_SM7__constG2-19", i32 3, ptr @"_SM7__constG2-44", ptr @"_SM16java.lang.ObjectG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
+@"_SM35java.nio.charset.Charset$$$Lambda$8G4type" = hidden global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", ptr null, i32 1268, i32 3, ptr @"_SM7__constG2-27", ptr @"_SM7__constG2-46" }, i32 32, i32 1268, ptr @"_SM7__constG2-19", i32 3, ptr @"_SM7__constG2-48", ptr @"_SM16java.lang.ObjectG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
+@"_SM35java.nio.charset.Charset$$$Lambda$9G4type" = hidden global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", ptr null, i32 383, i32 3, ptr @"_SM7__constG2-27", ptr @"_SM7__constG2-50" }, i32 32, i32 383, ptr @"_SM7__constG2-19", i32 3, ptr @"_SM7__constG2-52", ptr @"_SM16java.lang.ObjectG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
+@"_SM34java.nio.charset.Charset$$Lambda$1G4type" = hidden global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", ptr null, i32 1726, i32 1, ptr @"_SM7__constG2-53", ptr @"_SM7__constG2-55" }, i32 24, i32 1726, ptr @"_SM7__constG2-14", i32 0, ptr @"_SM7__constG2-57", ptr @"_SM16java.lang.ObjectG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
+@"_SM34java.nio.charset.Charset$$Lambda$2G4type" = hidden global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", ptr null, i32 363, i32 1, ptr @"_SM7__constG2-53", ptr @"_SM7__constG2-59" }, i32 24, i32 363, ptr @"_SM7__constG2-14", i32 0, ptr @"_SM7__constG2-61", ptr @"_SM16java.lang.ObjectG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
+@"_SM31java.nio.charset.CharsetDecoderG4type" = hidden global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] } { { ptr, ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", ptr null, i32 27, i32 0, ptr @"_SM7__constG2-11", ptr @"_SM7__constG2-63" }, i32 64, i32 30, ptr @"_SM7__constG1-8", i32 0, ptr @"_SM7__constG2-15", ptr @"_SM16java.lang.ObjectG4type", [5 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO", ptr @"_SM31java.nio.charset.CharsetDecoderD9implResetuEO", ptr null ] }
+@"_SM31java.nio.charset.CharsetEncoderG4type" = hidden global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] } { { ptr, ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", ptr null, i32 1779, i32 0, ptr @"_SM7__constG2-11", ptr @"_SM7__constG2-65" }, i32 64, i32 1782, ptr @"_SM7__constG1-8", i32 0, ptr @"_SM7__constG2-15", ptr @"_SM16java.lang.ObjectG4type", [5 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO", ptr @"_SM31java.nio.charset.CharsetEncoderD9implResetuEO", ptr null ] }
+@"_SM38java.nio.charset.CoderMalfunctionErrorG4type" = hidden global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] } { { ptr, ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", ptr null, i32 1188, i32 1, ptr @"_SM7__constG1-0", ptr @"_SM7__constG2-67" }, i32 80, i32 1188, ptr @"_SM7__constG1-3", i32 0, ptr @"_SM7__constG1-4", ptr @"_SM15java.lang.ErrorG4type", [5 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM19java.lang.ThrowableD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO", ptr @"_SM19java.lang.ThrowableD8getCauseL19java.lang.ThrowableEO", ptr @"_SM19java.lang.ThrowableD10getMessageL16java.lang.StringEO" ] }
+@"_SM28java.nio.charset.CoderResultG4type" = hidden global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", ptr null, i32 1689, i32 0, ptr @"_SM7__constG2-11", ptr @"_SM7__constG2-69" }, i32 24, i32 1689, ptr @"_SM7__constG2-70", i32 0, ptr @"_SM7__constG2-15", ptr @"_SM16java.lang.ObjectG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM28java.nio.charset.CoderResultD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
+@"_SM29java.nio.charset.CoderResult$G4type" = hidden global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", ptr null, i32 1426, i32 0, ptr @"_SM7__constG2-11", ptr @"_SM7__constG2-72" }, i32 112, i32 1426, ptr @"_SM7__constG2-73", i32 0, ptr @"_SM7__constG2-15", ptr @"_SM16java.lang.ObjectG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
+@"_SM39java.nio.charset.CoderResult$$$Lambda$1G4type" = hidden global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", ptr null, i32 25, i32 1, ptr @"_SM7__constG2-16", ptr @"_SM7__constG2-75" }, i32 32, i32 25, ptr @"_SM7__constG2-14", i32 0, ptr @"_SM7__constG2-77", ptr @"_SM16java.lang.ObjectG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
+@"_SM39java.nio.charset.CoderResult$$$Lambda$2G4type" = hidden global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", ptr null, i32 641, i32 1, ptr @"_SM7__constG2-16", ptr @"_SM7__constG2-79" }, i32 32, i32 641, ptr @"_SM7__constG2-14", i32 0, ptr @"_SM7__constG2-81", ptr @"_SM16java.lang.ObjectG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
+@"_SM34java.nio.charset.CodingErrorActionG4type" = hidden global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", ptr null, i32 1254, i32 0, ptr @"_SM7__constG2-11", ptr @"_SM7__constG2-83" }, i32 24, i32 1254, ptr @"_SM7__constG2-14", i32 0, ptr @"_SM7__constG2-15", ptr @"_SM16java.lang.ObjectG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM34java.nio.charset.CodingErrorActionD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
+@"_SM35java.nio.charset.CodingErrorAction$G4type" = hidden global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", ptr null, i32 1762, i32 0, ptr @"_SM7__constG2-11", ptr @"_SM7__constG2-85" }, i32 40, i32 1762, ptr @"_SM7__constG2-86", i32 0, ptr @"_SM7__constG2-15", ptr @"_SM16java.lang.ObjectG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
+@"_SM40java.nio.charset.MalformedInputExceptionG4type" = hidden global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] } { { ptr, ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", ptr null, i32 1177, i32 1, ptr @"_SM7__constG1-0", ptr @"_SM7__constG2-88" }, i32 80, i32 1177, ptr @"_SM7__constG1-3", i32 0, ptr @"_SM7__constG1-4", ptr @"_SM41java.nio.charset.CharacterCodingExceptionG4type", [5 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM19java.lang.ThrowableD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO", ptr @"_SM19java.lang.ThrowableD8getCauseL19java.lang.ThrowableEO", ptr @"_SM40java.nio.charset.MalformedInputExceptionD10getMessageL16java.lang.StringEO" ] }
+@"_SM33java.nio.charset.StandardCharsetsG4type" = hidden global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", ptr null, i32 1685, i32 0, ptr @"_SM7__constG2-11", ptr @"_SM7__constG2-90" }, i32 16, i32 1685, ptr @"_SM7__constG2-70", i32 0, ptr @"_SM7__constG2-15", ptr @"_SM16java.lang.ObjectG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
+@"_SM34java.nio.charset.StandardCharsets$G4type" = hidden global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", ptr null, i32 436, i32 0, ptr @"_SM7__constG2-11", ptr @"_SM7__constG2-92" }, i32 16, i32 436, ptr @"_SM7__constG2-70", i32 0, ptr @"_SM7__constG2-15", ptr @"_SM16java.lang.ObjectG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
+@"_SM34java.nio.charset.StandardCharsets$G8instance" = hidden global { ptr, ptr } { ptr @"_SM34java.nio.charset.StandardCharsets$G4type", ptr null }
+@"_SM45java.nio.charset.UnmappableCharacterExceptionG4type" = hidden global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] } { { ptr, ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", ptr null, i32 1176, i32 1, ptr @"_SM7__constG1-0", ptr @"_SM7__constG2-94" }, i32 80, i32 1176, ptr @"_SM7__constG1-3", i32 0, ptr @"_SM7__constG1-4", ptr @"_SM41java.nio.charset.CharacterCodingExceptionG4type", [5 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM19java.lang.ThrowableD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO", ptr @"_SM19java.lang.ThrowableD8getCauseL19java.lang.ThrowableEO", ptr @"_SM45java.nio.charset.UnmappableCharacterExceptionD10getMessageL16java.lang.StringEO" ] }
+@"_SM44java.nio.charset.UnsupportedCharsetExceptionG4type" = hidden global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] } { { ptr, ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", ptr null, i32 1140, i32 1, ptr @"_SM7__constG1-0", ptr @"_SM7__constG2-96" }, i32 88, i32 1140, ptr @"_SM7__constG2-97", i32 0, ptr @"_SM7__constG1-4", ptr @"_SM34java.lang.IllegalArgumentExceptionG4type", [5 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM19java.lang.ThrowableD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO", ptr @"_SM19java.lang.ThrowableD8getCauseL19java.lang.ThrowableEO", ptr @"_SM19java.lang.ThrowableD10getMessageL16java.lang.StringEO" ] }
 
-define dereferenceable_or_null(24) ptr @"_SM24java.nio.charset.CharsetD13cachedDecoderL21java.lang.ThreadLocalEPT24java.nio.charset.Charset"(ptr %_1) alwaysinline personality ptr @scalanative_personality {
+define dereferenceable_or_null(32) ptr @"_SM24java.nio.charset.CharsetD13cachedDecoderL21java.lang.ThreadLocalEPT24java.nio.charset.Charset"(ptr %_1) alwaysinline personality ptr @scalanative_personality {
 _2.0:
   br label %_3.0
 _3.0:
@@ -415,39 +417,39 @@ _4.0:
   %_80 = icmp ne ptr %_1, null
   br i1 %_80, label %_78.0, label %_79.0
 _78.0:
-  %_81 = getelementptr { { ptr }, ptr, ptr, ptr, i64, ptr }, { { ptr }, ptr, ptr, ptr, i64, ptr }* %_1, i32 0, i32 4
-  %_9 = call i64 @"_SM35scala.scalanative.runtime.LazyVals$D3getR_jEO"(ptr nonnull dereferenceable(8) @"_SM35scala.scalanative.runtime.LazyVals$G8instance", ptr %_81)
-  %_12 = call i64 @"_SM23scala.runtime.LazyVals$D5STATEjijEO"(ptr nonnull dereferenceable(8) @"_SM23scala.runtime.LazyVals$G8instance", i64 %_9, i32 1)
+  %_81 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, i64, ptr }, { { ptr, ptr }, ptr, ptr, ptr, i64, ptr }* %_1, i32 0, i32 4
+  %_9 = call i64 @"_SM35scala.scalanative.runtime.LazyVals$D3getR_jEO"(ptr nonnull dereferenceable(16) @"_SM35scala.scalanative.runtime.LazyVals$G8instance", ptr %_81)
+  %_12 = call i64 @"_SM23scala.runtime.LazyVals$D5STATEjijEO"(ptr nonnull dereferenceable(16) @"_SM23scala.runtime.LazyVals$G8instance", i64 %_9, i32 1)
   %_17 = sext i32 3 to i64
   %_18 = icmp eq i64 %_12, %_17
   br i1 %_18, label %_13.0, label %_14.0
 _13.0:
-  %_82 = getelementptr { { ptr }, ptr, ptr, ptr, i64, ptr }, { { ptr }, ptr, ptr, ptr, i64, ptr }* %_1, i32 0, i32 5
-  %_19 = load ptr, ptr %_82, !dereferenceable_or_null !{i64 24}
+  %_82 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, i64, ptr }, { { ptr, ptr }, ptr, ptr, ptr, i64, ptr }* %_1, i32 0, i32 5
+  %_19 = load atomic ptr, ptr %_82 unordered, align 8
   ret ptr %_19
 _14.0:
   %_25 = sext i32 0 to i64
   %_26 = icmp eq i64 %_12, %_25
   br i1 %_26, label %_21.0, label %_22.0
 _21.0:
-  %_83 = getelementptr { { ptr }, ptr, ptr, ptr, i64, ptr }, { { ptr }, ptr, ptr, ptr, i64, ptr }* %_1, i32 0, i32 4
-  %_34 = call i1 @"_SM35scala.scalanative.runtime.LazyVals$D3CASR_jiizEO"(ptr nonnull dereferenceable(8) @"_SM35scala.scalanative.runtime.LazyVals$G8instance", ptr %_83, i64 %_9, i32 1, i32 1)
+  %_83 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, i64, ptr }, { { ptr, ptr }, ptr, ptr, ptr, i64, ptr }* %_1, i32 0, i32 4
+  %_34 = call i1 @"_SM35scala.scalanative.runtime.LazyVals$D3CASR_jiizEO"(ptr nonnull dereferenceable(16) @"_SM35scala.scalanative.runtime.LazyVals$G8instance", ptr %_83, i64 %_9, i32 1, i32 1)
   br i1 %_34, label %_27.0, label %_28.0
 _27.0:
   br label %_36.0
 _36.0:
-  %_41 = invoke dereferenceable_or_null(16) ptr @"_SM22java.lang.ThreadLocal$G4load"() to label %_36.1 unwind label %_85.landingpad
+  %_41 = invoke dereferenceable_or_null(40) ptr @"_SM22java.lang.ThreadLocal$G4load"() to label %_36.1 unwind label %_85.landingpad
 _36.1:
-  %_43 = invoke dereferenceable_or_null(16) ptr @"scalanative_GC_alloc_small"(ptr @"_SM34java.nio.charset.Charset$$Lambda$1G4type", i64 16) to label %_36.2 unwind label %_87.landingpad
+  %_43 = invoke dereferenceable_or_null(24) ptr @"scalanative_GC_alloc_small"(ptr @"_SM34java.nio.charset.Charset$$Lambda$1G4type", i64 24) to label %_36.2 unwind label %_87.landingpad
 _36.2:
-  invoke void @"_SM34java.nio.charset.Charset$$Lambda$1RL24java.nio.charset.CharsetE"(ptr nonnull dereferenceable(16) %_43, ptr dereferenceable_or_null(48) %_1) to label %_36.3 unwind label %_90.landingpad
+  invoke void @"_SM34java.nio.charset.Charset$$Lambda$1RL24java.nio.charset.CharsetE"(ptr nonnull dereferenceable(24) %_43, ptr dereferenceable_or_null(56) %_1) to label %_36.3 unwind label %_90.landingpad
 _36.3:
-  %_49 = invoke dereferenceable_or_null(24) ptr @"_SM22java.lang.ThreadLocal$D11withInitialL27java.util.function.SupplierL21java.lang.ThreadLocalEO"(ptr nonnull dereferenceable(16) %_41, ptr nonnull dereferenceable(16) %_43) to label %_36.4 unwind label %_95.landingpad
+  %_49 = invoke dereferenceable_or_null(32) ptr @"_SM22java.lang.ThreadLocal$D11withInitialL27java.util.function.SupplierL21java.lang.ThreadLocalEO"(ptr nonnull dereferenceable(40) %_41, ptr nonnull dereferenceable(24) %_43) to label %_36.4 unwind label %_95.landingpad
 _36.4:
-  %_99 = getelementptr { { ptr }, ptr, ptr, ptr, i64, ptr }, { { ptr }, ptr, ptr, ptr, i64, ptr }* %_1, i32 0, i32 5
-  store ptr %_49, ptr%_99, align 8
-  %_106 = getelementptr { { ptr }, ptr, ptr, ptr, i64, ptr }, { { ptr }, ptr, ptr, ptr, i64, ptr }* %_1, i32 0, i32 4
-  invoke void @"_SM35scala.scalanative.runtime.LazyVals$D7setFlagR_iiuEO"(ptr nonnull dereferenceable(8) @"_SM35scala.scalanative.runtime.LazyVals$G8instance", ptr %_106, i32 3, i32 1) to label %_36.5 unwind label %_112.landingpad
+  %_99 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, i64, ptr }, { { ptr, ptr }, ptr, ptr, ptr, i64, ptr }* %_1, i32 0, i32 5
+  store atomic ptr %_49, ptr%_99 unordered, align 8
+  %_106 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, i64, ptr }, { { ptr, ptr }, ptr, ptr, ptr, i64, ptr }* %_1, i32 0, i32 4
+  invoke void @"_SM35scala.scalanative.runtime.LazyVals$D7setFlagR_iiuEO"(ptr nonnull dereferenceable(16) @"_SM35scala.scalanative.runtime.LazyVals$G8instance", ptr %_106, i32 3, i32 1) to label %_36.5 unwind label %_112.landingpad
 _36.5:
   ret ptr %_49
 _35.0:
@@ -458,10 +460,10 @@ _114.0:
   br label %_116.0
 _115.0:
   %_118 = load ptr, ptr %_38
-  %_119 = getelementptr { ptr, i32, i32, ptr, ptr }, { ptr, i32, i32, ptr, ptr }* %_118, i32 0, i32 1
+  %_119 = getelementptr { ptr, ptr, i32, i32, ptr, ptr }, { ptr, ptr, i32, i32, ptr, ptr }* %_118, i32 0, i32 2
   %_120 = load i32, ptr %_119
-  %_121 = icmp sle i32 384, %_120
-  %_122 = icmp sle i32 %_120, 453
+  %_121 = icmp sle i32 1122, %_120
+  %_122 = icmp sle i32 %_120, 1197
   %_123 = and i1 %_121, %_122
   br label %_116.0
 _116.0:
@@ -472,33 +474,33 @@ _62.0:
   br i1 %_127, label %_125.0, label %_124.0
 _124.0:
   %_128 = load ptr, ptr %_38
-  %_129 = getelementptr { ptr, i32, i32, ptr, ptr }, { ptr, i32, i32, ptr, ptr }* %_128, i32 0, i32 1
+  %_129 = getelementptr { ptr, ptr, i32, i32, ptr, ptr }, { ptr, ptr, i32, i32, ptr, ptr }* %_128, i32 0, i32 2
   %_130 = load i32, ptr %_129
-  %_131 = icmp sle i32 384, %_130
-  %_132 = icmp sle i32 %_130, 453
+  %_131 = icmp sle i32 1122, %_130
+  %_132 = icmp sle i32 %_130, 1197
   %_133 = and i1 %_131, %_132
   br i1 %_133, label %_125.0, label %_126.0
 _125.0:
-  %_134 = getelementptr { { ptr }, ptr, ptr, ptr, i64, ptr }, { { ptr }, ptr, ptr, ptr, i64, ptr }* %_1, i32 0, i32 4
-  call void @"_SM35scala.scalanative.runtime.LazyVals$D7setFlagR_iiuEO"(ptr nonnull dereferenceable(8) @"_SM35scala.scalanative.runtime.LazyVals$G8instance", ptr %_134, i32 0, i32 1)
+  %_134 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, i64, ptr }, { { ptr, ptr }, ptr, ptr, ptr, i64, ptr }* %_1, i32 0, i32 4
+  call void @"_SM35scala.scalanative.runtime.LazyVals$D7setFlagR_iiuEO"(ptr nonnull dereferenceable(16) @"_SM35scala.scalanative.runtime.LazyVals$G8instance", ptr %_134, i32 0, i32 1)
   %_137 = icmp ne ptr %_38, null
   br i1 %_137, label %_136.0, label %_79.0
 _136.0:
-  call ptr @"scalanative_throw"(ptr dereferenceable_or_null(72) %_38)
+  call ptr @"scalanative_throw"(ptr dereferenceable_or_null(80) %_38)
   unreachable
 _63.0:
   %_140 = icmp ne ptr %_38, null
   br i1 %_140, label %_139.0, label %_79.0
 _139.0:
-  call ptr @"scalanative_throw"(ptr dereferenceable_or_null(72) %_38)
+  call ptr @"scalanative_throw"(ptr dereferenceable_or_null(80) %_38)
   unreachable
 _28.0:
   br label %_29.0
 _29.0:
   br label %_23.0
 _22.0:
-  %_142 = getelementptr { { ptr }, ptr, ptr, ptr, i64, ptr }, { { ptr }, ptr, ptr, ptr, i64, ptr }* %_1, i32 0, i32 4
-  call void @"_SM35scala.scalanative.runtime.LazyVals$D17wait4NotificationR_jiuEO"(ptr nonnull dereferenceable(8) @"_SM35scala.scalanative.runtime.LazyVals$G8instance", ptr %_142, i64 %_9, i32 1)
+  %_142 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, i64, ptr }, { { ptr, ptr }, ptr, ptr, ptr, i64, ptr }* %_1, i32 0, i32 4
+  call void @"_SM35scala.scalanative.runtime.LazyVals$D17wait4NotificationR_jiuEO"(ptr nonnull dereferenceable(16) @"_SM35scala.scalanative.runtime.LazyVals$G8instance", ptr %_142, i64 %_9, i32 1)
   br label %_23.0
 _23.0:
   br label %_15.0
@@ -631,7 +633,7 @@ _112.landingpad.succ:
   br label %_110.0
 }
 
-define dereferenceable_or_null(24) ptr @"_SM24java.nio.charset.CharsetD13cachedEncoderL21java.lang.ThreadLocalEPT24java.nio.charset.Charset"(ptr %_1) alwaysinline personality ptr @scalanative_personality {
+define dereferenceable_or_null(32) ptr @"_SM24java.nio.charset.CharsetD13cachedEncoderL21java.lang.ThreadLocalEPT24java.nio.charset.Charset"(ptr %_1) alwaysinline personality ptr @scalanative_personality {
 _2.0:
   br label %_3.0
 _3.0:
@@ -640,39 +642,39 @@ _4.0:
   %_80 = icmp ne ptr %_1, null
   br i1 %_80, label %_78.0, label %_79.0
 _78.0:
-  %_81 = getelementptr { { ptr }, ptr, ptr, ptr, i64, ptr }, { { ptr }, ptr, ptr, ptr, i64, ptr }* %_1, i32 0, i32 4
-  %_9 = call i64 @"_SM35scala.scalanative.runtime.LazyVals$D3getR_jEO"(ptr nonnull dereferenceable(8) @"_SM35scala.scalanative.runtime.LazyVals$G8instance", ptr %_81)
-  %_12 = call i64 @"_SM23scala.runtime.LazyVals$D5STATEjijEO"(ptr nonnull dereferenceable(8) @"_SM23scala.runtime.LazyVals$G8instance", i64 %_9, i32 2)
+  %_81 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, i64, ptr }, { { ptr, ptr }, ptr, ptr, ptr, i64, ptr }* %_1, i32 0, i32 4
+  %_9 = call i64 @"_SM35scala.scalanative.runtime.LazyVals$D3getR_jEO"(ptr nonnull dereferenceable(16) @"_SM35scala.scalanative.runtime.LazyVals$G8instance", ptr %_81)
+  %_12 = call i64 @"_SM23scala.runtime.LazyVals$D5STATEjijEO"(ptr nonnull dereferenceable(16) @"_SM23scala.runtime.LazyVals$G8instance", i64 %_9, i32 2)
   %_17 = sext i32 3 to i64
   %_18 = icmp eq i64 %_12, %_17
   br i1 %_18, label %_13.0, label %_14.0
 _13.0:
-  %_82 = getelementptr { { ptr }, ptr, ptr, ptr, i64, ptr }, { { ptr }, ptr, ptr, ptr, i64, ptr }* %_1, i32 0, i32 3
-  %_19 = load ptr, ptr %_82, !dereferenceable_or_null !{i64 24}
+  %_82 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, i64, ptr }, { { ptr, ptr }, ptr, ptr, ptr, i64, ptr }* %_1, i32 0, i32 3
+  %_19 = load atomic ptr, ptr %_82 unordered, align 8
   ret ptr %_19
 _14.0:
   %_25 = sext i32 0 to i64
   %_26 = icmp eq i64 %_12, %_25
   br i1 %_26, label %_21.0, label %_22.0
 _21.0:
-  %_83 = getelementptr { { ptr }, ptr, ptr, ptr, i64, ptr }, { { ptr }, ptr, ptr, ptr, i64, ptr }* %_1, i32 0, i32 4
-  %_34 = call i1 @"_SM35scala.scalanative.runtime.LazyVals$D3CASR_jiizEO"(ptr nonnull dereferenceable(8) @"_SM35scala.scalanative.runtime.LazyVals$G8instance", ptr %_83, i64 %_9, i32 1, i32 2)
+  %_83 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, i64, ptr }, { { ptr, ptr }, ptr, ptr, ptr, i64, ptr }* %_1, i32 0, i32 4
+  %_34 = call i1 @"_SM35scala.scalanative.runtime.LazyVals$D3CASR_jiizEO"(ptr nonnull dereferenceable(16) @"_SM35scala.scalanative.runtime.LazyVals$G8instance", ptr %_83, i64 %_9, i32 1, i32 2)
   br i1 %_34, label %_27.0, label %_28.0
 _27.0:
   br label %_36.0
 _36.0:
-  %_41 = invoke dereferenceable_or_null(16) ptr @"_SM22java.lang.ThreadLocal$G4load"() to label %_36.1 unwind label %_85.landingpad
+  %_41 = invoke dereferenceable_or_null(40) ptr @"_SM22java.lang.ThreadLocal$G4load"() to label %_36.1 unwind label %_85.landingpad
 _36.1:
-  %_43 = invoke dereferenceable_or_null(16) ptr @"scalanative_GC_alloc_small"(ptr @"_SM34java.nio.charset.Charset$$Lambda$2G4type", i64 16) to label %_36.2 unwind label %_87.landingpad
+  %_43 = invoke dereferenceable_or_null(24) ptr @"scalanative_GC_alloc_small"(ptr @"_SM34java.nio.charset.Charset$$Lambda$2G4type", i64 24) to label %_36.2 unwind label %_87.landingpad
 _36.2:
-  invoke void @"_SM34java.nio.charset.Charset$$Lambda$2RL24java.nio.charset.CharsetE"(ptr nonnull dereferenceable(16) %_43, ptr dereferenceable_or_null(48) %_1) to label %_36.3 unwind label %_90.landingpad
+  invoke void @"_SM34java.nio.charset.Charset$$Lambda$2RL24java.nio.charset.CharsetE"(ptr nonnull dereferenceable(24) %_43, ptr dereferenceable_or_null(56) %_1) to label %_36.3 unwind label %_90.landingpad
 _36.3:
-  %_49 = invoke dereferenceable_or_null(24) ptr @"_SM22java.lang.ThreadLocal$D11withInitialL27java.util.function.SupplierL21java.lang.ThreadLocalEO"(ptr nonnull dereferenceable(16) %_41, ptr nonnull dereferenceable(16) %_43) to label %_36.4 unwind label %_95.landingpad
+  %_49 = invoke dereferenceable_or_null(32) ptr @"_SM22java.lang.ThreadLocal$D11withInitialL27java.util.function.SupplierL21java.lang.ThreadLocalEO"(ptr nonnull dereferenceable(40) %_41, ptr nonnull dereferenceable(24) %_43) to label %_36.4 unwind label %_95.landingpad
 _36.4:
-  %_99 = getelementptr { { ptr }, ptr, ptr, ptr, i64, ptr }, { { ptr }, ptr, ptr, ptr, i64, ptr }* %_1, i32 0, i32 3
-  store ptr %_49, ptr%_99, align 8
-  %_106 = getelementptr { { ptr }, ptr, ptr, ptr, i64, ptr }, { { ptr }, ptr, ptr, ptr, i64, ptr }* %_1, i32 0, i32 4
-  invoke void @"_SM35scala.scalanative.runtime.LazyVals$D7setFlagR_iiuEO"(ptr nonnull dereferenceable(8) @"_SM35scala.scalanative.runtime.LazyVals$G8instance", ptr %_106, i32 3, i32 2) to label %_36.5 unwind label %_112.landingpad
+  %_99 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, i64, ptr }, { { ptr, ptr }, ptr, ptr, ptr, i64, ptr }* %_1, i32 0, i32 3
+  store atomic ptr %_49, ptr%_99 unordered, align 8
+  %_106 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, i64, ptr }, { { ptr, ptr }, ptr, ptr, ptr, i64, ptr }* %_1, i32 0, i32 4
+  invoke void @"_SM35scala.scalanative.runtime.LazyVals$D7setFlagR_iiuEO"(ptr nonnull dereferenceable(16) @"_SM35scala.scalanative.runtime.LazyVals$G8instance", ptr %_106, i32 3, i32 2) to label %_36.5 unwind label %_112.landingpad
 _36.5:
   ret ptr %_49
 _35.0:
@@ -683,10 +685,10 @@ _114.0:
   br label %_116.0
 _115.0:
   %_118 = load ptr, ptr %_38
-  %_119 = getelementptr { ptr, i32, i32, ptr, ptr }, { ptr, i32, i32, ptr, ptr }* %_118, i32 0, i32 1
+  %_119 = getelementptr { ptr, ptr, i32, i32, ptr, ptr }, { ptr, ptr, i32, i32, ptr, ptr }* %_118, i32 0, i32 2
   %_120 = load i32, ptr %_119
-  %_121 = icmp sle i32 384, %_120
-  %_122 = icmp sle i32 %_120, 453
+  %_121 = icmp sle i32 1122, %_120
+  %_122 = icmp sle i32 %_120, 1197
   %_123 = and i1 %_121, %_122
   br label %_116.0
 _116.0:
@@ -697,33 +699,33 @@ _62.0:
   br i1 %_127, label %_125.0, label %_124.0
 _124.0:
   %_128 = load ptr, ptr %_38
-  %_129 = getelementptr { ptr, i32, i32, ptr, ptr }, { ptr, i32, i32, ptr, ptr }* %_128, i32 0, i32 1
+  %_129 = getelementptr { ptr, ptr, i32, i32, ptr, ptr }, { ptr, ptr, i32, i32, ptr, ptr }* %_128, i32 0, i32 2
   %_130 = load i32, ptr %_129
-  %_131 = icmp sle i32 384, %_130
-  %_132 = icmp sle i32 %_130, 453
+  %_131 = icmp sle i32 1122, %_130
+  %_132 = icmp sle i32 %_130, 1197
   %_133 = and i1 %_131, %_132
   br i1 %_133, label %_125.0, label %_126.0
 _125.0:
-  %_134 = getelementptr { { ptr }, ptr, ptr, ptr, i64, ptr }, { { ptr }, ptr, ptr, ptr, i64, ptr }* %_1, i32 0, i32 4
-  call void @"_SM35scala.scalanative.runtime.LazyVals$D7setFlagR_iiuEO"(ptr nonnull dereferenceable(8) @"_SM35scala.scalanative.runtime.LazyVals$G8instance", ptr %_134, i32 0, i32 2)
+  %_134 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, i64, ptr }, { { ptr, ptr }, ptr, ptr, ptr, i64, ptr }* %_1, i32 0, i32 4
+  call void @"_SM35scala.scalanative.runtime.LazyVals$D7setFlagR_iiuEO"(ptr nonnull dereferenceable(16) @"_SM35scala.scalanative.runtime.LazyVals$G8instance", ptr %_134, i32 0, i32 2)
   %_137 = icmp ne ptr %_38, null
   br i1 %_137, label %_136.0, label %_79.0
 _136.0:
-  call ptr @"scalanative_throw"(ptr dereferenceable_or_null(72) %_38)
+  call ptr @"scalanative_throw"(ptr dereferenceable_or_null(80) %_38)
   unreachable
 _63.0:
   %_140 = icmp ne ptr %_38, null
   br i1 %_140, label %_139.0, label %_79.0
 _139.0:
-  call ptr @"scalanative_throw"(ptr dereferenceable_or_null(72) %_38)
+  call ptr @"scalanative_throw"(ptr dereferenceable_or_null(80) %_38)
   unreachable
 _28.0:
   br label %_29.0
 _29.0:
   br label %_23.0
 _22.0:
-  %_142 = getelementptr { { ptr }, ptr, ptr, ptr, i64, ptr }, { { ptr }, ptr, ptr, ptr, i64, ptr }* %_1, i32 0, i32 4
-  call void @"_SM35scala.scalanative.runtime.LazyVals$D17wait4NotificationR_jiuEO"(ptr nonnull dereferenceable(8) @"_SM35scala.scalanative.runtime.LazyVals$G8instance", ptr %_142, i64 %_9, i32 2)
+  %_142 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, i64, ptr }, { { ptr, ptr }, ptr, ptr, ptr, i64, ptr }* %_1, i32 0, i32 4
+  call void @"_SM35scala.scalanative.runtime.LazyVals$D17wait4NotificationR_jiuEO"(ptr nonnull dereferenceable(16) @"_SM35scala.scalanative.runtime.LazyVals$G8instance", ptr %_142, i64 %_9, i32 2)
   br label %_23.0
 _23.0:
   br label %_15.0
@@ -856,95 +858,95 @@ _112.landingpad.succ:
   br label %_110.0
 }
 
-define dereferenceable_or_null(48) ptr @"_SM24java.nio.charset.CharsetD14defaultCharsetL24java.nio.charset.CharsetEo"() inlinehint personality ptr @scalanative_personality {
+define dereferenceable_or_null(56) ptr @"_SM24java.nio.charset.CharsetD14defaultCharsetL24java.nio.charset.CharsetEo"() inlinehint personality ptr @scalanative_personality {
 _1000000.0:
-  %_1000001 = call dereferenceable_or_null(24) ptr @"_SM25java.nio.charset.Charset$G4load"()
-  %_1000002 = call dereferenceable_or_null(48) ptr @"_SM25java.nio.charset.Charset$D14defaultCharsetL24java.nio.charset.CharsetEO"(ptr nonnull dereferenceable(24) %_1000001)
+  %_1000001 = call dereferenceable_or_null(32) ptr @"_SM25java.nio.charset.Charset$G4load"()
+  %_1000002 = call dereferenceable_or_null(56) ptr @"_SM25java.nio.charset.Charset$D14defaultCharsetL24java.nio.charset.CharsetEO"(ptr nonnull dereferenceable(32) %_1000001)
   ret ptr %_1000002
 }
 
-define dereferenceable_or_null(56) ptr @"_SM24java.nio.charset.CharsetD24cachedDecoder$$anonfun$1L31java.nio.charset.CharsetDecoderEPT24java.nio.charset.Charset"(ptr %_1) personality ptr @scalanative_personality {
+define dereferenceable_or_null(64) ptr @"_SM24java.nio.charset.CharsetD24cachedDecoder$$anonfun$1L31java.nio.charset.CharsetDecoderEPT24java.nio.charset.Charset"(ptr %_1) personality ptr @scalanative_personality {
 _2000000.0:
   %_4000004 = icmp ne ptr %_1, null
   br i1 %_4000004, label %_4000002.0, label %_4000003.0
 _4000002.0:
   %_4000005 = load ptr, ptr %_1
-  %_4000006 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] }* %_4000005, i32 0, i32 7, i32 3
+  %_4000006 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] }* %_4000005, i32 0, i32 7, i32 3
   %_2000002 = load ptr, ptr %_4000006
-  %_2000003 = call dereferenceable_or_null(56) ptr %_2000002(ptr dereferenceable_or_null(48) %_1)
-  %_2000004 = call dereferenceable_or_null(32) ptr @"_SM35java.nio.charset.CodingErrorAction$G4load"()
-  %_4000007 = getelementptr { { ptr }, ptr, ptr, ptr }, { { ptr }, ptr, ptr, ptr }* %_2000004, i32 0, i32 1
-  %_3000001 = load ptr, ptr %_4000007, !dereferenceable_or_null !{i64 16}
-  %_2000005 = call dereferenceable_or_null(56) ptr @"_SM31java.nio.charset.CharsetDecoderD16onMalformedInputL34java.nio.charset.CodingErrorActionL31java.nio.charset.CharsetDecoderEO"(ptr dereferenceable_or_null(56) %_2000003, ptr dereferenceable_or_null(16) %_3000001)
-  %_4000008 = getelementptr { { ptr }, ptr, ptr, ptr }, { { ptr }, ptr, ptr, ptr }* %_2000004, i32 0, i32 1
-  %_4000001 = load ptr, ptr %_4000008, !dereferenceable_or_null !{i64 16}
-  %_2000006 = call dereferenceable_or_null(56) ptr @"_SM31java.nio.charset.CharsetDecoderD21onUnmappableCharacterL34java.nio.charset.CodingErrorActionL31java.nio.charset.CharsetDecoderEO"(ptr dereferenceable_or_null(56) %_2000005, ptr dereferenceable_or_null(16) %_4000001)
+  %_2000003 = call dereferenceable_or_null(64) ptr %_2000002(ptr dereferenceable_or_null(56) %_1)
+  %_2000004 = call dereferenceable_or_null(40) ptr @"_SM35java.nio.charset.CodingErrorAction$G4load"()
+  %_4000007 = getelementptr { { ptr, ptr }, ptr, ptr, ptr }, { { ptr, ptr }, ptr, ptr, ptr }* %_2000004, i32 0, i32 1
+  %_3000001 = load atomic ptr, ptr %_4000007 unordered, align 8
+  %_2000005 = call dereferenceable_or_null(64) ptr @"_SM31java.nio.charset.CharsetDecoderD16onMalformedInputL34java.nio.charset.CodingErrorActionL31java.nio.charset.CharsetDecoderEO"(ptr dereferenceable_or_null(64) %_2000003, ptr dereferenceable_or_null(24) %_3000001)
+  %_4000008 = getelementptr { { ptr, ptr }, ptr, ptr, ptr }, { { ptr, ptr }, ptr, ptr, ptr }* %_2000004, i32 0, i32 1
+  %_4000001 = load atomic ptr, ptr %_4000008 unordered, align 8
+  %_2000006 = call dereferenceable_or_null(64) ptr @"_SM31java.nio.charset.CharsetDecoderD21onUnmappableCharacterL34java.nio.charset.CodingErrorActionL31java.nio.charset.CharsetDecoderEO"(ptr dereferenceable_or_null(64) %_2000005, ptr dereferenceable_or_null(24) %_4000001)
   ret ptr %_2000006
 _4000003.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
   unreachable
 }
 
-define dereferenceable_or_null(56) ptr @"_SM24java.nio.charset.CharsetD24cachedEncoder$$anonfun$1L31java.nio.charset.CharsetEncoderEPT24java.nio.charset.Charset"(ptr %_1) personality ptr @scalanative_personality {
+define dereferenceable_or_null(64) ptr @"_SM24java.nio.charset.CharsetD24cachedEncoder$$anonfun$1L31java.nio.charset.CharsetEncoderEPT24java.nio.charset.Charset"(ptr %_1) personality ptr @scalanative_personality {
 _2000000.0:
   %_4000004 = icmp ne ptr %_1, null
   br i1 %_4000004, label %_4000002.0, label %_4000003.0
 _4000002.0:
   %_4000005 = load ptr, ptr %_1
-  %_4000006 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] }* %_4000005, i32 0, i32 7, i32 4
+  %_4000006 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] }* %_4000005, i32 0, i32 7, i32 4
   %_2000002 = load ptr, ptr %_4000006
-  %_2000003 = call dereferenceable_or_null(56) ptr %_2000002(ptr dereferenceable_or_null(48) %_1)
-  %_2000004 = call dereferenceable_or_null(32) ptr @"_SM35java.nio.charset.CodingErrorAction$G4load"()
-  %_4000007 = getelementptr { { ptr }, ptr, ptr, ptr }, { { ptr }, ptr, ptr, ptr }* %_2000004, i32 0, i32 1
-  %_3000001 = load ptr, ptr %_4000007, !dereferenceable_or_null !{i64 16}
-  %_2000005 = call dereferenceable_or_null(56) ptr @"_SM31java.nio.charset.CharsetEncoderD16onMalformedInputL34java.nio.charset.CodingErrorActionL31java.nio.charset.CharsetEncoderEO"(ptr dereferenceable_or_null(56) %_2000003, ptr dereferenceable_or_null(16) %_3000001)
-  %_4000008 = getelementptr { { ptr }, ptr, ptr, ptr }, { { ptr }, ptr, ptr, ptr }* %_2000004, i32 0, i32 1
-  %_4000001 = load ptr, ptr %_4000008, !dereferenceable_or_null !{i64 16}
-  %_2000006 = call dereferenceable_or_null(56) ptr @"_SM31java.nio.charset.CharsetEncoderD21onUnmappableCharacterL34java.nio.charset.CodingErrorActionL31java.nio.charset.CharsetEncoderEO"(ptr dereferenceable_or_null(56) %_2000005, ptr dereferenceable_or_null(16) %_4000001)
+  %_2000003 = call dereferenceable_or_null(64) ptr %_2000002(ptr dereferenceable_or_null(56) %_1)
+  %_2000004 = call dereferenceable_or_null(40) ptr @"_SM35java.nio.charset.CodingErrorAction$G4load"()
+  %_4000007 = getelementptr { { ptr, ptr }, ptr, ptr, ptr }, { { ptr, ptr }, ptr, ptr, ptr }* %_2000004, i32 0, i32 1
+  %_3000001 = load atomic ptr, ptr %_4000007 unordered, align 8
+  %_2000005 = call dereferenceable_or_null(64) ptr @"_SM31java.nio.charset.CharsetEncoderD16onMalformedInputL34java.nio.charset.CodingErrorActionL31java.nio.charset.CharsetEncoderEO"(ptr dereferenceable_or_null(64) %_2000003, ptr dereferenceable_or_null(24) %_3000001)
+  %_4000008 = getelementptr { { ptr, ptr }, ptr, ptr, ptr }, { { ptr, ptr }, ptr, ptr, ptr }* %_2000004, i32 0, i32 1
+  %_4000001 = load atomic ptr, ptr %_4000008 unordered, align 8
+  %_2000006 = call dereferenceable_or_null(64) ptr @"_SM31java.nio.charset.CharsetEncoderD21onUnmappableCharacterL34java.nio.charset.CodingErrorActionL31java.nio.charset.CharsetEncoderEO"(ptr dereferenceable_or_null(64) %_2000005, ptr dereferenceable_or_null(24) %_4000001)
   ret ptr %_2000006
 _4000003.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
   unreachable
 }
 
-define dereferenceable_or_null(32) ptr @"_SM24java.nio.charset.CharsetD4nameL16java.lang.StringEO"(ptr %_1) personality ptr @scalanative_personality {
+define dereferenceable_or_null(40) ptr @"_SM24java.nio.charset.CharsetD4nameL16java.lang.StringEO"(ptr %_1) personality ptr @scalanative_personality {
 _2000000.0:
   %_2000004 = icmp ne ptr %_1, null
   br i1 %_2000004, label %_2000002.0, label %_2000003.0
 _2000002.0:
-  %_2000005 = getelementptr { { ptr }, ptr, ptr, ptr, i64, ptr }, { { ptr }, ptr, ptr, ptr, i64, ptr }* %_1, i32 0, i32 2
-  %_2000001 = load ptr, ptr %_2000005, !dereferenceable_or_null !{i64 32}
+  %_2000005 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, i64, ptr }, { { ptr, ptr }, ptr, ptr, ptr, i64, ptr }* %_1, i32 0, i32 2
+  %_2000001 = load atomic ptr, ptr %_2000005 unordered, align 8
   ret ptr %_2000001
 _2000003.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
   unreachable
 }
 
-define dereferenceable_or_null(56) ptr @"_SM24java.nio.charset.CharsetD6decodeL19java.nio.ByteBufferL19java.nio.CharBufferEO"(ptr %_2, ptr %_1) personality ptr @scalanative_personality {
+define dereferenceable_or_null(64) ptr @"_SM24java.nio.charset.CharsetD6decodeL19java.nio.ByteBufferL19java.nio.CharBufferEO"(ptr %_2, ptr %_1) personality ptr @scalanative_personality {
 _3.0:
   %_13 = icmp ne ptr %_2, null
   br i1 %_13, label %_11.0, label %_12.0
 _11.0:
-  %_5 = call dereferenceable_or_null(24) ptr @"_SM24java.nio.charset.CharsetD13cachedDecoderL21java.lang.ThreadLocalEPT24java.nio.charset.Charset"(ptr dereferenceable_or_null(48) %_2)
+  %_5 = call dereferenceable_or_null(32) ptr @"_SM24java.nio.charset.CharsetD13cachedDecoderL21java.lang.ThreadLocalEPT24java.nio.charset.Charset"(ptr dereferenceable_or_null(56) %_2)
   %_15 = icmp ne ptr %_5, null
   br i1 %_15, label %_14.0, label %_12.0
 _14.0:
-  %_7 = call dereferenceable_or_null(8) ptr @"_SM21java.lang.ThreadLocalD3getL16java.lang.ObjectEO"(ptr dereferenceable_or_null(24) %_5)
+  %_7 = call dereferenceable_or_null(16) ptr @"_SM21java.lang.ThreadLocalD3getL16java.lang.ObjectEO"(ptr dereferenceable_or_null(32) %_5)
   %_19 = icmp eq ptr %_7, null
   br i1 %_19, label %_17.0, label %_16.0
 _16.0:
   %_20 = load ptr, ptr %_7
-  %_21 = getelementptr { ptr, i32, i32, ptr, ptr }, { ptr, i32, i32, ptr, ptr }* %_20, i32 0, i32 1
+  %_21 = getelementptr { ptr, ptr, i32, i32, ptr, ptr }, { ptr, ptr, i32, i32, ptr, ptr }* %_20, i32 0, i32 2
   %_22 = load i32, ptr %_21
-  %_23 = icmp sle i32 1293, %_22
-  %_24 = icmp sle i32 %_22, 1296
+  %_23 = icmp sle i32 27, %_22
+  %_24 = icmp sle i32 %_22, 30
   %_25 = and i1 %_23, %_24
   br i1 %_25, label %_17.0, label %_18.0
 _17.0:
   %_27 = icmp ne ptr %_7, null
   br i1 %_27, label %_26.0, label %_12.0
 _26.0:
-  %_10 = call dereferenceable_or_null(56) ptr @"_SM31java.nio.charset.CharsetDecoderD6decodeL19java.nio.ByteBufferL19java.nio.CharBufferEO"(ptr dereferenceable_or_null(56) %_7, ptr dereferenceable_or_null(56) %_1)
+  %_10 = call dereferenceable_or_null(64) ptr @"_SM31java.nio.charset.CharsetDecoderD6decodeL19java.nio.ByteBufferL19java.nio.CharBufferEO"(ptr dereferenceable_or_null(64) %_7, ptr dereferenceable_or_null(64) %_1)
   ret ptr %_10
 _12.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
@@ -957,31 +959,31 @@ _18.0:
   unreachable
 }
 
-define dereferenceable_or_null(56) ptr @"_SM24java.nio.charset.CharsetD6encodeL19java.nio.CharBufferL19java.nio.ByteBufferEO"(ptr %_2, ptr %_1) personality ptr @scalanative_personality {
+define dereferenceable_or_null(64) ptr @"_SM24java.nio.charset.CharsetD6encodeL19java.nio.CharBufferL19java.nio.ByteBufferEO"(ptr %_2, ptr %_1) personality ptr @scalanative_personality {
 _3.0:
   %_13 = icmp ne ptr %_2, null
   br i1 %_13, label %_11.0, label %_12.0
 _11.0:
-  %_5 = call dereferenceable_or_null(24) ptr @"_SM24java.nio.charset.CharsetD13cachedEncoderL21java.lang.ThreadLocalEPT24java.nio.charset.Charset"(ptr dereferenceable_or_null(48) %_2)
+  %_5 = call dereferenceable_or_null(32) ptr @"_SM24java.nio.charset.CharsetD13cachedEncoderL21java.lang.ThreadLocalEPT24java.nio.charset.Charset"(ptr dereferenceable_or_null(56) %_2)
   %_15 = icmp ne ptr %_5, null
   br i1 %_15, label %_14.0, label %_12.0
 _14.0:
-  %_7 = call dereferenceable_or_null(8) ptr @"_SM21java.lang.ThreadLocalD3getL16java.lang.ObjectEO"(ptr dereferenceable_or_null(24) %_5)
+  %_7 = call dereferenceable_or_null(16) ptr @"_SM21java.lang.ThreadLocalD3getL16java.lang.ObjectEO"(ptr dereferenceable_or_null(32) %_5)
   %_19 = icmp eq ptr %_7, null
   br i1 %_19, label %_17.0, label %_16.0
 _16.0:
   %_20 = load ptr, ptr %_7
-  %_21 = getelementptr { ptr, i32, i32, ptr, ptr }, { ptr, i32, i32, ptr, ptr }* %_20, i32 0, i32 1
+  %_21 = getelementptr { ptr, ptr, i32, i32, ptr, ptr }, { ptr, ptr, i32, i32, ptr, ptr }* %_20, i32 0, i32 2
   %_22 = load i32, ptr %_21
-  %_23 = icmp sle i32 570, %_22
-  %_24 = icmp sle i32 %_22, 573
+  %_23 = icmp sle i32 1779, %_22
+  %_24 = icmp sle i32 %_22, 1782
   %_25 = and i1 %_23, %_24
   br i1 %_25, label %_17.0, label %_18.0
 _17.0:
   %_27 = icmp ne ptr %_7, null
   br i1 %_27, label %_26.0, label %_12.0
 _26.0:
-  %_10 = call dereferenceable_or_null(56) ptr @"_SM31java.nio.charset.CharsetEncoderD6encodeL19java.nio.CharBufferL19java.nio.ByteBufferEO"(ptr dereferenceable_or_null(56) %_7, ptr dereferenceable_or_null(56) %_1)
+  %_10 = call dereferenceable_or_null(64) ptr @"_SM31java.nio.charset.CharsetEncoderD6encodeL19java.nio.CharBufferL19java.nio.ByteBufferEO"(ptr dereferenceable_or_null(64) %_7, ptr dereferenceable_or_null(64) %_1)
   ret ptr %_10
 _12.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
@@ -1007,10 +1009,10 @@ _11000004.0:
   br label %_11000006.0
 _11000005.0:
   %_11000008 = load ptr, ptr %_2
-  %_11000009 = getelementptr { ptr, i32, i32, ptr, ptr }, { ptr, i32, i32, ptr, ptr }* %_11000008, i32 0, i32 1
+  %_11000009 = getelementptr { ptr, ptr, i32, i32, ptr, ptr }, { ptr, ptr, i32, i32, ptr, ptr }* %_11000008, i32 0, i32 2
   %_11000010 = load i32, ptr %_11000009
-  %_11000011 = icmp sle i32 753, %_11000010
-  %_11000012 = icmp sle i32 %_11000010, 761
+  %_11000011 = icmp sle i32 1380, %_11000010
+  %_11000012 = icmp sle i32 %_11000010, 1388
   %_11000013 = and i1 %_11000011, %_11000012
   br label %_11000006.0
 _11000006.0:
@@ -1021,23 +1023,23 @@ _5000000.0:
   br i1 %_11000017, label %_11000015.0, label %_11000014.0
 _11000014.0:
   %_11000018 = load ptr, ptr %_2
-  %_11000019 = getelementptr { ptr, i32, i32, ptr, ptr }, { ptr, i32, i32, ptr, ptr }* %_11000018, i32 0, i32 1
+  %_11000019 = getelementptr { ptr, ptr, i32, i32, ptr, ptr }, { ptr, ptr, i32, i32, ptr, ptr }* %_11000018, i32 0, i32 2
   %_11000020 = load i32, ptr %_11000019
-  %_11000021 = icmp sle i32 753, %_11000020
-  %_11000022 = icmp sle i32 %_11000020, 761
+  %_11000021 = icmp sle i32 1380, %_11000020
+  %_11000022 = icmp sle i32 %_11000020, 1388
   %_11000023 = and i1 %_11000021, %_11000022
   br i1 %_11000023, label %_11000015.0, label %_11000016.0
 _11000015.0:
-  %_5000002 = call dereferenceable_or_null(32) ptr @"_SM24java.nio.charset.CharsetD4nameL16java.lang.StringEO"(ptr dereferenceable_or_null(48) %_1)
+  %_5000002 = call dereferenceable_or_null(40) ptr @"_SM24java.nio.charset.CharsetD4nameL16java.lang.StringEO"(ptr dereferenceable_or_null(56) %_1)
   %_5000004 = icmp eq ptr %_5000002, null
   br i1 %_5000004, label %_7000000.0, label %_8000000.0
 _7000000.0:
-  %_7000001 = call dereferenceable_or_null(32) ptr @"_SM24java.nio.charset.CharsetD4nameL16java.lang.StringEO"(ptr dereferenceable_or_null(48) %_2)
+  %_7000001 = call dereferenceable_or_null(40) ptr @"_SM24java.nio.charset.CharsetD4nameL16java.lang.StringEO"(ptr dereferenceable_or_null(56) %_2)
   %_7000003 = icmp eq ptr %_7000001, null
   br label %_9000000.0
 _8000000.0:
-  %_8000001 = call dereferenceable_or_null(32) ptr @"_SM24java.nio.charset.CharsetD4nameL16java.lang.StringEO"(ptr dereferenceable_or_null(48) %_2)
-  %_8000002 = call i1 @"_SM16java.lang.StringD6equalsL16java.lang.ObjectzEO"(ptr dereferenceable_or_null(32) %_5000002, ptr dereferenceable_or_null(32) %_8000001)
+  %_8000001 = call dereferenceable_or_null(40) ptr @"_SM24java.nio.charset.CharsetD4nameL16java.lang.StringEO"(ptr dereferenceable_or_null(56) %_2)
+  %_8000002 = call i1 @"_SM16java.lang.StringD6equalsL16java.lang.ObjectzEO"(ptr dereferenceable_or_null(40) %_5000002, ptr dereferenceable_or_null(40) %_8000001)
   br label %_9000000.0
 _9000000.0:
   %_9000001 = phi i1 [%_8000002, %_8000000.0], [%_7000003, %_7000000.0]
@@ -1065,20 +1067,20 @@ _2000000.0:
   %_2000005 = icmp ne ptr %_1, null
   br i1 %_2000005, label %_2000003.0, label %_2000004.0
 _2000003.0:
-  %_2000001 = call dereferenceable_or_null(32) ptr @"_SM24java.nio.charset.CharsetD4nameL16java.lang.StringEO"(ptr dereferenceable_or_null(48) %_1)
-  %_2000002 = call i32 @"_SM21scala.runtime.StaticsD7anyHashL16java.lang.ObjectiEo"(ptr dereferenceable_or_null(32) %_2000001)
+  %_2000001 = call dereferenceable_or_null(40) ptr @"_SM24java.nio.charset.CharsetD4nameL16java.lang.StringEO"(ptr dereferenceable_or_null(56) %_1)
+  %_2000002 = call i32 @"_SM21scala.runtime.StaticsD7anyHashL16java.lang.ObjectiEo"(ptr dereferenceable_or_null(40) %_2000001)
   ret i32 %_2000002
 _2000004.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
   unreachable
 }
 
-define dereferenceable_or_null(32) ptr @"_SM24java.nio.charset.CharsetD8toStringL16java.lang.StringEO"(ptr %_1) personality ptr @scalanative_personality {
+define dereferenceable_or_null(40) ptr @"_SM24java.nio.charset.CharsetD8toStringL16java.lang.StringEO"(ptr %_1) personality ptr @scalanative_personality {
 _2000000.0:
   %_2000004 = icmp ne ptr %_1, null
   br i1 %_2000004, label %_2000002.0, label %_2000003.0
 _2000002.0:
-  %_2000001 = call dereferenceable_or_null(32) ptr @"_SM24java.nio.charset.CharsetD4nameL16java.lang.StringEO"(ptr dereferenceable_or_null(48) %_1)
+  %_2000001 = call dereferenceable_or_null(40) ptr @"_SM24java.nio.charset.CharsetD4nameL16java.lang.StringEO"(ptr dereferenceable_or_null(56) %_1)
   ret ptr %_2000001
 _2000003.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
@@ -1094,14 +1096,14 @@ _3000003.0:
   br i1 %_3000009, label %_3000007.0, label %_3000006.0
 _3000006.0:
   %_3000010 = load ptr, ptr %_2
-  %_3000011 = getelementptr { ptr, i32, i32, ptr, ptr }, { ptr, i32, i32, ptr, ptr }* %_3000010, i32 0, i32 1
+  %_3000011 = getelementptr { ptr, ptr, i32, i32, ptr, ptr }, { ptr, ptr, i32, i32, ptr, ptr }* %_3000010, i32 0, i32 2
   %_3000012 = load i32, ptr %_3000011
-  %_3000013 = icmp sle i32 753, %_3000012
-  %_3000014 = icmp sle i32 %_3000012, 761
+  %_3000013 = icmp sle i32 1380, %_3000012
+  %_3000014 = icmp sle i32 %_3000012, 1388
   %_3000015 = and i1 %_3000013, %_3000014
   br i1 %_3000015, label %_3000007.0, label %_3000008.0
 _3000007.0:
-  %_3000002 = call i32 @"_SM24java.nio.charset.CharsetD9compareToL24java.nio.charset.CharsetiEO"(ptr dereferenceable_or_null(48) %_1, ptr dereferenceable_or_null(48) %_2)
+  %_3000002 = call i32 @"_SM24java.nio.charset.CharsetD9compareToL24java.nio.charset.CharsetiEO"(ptr dereferenceable_or_null(56) %_1, ptr dereferenceable_or_null(56) %_2)
   ret i32 %_3000002
 _3000004.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
@@ -1119,16 +1121,16 @@ _3000000.0:
   %_3000006 = icmp ne ptr %_1, null
   br i1 %_3000006, label %_3000004.0, label %_3000005.0
 _3000004.0:
-  %_3000001 = call dereferenceable_or_null(32) ptr @"_SM24java.nio.charset.CharsetD4nameL16java.lang.StringEO"(ptr dereferenceable_or_null(48) %_1)
-  %_3000002 = call dereferenceable_or_null(32) ptr @"_SM24java.nio.charset.CharsetD4nameL16java.lang.StringEO"(ptr dereferenceable_or_null(48) %_2)
-  %_3000003 = call i32 @"_SM16java.lang.StringD19compareToIgnoreCaseL16java.lang.StringiEO"(ptr dereferenceable_or_null(32) %_3000001, ptr dereferenceable_or_null(32) %_3000002)
+  %_3000001 = call dereferenceable_or_null(40) ptr @"_SM24java.nio.charset.CharsetD4nameL16java.lang.StringEO"(ptr dereferenceable_or_null(56) %_1)
+  %_3000002 = call dereferenceable_or_null(40) ptr @"_SM24java.nio.charset.CharsetD4nameL16java.lang.StringEO"(ptr dereferenceable_or_null(56) %_2)
+  %_3000003 = call i32 @"_SM16java.lang.StringD19compareToIgnoreCaseL16java.lang.StringiEO"(ptr dereferenceable_or_null(40) %_3000001, ptr dereferenceable_or_null(40) %_3000002)
   ret i32 %_3000003
 _3000005.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
   unreachable
 }
 
-define dereferenceable_or_null(8) ptr @"_SM25java.nio.charset.Charset$D10CharsetMapL28scala.collection.mutable.MapEPT25java.nio.charset.Charset$"(ptr %_1) alwaysinline personality ptr @scalanative_personality {
+define dereferenceable_or_null(16) ptr @"_SM25java.nio.charset.Charset$D10CharsetMapL28scala.collection.mutable.MapEPT25java.nio.charset.Charset$"(ptr %_1) alwaysinline personality ptr @scalanative_personality {
 _2.0:
   br label %_3.0
 _3.0:
@@ -1137,39 +1139,39 @@ _4.0:
   %_339 = icmp ne ptr %_1, null
   br i1 %_339, label %_337.0, label %_338.0
 _337.0:
-  %_340 = getelementptr { { ptr }, ptr, i64 }, { { ptr }, ptr, i64 }* %_1, i32 0, i32 2
-  %_9 = call i64 @"_SM35scala.scalanative.runtime.LazyVals$D3getR_jEO"(ptr nonnull dereferenceable(8) @"_SM35scala.scalanative.runtime.LazyVals$G8instance", ptr %_340)
-  %_12 = call i64 @"_SM23scala.runtime.LazyVals$D5STATEjijEO"(ptr nonnull dereferenceable(8) @"_SM23scala.runtime.LazyVals$G8instance", i64 %_9, i32 1)
+  %_340 = getelementptr { { ptr, ptr }, ptr, i64 }, { { ptr, ptr }, ptr, i64 }* %_1, i32 0, i32 2
+  %_9 = call i64 @"_SM35scala.scalanative.runtime.LazyVals$D3getR_jEO"(ptr nonnull dereferenceable(16) @"_SM35scala.scalanative.runtime.LazyVals$G8instance", ptr %_340)
+  %_12 = call i64 @"_SM23scala.runtime.LazyVals$D5STATEjijEO"(ptr nonnull dereferenceable(16) @"_SM23scala.runtime.LazyVals$G8instance", i64 %_9, i32 1)
   %_17 = sext i32 3 to i64
   %_18 = icmp eq i64 %_12, %_17
   br i1 %_18, label %_13.0, label %_14.0
 _13.0:
-  %_19 = call dereferenceable_or_null(24) ptr @"_SM25java.nio.charset.Charset$G4load"()
-  %_341 = getelementptr { { ptr }, ptr, i64 }, { { ptr }, ptr, i64 }* %_19, i32 0, i32 1
-  %_20 = load ptr, ptr %_341, !dereferenceable_or_null !{i64 8}
+  %_19 = call dereferenceable_or_null(32) ptr @"_SM25java.nio.charset.Charset$G4load"()
+  %_341 = getelementptr { { ptr, ptr }, ptr, i64 }, { { ptr, ptr }, ptr, i64 }* %_19, i32 0, i32 1
+  %_20 = load atomic ptr, ptr %_341 unordered, align 8
   ret ptr %_20
 _14.0:
   %_26 = sext i32 0 to i64
   %_27 = icmp eq i64 %_12, %_26
   br i1 %_27, label %_22.0, label %_23.0
 _22.0:
-  %_342 = getelementptr { { ptr }, ptr, i64 }, { { ptr }, ptr, i64 }* %_1, i32 0, i32 2
-  %_35 = call i1 @"_SM35scala.scalanative.runtime.LazyVals$D3CASR_jiizEO"(ptr nonnull dereferenceable(8) @"_SM35scala.scalanative.runtime.LazyVals$G8instance", ptr %_342, i64 %_9, i32 1, i32 1)
+  %_342 = getelementptr { { ptr, ptr }, ptr, i64 }, { { ptr, ptr }, ptr, i64 }* %_1, i32 0, i32 2
+  %_35 = call i1 @"_SM35scala.scalanative.runtime.LazyVals$D3CASR_jiizEO"(ptr nonnull dereferenceable(16) @"_SM35scala.scalanative.runtime.LazyVals$G8instance", ptr %_342, i64 %_9, i32 1, i32 1)
   br i1 %_35, label %_28.0, label %_29.0
 _28.0:
   br label %_37.0
 _37.0:
-  %_42 = invoke dereferenceable_or_null(16) ptr @"_SM29scala.collection.mutable.Map$G4load"() to label %_37.1 unwind label %_344.landingpad
+  %_42 = invoke dereferenceable_or_null(24) ptr @"_SM29scala.collection.mutable.Map$G4load"() to label %_37.1 unwind label %_344.landingpad
 _37.1:
-  %_46 = invoke dereferenceable_or_null(8) ptr @"_SM36scala.collection.MapFactory$DelegateD5emptyL16java.lang.ObjectEO"(ptr nonnull dereferenceable(16) %_42) to label %_37.2 unwind label %_348.landingpad
+  %_46 = invoke dereferenceable_or_null(16) ptr @"_SM36scala.collection.MapFactory$DelegateD5emptyL16java.lang.ObjectEO"(ptr nonnull dereferenceable(24) %_42) to label %_37.2 unwind label %_348.landingpad
 _37.2:
   %_354 = icmp eq ptr %_46, null
   br i1 %_354, label %_351.0, label %_350.0
 _350.0:
   %_356 = load ptr, ptr %_46
-  %_358 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_356, i32 0, i32 4
+  %_358 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_356, i32 0, i32 4
   %_360 = load i32, ptr %_358
-  %_363 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_356, i32 0, i32 5
+  %_363 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_356, i32 0, i32 5
   %_365 = load ptr, ptr %_363
   %_367 = and i32 -2147483540, %_360
   %_369 = getelementptr { i32, ptr }, { i32, ptr }* %_365, i32 %_367, i32 0
@@ -1177,608 +1179,608 @@ _350.0:
   %_373 = icmp eq i32 -2147483540, %_371
   br i1 %_373, label %_351.0, label %_352.0
 _351.0:
-  %_54 = invoke dereferenceable_or_null(16) ptr @"_SM14scala.package$D3SeqL31scala.collection.immutable.Seq$EO"(ptr nonnull dereferenceable(8) @"_SM14scala.package$G8instance") to label %_351.1 unwind label %_380.landingpad
+  %_54 = invoke dereferenceable_or_null(24) ptr @"_SM14scala.package$D3SeqL31scala.collection.immutable.Seq$EO"(ptr nonnull dereferenceable(16) @"_SM14scala.package$G8instance") to label %_351.1 unwind label %_380.landingpad
 _351.1:
-  %_58 = invoke dereferenceable_or_null(16) ptr @"_SM38scala.scalanative.runtime.ObjectArray$D5allociL37scala.scalanative.runtime.ObjectArrayEO"(ptr @"_SM38scala.scalanative.runtime.ObjectArray$G8instance", i32 15) to label %_351.2 unwind label %_386.landingpad
+  %_58 = invoke dereferenceable_or_null(24) ptr @"_SM38scala.scalanative.runtime.ObjectArray$D5allociL37scala.scalanative.runtime.ObjectArrayEO"(ptr @"_SM38scala.scalanative.runtime.ObjectArray$G8instance", i32 15) to label %_351.2 unwind label %_386.landingpad
 _351.2:
-  %_391 = getelementptr { ptr, i32, i32 }, { ptr, i32, i32 }* %_58, i32 0, i32 1
-  %_389 = load i32, ptr %_391
+  %_391 = getelementptr { ptr, ptr, i32, i32 }, { ptr, ptr, i32, i32 }* %_58, i32 0, i32 2
+  %_389 = load atomic i32, ptr %_391 unordered, align 4
   %_396 = icmp sge i32 0, 0
   %_398 = icmp slt i32 0, %_389
   %_400 = and i1 %_396, %_398
   br i1 %_400, label %_393.0, label %_394.0
 _393.0:
-  %_402 = getelementptr { { ptr, i32, i32 }, [0 x ptr] }, { { ptr, i32, i32 }, [0 x ptr] }* %_58, i32 0, i32 1, i32 0
-  store ptr @"_SM7__constG2-99", ptr%_402, align 8
-  %_409 = getelementptr { ptr, i32, i32 }, { ptr, i32, i32 }* %_58, i32 0, i32 1
-  %_407 = load i32, ptr %_409
+  %_402 = getelementptr { { ptr, ptr, i32, i32 }, [0 x ptr] }, { { ptr, ptr, i32, i32 }, [0 x ptr] }* %_58, i32 0, i32 1, i32 0
+  store atomic ptr @"_SM7__constG2-99", ptr%_402 unordered, align 8
+  %_409 = getelementptr { ptr, ptr, i32, i32 }, { ptr, ptr, i32, i32 }* %_58, i32 0, i32 2
+  %_407 = load atomic i32, ptr %_409 unordered, align 4
   %_414 = icmp sge i32 1, 0
   %_416 = icmp slt i32 1, %_407
   %_418 = and i1 %_414, %_416
   br i1 %_418, label %_411.0, label %_412.0
 _411.0:
-  %_420 = getelementptr { { ptr, i32, i32 }, [0 x ptr] }, { { ptr, i32, i32 }, [0 x ptr] }* %_58, i32 0, i32 1, i32 1
-  store ptr @"_SM7__constG3-101", ptr%_420, align 8
-  %_427 = getelementptr { ptr, i32, i32 }, { ptr, i32, i32 }* %_58, i32 0, i32 1
-  %_425 = load i32, ptr %_427
+  %_420 = getelementptr { { ptr, ptr, i32, i32 }, [0 x ptr] }, { { ptr, ptr, i32, i32 }, [0 x ptr] }* %_58, i32 0, i32 1, i32 1
+  store atomic ptr @"_SM7__constG3-101", ptr%_420 unordered, align 8
+  %_427 = getelementptr { ptr, ptr, i32, i32 }, { ptr, ptr, i32, i32 }* %_58, i32 0, i32 2
+  %_425 = load atomic i32, ptr %_427 unordered, align 4
   %_432 = icmp sge i32 2, 0
   %_434 = icmp slt i32 2, %_425
   %_436 = and i1 %_432, %_434
   br i1 %_436, label %_429.0, label %_430.0
 _429.0:
-  %_438 = getelementptr { { ptr, i32, i32 }, [0 x ptr] }, { { ptr, i32, i32 }, [0 x ptr] }* %_58, i32 0, i32 1, i32 2
-  store ptr @"_SM7__constG3-103", ptr%_438, align 8
-  %_445 = getelementptr { ptr, i32, i32 }, { ptr, i32, i32 }* %_58, i32 0, i32 1
-  %_443 = load i32, ptr %_445
+  %_438 = getelementptr { { ptr, ptr, i32, i32 }, [0 x ptr] }, { { ptr, ptr, i32, i32 }, [0 x ptr] }* %_58, i32 0, i32 1, i32 2
+  store atomic ptr @"_SM7__constG3-103", ptr%_438 unordered, align 8
+  %_445 = getelementptr { ptr, ptr, i32, i32 }, { ptr, ptr, i32, i32 }* %_58, i32 0, i32 2
+  %_443 = load atomic i32, ptr %_445 unordered, align 4
   %_450 = icmp sge i32 3, 0
   %_452 = icmp slt i32 3, %_443
   %_454 = and i1 %_450, %_452
   br i1 %_454, label %_447.0, label %_448.0
 _447.0:
-  %_456 = getelementptr { { ptr, i32, i32 }, [0 x ptr] }, { { ptr, i32, i32 }, [0 x ptr] }* %_58, i32 0, i32 1, i32 3
-  store ptr @"_SM7__constG3-105", ptr%_456, align 8
-  %_463 = getelementptr { ptr, i32, i32 }, { ptr, i32, i32 }* %_58, i32 0, i32 1
-  %_461 = load i32, ptr %_463
+  %_456 = getelementptr { { ptr, ptr, i32, i32 }, [0 x ptr] }, { { ptr, ptr, i32, i32 }, [0 x ptr] }* %_58, i32 0, i32 1, i32 3
+  store atomic ptr @"_SM7__constG3-105", ptr%_456 unordered, align 8
+  %_463 = getelementptr { ptr, ptr, i32, i32 }, { ptr, ptr, i32, i32 }* %_58, i32 0, i32 2
+  %_461 = load atomic i32, ptr %_463 unordered, align 4
   %_468 = icmp sge i32 4, 0
   %_470 = icmp slt i32 4, %_461
   %_472 = and i1 %_468, %_470
   br i1 %_472, label %_465.0, label %_466.0
 _465.0:
-  %_474 = getelementptr { { ptr, i32, i32 }, [0 x ptr] }, { { ptr, i32, i32 }, [0 x ptr] }* %_58, i32 0, i32 1, i32 4
-  store ptr @"_SM7__constG3-107", ptr%_474, align 8
-  %_481 = getelementptr { ptr, i32, i32 }, { ptr, i32, i32 }* %_58, i32 0, i32 1
-  %_479 = load i32, ptr %_481
+  %_474 = getelementptr { { ptr, ptr, i32, i32 }, [0 x ptr] }, { { ptr, ptr, i32, i32 }, [0 x ptr] }* %_58, i32 0, i32 1, i32 4
+  store atomic ptr @"_SM7__constG3-107", ptr%_474 unordered, align 8
+  %_481 = getelementptr { ptr, ptr, i32, i32 }, { ptr, ptr, i32, i32 }* %_58, i32 0, i32 2
+  %_479 = load atomic i32, ptr %_481 unordered, align 4
   %_486 = icmp sge i32 5, 0
   %_488 = icmp slt i32 5, %_479
   %_490 = and i1 %_486, %_488
   br i1 %_490, label %_483.0, label %_484.0
 _483.0:
-  %_492 = getelementptr { { ptr, i32, i32 }, [0 x ptr] }, { { ptr, i32, i32 }, [0 x ptr] }* %_58, i32 0, i32 1, i32 5
-  store ptr @"_SM7__constG3-109", ptr%_492, align 8
-  %_499 = getelementptr { ptr, i32, i32 }, { ptr, i32, i32 }* %_58, i32 0, i32 1
-  %_497 = load i32, ptr %_499
+  %_492 = getelementptr { { ptr, ptr, i32, i32 }, [0 x ptr] }, { { ptr, ptr, i32, i32 }, [0 x ptr] }* %_58, i32 0, i32 1, i32 5
+  store atomic ptr @"_SM7__constG3-109", ptr%_492 unordered, align 8
+  %_499 = getelementptr { ptr, ptr, i32, i32 }, { ptr, ptr, i32, i32 }* %_58, i32 0, i32 2
+  %_497 = load atomic i32, ptr %_499 unordered, align 4
   %_504 = icmp sge i32 6, 0
   %_506 = icmp slt i32 6, %_497
   %_508 = and i1 %_504, %_506
   br i1 %_508, label %_501.0, label %_502.0
 _501.0:
-  %_510 = getelementptr { { ptr, i32, i32 }, [0 x ptr] }, { { ptr, i32, i32 }, [0 x ptr] }* %_58, i32 0, i32 1, i32 6
-  store ptr @"_SM7__constG3-111", ptr%_510, align 8
-  %_517 = getelementptr { ptr, i32, i32 }, { ptr, i32, i32 }* %_58, i32 0, i32 1
-  %_515 = load i32, ptr %_517
+  %_510 = getelementptr { { ptr, ptr, i32, i32 }, [0 x ptr] }, { { ptr, ptr, i32, i32 }, [0 x ptr] }* %_58, i32 0, i32 1, i32 6
+  store atomic ptr @"_SM7__constG3-111", ptr%_510 unordered, align 8
+  %_517 = getelementptr { ptr, ptr, i32, i32 }, { ptr, ptr, i32, i32 }* %_58, i32 0, i32 2
+  %_515 = load atomic i32, ptr %_517 unordered, align 4
   %_522 = icmp sge i32 7, 0
   %_524 = icmp slt i32 7, %_515
   %_526 = and i1 %_522, %_524
   br i1 %_526, label %_519.0, label %_520.0
 _519.0:
-  %_528 = getelementptr { { ptr, i32, i32 }, [0 x ptr] }, { { ptr, i32, i32 }, [0 x ptr] }* %_58, i32 0, i32 1, i32 7
-  store ptr @"_SM7__constG3-113", ptr%_528, align 8
-  %_535 = getelementptr { ptr, i32, i32 }, { ptr, i32, i32 }* %_58, i32 0, i32 1
-  %_533 = load i32, ptr %_535
+  %_528 = getelementptr { { ptr, ptr, i32, i32 }, [0 x ptr] }, { { ptr, ptr, i32, i32 }, [0 x ptr] }* %_58, i32 0, i32 1, i32 7
+  store atomic ptr @"_SM7__constG3-113", ptr%_528 unordered, align 8
+  %_535 = getelementptr { ptr, ptr, i32, i32 }, { ptr, ptr, i32, i32 }* %_58, i32 0, i32 2
+  %_533 = load atomic i32, ptr %_535 unordered, align 4
   %_540 = icmp sge i32 8, 0
   %_542 = icmp slt i32 8, %_533
   %_544 = and i1 %_540, %_542
   br i1 %_544, label %_537.0, label %_538.0
 _537.0:
-  %_546 = getelementptr { { ptr, i32, i32 }, [0 x ptr] }, { { ptr, i32, i32 }, [0 x ptr] }* %_58, i32 0, i32 1, i32 8
-  store ptr @"_SM7__constG3-115", ptr%_546, align 8
-  %_553 = getelementptr { ptr, i32, i32 }, { ptr, i32, i32 }* %_58, i32 0, i32 1
-  %_551 = load i32, ptr %_553
+  %_546 = getelementptr { { ptr, ptr, i32, i32 }, [0 x ptr] }, { { ptr, ptr, i32, i32 }, [0 x ptr] }* %_58, i32 0, i32 1, i32 8
+  store atomic ptr @"_SM7__constG3-115", ptr%_546 unordered, align 8
+  %_553 = getelementptr { ptr, ptr, i32, i32 }, { ptr, ptr, i32, i32 }* %_58, i32 0, i32 2
+  %_551 = load atomic i32, ptr %_553 unordered, align 4
   %_558 = icmp sge i32 9, 0
   %_560 = icmp slt i32 9, %_551
   %_562 = and i1 %_558, %_560
   br i1 %_562, label %_555.0, label %_556.0
 _555.0:
-  %_564 = getelementptr { { ptr, i32, i32 }, [0 x ptr] }, { { ptr, i32, i32 }, [0 x ptr] }* %_58, i32 0, i32 1, i32 9
-  store ptr @"_SM7__constG3-117", ptr%_564, align 8
-  %_571 = getelementptr { ptr, i32, i32 }, { ptr, i32, i32 }* %_58, i32 0, i32 1
-  %_569 = load i32, ptr %_571
+  %_564 = getelementptr { { ptr, ptr, i32, i32 }, [0 x ptr] }, { { ptr, ptr, i32, i32 }, [0 x ptr] }* %_58, i32 0, i32 1, i32 9
+  store atomic ptr @"_SM7__constG3-117", ptr%_564 unordered, align 8
+  %_571 = getelementptr { ptr, ptr, i32, i32 }, { ptr, ptr, i32, i32 }* %_58, i32 0, i32 2
+  %_569 = load atomic i32, ptr %_571 unordered, align 4
   %_576 = icmp sge i32 10, 0
   %_578 = icmp slt i32 10, %_569
   %_580 = and i1 %_576, %_578
   br i1 %_580, label %_573.0, label %_574.0
 _573.0:
-  %_582 = getelementptr { { ptr, i32, i32 }, [0 x ptr] }, { { ptr, i32, i32 }, [0 x ptr] }* %_58, i32 0, i32 1, i32 10
-  store ptr @"_SM7__constG3-119", ptr%_582, align 8
-  %_589 = getelementptr { ptr, i32, i32 }, { ptr, i32, i32 }* %_58, i32 0, i32 1
-  %_587 = load i32, ptr %_589
+  %_582 = getelementptr { { ptr, ptr, i32, i32 }, [0 x ptr] }, { { ptr, ptr, i32, i32 }, [0 x ptr] }* %_58, i32 0, i32 1, i32 10
+  store atomic ptr @"_SM7__constG3-119", ptr%_582 unordered, align 8
+  %_589 = getelementptr { ptr, ptr, i32, i32 }, { ptr, ptr, i32, i32 }* %_58, i32 0, i32 2
+  %_587 = load atomic i32, ptr %_589 unordered, align 4
   %_594 = icmp sge i32 11, 0
   %_596 = icmp slt i32 11, %_587
   %_598 = and i1 %_594, %_596
   br i1 %_598, label %_591.0, label %_592.0
 _591.0:
-  %_600 = getelementptr { { ptr, i32, i32 }, [0 x ptr] }, { { ptr, i32, i32 }, [0 x ptr] }* %_58, i32 0, i32 1, i32 11
-  store ptr @"_SM7__constG3-121", ptr%_600, align 8
-  %_607 = getelementptr { ptr, i32, i32 }, { ptr, i32, i32 }* %_58, i32 0, i32 1
-  %_605 = load i32, ptr %_607
+  %_600 = getelementptr { { ptr, ptr, i32, i32 }, [0 x ptr] }, { { ptr, ptr, i32, i32 }, [0 x ptr] }* %_58, i32 0, i32 1, i32 11
+  store atomic ptr @"_SM7__constG3-121", ptr%_600 unordered, align 8
+  %_607 = getelementptr { ptr, ptr, i32, i32 }, { ptr, ptr, i32, i32 }* %_58, i32 0, i32 2
+  %_605 = load atomic i32, ptr %_607 unordered, align 4
   %_612 = icmp sge i32 12, 0
   %_614 = icmp slt i32 12, %_605
   %_616 = and i1 %_612, %_614
   br i1 %_616, label %_609.0, label %_610.0
 _609.0:
-  %_618 = getelementptr { { ptr, i32, i32 }, [0 x ptr] }, { { ptr, i32, i32 }, [0 x ptr] }* %_58, i32 0, i32 1, i32 12
-  store ptr @"_SM7__constG3-123", ptr%_618, align 8
-  %_625 = getelementptr { ptr, i32, i32 }, { ptr, i32, i32 }* %_58, i32 0, i32 1
-  %_623 = load i32, ptr %_625
+  %_618 = getelementptr { { ptr, ptr, i32, i32 }, [0 x ptr] }, { { ptr, ptr, i32, i32 }, [0 x ptr] }* %_58, i32 0, i32 1, i32 12
+  store atomic ptr @"_SM7__constG3-123", ptr%_618 unordered, align 8
+  %_625 = getelementptr { ptr, ptr, i32, i32 }, { ptr, ptr, i32, i32 }* %_58, i32 0, i32 2
+  %_623 = load atomic i32, ptr %_625 unordered, align 4
   %_630 = icmp sge i32 13, 0
   %_632 = icmp slt i32 13, %_623
   %_634 = and i1 %_630, %_632
   br i1 %_634, label %_627.0, label %_628.0
 _627.0:
-  %_636 = getelementptr { { ptr, i32, i32 }, [0 x ptr] }, { { ptr, i32, i32 }, [0 x ptr] }* %_58, i32 0, i32 1, i32 13
-  store ptr @"_SM7__constG3-125", ptr%_636, align 8
-  %_643 = getelementptr { ptr, i32, i32 }, { ptr, i32, i32 }* %_58, i32 0, i32 1
-  %_641 = load i32, ptr %_643
+  %_636 = getelementptr { { ptr, ptr, i32, i32 }, [0 x ptr] }, { { ptr, ptr, i32, i32 }, [0 x ptr] }* %_58, i32 0, i32 1, i32 13
+  store atomic ptr @"_SM7__constG3-125", ptr%_636 unordered, align 8
+  %_643 = getelementptr { ptr, ptr, i32, i32 }, { ptr, ptr, i32, i32 }* %_58, i32 0, i32 2
+  %_641 = load atomic i32, ptr %_643 unordered, align 4
   %_648 = icmp sge i32 14, 0
   %_650 = icmp slt i32 14, %_641
   %_652 = and i1 %_648, %_650
   br i1 %_652, label %_645.0, label %_646.0
 _645.0:
-  %_654 = getelementptr { { ptr, i32, i32 }, [0 x ptr] }, { { ptr, i32, i32 }, [0 x ptr] }* %_58, i32 0, i32 1, i32 14
-  store ptr @"_SM7__constG3-127", ptr%_654, align 8
-  %_92 = invoke dereferenceable_or_null(8) ptr @"_SM27scala.runtime.ScalaRunTime$D12wrapRefArrayLAL16java.lang.Object_L35scala.collection.immutable.ArraySeqEO"(ptr nonnull dereferenceable(8) @"_SM27scala.runtime.ScalaRunTime$G8instance", ptr nonnull dereferenceable(16) %_58) to label %_645.1 unwind label %_660.landingpad
+  %_654 = getelementptr { { ptr, ptr, i32, i32 }, [0 x ptr] }, { { ptr, ptr, i32, i32 }, [0 x ptr] }* %_58, i32 0, i32 1, i32 14
+  store atomic ptr @"_SM7__constG3-127", ptr%_654 unordered, align 8
+  %_92 = invoke dereferenceable_or_null(16) ptr @"_SM27scala.runtime.ScalaRunTime$D12wrapRefArrayLAL16java.lang.Object_L35scala.collection.immutable.ArraySeqEO"(ptr nonnull dereferenceable(16) @"_SM27scala.runtime.ScalaRunTime$G8instance", ptr nonnull dereferenceable(24) %_58) to label %_645.1 unwind label %_660.landingpad
 _645.1:
   %_665 = icmp ne ptr %_54, null
   br i1 %_665, label %_662.0, label %_663.0
 _662.0:
-  %_96 = invoke dereferenceable_or_null(8) ptr @"_SM36scala.collection.SeqFactory$DelegateD5applyL30scala.collection.immutable.SeqL23scala.collection.SeqOpsEO"(ptr dereferenceable_or_null(16) %_54, ptr dereferenceable_or_null(8) %_92) to label %_662.1 unwind label %_668.landingpad
+  %_96 = invoke dereferenceable_or_null(16) ptr @"_SM36scala.collection.SeqFactory$DelegateD5applyL30scala.collection.immutable.SeqL23scala.collection.SeqOpsEO"(ptr dereferenceable_or_null(24) %_54, ptr dereferenceable_or_null(16) %_92) to label %_662.1 unwind label %_668.landingpad
 _662.1:
-  %_98 = invoke dereferenceable_or_null(24) ptr @"scalanative_GC_alloc_small"(ptr @"_SM35java.nio.charset.Charset$$$Lambda$4G4type", i64 24) to label %_662.2 unwind label %_670.landingpad
+  %_98 = invoke dereferenceable_or_null(32) ptr @"scalanative_GC_alloc_small"(ptr @"_SM35java.nio.charset.Charset$$$Lambda$4G4type", i64 32) to label %_662.2 unwind label %_670.landingpad
 _662.2:
-  invoke void @"_SM35java.nio.charset.Charset$$$Lambda$4RL25java.nio.charset.Charset$L28scala.collection.mutable.MapE"(ptr nonnull dereferenceable(24) %_98, ptr dereferenceable_or_null(24) %_1, ptr dereferenceable_or_null(8) %_46) to label %_662.3 unwind label %_673.landingpad
+  invoke void @"_SM35java.nio.charset.Charset$$$Lambda$4RL25java.nio.charset.Charset$L28scala.collection.mutable.MapE"(ptr nonnull dereferenceable(32) %_98, ptr dereferenceable_or_null(32) %_1, ptr dereferenceable_or_null(16) %_46) to label %_662.3 unwind label %_673.landingpad
 _662.3:
   %_679 = icmp ne ptr %_96, null
   br i1 %_679, label %_676.0, label %_677.0
 _676.0:
   %_681 = load ptr, ptr %_96
-  %_683 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_681, i32 0, i32 4
+  %_683 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_681, i32 0, i32 4
   %_685 = load i32, ptr %_683
-  %_687 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_681, i32 0, i32 5
+  %_687 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_681, i32 0, i32 5
   %_689 = load ptr, ptr %_687
   %_691 = and i32 -2147483632, %_685
   %_693 = getelementptr { i32, ptr }, { i32, ptr }* %_689, i32 %_691, i32 1
   %_695 = load ptr, ptr %_693
   %_697 = getelementptr ptr, ptr %_695, i32 3
   %_102 = load ptr, ptr %_697
-  invoke void %_102(ptr dereferenceable_or_null(8) %_96, ptr nonnull dereferenceable(24) %_98) to label %_676.1 unwind label %_701.landingpad
+  invoke void %_102(ptr dereferenceable_or_null(16) %_96, ptr nonnull dereferenceable(32) %_98) to label %_676.1 unwind label %_701.landingpad
 _676.1:
-  %_110 = invoke dereferenceable_or_null(16) ptr @"_SM14scala.package$D3SeqL31scala.collection.immutable.Seq$EO"(ptr nonnull dereferenceable(8) @"_SM14scala.package$G8instance") to label %_676.2 unwind label %_708.landingpad
+  %_110 = invoke dereferenceable_or_null(24) ptr @"_SM14scala.package$D3SeqL31scala.collection.immutable.Seq$EO"(ptr nonnull dereferenceable(16) @"_SM14scala.package$G8instance") to label %_676.2 unwind label %_708.landingpad
 _676.2:
-  %_114 = invoke dereferenceable_or_null(16) ptr @"_SM38scala.scalanative.runtime.ObjectArray$D5allociL37scala.scalanative.runtime.ObjectArrayEO"(ptr @"_SM38scala.scalanative.runtime.ObjectArray$G8instance", i32 14) to label %_676.3 unwind label %_714.landingpad
+  %_114 = invoke dereferenceable_or_null(24) ptr @"_SM38scala.scalanative.runtime.ObjectArray$D5allociL37scala.scalanative.runtime.ObjectArrayEO"(ptr @"_SM38scala.scalanative.runtime.ObjectArray$G8instance", i32 14) to label %_676.3 unwind label %_714.landingpad
 _676.3:
-  %_719 = getelementptr { ptr, i32, i32 }, { ptr, i32, i32 }* %_114, i32 0, i32 1
-  %_717 = load i32, ptr %_719
+  %_719 = getelementptr { ptr, ptr, i32, i32 }, { ptr, ptr, i32, i32 }* %_114, i32 0, i32 2
+  %_717 = load atomic i32, ptr %_719 unordered, align 4
   %_724 = icmp sge i32 0, 0
   %_726 = icmp slt i32 0, %_717
   %_728 = and i1 %_724, %_726
   br i1 %_728, label %_721.0, label %_722.0
 _721.0:
-  %_730 = getelementptr { { ptr, i32, i32 }, [0 x ptr] }, { { ptr, i32, i32 }, [0 x ptr] }* %_114, i32 0, i32 1, i32 0
-  store ptr @"_SM7__constG3-129", ptr%_730, align 8
-  %_737 = getelementptr { ptr, i32, i32 }, { ptr, i32, i32 }* %_114, i32 0, i32 1
-  %_735 = load i32, ptr %_737
+  %_730 = getelementptr { { ptr, ptr, i32, i32 }, [0 x ptr] }, { { ptr, ptr, i32, i32 }, [0 x ptr] }* %_114, i32 0, i32 1, i32 0
+  store atomic ptr @"_SM7__constG3-129", ptr%_730 unordered, align 8
+  %_737 = getelementptr { ptr, ptr, i32, i32 }, { ptr, ptr, i32, i32 }* %_114, i32 0, i32 2
+  %_735 = load atomic i32, ptr %_737 unordered, align 4
   %_742 = icmp sge i32 1, 0
   %_744 = icmp slt i32 1, %_735
   %_746 = and i1 %_742, %_744
   br i1 %_746, label %_739.0, label %_740.0
 _739.0:
-  %_748 = getelementptr { { ptr, i32, i32 }, [0 x ptr] }, { { ptr, i32, i32 }, [0 x ptr] }* %_114, i32 0, i32 1, i32 1
-  store ptr @"_SM7__constG3-131", ptr%_748, align 8
-  %_755 = getelementptr { ptr, i32, i32 }, { ptr, i32, i32 }* %_114, i32 0, i32 1
-  %_753 = load i32, ptr %_755
+  %_748 = getelementptr { { ptr, ptr, i32, i32 }, [0 x ptr] }, { { ptr, ptr, i32, i32 }, [0 x ptr] }* %_114, i32 0, i32 1, i32 1
+  store atomic ptr @"_SM7__constG3-131", ptr%_748 unordered, align 8
+  %_755 = getelementptr { ptr, ptr, i32, i32 }, { ptr, ptr, i32, i32 }* %_114, i32 0, i32 2
+  %_753 = load atomic i32, ptr %_755 unordered, align 4
   %_760 = icmp sge i32 2, 0
   %_762 = icmp slt i32 2, %_753
   %_764 = and i1 %_760, %_762
   br i1 %_764, label %_757.0, label %_758.0
 _757.0:
-  %_766 = getelementptr { { ptr, i32, i32 }, [0 x ptr] }, { { ptr, i32, i32 }, [0 x ptr] }* %_114, i32 0, i32 1, i32 2
-  store ptr @"_SM7__constG3-133", ptr%_766, align 8
-  %_773 = getelementptr { ptr, i32, i32 }, { ptr, i32, i32 }* %_114, i32 0, i32 1
-  %_771 = load i32, ptr %_773
+  %_766 = getelementptr { { ptr, ptr, i32, i32 }, [0 x ptr] }, { { ptr, ptr, i32, i32 }, [0 x ptr] }* %_114, i32 0, i32 1, i32 2
+  store atomic ptr @"_SM7__constG3-133", ptr%_766 unordered, align 8
+  %_773 = getelementptr { ptr, ptr, i32, i32 }, { ptr, ptr, i32, i32 }* %_114, i32 0, i32 2
+  %_771 = load atomic i32, ptr %_773 unordered, align 4
   %_778 = icmp sge i32 3, 0
   %_780 = icmp slt i32 3, %_771
   %_782 = and i1 %_778, %_780
   br i1 %_782, label %_775.0, label %_776.0
 _775.0:
-  %_784 = getelementptr { { ptr, i32, i32 }, [0 x ptr] }, { { ptr, i32, i32 }, [0 x ptr] }* %_114, i32 0, i32 1, i32 3
-  store ptr @"_SM7__constG3-135", ptr%_784, align 8
-  %_791 = getelementptr { ptr, i32, i32 }, { ptr, i32, i32 }* %_114, i32 0, i32 1
-  %_789 = load i32, ptr %_791
+  %_784 = getelementptr { { ptr, ptr, i32, i32 }, [0 x ptr] }, { { ptr, ptr, i32, i32 }, [0 x ptr] }* %_114, i32 0, i32 1, i32 3
+  store atomic ptr @"_SM7__constG3-135", ptr%_784 unordered, align 8
+  %_791 = getelementptr { ptr, ptr, i32, i32 }, { ptr, ptr, i32, i32 }* %_114, i32 0, i32 2
+  %_789 = load atomic i32, ptr %_791 unordered, align 4
   %_796 = icmp sge i32 4, 0
   %_798 = icmp slt i32 4, %_789
   %_800 = and i1 %_796, %_798
   br i1 %_800, label %_793.0, label %_794.0
 _793.0:
-  %_802 = getelementptr { { ptr, i32, i32 }, [0 x ptr] }, { { ptr, i32, i32 }, [0 x ptr] }* %_114, i32 0, i32 1, i32 4
-  store ptr @"_SM7__constG3-137", ptr%_802, align 8
-  %_809 = getelementptr { ptr, i32, i32 }, { ptr, i32, i32 }* %_114, i32 0, i32 1
-  %_807 = load i32, ptr %_809
+  %_802 = getelementptr { { ptr, ptr, i32, i32 }, [0 x ptr] }, { { ptr, ptr, i32, i32 }, [0 x ptr] }* %_114, i32 0, i32 1, i32 4
+  store atomic ptr @"_SM7__constG3-137", ptr%_802 unordered, align 8
+  %_809 = getelementptr { ptr, ptr, i32, i32 }, { ptr, ptr, i32, i32 }* %_114, i32 0, i32 2
+  %_807 = load atomic i32, ptr %_809 unordered, align 4
   %_814 = icmp sge i32 5, 0
   %_816 = icmp slt i32 5, %_807
   %_818 = and i1 %_814, %_816
   br i1 %_818, label %_811.0, label %_812.0
 _811.0:
-  %_820 = getelementptr { { ptr, i32, i32 }, [0 x ptr] }, { { ptr, i32, i32 }, [0 x ptr] }* %_114, i32 0, i32 1, i32 5
-  store ptr @"_SM7__constG3-139", ptr%_820, align 8
-  %_827 = getelementptr { ptr, i32, i32 }, { ptr, i32, i32 }* %_114, i32 0, i32 1
-  %_825 = load i32, ptr %_827
+  %_820 = getelementptr { { ptr, ptr, i32, i32 }, [0 x ptr] }, { { ptr, ptr, i32, i32 }, [0 x ptr] }* %_114, i32 0, i32 1, i32 5
+  store atomic ptr @"_SM7__constG3-139", ptr%_820 unordered, align 8
+  %_827 = getelementptr { ptr, ptr, i32, i32 }, { ptr, ptr, i32, i32 }* %_114, i32 0, i32 2
+  %_825 = load atomic i32, ptr %_827 unordered, align 4
   %_832 = icmp sge i32 6, 0
   %_834 = icmp slt i32 6, %_825
   %_836 = and i1 %_832, %_834
   br i1 %_836, label %_829.0, label %_830.0
 _829.0:
-  %_838 = getelementptr { { ptr, i32, i32 }, [0 x ptr] }, { { ptr, i32, i32 }, [0 x ptr] }* %_114, i32 0, i32 1, i32 6
-  store ptr @"_SM7__constG3-141", ptr%_838, align 8
-  %_845 = getelementptr { ptr, i32, i32 }, { ptr, i32, i32 }* %_114, i32 0, i32 1
-  %_843 = load i32, ptr %_845
+  %_838 = getelementptr { { ptr, ptr, i32, i32 }, [0 x ptr] }, { { ptr, ptr, i32, i32 }, [0 x ptr] }* %_114, i32 0, i32 1, i32 6
+  store atomic ptr @"_SM7__constG3-141", ptr%_838 unordered, align 8
+  %_845 = getelementptr { ptr, ptr, i32, i32 }, { ptr, ptr, i32, i32 }* %_114, i32 0, i32 2
+  %_843 = load atomic i32, ptr %_845 unordered, align 4
   %_850 = icmp sge i32 7, 0
   %_852 = icmp slt i32 7, %_843
   %_854 = and i1 %_850, %_852
   br i1 %_854, label %_847.0, label %_848.0
 _847.0:
-  %_856 = getelementptr { { ptr, i32, i32 }, [0 x ptr] }, { { ptr, i32, i32 }, [0 x ptr] }* %_114, i32 0, i32 1, i32 7
-  store ptr @"_SM7__constG3-143", ptr%_856, align 8
-  %_863 = getelementptr { ptr, i32, i32 }, { ptr, i32, i32 }* %_114, i32 0, i32 1
-  %_861 = load i32, ptr %_863
+  %_856 = getelementptr { { ptr, ptr, i32, i32 }, [0 x ptr] }, { { ptr, ptr, i32, i32 }, [0 x ptr] }* %_114, i32 0, i32 1, i32 7
+  store atomic ptr @"_SM7__constG3-143", ptr%_856 unordered, align 8
+  %_863 = getelementptr { ptr, ptr, i32, i32 }, { ptr, ptr, i32, i32 }* %_114, i32 0, i32 2
+  %_861 = load atomic i32, ptr %_863 unordered, align 4
   %_868 = icmp sge i32 8, 0
   %_870 = icmp slt i32 8, %_861
   %_872 = and i1 %_868, %_870
   br i1 %_872, label %_865.0, label %_866.0
 _865.0:
-  %_874 = getelementptr { { ptr, i32, i32 }, [0 x ptr] }, { { ptr, i32, i32 }, [0 x ptr] }* %_114, i32 0, i32 1, i32 8
-  store ptr @"_SM7__constG3-145", ptr%_874, align 8
-  %_881 = getelementptr { ptr, i32, i32 }, { ptr, i32, i32 }* %_114, i32 0, i32 1
-  %_879 = load i32, ptr %_881
+  %_874 = getelementptr { { ptr, ptr, i32, i32 }, [0 x ptr] }, { { ptr, ptr, i32, i32 }, [0 x ptr] }* %_114, i32 0, i32 1, i32 8
+  store atomic ptr @"_SM7__constG3-145", ptr%_874 unordered, align 8
+  %_881 = getelementptr { ptr, ptr, i32, i32 }, { ptr, ptr, i32, i32 }* %_114, i32 0, i32 2
+  %_879 = load atomic i32, ptr %_881 unordered, align 4
   %_886 = icmp sge i32 9, 0
   %_888 = icmp slt i32 9, %_879
   %_890 = and i1 %_886, %_888
   br i1 %_890, label %_883.0, label %_884.0
 _883.0:
-  %_892 = getelementptr { { ptr, i32, i32 }, [0 x ptr] }, { { ptr, i32, i32 }, [0 x ptr] }* %_114, i32 0, i32 1, i32 9
-  store ptr @"_SM7__constG3-147", ptr%_892, align 8
-  %_899 = getelementptr { ptr, i32, i32 }, { ptr, i32, i32 }* %_114, i32 0, i32 1
-  %_897 = load i32, ptr %_899
+  %_892 = getelementptr { { ptr, ptr, i32, i32 }, [0 x ptr] }, { { ptr, ptr, i32, i32 }, [0 x ptr] }* %_114, i32 0, i32 1, i32 9
+  store atomic ptr @"_SM7__constG3-147", ptr%_892 unordered, align 8
+  %_899 = getelementptr { ptr, ptr, i32, i32 }, { ptr, ptr, i32, i32 }* %_114, i32 0, i32 2
+  %_897 = load atomic i32, ptr %_899 unordered, align 4
   %_904 = icmp sge i32 10, 0
   %_906 = icmp slt i32 10, %_897
   %_908 = and i1 %_904, %_906
   br i1 %_908, label %_901.0, label %_902.0
 _901.0:
-  %_910 = getelementptr { { ptr, i32, i32 }, [0 x ptr] }, { { ptr, i32, i32 }, [0 x ptr] }* %_114, i32 0, i32 1, i32 10
-  store ptr @"_SM7__constG3-149", ptr%_910, align 8
-  %_917 = getelementptr { ptr, i32, i32 }, { ptr, i32, i32 }* %_114, i32 0, i32 1
-  %_915 = load i32, ptr %_917
+  %_910 = getelementptr { { ptr, ptr, i32, i32 }, [0 x ptr] }, { { ptr, ptr, i32, i32 }, [0 x ptr] }* %_114, i32 0, i32 1, i32 10
+  store atomic ptr @"_SM7__constG3-149", ptr%_910 unordered, align 8
+  %_917 = getelementptr { ptr, ptr, i32, i32 }, { ptr, ptr, i32, i32 }* %_114, i32 0, i32 2
+  %_915 = load atomic i32, ptr %_917 unordered, align 4
   %_922 = icmp sge i32 11, 0
   %_924 = icmp slt i32 11, %_915
   %_926 = and i1 %_922, %_924
   br i1 %_926, label %_919.0, label %_920.0
 _919.0:
-  %_928 = getelementptr { { ptr, i32, i32 }, [0 x ptr] }, { { ptr, i32, i32 }, [0 x ptr] }* %_114, i32 0, i32 1, i32 11
-  store ptr @"_SM7__constG3-151", ptr%_928, align 8
-  %_935 = getelementptr { ptr, i32, i32 }, { ptr, i32, i32 }* %_114, i32 0, i32 1
-  %_933 = load i32, ptr %_935
+  %_928 = getelementptr { { ptr, ptr, i32, i32 }, [0 x ptr] }, { { ptr, ptr, i32, i32 }, [0 x ptr] }* %_114, i32 0, i32 1, i32 11
+  store atomic ptr @"_SM7__constG3-151", ptr%_928 unordered, align 8
+  %_935 = getelementptr { ptr, ptr, i32, i32 }, { ptr, ptr, i32, i32 }* %_114, i32 0, i32 2
+  %_933 = load atomic i32, ptr %_935 unordered, align 4
   %_940 = icmp sge i32 12, 0
   %_942 = icmp slt i32 12, %_933
   %_944 = and i1 %_940, %_942
   br i1 %_944, label %_937.0, label %_938.0
 _937.0:
-  %_946 = getelementptr { { ptr, i32, i32 }, [0 x ptr] }, { { ptr, i32, i32 }, [0 x ptr] }* %_114, i32 0, i32 1, i32 12
-  store ptr @"_SM7__constG3-153", ptr%_946, align 8
-  %_953 = getelementptr { ptr, i32, i32 }, { ptr, i32, i32 }* %_114, i32 0, i32 1
-  %_951 = load i32, ptr %_953
+  %_946 = getelementptr { { ptr, ptr, i32, i32 }, [0 x ptr] }, { { ptr, ptr, i32, i32 }, [0 x ptr] }* %_114, i32 0, i32 1, i32 12
+  store atomic ptr @"_SM7__constG3-153", ptr%_946 unordered, align 8
+  %_953 = getelementptr { ptr, ptr, i32, i32 }, { ptr, ptr, i32, i32 }* %_114, i32 0, i32 2
+  %_951 = load atomic i32, ptr %_953 unordered, align 4
   %_958 = icmp sge i32 13, 0
   %_960 = icmp slt i32 13, %_951
   %_962 = and i1 %_958, %_960
   br i1 %_962, label %_955.0, label %_956.0
 _955.0:
-  %_964 = getelementptr { { ptr, i32, i32 }, [0 x ptr] }, { { ptr, i32, i32 }, [0 x ptr] }* %_114, i32 0, i32 1, i32 13
-  store ptr @"_SM7__constG3-155", ptr%_964, align 8
-  %_146 = invoke dereferenceable_or_null(8) ptr @"_SM27scala.runtime.ScalaRunTime$D12wrapRefArrayLAL16java.lang.Object_L35scala.collection.immutable.ArraySeqEO"(ptr nonnull dereferenceable(8) @"_SM27scala.runtime.ScalaRunTime$G8instance", ptr nonnull dereferenceable(16) %_114) to label %_955.1 unwind label %_970.landingpad
+  %_964 = getelementptr { { ptr, ptr, i32, i32 }, [0 x ptr] }, { { ptr, ptr, i32, i32 }, [0 x ptr] }* %_114, i32 0, i32 1, i32 13
+  store atomic ptr @"_SM7__constG3-155", ptr%_964 unordered, align 8
+  %_146 = invoke dereferenceable_or_null(16) ptr @"_SM27scala.runtime.ScalaRunTime$D12wrapRefArrayLAL16java.lang.Object_L35scala.collection.immutable.ArraySeqEO"(ptr nonnull dereferenceable(16) @"_SM27scala.runtime.ScalaRunTime$G8instance", ptr nonnull dereferenceable(24) %_114) to label %_955.1 unwind label %_970.landingpad
 _955.1:
   %_975 = icmp ne ptr %_110, null
   br i1 %_975, label %_972.0, label %_973.0
 _972.0:
-  %_150 = invoke dereferenceable_or_null(8) ptr @"_SM36scala.collection.SeqFactory$DelegateD5applyL30scala.collection.immutable.SeqL23scala.collection.SeqOpsEO"(ptr dereferenceable_or_null(16) %_110, ptr dereferenceable_or_null(8) %_146) to label %_972.1 unwind label %_978.landingpad
+  %_150 = invoke dereferenceable_or_null(16) ptr @"_SM36scala.collection.SeqFactory$DelegateD5applyL30scala.collection.immutable.SeqL23scala.collection.SeqOpsEO"(ptr dereferenceable_or_null(24) %_110, ptr dereferenceable_or_null(16) %_146) to label %_972.1 unwind label %_978.landingpad
 _972.1:
-  %_152 = invoke dereferenceable_or_null(24) ptr @"scalanative_GC_alloc_small"(ptr @"_SM35java.nio.charset.Charset$$$Lambda$5G4type", i64 24) to label %_972.2 unwind label %_980.landingpad
+  %_152 = invoke dereferenceable_or_null(32) ptr @"scalanative_GC_alloc_small"(ptr @"_SM35java.nio.charset.Charset$$$Lambda$5G4type", i64 32) to label %_972.2 unwind label %_980.landingpad
 _972.2:
-  invoke void @"_SM35java.nio.charset.Charset$$$Lambda$5RL25java.nio.charset.Charset$L28scala.collection.mutable.MapE"(ptr nonnull dereferenceable(24) %_152, ptr dereferenceable_or_null(24) %_1, ptr dereferenceable_or_null(8) %_46) to label %_972.3 unwind label %_983.landingpad
+  invoke void @"_SM35java.nio.charset.Charset$$$Lambda$5RL25java.nio.charset.Charset$L28scala.collection.mutable.MapE"(ptr nonnull dereferenceable(32) %_152, ptr dereferenceable_or_null(32) %_1, ptr dereferenceable_or_null(16) %_46) to label %_972.3 unwind label %_983.landingpad
 _972.3:
   %_989 = icmp ne ptr %_150, null
   br i1 %_989, label %_986.0, label %_987.0
 _986.0:
   %_991 = load ptr, ptr %_150
-  %_993 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_991, i32 0, i32 4
+  %_993 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_991, i32 0, i32 4
   %_995 = load i32, ptr %_993
-  %_997 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_991, i32 0, i32 5
+  %_997 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_991, i32 0, i32 5
   %_999 = load ptr, ptr %_997
   %_1001 = and i32 -2147483632, %_995
   %_1003 = getelementptr { i32, ptr }, { i32, ptr }* %_999, i32 %_1001, i32 1
   %_1005 = load ptr, ptr %_1003
   %_1007 = getelementptr ptr, ptr %_1005, i32 3
   %_156 = load ptr, ptr %_1007
-  invoke void %_156(ptr dereferenceable_or_null(8) %_150, ptr nonnull dereferenceable(24) %_152) to label %_986.1 unwind label %_1011.landingpad
+  invoke void %_156(ptr dereferenceable_or_null(16) %_150, ptr nonnull dereferenceable(32) %_152) to label %_986.1 unwind label %_1011.landingpad
 _986.1:
-  %_164 = invoke dereferenceable_or_null(16) ptr @"_SM14scala.package$D3SeqL31scala.collection.immutable.Seq$EO"(ptr nonnull dereferenceable(8) @"_SM14scala.package$G8instance") to label %_986.2 unwind label %_1018.landingpad
+  %_164 = invoke dereferenceable_or_null(24) ptr @"_SM14scala.package$D3SeqL31scala.collection.immutable.Seq$EO"(ptr nonnull dereferenceable(16) @"_SM14scala.package$G8instance") to label %_986.2 unwind label %_1018.landingpad
 _986.2:
-  %_168 = invoke dereferenceable_or_null(16) ptr @"_SM38scala.scalanative.runtime.ObjectArray$D5allociL37scala.scalanative.runtime.ObjectArrayEO"(ptr @"_SM38scala.scalanative.runtime.ObjectArray$G8instance", i32 3) to label %_986.3 unwind label %_1024.landingpad
+  %_168 = invoke dereferenceable_or_null(24) ptr @"_SM38scala.scalanative.runtime.ObjectArray$D5allociL37scala.scalanative.runtime.ObjectArrayEO"(ptr @"_SM38scala.scalanative.runtime.ObjectArray$G8instance", i32 3) to label %_986.3 unwind label %_1024.landingpad
 _986.3:
-  %_1029 = getelementptr { ptr, i32, i32 }, { ptr, i32, i32 }* %_168, i32 0, i32 1
-  %_1027 = load i32, ptr %_1029
+  %_1029 = getelementptr { ptr, ptr, i32, i32 }, { ptr, ptr, i32, i32 }* %_168, i32 0, i32 2
+  %_1027 = load atomic i32, ptr %_1029 unordered, align 4
   %_1034 = icmp sge i32 0, 0
   %_1036 = icmp slt i32 0, %_1027
   %_1038 = and i1 %_1034, %_1036
   br i1 %_1038, label %_1031.0, label %_1032.0
 _1031.0:
-  %_1040 = getelementptr { { ptr, i32, i32 }, [0 x ptr] }, { { ptr, i32, i32 }, [0 x ptr] }* %_168, i32 0, i32 1, i32 0
-  store ptr @"_SM7__constG3-157", ptr%_1040, align 8
-  %_1047 = getelementptr { ptr, i32, i32 }, { ptr, i32, i32 }* %_168, i32 0, i32 1
-  %_1045 = load i32, ptr %_1047
+  %_1040 = getelementptr { { ptr, ptr, i32, i32 }, [0 x ptr] }, { { ptr, ptr, i32, i32 }, [0 x ptr] }* %_168, i32 0, i32 1, i32 0
+  store atomic ptr @"_SM7__constG3-157", ptr%_1040 unordered, align 8
+  %_1047 = getelementptr { ptr, ptr, i32, i32 }, { ptr, ptr, i32, i32 }* %_168, i32 0, i32 2
+  %_1045 = load atomic i32, ptr %_1047 unordered, align 4
   %_1052 = icmp sge i32 1, 0
   %_1054 = icmp slt i32 1, %_1045
   %_1056 = and i1 %_1052, %_1054
   br i1 %_1056, label %_1049.0, label %_1050.0
 _1049.0:
-  %_1058 = getelementptr { { ptr, i32, i32 }, [0 x ptr] }, { { ptr, i32, i32 }, [0 x ptr] }* %_168, i32 0, i32 1, i32 1
-  store ptr @"_SM7__constG3-159", ptr%_1058, align 8
-  %_1065 = getelementptr { ptr, i32, i32 }, { ptr, i32, i32 }* %_168, i32 0, i32 1
-  %_1063 = load i32, ptr %_1065
+  %_1058 = getelementptr { { ptr, ptr, i32, i32 }, [0 x ptr] }, { { ptr, ptr, i32, i32 }, [0 x ptr] }* %_168, i32 0, i32 1, i32 1
+  store atomic ptr @"_SM7__constG3-159", ptr%_1058 unordered, align 8
+  %_1065 = getelementptr { ptr, ptr, i32, i32 }, { ptr, ptr, i32, i32 }* %_168, i32 0, i32 2
+  %_1063 = load atomic i32, ptr %_1065 unordered, align 4
   %_1070 = icmp sge i32 2, 0
   %_1072 = icmp slt i32 2, %_1063
   %_1074 = and i1 %_1070, %_1072
   br i1 %_1074, label %_1067.0, label %_1068.0
 _1067.0:
-  %_1076 = getelementptr { { ptr, i32, i32 }, [0 x ptr] }, { { ptr, i32, i32 }, [0 x ptr] }* %_168, i32 0, i32 1, i32 2
-  store ptr @"_SM7__constG3-161", ptr%_1076, align 8
-  %_178 = invoke dereferenceable_or_null(8) ptr @"_SM27scala.runtime.ScalaRunTime$D12wrapRefArrayLAL16java.lang.Object_L35scala.collection.immutable.ArraySeqEO"(ptr nonnull dereferenceable(8) @"_SM27scala.runtime.ScalaRunTime$G8instance", ptr nonnull dereferenceable(16) %_168) to label %_1067.1 unwind label %_1082.landingpad
+  %_1076 = getelementptr { { ptr, ptr, i32, i32 }, [0 x ptr] }, { { ptr, ptr, i32, i32 }, [0 x ptr] }* %_168, i32 0, i32 1, i32 2
+  store atomic ptr @"_SM7__constG3-161", ptr%_1076 unordered, align 8
+  %_178 = invoke dereferenceable_or_null(16) ptr @"_SM27scala.runtime.ScalaRunTime$D12wrapRefArrayLAL16java.lang.Object_L35scala.collection.immutable.ArraySeqEO"(ptr nonnull dereferenceable(16) @"_SM27scala.runtime.ScalaRunTime$G8instance", ptr nonnull dereferenceable(24) %_168) to label %_1067.1 unwind label %_1082.landingpad
 _1067.1:
   %_1087 = icmp ne ptr %_164, null
   br i1 %_1087, label %_1084.0, label %_1085.0
 _1084.0:
-  %_182 = invoke dereferenceable_or_null(8) ptr @"_SM36scala.collection.SeqFactory$DelegateD5applyL30scala.collection.immutable.SeqL23scala.collection.SeqOpsEO"(ptr dereferenceable_or_null(16) %_164, ptr dereferenceable_or_null(8) %_178) to label %_1084.1 unwind label %_1090.landingpad
+  %_182 = invoke dereferenceable_or_null(16) ptr @"_SM36scala.collection.SeqFactory$DelegateD5applyL30scala.collection.immutable.SeqL23scala.collection.SeqOpsEO"(ptr dereferenceable_or_null(24) %_164, ptr dereferenceable_or_null(16) %_178) to label %_1084.1 unwind label %_1090.landingpad
 _1084.1:
-  %_184 = invoke dereferenceable_or_null(24) ptr @"scalanative_GC_alloc_small"(ptr @"_SM35java.nio.charset.Charset$$$Lambda$6G4type", i64 24) to label %_1084.2 unwind label %_1092.landingpad
+  %_184 = invoke dereferenceable_or_null(32) ptr @"scalanative_GC_alloc_small"(ptr @"_SM35java.nio.charset.Charset$$$Lambda$6G4type", i64 32) to label %_1084.2 unwind label %_1092.landingpad
 _1084.2:
-  invoke void @"_SM35java.nio.charset.Charset$$$Lambda$6RL25java.nio.charset.Charset$L28scala.collection.mutable.MapE"(ptr nonnull dereferenceable(24) %_184, ptr dereferenceable_or_null(24) %_1, ptr dereferenceable_or_null(8) %_46) to label %_1084.3 unwind label %_1095.landingpad
+  invoke void @"_SM35java.nio.charset.Charset$$$Lambda$6RL25java.nio.charset.Charset$L28scala.collection.mutable.MapE"(ptr nonnull dereferenceable(32) %_184, ptr dereferenceable_or_null(32) %_1, ptr dereferenceable_or_null(16) %_46) to label %_1084.3 unwind label %_1095.landingpad
 _1084.3:
   %_1101 = icmp ne ptr %_182, null
   br i1 %_1101, label %_1098.0, label %_1099.0
 _1098.0:
   %_1103 = load ptr, ptr %_182
-  %_1105 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_1103, i32 0, i32 4
+  %_1105 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_1103, i32 0, i32 4
   %_1107 = load i32, ptr %_1105
-  %_1109 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_1103, i32 0, i32 5
+  %_1109 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_1103, i32 0, i32 5
   %_1111 = load ptr, ptr %_1109
   %_1113 = and i32 -2147483632, %_1107
   %_1115 = getelementptr { i32, ptr }, { i32, ptr }* %_1111, i32 %_1113, i32 1
   %_1117 = load ptr, ptr %_1115
   %_1119 = getelementptr ptr, ptr %_1117, i32 3
   %_188 = load ptr, ptr %_1119
-  invoke void %_188(ptr dereferenceable_or_null(8) %_182, ptr nonnull dereferenceable(24) %_184) to label %_1098.1 unwind label %_1123.landingpad
+  invoke void %_188(ptr dereferenceable_or_null(16) %_182, ptr nonnull dereferenceable(32) %_184) to label %_1098.1 unwind label %_1123.landingpad
 _1098.1:
-  %_196 = invoke dereferenceable_or_null(16) ptr @"_SM14scala.package$D3SeqL31scala.collection.immutable.Seq$EO"(ptr nonnull dereferenceable(8) @"_SM14scala.package$G8instance") to label %_1098.2 unwind label %_1130.landingpad
+  %_196 = invoke dereferenceable_or_null(24) ptr @"_SM14scala.package$D3SeqL31scala.collection.immutable.Seq$EO"(ptr nonnull dereferenceable(16) @"_SM14scala.package$G8instance") to label %_1098.2 unwind label %_1130.landingpad
 _1098.2:
-  %_200 = invoke dereferenceable_or_null(16) ptr @"_SM38scala.scalanative.runtime.ObjectArray$D5allociL37scala.scalanative.runtime.ObjectArrayEO"(ptr @"_SM38scala.scalanative.runtime.ObjectArray$G8instance", i32 5) to label %_1098.3 unwind label %_1136.landingpad
+  %_200 = invoke dereferenceable_or_null(24) ptr @"_SM38scala.scalanative.runtime.ObjectArray$D5allociL37scala.scalanative.runtime.ObjectArrayEO"(ptr @"_SM38scala.scalanative.runtime.ObjectArray$G8instance", i32 5) to label %_1098.3 unwind label %_1136.landingpad
 _1098.3:
-  %_1141 = getelementptr { ptr, i32, i32 }, { ptr, i32, i32 }* %_200, i32 0, i32 1
-  %_1139 = load i32, ptr %_1141
+  %_1141 = getelementptr { ptr, ptr, i32, i32 }, { ptr, ptr, i32, i32 }* %_200, i32 0, i32 2
+  %_1139 = load atomic i32, ptr %_1141 unordered, align 4
   %_1146 = icmp sge i32 0, 0
   %_1148 = icmp slt i32 0, %_1139
   %_1150 = and i1 %_1146, %_1148
   br i1 %_1150, label %_1143.0, label %_1144.0
 _1143.0:
-  %_1152 = getelementptr { { ptr, i32, i32 }, [0 x ptr] }, { { ptr, i32, i32 }, [0 x ptr] }* %_200, i32 0, i32 1, i32 0
-  store ptr @"_SM7__constG3-163", ptr%_1152, align 8
-  %_1159 = getelementptr { ptr, i32, i32 }, { ptr, i32, i32 }* %_200, i32 0, i32 1
-  %_1157 = load i32, ptr %_1159
+  %_1152 = getelementptr { { ptr, ptr, i32, i32 }, [0 x ptr] }, { { ptr, ptr, i32, i32 }, [0 x ptr] }* %_200, i32 0, i32 1, i32 0
+  store atomic ptr @"_SM7__constG3-163", ptr%_1152 unordered, align 8
+  %_1159 = getelementptr { ptr, ptr, i32, i32 }, { ptr, ptr, i32, i32 }* %_200, i32 0, i32 2
+  %_1157 = load atomic i32, ptr %_1159 unordered, align 4
   %_1164 = icmp sge i32 1, 0
   %_1166 = icmp slt i32 1, %_1157
   %_1168 = and i1 %_1164, %_1166
   br i1 %_1168, label %_1161.0, label %_1162.0
 _1161.0:
-  %_1170 = getelementptr { { ptr, i32, i32 }, [0 x ptr] }, { { ptr, i32, i32 }, [0 x ptr] }* %_200, i32 0, i32 1, i32 1
-  store ptr @"_SM7__constG3-165", ptr%_1170, align 8
-  %_1177 = getelementptr { ptr, i32, i32 }, { ptr, i32, i32 }* %_200, i32 0, i32 1
-  %_1175 = load i32, ptr %_1177
+  %_1170 = getelementptr { { ptr, ptr, i32, i32 }, [0 x ptr] }, { { ptr, ptr, i32, i32 }, [0 x ptr] }* %_200, i32 0, i32 1, i32 1
+  store atomic ptr @"_SM7__constG3-165", ptr%_1170 unordered, align 8
+  %_1177 = getelementptr { ptr, ptr, i32, i32 }, { ptr, ptr, i32, i32 }* %_200, i32 0, i32 2
+  %_1175 = load atomic i32, ptr %_1177 unordered, align 4
   %_1182 = icmp sge i32 2, 0
   %_1184 = icmp slt i32 2, %_1175
   %_1186 = and i1 %_1182, %_1184
   br i1 %_1186, label %_1179.0, label %_1180.0
 _1179.0:
-  %_1188 = getelementptr { { ptr, i32, i32 }, [0 x ptr] }, { { ptr, i32, i32 }, [0 x ptr] }* %_200, i32 0, i32 1, i32 2
-  store ptr @"_SM7__constG3-167", ptr%_1188, align 8
-  %_1195 = getelementptr { ptr, i32, i32 }, { ptr, i32, i32 }* %_200, i32 0, i32 1
-  %_1193 = load i32, ptr %_1195
+  %_1188 = getelementptr { { ptr, ptr, i32, i32 }, [0 x ptr] }, { { ptr, ptr, i32, i32 }, [0 x ptr] }* %_200, i32 0, i32 1, i32 2
+  store atomic ptr @"_SM7__constG3-167", ptr%_1188 unordered, align 8
+  %_1195 = getelementptr { ptr, ptr, i32, i32 }, { ptr, ptr, i32, i32 }* %_200, i32 0, i32 2
+  %_1193 = load atomic i32, ptr %_1195 unordered, align 4
   %_1200 = icmp sge i32 3, 0
   %_1202 = icmp slt i32 3, %_1193
   %_1204 = and i1 %_1200, %_1202
   br i1 %_1204, label %_1197.0, label %_1198.0
 _1197.0:
-  %_1206 = getelementptr { { ptr, i32, i32 }, [0 x ptr] }, { { ptr, i32, i32 }, [0 x ptr] }* %_200, i32 0, i32 1, i32 3
-  store ptr @"_SM7__constG3-169", ptr%_1206, align 8
-  %_1213 = getelementptr { ptr, i32, i32 }, { ptr, i32, i32 }* %_200, i32 0, i32 1
-  %_1211 = load i32, ptr %_1213
+  %_1206 = getelementptr { { ptr, ptr, i32, i32 }, [0 x ptr] }, { { ptr, ptr, i32, i32 }, [0 x ptr] }* %_200, i32 0, i32 1, i32 3
+  store atomic ptr @"_SM7__constG3-169", ptr%_1206 unordered, align 8
+  %_1213 = getelementptr { ptr, ptr, i32, i32 }, { ptr, ptr, i32, i32 }* %_200, i32 0, i32 2
+  %_1211 = load atomic i32, ptr %_1213 unordered, align 4
   %_1218 = icmp sge i32 4, 0
   %_1220 = icmp slt i32 4, %_1211
   %_1222 = and i1 %_1218, %_1220
   br i1 %_1222, label %_1215.0, label %_1216.0
 _1215.0:
-  %_1224 = getelementptr { { ptr, i32, i32 }, [0 x ptr] }, { { ptr, i32, i32 }, [0 x ptr] }* %_200, i32 0, i32 1, i32 4
-  store ptr @"_SM7__constG3-171", ptr%_1224, align 8
-  %_214 = invoke dereferenceable_or_null(8) ptr @"_SM27scala.runtime.ScalaRunTime$D12wrapRefArrayLAL16java.lang.Object_L35scala.collection.immutable.ArraySeqEO"(ptr nonnull dereferenceable(8) @"_SM27scala.runtime.ScalaRunTime$G8instance", ptr nonnull dereferenceable(16) %_200) to label %_1215.1 unwind label %_1230.landingpad
+  %_1224 = getelementptr { { ptr, ptr, i32, i32 }, [0 x ptr] }, { { ptr, ptr, i32, i32 }, [0 x ptr] }* %_200, i32 0, i32 1, i32 4
+  store atomic ptr @"_SM7__constG3-171", ptr%_1224 unordered, align 8
+  %_214 = invoke dereferenceable_or_null(16) ptr @"_SM27scala.runtime.ScalaRunTime$D12wrapRefArrayLAL16java.lang.Object_L35scala.collection.immutable.ArraySeqEO"(ptr nonnull dereferenceable(16) @"_SM27scala.runtime.ScalaRunTime$G8instance", ptr nonnull dereferenceable(24) %_200) to label %_1215.1 unwind label %_1230.landingpad
 _1215.1:
   %_1235 = icmp ne ptr %_196, null
   br i1 %_1235, label %_1232.0, label %_1233.0
 _1232.0:
-  %_218 = invoke dereferenceable_or_null(8) ptr @"_SM36scala.collection.SeqFactory$DelegateD5applyL30scala.collection.immutable.SeqL23scala.collection.SeqOpsEO"(ptr dereferenceable_or_null(16) %_196, ptr dereferenceable_or_null(8) %_214) to label %_1232.1 unwind label %_1238.landingpad
+  %_218 = invoke dereferenceable_or_null(16) ptr @"_SM36scala.collection.SeqFactory$DelegateD5applyL30scala.collection.immutable.SeqL23scala.collection.SeqOpsEO"(ptr dereferenceable_or_null(24) %_196, ptr dereferenceable_or_null(16) %_214) to label %_1232.1 unwind label %_1238.landingpad
 _1232.1:
-  %_220 = invoke dereferenceable_or_null(24) ptr @"scalanative_GC_alloc_small"(ptr @"_SM35java.nio.charset.Charset$$$Lambda$7G4type", i64 24) to label %_1232.2 unwind label %_1240.landingpad
+  %_220 = invoke dereferenceable_or_null(32) ptr @"scalanative_GC_alloc_small"(ptr @"_SM35java.nio.charset.Charset$$$Lambda$7G4type", i64 32) to label %_1232.2 unwind label %_1240.landingpad
 _1232.2:
-  invoke void @"_SM35java.nio.charset.Charset$$$Lambda$7RL25java.nio.charset.Charset$L28scala.collection.mutable.MapE"(ptr nonnull dereferenceable(24) %_220, ptr dereferenceable_or_null(24) %_1, ptr dereferenceable_or_null(8) %_46) to label %_1232.3 unwind label %_1243.landingpad
+  invoke void @"_SM35java.nio.charset.Charset$$$Lambda$7RL25java.nio.charset.Charset$L28scala.collection.mutable.MapE"(ptr nonnull dereferenceable(32) %_220, ptr dereferenceable_or_null(32) %_1, ptr dereferenceable_or_null(16) %_46) to label %_1232.3 unwind label %_1243.landingpad
 _1232.3:
   %_1249 = icmp ne ptr %_218, null
   br i1 %_1249, label %_1246.0, label %_1247.0
 _1246.0:
   %_1251 = load ptr, ptr %_218
-  %_1253 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_1251, i32 0, i32 4
+  %_1253 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_1251, i32 0, i32 4
   %_1255 = load i32, ptr %_1253
-  %_1257 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_1251, i32 0, i32 5
+  %_1257 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_1251, i32 0, i32 5
   %_1259 = load ptr, ptr %_1257
   %_1261 = and i32 -2147483632, %_1255
   %_1263 = getelementptr { i32, ptr }, { i32, ptr }* %_1259, i32 %_1261, i32 1
   %_1265 = load ptr, ptr %_1263
   %_1267 = getelementptr ptr, ptr %_1265, i32 3
   %_224 = load ptr, ptr %_1267
-  invoke void %_224(ptr dereferenceable_or_null(8) %_218, ptr nonnull dereferenceable(24) %_220) to label %_1246.1 unwind label %_1271.landingpad
+  invoke void %_224(ptr dereferenceable_or_null(16) %_218, ptr nonnull dereferenceable(32) %_220) to label %_1246.1 unwind label %_1271.landingpad
 _1246.1:
-  %_232 = invoke dereferenceable_or_null(16) ptr @"_SM14scala.package$D3SeqL31scala.collection.immutable.Seq$EO"(ptr nonnull dereferenceable(8) @"_SM14scala.package$G8instance") to label %_1246.2 unwind label %_1278.landingpad
+  %_232 = invoke dereferenceable_or_null(24) ptr @"_SM14scala.package$D3SeqL31scala.collection.immutable.Seq$EO"(ptr nonnull dereferenceable(16) @"_SM14scala.package$G8instance") to label %_1246.2 unwind label %_1278.landingpad
 _1246.2:
-  %_236 = invoke dereferenceable_or_null(16) ptr @"_SM38scala.scalanative.runtime.ObjectArray$D5allociL37scala.scalanative.runtime.ObjectArrayEO"(ptr @"_SM38scala.scalanative.runtime.ObjectArray$G8instance", i32 4) to label %_1246.3 unwind label %_1284.landingpad
+  %_236 = invoke dereferenceable_or_null(24) ptr @"_SM38scala.scalanative.runtime.ObjectArray$D5allociL37scala.scalanative.runtime.ObjectArrayEO"(ptr @"_SM38scala.scalanative.runtime.ObjectArray$G8instance", i32 4) to label %_1246.3 unwind label %_1284.landingpad
 _1246.3:
-  %_1289 = getelementptr { ptr, i32, i32 }, { ptr, i32, i32 }* %_236, i32 0, i32 1
-  %_1287 = load i32, ptr %_1289
+  %_1289 = getelementptr { ptr, ptr, i32, i32 }, { ptr, ptr, i32, i32 }* %_236, i32 0, i32 2
+  %_1287 = load atomic i32, ptr %_1289 unordered, align 4
   %_1294 = icmp sge i32 0, 0
   %_1296 = icmp slt i32 0, %_1287
   %_1298 = and i1 %_1294, %_1296
   br i1 %_1298, label %_1291.0, label %_1292.0
 _1291.0:
-  %_1300 = getelementptr { { ptr, i32, i32 }, [0 x ptr] }, { { ptr, i32, i32 }, [0 x ptr] }* %_236, i32 0, i32 1, i32 0
-  store ptr @"_SM7__constG3-173", ptr%_1300, align 8
-  %_1307 = getelementptr { ptr, i32, i32 }, { ptr, i32, i32 }* %_236, i32 0, i32 1
-  %_1305 = load i32, ptr %_1307
+  %_1300 = getelementptr { { ptr, ptr, i32, i32 }, [0 x ptr] }, { { ptr, ptr, i32, i32 }, [0 x ptr] }* %_236, i32 0, i32 1, i32 0
+  store atomic ptr @"_SM7__constG3-173", ptr%_1300 unordered, align 8
+  %_1307 = getelementptr { ptr, ptr, i32, i32 }, { ptr, ptr, i32, i32 }* %_236, i32 0, i32 2
+  %_1305 = load atomic i32, ptr %_1307 unordered, align 4
   %_1312 = icmp sge i32 1, 0
   %_1314 = icmp slt i32 1, %_1305
   %_1316 = and i1 %_1312, %_1314
   br i1 %_1316, label %_1309.0, label %_1310.0
 _1309.0:
-  %_1318 = getelementptr { { ptr, i32, i32 }, [0 x ptr] }, { { ptr, i32, i32 }, [0 x ptr] }* %_236, i32 0, i32 1, i32 1
-  store ptr @"_SM7__constG3-175", ptr%_1318, align 8
-  %_1325 = getelementptr { ptr, i32, i32 }, { ptr, i32, i32 }* %_236, i32 0, i32 1
-  %_1323 = load i32, ptr %_1325
+  %_1318 = getelementptr { { ptr, ptr, i32, i32 }, [0 x ptr] }, { { ptr, ptr, i32, i32 }, [0 x ptr] }* %_236, i32 0, i32 1, i32 1
+  store atomic ptr @"_SM7__constG3-175", ptr%_1318 unordered, align 8
+  %_1325 = getelementptr { ptr, ptr, i32, i32 }, { ptr, ptr, i32, i32 }* %_236, i32 0, i32 2
+  %_1323 = load atomic i32, ptr %_1325 unordered, align 4
   %_1330 = icmp sge i32 2, 0
   %_1332 = icmp slt i32 2, %_1323
   %_1334 = and i1 %_1330, %_1332
   br i1 %_1334, label %_1327.0, label %_1328.0
 _1327.0:
-  %_1336 = getelementptr { { ptr, i32, i32 }, [0 x ptr] }, { { ptr, i32, i32 }, [0 x ptr] }* %_236, i32 0, i32 1, i32 2
-  store ptr @"_SM7__constG3-177", ptr%_1336, align 8
-  %_1343 = getelementptr { ptr, i32, i32 }, { ptr, i32, i32 }* %_236, i32 0, i32 1
-  %_1341 = load i32, ptr %_1343
+  %_1336 = getelementptr { { ptr, ptr, i32, i32 }, [0 x ptr] }, { { ptr, ptr, i32, i32 }, [0 x ptr] }* %_236, i32 0, i32 1, i32 2
+  store atomic ptr @"_SM7__constG3-177", ptr%_1336 unordered, align 8
+  %_1343 = getelementptr { ptr, ptr, i32, i32 }, { ptr, ptr, i32, i32 }* %_236, i32 0, i32 2
+  %_1341 = load atomic i32, ptr %_1343 unordered, align 4
   %_1348 = icmp sge i32 3, 0
   %_1350 = icmp slt i32 3, %_1341
   %_1352 = and i1 %_1348, %_1350
   br i1 %_1352, label %_1345.0, label %_1346.0
 _1345.0:
-  %_1354 = getelementptr { { ptr, i32, i32 }, [0 x ptr] }, { { ptr, i32, i32 }, [0 x ptr] }* %_236, i32 0, i32 1, i32 3
-  store ptr @"_SM7__constG3-179", ptr%_1354, align 8
-  %_248 = invoke dereferenceable_or_null(8) ptr @"_SM27scala.runtime.ScalaRunTime$D12wrapRefArrayLAL16java.lang.Object_L35scala.collection.immutable.ArraySeqEO"(ptr nonnull dereferenceable(8) @"_SM27scala.runtime.ScalaRunTime$G8instance", ptr nonnull dereferenceable(16) %_236) to label %_1345.1 unwind label %_1360.landingpad
+  %_1354 = getelementptr { { ptr, ptr, i32, i32 }, [0 x ptr] }, { { ptr, ptr, i32, i32 }, [0 x ptr] }* %_236, i32 0, i32 1, i32 3
+  store atomic ptr @"_SM7__constG3-179", ptr%_1354 unordered, align 8
+  %_248 = invoke dereferenceable_or_null(16) ptr @"_SM27scala.runtime.ScalaRunTime$D12wrapRefArrayLAL16java.lang.Object_L35scala.collection.immutable.ArraySeqEO"(ptr nonnull dereferenceable(16) @"_SM27scala.runtime.ScalaRunTime$G8instance", ptr nonnull dereferenceable(24) %_236) to label %_1345.1 unwind label %_1360.landingpad
 _1345.1:
   %_1365 = icmp ne ptr %_232, null
   br i1 %_1365, label %_1362.0, label %_1363.0
 _1362.0:
-  %_252 = invoke dereferenceable_or_null(8) ptr @"_SM36scala.collection.SeqFactory$DelegateD5applyL30scala.collection.immutable.SeqL23scala.collection.SeqOpsEO"(ptr dereferenceable_or_null(16) %_232, ptr dereferenceable_or_null(8) %_248) to label %_1362.1 unwind label %_1368.landingpad
+  %_252 = invoke dereferenceable_or_null(16) ptr @"_SM36scala.collection.SeqFactory$DelegateD5applyL30scala.collection.immutable.SeqL23scala.collection.SeqOpsEO"(ptr dereferenceable_or_null(24) %_232, ptr dereferenceable_or_null(16) %_248) to label %_1362.1 unwind label %_1368.landingpad
 _1362.1:
-  %_254 = invoke dereferenceable_or_null(24) ptr @"scalanative_GC_alloc_small"(ptr @"_SM35java.nio.charset.Charset$$$Lambda$8G4type", i64 24) to label %_1362.2 unwind label %_1370.landingpad
+  %_254 = invoke dereferenceable_or_null(32) ptr @"scalanative_GC_alloc_small"(ptr @"_SM35java.nio.charset.Charset$$$Lambda$8G4type", i64 32) to label %_1362.2 unwind label %_1370.landingpad
 _1362.2:
-  invoke void @"_SM35java.nio.charset.Charset$$$Lambda$8RL25java.nio.charset.Charset$L28scala.collection.mutable.MapE"(ptr nonnull dereferenceable(24) %_254, ptr dereferenceable_or_null(24) %_1, ptr dereferenceable_or_null(8) %_46) to label %_1362.3 unwind label %_1373.landingpad
+  invoke void @"_SM35java.nio.charset.Charset$$$Lambda$8RL25java.nio.charset.Charset$L28scala.collection.mutable.MapE"(ptr nonnull dereferenceable(32) %_254, ptr dereferenceable_or_null(32) %_1, ptr dereferenceable_or_null(16) %_46) to label %_1362.3 unwind label %_1373.landingpad
 _1362.3:
   %_1379 = icmp ne ptr %_252, null
   br i1 %_1379, label %_1376.0, label %_1377.0
 _1376.0:
   %_1381 = load ptr, ptr %_252
-  %_1383 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_1381, i32 0, i32 4
+  %_1383 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_1381, i32 0, i32 4
   %_1385 = load i32, ptr %_1383
-  %_1387 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_1381, i32 0, i32 5
+  %_1387 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_1381, i32 0, i32 5
   %_1389 = load ptr, ptr %_1387
   %_1391 = and i32 -2147483632, %_1385
   %_1393 = getelementptr { i32, ptr }, { i32, ptr }* %_1389, i32 %_1391, i32 1
   %_1395 = load ptr, ptr %_1393
   %_1397 = getelementptr ptr, ptr %_1395, i32 3
   %_258 = load ptr, ptr %_1397
-  invoke void %_258(ptr dereferenceable_or_null(8) %_252, ptr nonnull dereferenceable(24) %_254) to label %_1376.1 unwind label %_1401.landingpad
+  invoke void %_258(ptr dereferenceable_or_null(16) %_252, ptr nonnull dereferenceable(32) %_254) to label %_1376.1 unwind label %_1401.landingpad
 _1376.1:
-  %_266 = invoke dereferenceable_or_null(16) ptr @"_SM14scala.package$D3SeqL31scala.collection.immutable.Seq$EO"(ptr nonnull dereferenceable(8) @"_SM14scala.package$G8instance") to label %_1376.2 unwind label %_1408.landingpad
+  %_266 = invoke dereferenceable_or_null(24) ptr @"_SM14scala.package$D3SeqL31scala.collection.immutable.Seq$EO"(ptr nonnull dereferenceable(16) @"_SM14scala.package$G8instance") to label %_1376.2 unwind label %_1408.landingpad
 _1376.2:
-  %_270 = invoke dereferenceable_or_null(16) ptr @"_SM38scala.scalanative.runtime.ObjectArray$D5allociL37scala.scalanative.runtime.ObjectArrayEO"(ptr @"_SM38scala.scalanative.runtime.ObjectArray$G8instance", i32 4) to label %_1376.3 unwind label %_1414.landingpad
+  %_270 = invoke dereferenceable_or_null(24) ptr @"_SM38scala.scalanative.runtime.ObjectArray$D5allociL37scala.scalanative.runtime.ObjectArrayEO"(ptr @"_SM38scala.scalanative.runtime.ObjectArray$G8instance", i32 4) to label %_1376.3 unwind label %_1414.landingpad
 _1376.3:
-  %_1419 = getelementptr { ptr, i32, i32 }, { ptr, i32, i32 }* %_270, i32 0, i32 1
-  %_1417 = load i32, ptr %_1419
+  %_1419 = getelementptr { ptr, ptr, i32, i32 }, { ptr, ptr, i32, i32 }* %_270, i32 0, i32 2
+  %_1417 = load atomic i32, ptr %_1419 unordered, align 4
   %_1424 = icmp sge i32 0, 0
   %_1426 = icmp slt i32 0, %_1417
   %_1428 = and i1 %_1424, %_1426
   br i1 %_1428, label %_1421.0, label %_1422.0
 _1421.0:
-  %_1430 = getelementptr { { ptr, i32, i32 }, [0 x ptr] }, { { ptr, i32, i32 }, [0 x ptr] }* %_270, i32 0, i32 1, i32 0
-  store ptr @"_SM7__constG3-181", ptr%_1430, align 8
-  %_1437 = getelementptr { ptr, i32, i32 }, { ptr, i32, i32 }* %_270, i32 0, i32 1
-  %_1435 = load i32, ptr %_1437
+  %_1430 = getelementptr { { ptr, ptr, i32, i32 }, [0 x ptr] }, { { ptr, ptr, i32, i32 }, [0 x ptr] }* %_270, i32 0, i32 1, i32 0
+  store atomic ptr @"_SM7__constG3-181", ptr%_1430 unordered, align 8
+  %_1437 = getelementptr { ptr, ptr, i32, i32 }, { ptr, ptr, i32, i32 }* %_270, i32 0, i32 2
+  %_1435 = load atomic i32, ptr %_1437 unordered, align 4
   %_1442 = icmp sge i32 1, 0
   %_1444 = icmp slt i32 1, %_1435
   %_1446 = and i1 %_1442, %_1444
   br i1 %_1446, label %_1439.0, label %_1440.0
 _1439.0:
-  %_1448 = getelementptr { { ptr, i32, i32 }, [0 x ptr] }, { { ptr, i32, i32 }, [0 x ptr] }* %_270, i32 0, i32 1, i32 1
-  store ptr @"_SM7__constG3-183", ptr%_1448, align 8
-  %_1455 = getelementptr { ptr, i32, i32 }, { ptr, i32, i32 }* %_270, i32 0, i32 1
-  %_1453 = load i32, ptr %_1455
+  %_1448 = getelementptr { { ptr, ptr, i32, i32 }, [0 x ptr] }, { { ptr, ptr, i32, i32 }, [0 x ptr] }* %_270, i32 0, i32 1, i32 1
+  store atomic ptr @"_SM7__constG3-183", ptr%_1448 unordered, align 8
+  %_1455 = getelementptr { ptr, ptr, i32, i32 }, { ptr, ptr, i32, i32 }* %_270, i32 0, i32 2
+  %_1453 = load atomic i32, ptr %_1455 unordered, align 4
   %_1460 = icmp sge i32 2, 0
   %_1462 = icmp slt i32 2, %_1453
   %_1464 = and i1 %_1460, %_1462
   br i1 %_1464, label %_1457.0, label %_1458.0
 _1457.0:
-  %_1466 = getelementptr { { ptr, i32, i32 }, [0 x ptr] }, { { ptr, i32, i32 }, [0 x ptr] }* %_270, i32 0, i32 1, i32 2
-  store ptr @"_SM7__constG3-185", ptr%_1466, align 8
-  %_1473 = getelementptr { ptr, i32, i32 }, { ptr, i32, i32 }* %_270, i32 0, i32 1
-  %_1471 = load i32, ptr %_1473
+  %_1466 = getelementptr { { ptr, ptr, i32, i32 }, [0 x ptr] }, { { ptr, ptr, i32, i32 }, [0 x ptr] }* %_270, i32 0, i32 1, i32 2
+  store atomic ptr @"_SM7__constG3-185", ptr%_1466 unordered, align 8
+  %_1473 = getelementptr { ptr, ptr, i32, i32 }, { ptr, ptr, i32, i32 }* %_270, i32 0, i32 2
+  %_1471 = load atomic i32, ptr %_1473 unordered, align 4
   %_1478 = icmp sge i32 3, 0
   %_1480 = icmp slt i32 3, %_1471
   %_1482 = and i1 %_1478, %_1480
   br i1 %_1482, label %_1475.0, label %_1476.0
 _1475.0:
-  %_1484 = getelementptr { { ptr, i32, i32 }, [0 x ptr] }, { { ptr, i32, i32 }, [0 x ptr] }* %_270, i32 0, i32 1, i32 3
-  store ptr @"_SM7__constG3-187", ptr%_1484, align 8
-  %_282 = invoke dereferenceable_or_null(8) ptr @"_SM27scala.runtime.ScalaRunTime$D12wrapRefArrayLAL16java.lang.Object_L35scala.collection.immutable.ArraySeqEO"(ptr nonnull dereferenceable(8) @"_SM27scala.runtime.ScalaRunTime$G8instance", ptr nonnull dereferenceable(16) %_270) to label %_1475.1 unwind label %_1490.landingpad
+  %_1484 = getelementptr { { ptr, ptr, i32, i32 }, [0 x ptr] }, { { ptr, ptr, i32, i32 }, [0 x ptr] }* %_270, i32 0, i32 1, i32 3
+  store atomic ptr @"_SM7__constG3-187", ptr%_1484 unordered, align 8
+  %_282 = invoke dereferenceable_or_null(16) ptr @"_SM27scala.runtime.ScalaRunTime$D12wrapRefArrayLAL16java.lang.Object_L35scala.collection.immutable.ArraySeqEO"(ptr nonnull dereferenceable(16) @"_SM27scala.runtime.ScalaRunTime$G8instance", ptr nonnull dereferenceable(24) %_270) to label %_1475.1 unwind label %_1490.landingpad
 _1475.1:
   %_1495 = icmp ne ptr %_266, null
   br i1 %_1495, label %_1492.0, label %_1493.0
 _1492.0:
-  %_286 = invoke dereferenceable_or_null(8) ptr @"_SM36scala.collection.SeqFactory$DelegateD5applyL30scala.collection.immutable.SeqL23scala.collection.SeqOpsEO"(ptr dereferenceable_or_null(16) %_266, ptr dereferenceable_or_null(8) %_282) to label %_1492.1 unwind label %_1498.landingpad
+  %_286 = invoke dereferenceable_or_null(16) ptr @"_SM36scala.collection.SeqFactory$DelegateD5applyL30scala.collection.immutable.SeqL23scala.collection.SeqOpsEO"(ptr dereferenceable_or_null(24) %_266, ptr dereferenceable_or_null(16) %_282) to label %_1492.1 unwind label %_1498.landingpad
 _1492.1:
-  %_288 = invoke dereferenceable_or_null(24) ptr @"scalanative_GC_alloc_small"(ptr @"_SM35java.nio.charset.Charset$$$Lambda$9G4type", i64 24) to label %_1492.2 unwind label %_1500.landingpad
+  %_288 = invoke dereferenceable_or_null(32) ptr @"scalanative_GC_alloc_small"(ptr @"_SM35java.nio.charset.Charset$$$Lambda$9G4type", i64 32) to label %_1492.2 unwind label %_1500.landingpad
 _1492.2:
-  invoke void @"_SM35java.nio.charset.Charset$$$Lambda$9RL25java.nio.charset.Charset$L28scala.collection.mutable.MapE"(ptr nonnull dereferenceable(24) %_288, ptr dereferenceable_or_null(24) %_1, ptr dereferenceable_or_null(8) %_46) to label %_1492.3 unwind label %_1503.landingpad
+  invoke void @"_SM35java.nio.charset.Charset$$$Lambda$9RL25java.nio.charset.Charset$L28scala.collection.mutable.MapE"(ptr nonnull dereferenceable(32) %_288, ptr dereferenceable_or_null(32) %_1, ptr dereferenceable_or_null(16) %_46) to label %_1492.3 unwind label %_1503.landingpad
 _1492.3:
   %_1509 = icmp ne ptr %_286, null
   br i1 %_1509, label %_1506.0, label %_1507.0
 _1506.0:
   %_1511 = load ptr, ptr %_286
-  %_1513 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_1511, i32 0, i32 4
+  %_1513 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_1511, i32 0, i32 4
   %_1515 = load i32, ptr %_1513
-  %_1517 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_1511, i32 0, i32 5
+  %_1517 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_1511, i32 0, i32 5
   %_1519 = load ptr, ptr %_1517
   %_1521 = and i32 -2147483632, %_1515
   %_1523 = getelementptr { i32, ptr }, { i32, ptr }* %_1519, i32 %_1521, i32 1
   %_1525 = load ptr, ptr %_1523
   %_1527 = getelementptr ptr, ptr %_1525, i32 3
   %_292 = load ptr, ptr %_1527
-  invoke void %_292(ptr dereferenceable_or_null(8) %_286, ptr nonnull dereferenceable(24) %_288) to label %_1506.1 unwind label %_1531.landingpad
+  invoke void %_292(ptr dereferenceable_or_null(16) %_286, ptr nonnull dereferenceable(32) %_288) to label %_1506.1 unwind label %_1531.landingpad
 _1506.1:
-  %_298 = invoke dereferenceable_or_null(24) ptr @"_SM25java.nio.charset.Charset$D22customCharsetProvidersL23java.util.ServiceLoaderEPT25java.nio.charset.Charset$"(ptr dereferenceable_or_null(24) %_1) to label %_1506.2 unwind label %_1536.landingpad
+  %_298 = invoke dereferenceable_or_null(32) ptr @"_SM25java.nio.charset.Charset$D22customCharsetProvidersL23java.util.ServiceLoaderEPT25java.nio.charset.Charset$"(ptr dereferenceable_or_null(32) %_1) to label %_1506.2 unwind label %_1536.landingpad
 _1506.2:
-  %_300 = invoke dereferenceable_or_null(24) ptr @"scalanative_GC_alloc_small"(ptr @"_SM36java.nio.charset.Charset$$$Lambda$10G4type", i64 24) to label %_1506.3 unwind label %_1538.landingpad
+  %_300 = invoke dereferenceable_or_null(32) ptr @"scalanative_GC_alloc_small"(ptr @"_SM36java.nio.charset.Charset$$$Lambda$10G4type", i64 32) to label %_1506.3 unwind label %_1538.landingpad
 _1506.3:
-  invoke void @"_SM36java.nio.charset.Charset$$$Lambda$10RL25java.nio.charset.Charset$L28scala.collection.mutable.MapE"(ptr nonnull dereferenceable(24) %_300, ptr dereferenceable_or_null(24) %_1, ptr dereferenceable_or_null(8) %_46) to label %_1506.4 unwind label %_1541.landingpad
+  invoke void @"_SM36java.nio.charset.Charset$$$Lambda$10RL25java.nio.charset.Charset$L28scala.collection.mutable.MapE"(ptr nonnull dereferenceable(32) %_300, ptr dereferenceable_or_null(32) %_1, ptr dereferenceable_or_null(16) %_46) to label %_1506.4 unwind label %_1541.landingpad
 _1506.4:
   %_1547 = icmp ne ptr %_298, null
   br i1 %_1547, label %_1544.0, label %_1545.0
 _1544.0:
-  invoke void @"_SM23java.util.ServiceLoaderD7forEachL27java.util.function.ConsumeruEO"(ptr dereferenceable_or_null(24) %_298, ptr nonnull dereferenceable(24) %_300) to label %_1544.1 unwind label %_1551.landingpad
+  invoke void @"_SM23java.util.ServiceLoaderD7forEachL27java.util.function.ConsumeruEO"(ptr dereferenceable_or_null(32) %_298, ptr nonnull dereferenceable(32) %_300) to label %_1544.1 unwind label %_1551.landingpad
 _1544.1:
-  %_308 = invoke dereferenceable_or_null(24) ptr @"_SM25java.nio.charset.Charset$G4load"() to label %_1544.2 unwind label %_1554.landingpad
+  %_308 = invoke dereferenceable_or_null(32) ptr @"_SM25java.nio.charset.Charset$G4load"() to label %_1544.2 unwind label %_1554.landingpad
 _1544.2:
-  %_1558 = getelementptr { { ptr }, ptr, i64 }, { { ptr }, ptr, i64 }* %_308, i32 0, i32 1
-  store ptr %_46, ptr%_1558, align 8
-  %_1565 = getelementptr { { ptr }, ptr, i64 }, { { ptr }, ptr, i64 }* %_1, i32 0, i32 2
-  invoke void @"_SM35scala.scalanative.runtime.LazyVals$D7setFlagR_iiuEO"(ptr nonnull dereferenceable(8) @"_SM35scala.scalanative.runtime.LazyVals$G8instance", ptr %_1565, i32 3, i32 1) to label %_1544.3 unwind label %_1571.landingpad
+  %_1558 = getelementptr { { ptr, ptr }, ptr, i64 }, { { ptr, ptr }, ptr, i64 }* %_308, i32 0, i32 1
+  store atomic ptr %_46, ptr%_1558 unordered, align 8
+  %_1565 = getelementptr { { ptr, ptr }, ptr, i64 }, { { ptr, ptr }, ptr, i64 }* %_1, i32 0, i32 2
+  invoke void @"_SM35scala.scalanative.runtime.LazyVals$D7setFlagR_iiuEO"(ptr nonnull dereferenceable(16) @"_SM35scala.scalanative.runtime.LazyVals$G8instance", ptr %_1565, i32 3, i32 1) to label %_1544.3 unwind label %_1571.landingpad
 _1544.3:
   ret ptr %_46
 _36.0:
@@ -1789,10 +1791,10 @@ _1573.0:
   br label %_1575.0
 _1574.0:
   %_1577 = load ptr, ptr %_39
-  %_1578 = getelementptr { ptr, i32, i32, ptr, ptr }, { ptr, i32, i32, ptr, ptr }* %_1577, i32 0, i32 1
+  %_1578 = getelementptr { ptr, ptr, i32, i32, ptr, ptr }, { ptr, ptr, i32, i32, ptr, ptr }* %_1577, i32 0, i32 2
   %_1579 = load i32, ptr %_1578
-  %_1580 = icmp sle i32 384, %_1579
-  %_1581 = icmp sle i32 %_1579, 453
+  %_1580 = icmp sle i32 1122, %_1579
+  %_1581 = icmp sle i32 %_1579, 1197
   %_1582 = and i1 %_1580, %_1581
   br label %_1575.0
 _1575.0:
@@ -1803,33 +1805,33 @@ _321.0:
   br i1 %_1586, label %_1584.0, label %_1583.0
 _1583.0:
   %_1587 = load ptr, ptr %_39
-  %_1588 = getelementptr { ptr, i32, i32, ptr, ptr }, { ptr, i32, i32, ptr, ptr }* %_1587, i32 0, i32 1
+  %_1588 = getelementptr { ptr, ptr, i32, i32, ptr, ptr }, { ptr, ptr, i32, i32, ptr, ptr }* %_1587, i32 0, i32 2
   %_1589 = load i32, ptr %_1588
-  %_1590 = icmp sle i32 384, %_1589
-  %_1591 = icmp sle i32 %_1589, 453
+  %_1590 = icmp sle i32 1122, %_1589
+  %_1591 = icmp sle i32 %_1589, 1197
   %_1592 = and i1 %_1590, %_1591
   br i1 %_1592, label %_1584.0, label %_1585.0
 _1584.0:
-  %_1593 = getelementptr { { ptr }, ptr, i64 }, { { ptr }, ptr, i64 }* %_1, i32 0, i32 2
-  call void @"_SM35scala.scalanative.runtime.LazyVals$D7setFlagR_iiuEO"(ptr nonnull dereferenceable(8) @"_SM35scala.scalanative.runtime.LazyVals$G8instance", ptr %_1593, i32 0, i32 1)
+  %_1593 = getelementptr { { ptr, ptr }, ptr, i64 }, { { ptr, ptr }, ptr, i64 }* %_1, i32 0, i32 2
+  call void @"_SM35scala.scalanative.runtime.LazyVals$D7setFlagR_iiuEO"(ptr nonnull dereferenceable(16) @"_SM35scala.scalanative.runtime.LazyVals$G8instance", ptr %_1593, i32 0, i32 1)
   %_1596 = icmp ne ptr %_39, null
   br i1 %_1596, label %_1595.0, label %_338.0
 _1595.0:
-  call ptr @"scalanative_throw"(ptr dereferenceable_or_null(72) %_39)
+  call ptr @"scalanative_throw"(ptr dereferenceable_or_null(80) %_39)
   unreachable
 _322.0:
   %_1599 = icmp ne ptr %_39, null
   br i1 %_1599, label %_1598.0, label %_338.0
 _1598.0:
-  call ptr @"scalanative_throw"(ptr dereferenceable_or_null(72) %_39)
+  call ptr @"scalanative_throw"(ptr dereferenceable_or_null(80) %_39)
   unreachable
 _29.0:
   br label %_30.0
 _30.0:
   br label %_24.0
 _23.0:
-  %_1601 = getelementptr { { ptr }, ptr, i64 }, { { ptr }, ptr, i64 }* %_1, i32 0, i32 2
-  call void @"_SM35scala.scalanative.runtime.LazyVals$D17wait4NotificationR_jiuEO"(ptr nonnull dereferenceable(8) @"_SM35scala.scalanative.runtime.LazyVals$G8instance", ptr %_1601, i64 %_9, i32 1)
+  %_1601 = getelementptr { { ptr, ptr }, ptr, i64 }, { { ptr, ptr }, ptr, i64 }* %_1, i32 0, i32 2
+  call void @"_SM35scala.scalanative.runtime.LazyVals$D17wait4NotificationR_jiuEO"(ptr nonnull dereferenceable(16) @"_SM35scala.scalanative.runtime.LazyVals$G8instance", ptr %_1601, i64 %_9, i32 1)
   br label %_24.0
 _24.0:
   br label %_15.0
@@ -6472,44 +6474,44 @@ _1818.landingpad.succ:
   br label %_1469.0
 }
 
-define dereferenceable_or_null(48) ptr @"_SM25java.nio.charset.Charset$D14defaultCharsetL24java.nio.charset.CharsetEO"(ptr %_1) personality ptr @scalanative_personality {
+define dereferenceable_or_null(56) ptr @"_SM25java.nio.charset.Charset$D14defaultCharsetL24java.nio.charset.CharsetEO"(ptr %_1) personality ptr @scalanative_personality {
 _2000000.0:
-  %_2000002 = call dereferenceable_or_null(48) ptr @"_SM34java.nio.charset.StandardCharsets$D5UTF_8L24java.nio.charset.CharsetEO"(ptr nonnull dereferenceable(8) @"_SM34java.nio.charset.StandardCharsets$G8instance")
+  %_2000002 = call dereferenceable_or_null(56) ptr @"_SM34java.nio.charset.StandardCharsets$D5UTF_8L24java.nio.charset.CharsetEO"(ptr nonnull dereferenceable(16) @"_SM34java.nio.charset.StandardCharsets$G8instance")
   ret ptr %_2000002
 }
 
 define ptr @"_SM25java.nio.charset.Charset$D18forName$$anonfun$1L16java.lang.StringL24java.nio.charset.CharsetEPT25java.nio.charset.Charset$"(ptr %_1, ptr %_2) personality ptr @scalanative_personality {
 _3000000.0:
-  %_10000001 = call dereferenceable_or_null(80) ptr @"scalanative_GC_alloc_small"(ptr @"_SM44java.nio.charset.UnsupportedCharsetExceptionG4type", i64 80)
-  %_10000007 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_10000001, i32 0, i32 8
+  %_10000001 = call dereferenceable_or_null(88) ptr @"scalanative_GC_alloc_small"(ptr @"_SM44java.nio.charset.UnsupportedCharsetExceptionG4type", i64 88)
+  %_10000007 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_10000001, i32 0, i32 8
   %_10000008 = zext i1 true to i8
-  store i8 %_10000008, ptr%_10000007, align 1
-  %_10000010 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_10000001, i32 0, i32 7
-  store ptr %_2, ptr%_10000010, align 8
-  %_10000012 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1, ptr }, { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1, ptr }* %_10000001, i32 0, i32 9
-  store ptr %_2, ptr%_10000012, align 8
-  call void @"_SM35scala.scalanative.runtime.ThrowableRzE"(ptr nonnull dereferenceable(80) %_10000001, i1 true)
-  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(80) %_10000001)
+  store atomic i8 %_10000008, ptr%_10000007 unordered, align 1
+  %_10000010 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_10000001, i32 0, i32 7
+  store atomic ptr %_2, ptr%_10000010 unordered, align 8
+  %_10000012 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1, ptr }, { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1, ptr }* %_10000001, i32 0, i32 9
+  store atomic ptr %_2, ptr%_10000012 unordered, align 8
+  call void @"_SM35scala.scalanative.runtime.ThrowableRzE"(ptr nonnull dereferenceable(88) %_10000001, i1 true)
+  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(88) %_10000001)
   unreachable
 }
 
 define void @"_SM25java.nio.charset.Charset$D21CharsetMap$$anonfun$1L28scala.collection.mutable.MapL16java.lang.StringuEPT25java.nio.charset.Charset$"(ptr %_1, ptr %_2, ptr %_3) personality ptr @scalanative_personality {
 _4000000.0:
-  %_4000002 = call dereferenceable_or_null(48) ptr @"_SM34java.nio.charset.StandardCharsets$D10ISO_8859_1L24java.nio.charset.CharsetEO"(ptr nonnull dereferenceable(8) @"_SM34java.nio.charset.StandardCharsets$G8instance")
+  %_4000002 = call dereferenceable_or_null(56) ptr @"_SM34java.nio.charset.StandardCharsets$D10ISO_8859_1L24java.nio.charset.CharsetEO"(ptr nonnull dereferenceable(16) @"_SM34java.nio.charset.StandardCharsets$G8instance")
   %_4000008 = icmp ne ptr %_2, null
   br i1 %_4000008, label %_4000006.0, label %_4000007.0
 _4000006.0:
   %_4000009 = load ptr, ptr %_2
-  %_4000010 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_4000009, i32 0, i32 4
+  %_4000010 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_4000009, i32 0, i32 4
   %_4000011 = load i32, ptr %_4000010
-  %_4000012 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_4000009, i32 0, i32 5
+  %_4000012 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_4000009, i32 0, i32 5
   %_4000013 = load ptr, ptr %_4000012
   %_4000014 = and i32 -2147483540, %_4000011
   %_4000015 = getelementptr { i32, ptr }, { i32, ptr }* %_4000013, i32 %_4000014, i32 1
   %_4000016 = load ptr, ptr %_4000015
   %_4000017 = getelementptr ptr, ptr %_4000016, i32 3
   %_4000004 = load ptr, ptr %_4000017
-  call void %_4000004(ptr dereferenceable_or_null(8) %_2, ptr dereferenceable_or_null(32) %_3, ptr dereferenceable_or_null(48) %_4000002)
+  call void %_4000004(ptr dereferenceable_or_null(16) %_2, ptr dereferenceable_or_null(40) %_3, ptr dereferenceable_or_null(56) %_4000002)
   ret void
 _4000007.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
@@ -6518,21 +6520,21 @@ _4000007.0:
 
 define void @"_SM25java.nio.charset.Charset$D21CharsetMap$$anonfun$2L28scala.collection.mutable.MapL16java.lang.StringuEPT25java.nio.charset.Charset$"(ptr %_1, ptr %_2, ptr %_3) personality ptr @scalanative_personality {
 _4000000.0:
-  %_4000002 = call dereferenceable_or_null(48) ptr @"_SM34java.nio.charset.StandardCharsets$D8US_ASCIIL24java.nio.charset.CharsetEO"(ptr nonnull dereferenceable(8) @"_SM34java.nio.charset.StandardCharsets$G8instance")
+  %_4000002 = call dereferenceable_or_null(56) ptr @"_SM34java.nio.charset.StandardCharsets$D8US_ASCIIL24java.nio.charset.CharsetEO"(ptr nonnull dereferenceable(16) @"_SM34java.nio.charset.StandardCharsets$G8instance")
   %_4000008 = icmp ne ptr %_2, null
   br i1 %_4000008, label %_4000006.0, label %_4000007.0
 _4000006.0:
   %_4000009 = load ptr, ptr %_2
-  %_4000010 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_4000009, i32 0, i32 4
+  %_4000010 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_4000009, i32 0, i32 4
   %_4000011 = load i32, ptr %_4000010
-  %_4000012 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_4000009, i32 0, i32 5
+  %_4000012 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_4000009, i32 0, i32 5
   %_4000013 = load ptr, ptr %_4000012
   %_4000014 = and i32 -2147483540, %_4000011
   %_4000015 = getelementptr { i32, ptr }, { i32, ptr }* %_4000013, i32 %_4000014, i32 1
   %_4000016 = load ptr, ptr %_4000015
   %_4000017 = getelementptr ptr, ptr %_4000016, i32 3
   %_4000004 = load ptr, ptr %_4000017
-  call void %_4000004(ptr dereferenceable_or_null(8) %_2, ptr dereferenceable_or_null(32) %_3, ptr dereferenceable_or_null(48) %_4000002)
+  call void %_4000004(ptr dereferenceable_or_null(16) %_2, ptr dereferenceable_or_null(40) %_3, ptr dereferenceable_or_null(56) %_4000002)
   ret void
 _4000007.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
@@ -6541,21 +6543,21 @@ _4000007.0:
 
 define void @"_SM25java.nio.charset.Charset$D21CharsetMap$$anonfun$3L28scala.collection.mutable.MapL16java.lang.StringuEPT25java.nio.charset.Charset$"(ptr %_1, ptr %_2, ptr %_3) personality ptr @scalanative_personality {
 _4000000.0:
-  %_4000002 = call dereferenceable_or_null(48) ptr @"_SM34java.nio.charset.StandardCharsets$D5UTF_8L24java.nio.charset.CharsetEO"(ptr nonnull dereferenceable(8) @"_SM34java.nio.charset.StandardCharsets$G8instance")
+  %_4000002 = call dereferenceable_or_null(56) ptr @"_SM34java.nio.charset.StandardCharsets$D5UTF_8L24java.nio.charset.CharsetEO"(ptr nonnull dereferenceable(16) @"_SM34java.nio.charset.StandardCharsets$G8instance")
   %_4000008 = icmp ne ptr %_2, null
   br i1 %_4000008, label %_4000006.0, label %_4000007.0
 _4000006.0:
   %_4000009 = load ptr, ptr %_2
-  %_4000010 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_4000009, i32 0, i32 4
+  %_4000010 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_4000009, i32 0, i32 4
   %_4000011 = load i32, ptr %_4000010
-  %_4000012 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_4000009, i32 0, i32 5
+  %_4000012 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_4000009, i32 0, i32 5
   %_4000013 = load ptr, ptr %_4000012
   %_4000014 = and i32 -2147483540, %_4000011
   %_4000015 = getelementptr { i32, ptr }, { i32, ptr }* %_4000013, i32 %_4000014, i32 1
   %_4000016 = load ptr, ptr %_4000015
   %_4000017 = getelementptr ptr, ptr %_4000016, i32 3
   %_4000004 = load ptr, ptr %_4000017
-  call void %_4000004(ptr dereferenceable_or_null(8) %_2, ptr dereferenceable_or_null(32) %_3, ptr dereferenceable_or_null(48) %_4000002)
+  call void %_4000004(ptr dereferenceable_or_null(16) %_2, ptr dereferenceable_or_null(40) %_3, ptr dereferenceable_or_null(56) %_4000002)
   ret void
 _4000007.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
@@ -6564,21 +6566,21 @@ _4000007.0:
 
 define void @"_SM25java.nio.charset.Charset$D21CharsetMap$$anonfun$4L28scala.collection.mutable.MapL16java.lang.StringuEPT25java.nio.charset.Charset$"(ptr %_1, ptr %_2, ptr %_3) personality ptr @scalanative_personality {
 _4000000.0:
-  %_4000002 = call dereferenceable_or_null(48) ptr @"_SM34java.nio.charset.StandardCharsets$D8UTF_16BEL24java.nio.charset.CharsetEO"(ptr nonnull dereferenceable(8) @"_SM34java.nio.charset.StandardCharsets$G8instance")
+  %_4000002 = call dereferenceable_or_null(56) ptr @"_SM34java.nio.charset.StandardCharsets$D8UTF_16BEL24java.nio.charset.CharsetEO"(ptr nonnull dereferenceable(16) @"_SM34java.nio.charset.StandardCharsets$G8instance")
   %_4000008 = icmp ne ptr %_2, null
   br i1 %_4000008, label %_4000006.0, label %_4000007.0
 _4000006.0:
   %_4000009 = load ptr, ptr %_2
-  %_4000010 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_4000009, i32 0, i32 4
+  %_4000010 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_4000009, i32 0, i32 4
   %_4000011 = load i32, ptr %_4000010
-  %_4000012 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_4000009, i32 0, i32 5
+  %_4000012 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_4000009, i32 0, i32 5
   %_4000013 = load ptr, ptr %_4000012
   %_4000014 = and i32 -2147483540, %_4000011
   %_4000015 = getelementptr { i32, ptr }, { i32, ptr }* %_4000013, i32 %_4000014, i32 1
   %_4000016 = load ptr, ptr %_4000015
   %_4000017 = getelementptr ptr, ptr %_4000016, i32 3
   %_4000004 = load ptr, ptr %_4000017
-  call void %_4000004(ptr dereferenceable_or_null(8) %_2, ptr dereferenceable_or_null(32) %_3, ptr dereferenceable_or_null(48) %_4000002)
+  call void %_4000004(ptr dereferenceable_or_null(16) %_2, ptr dereferenceable_or_null(40) %_3, ptr dereferenceable_or_null(56) %_4000002)
   ret void
 _4000007.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
@@ -6587,21 +6589,21 @@ _4000007.0:
 
 define void @"_SM25java.nio.charset.Charset$D21CharsetMap$$anonfun$5L28scala.collection.mutable.MapL16java.lang.StringuEPT25java.nio.charset.Charset$"(ptr %_1, ptr %_2, ptr %_3) personality ptr @scalanative_personality {
 _4000000.0:
-  %_4000002 = call dereferenceable_or_null(48) ptr @"_SM34java.nio.charset.StandardCharsets$D8UTF_16LEL24java.nio.charset.CharsetEO"(ptr nonnull dereferenceable(8) @"_SM34java.nio.charset.StandardCharsets$G8instance")
+  %_4000002 = call dereferenceable_or_null(56) ptr @"_SM34java.nio.charset.StandardCharsets$D8UTF_16LEL24java.nio.charset.CharsetEO"(ptr nonnull dereferenceable(16) @"_SM34java.nio.charset.StandardCharsets$G8instance")
   %_4000008 = icmp ne ptr %_2, null
   br i1 %_4000008, label %_4000006.0, label %_4000007.0
 _4000006.0:
   %_4000009 = load ptr, ptr %_2
-  %_4000010 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_4000009, i32 0, i32 4
+  %_4000010 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_4000009, i32 0, i32 4
   %_4000011 = load i32, ptr %_4000010
-  %_4000012 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_4000009, i32 0, i32 5
+  %_4000012 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_4000009, i32 0, i32 5
   %_4000013 = load ptr, ptr %_4000012
   %_4000014 = and i32 -2147483540, %_4000011
   %_4000015 = getelementptr { i32, ptr }, { i32, ptr }* %_4000013, i32 %_4000014, i32 1
   %_4000016 = load ptr, ptr %_4000015
   %_4000017 = getelementptr ptr, ptr %_4000016, i32 3
   %_4000004 = load ptr, ptr %_4000017
-  call void %_4000004(ptr dereferenceable_or_null(8) %_2, ptr dereferenceable_or_null(32) %_3, ptr dereferenceable_or_null(48) %_4000002)
+  call void %_4000004(ptr dereferenceable_or_null(16) %_2, ptr dereferenceable_or_null(40) %_3, ptr dereferenceable_or_null(56) %_4000002)
   ret void
 _4000007.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
@@ -6610,21 +6612,21 @@ _4000007.0:
 
 define void @"_SM25java.nio.charset.Charset$D21CharsetMap$$anonfun$6L28scala.collection.mutable.MapL16java.lang.StringuEPT25java.nio.charset.Charset$"(ptr %_1, ptr %_2, ptr %_3) personality ptr @scalanative_personality {
 _4000000.0:
-  %_4000002 = call dereferenceable_or_null(48) ptr @"_SM34java.nio.charset.StandardCharsets$D6UTF_16L24java.nio.charset.CharsetEO"(ptr nonnull dereferenceable(8) @"_SM34java.nio.charset.StandardCharsets$G8instance")
+  %_4000002 = call dereferenceable_or_null(56) ptr @"_SM34java.nio.charset.StandardCharsets$D6UTF_16L24java.nio.charset.CharsetEO"(ptr nonnull dereferenceable(16) @"_SM34java.nio.charset.StandardCharsets$G8instance")
   %_4000008 = icmp ne ptr %_2, null
   br i1 %_4000008, label %_4000006.0, label %_4000007.0
 _4000006.0:
   %_4000009 = load ptr, ptr %_2
-  %_4000010 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_4000009, i32 0, i32 4
+  %_4000010 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_4000009, i32 0, i32 4
   %_4000011 = load i32, ptr %_4000010
-  %_4000012 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_4000009, i32 0, i32 5
+  %_4000012 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_4000009, i32 0, i32 5
   %_4000013 = load ptr, ptr %_4000012
   %_4000014 = and i32 -2147483540, %_4000011
   %_4000015 = getelementptr { i32, ptr }, { i32, ptr }* %_4000013, i32 %_4000014, i32 1
   %_4000016 = load ptr, ptr %_4000015
   %_4000017 = getelementptr ptr, ptr %_4000016, i32 3
   %_4000004 = load ptr, ptr %_4000017
-  call void %_4000004(ptr dereferenceable_or_null(8) %_2, ptr dereferenceable_or_null(32) %_3, ptr dereferenceable_or_null(48) %_4000002)
+  call void %_4000004(ptr dereferenceable_or_null(16) %_2, ptr dereferenceable_or_null(40) %_3, ptr dereferenceable_or_null(56) %_4000002)
   ret void
 _4000007.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
@@ -6645,51 +6647,51 @@ _4000005.0:
   unreachable
 }
 
-define nonnull dereferenceable(24) ptr @"_SM25java.nio.charset.Charset$D22customCharsetProvidersL23java.util.ServiceLoaderEPT25java.nio.charset.Charset$"(ptr %_1) personality ptr @scalanative_personality {
+define nonnull dereferenceable(32) ptr @"_SM25java.nio.charset.Charset$D22customCharsetProvidersL23java.util.ServiceLoaderEPT25java.nio.charset.Charset$"(ptr %_1) personality ptr @scalanative_personality {
 _2000000.0:
-  %_2000004 = call dereferenceable_or_null(24) ptr @"scalanative_GC_alloc_small"(ptr @"_SM23java.util.ServiceLoaderG4type", i64 24)
-  %_2000005 = call dereferenceable_or_null(16) ptr @"_SM38scala.scalanative.runtime.ObjectArray$D5allociL37scala.scalanative.runtime.ObjectArrayEO"(ptr @"_SM38scala.scalanative.runtime.ObjectArray$G8instance", i32 0)
-  %_2000010 = getelementptr { { ptr }, ptr, ptr }, { { ptr }, ptr, ptr }* %_2000004, i32 0, i32 2
-  store ptr %_2000005, ptr%_2000010, align 8
-  %_2000012 = getelementptr { { ptr }, ptr, ptr }, { { ptr }, ptr, ptr }* %_2000004, i32 0, i32 1
-  store ptr @"_SM36java.nio.charset.spi.CharsetProviderG4type", ptr%_2000012, align 8
+  %_2000004 = call dereferenceable_or_null(32) ptr @"scalanative_GC_alloc_small"(ptr @"_SM23java.util.ServiceLoaderG4type", i64 32)
+  %_2000005 = call dereferenceable_or_null(24) ptr @"_SM38scala.scalanative.runtime.ObjectArray$D5allociL37scala.scalanative.runtime.ObjectArrayEO"(ptr @"_SM38scala.scalanative.runtime.ObjectArray$G8instance", i32 0)
+  %_2000010 = getelementptr { { ptr, ptr }, ptr, ptr }, { { ptr, ptr }, ptr, ptr }* %_2000004, i32 0, i32 2
+  store atomic ptr %_2000005, ptr%_2000010 unordered, align 8
+  %_2000012 = getelementptr { { ptr, ptr }, ptr, ptr }, { { ptr, ptr }, ptr, ptr }* %_2000004, i32 0, i32 1
+  store atomic ptr @"_SM36java.nio.charset.spi.CharsetProviderG4type", ptr%_2000012 unordered, align 8
   ret ptr %_2000004
 }
 
-define dereferenceable_or_null(48) ptr @"_SM25java.nio.charset.Charset$D7forNameL16java.lang.StringL24java.nio.charset.CharsetEO"(ptr %_2, ptr %_1) personality ptr @scalanative_personality {
+define dereferenceable_or_null(56) ptr @"_SM25java.nio.charset.Charset$D7forNameL16java.lang.StringL24java.nio.charset.CharsetEO"(ptr %_2, ptr %_1) personality ptr @scalanative_personality {
 _3.0:
   %_15 = icmp ne ptr %_2, null
   br i1 %_15, label %_13.0, label %_14.0
 _13.0:
-  %_5 = call dereferenceable_or_null(8) ptr @"_SM25java.nio.charset.Charset$D10CharsetMapL28scala.collection.mutable.MapEPT25java.nio.charset.Charset$"(ptr dereferenceable_or_null(24) %_2)
+  %_5 = call dereferenceable_or_null(16) ptr @"_SM25java.nio.charset.Charset$D10CharsetMapL28scala.collection.mutable.MapEPT25java.nio.charset.Charset$"(ptr dereferenceable_or_null(32) %_2)
   %_17 = icmp ne ptr %_1, null
   br i1 %_17, label %_16.0, label %_14.0
 _16.0:
-  %_7 = call dereferenceable_or_null(32) ptr @"_SM16java.lang.StringD11toLowerCaseL16java.lang.StringEO"(ptr dereferenceable_or_null(32) %_1)
-  %_8 = call dereferenceable_or_null(24) ptr @"scalanative_GC_alloc_small"(ptr @"_SM35java.nio.charset.Charset$$$Lambda$1G4type", i64 24)
-  call void @"_SM35java.nio.charset.Charset$$$Lambda$1RL25java.nio.charset.Charset$L16java.lang.StringE"(ptr nonnull dereferenceable(24) %_8, ptr dereferenceable_or_null(24) %_2, ptr dereferenceable_or_null(32) %_1)
+  %_7 = call dereferenceable_or_null(40) ptr @"_SM16java.lang.StringD11toLowerCaseL16java.lang.StringEO"(ptr dereferenceable_or_null(40) %_1)
+  %_8 = call dereferenceable_or_null(32) ptr @"scalanative_GC_alloc_small"(ptr @"_SM35java.nio.charset.Charset$$$Lambda$1G4type", i64 32)
+  call void @"_SM35java.nio.charset.Charset$$$Lambda$1RL25java.nio.charset.Charset$L16java.lang.StringE"(ptr nonnull dereferenceable(32) %_8, ptr dereferenceable_or_null(32) %_2, ptr dereferenceable_or_null(40) %_1)
   %_20 = icmp ne ptr %_5, null
   br i1 %_20, label %_19.0, label %_14.0
 _19.0:
   %_21 = load ptr, ptr %_5
-  %_22 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_21, i32 0, i32 4
+  %_22 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_21, i32 0, i32 4
   %_23 = load i32, ptr %_22
-  %_24 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_21, i32 0, i32 5
+  %_24 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_21, i32 0, i32 5
   %_25 = load ptr, ptr %_24
   %_26 = and i32 -2147483540, %_23
   %_27 = getelementptr { i32, ptr }, { i32, ptr }* %_25, i32 %_26, i32 1
   %_28 = load ptr, ptr %_27
   %_29 = getelementptr ptr, ptr %_28, i32 2
   %_10 = load ptr, ptr %_29
-  %_11 = call dereferenceable_or_null(8) ptr %_10(ptr dereferenceable_or_null(8) %_5, ptr dereferenceable_or_null(32) %_7, ptr nonnull dereferenceable(24) %_8)
+  %_11 = call dereferenceable_or_null(16) ptr %_10(ptr dereferenceable_or_null(16) %_5, ptr dereferenceable_or_null(40) %_7, ptr nonnull dereferenceable(32) %_8)
   %_33 = icmp eq ptr %_11, null
   br i1 %_33, label %_31.0, label %_30.0
 _30.0:
   %_34 = load ptr, ptr %_11
-  %_35 = getelementptr { ptr, i32, i32, ptr, ptr }, { ptr, i32, i32, ptr, ptr }* %_34, i32 0, i32 1
+  %_35 = getelementptr { ptr, ptr, i32, i32, ptr, ptr }, { ptr, ptr, i32, i32, ptr, ptr }* %_34, i32 0, i32 2
   %_36 = load i32, ptr %_35
-  %_37 = icmp sle i32 753, %_36
-  %_38 = icmp sle i32 %_36, 761
+  %_37 = icmp sle i32 1380, %_36
+  %_38 = icmp sle i32 %_36, 1388
   %_39 = and i1 %_37, %_38
   br i1 %_39, label %_31.0, label %_32.0
 _31.0:
@@ -6705,19 +6707,11 @@ _32.0:
   unreachable
 }
 
-define dereferenceable_or_null(24) ptr @"_SM25java.nio.charset.Charset$G4load"() noinline personality ptr @scalanative_personality {
+define dereferenceable_or_null(32) ptr @"_SM25java.nio.charset.Charset$G4load"() personality ptr @scalanative_personality {
 _1.0:
-  %_4 = getelementptr ptr, ptr @"__modules", i32 379
-  %_5 = load ptr, ptr %_4, !dereferenceable_or_null !{i64 24}
-  %_6 = icmp ne ptr %_5, null
-  br i1 %_6, label %_2.0, label %_3.0
-_2.0:
+  %_4 = getelementptr ptr, ptr @"__modules", i32 466
+  %_5 = call ptr @"__scalanative_loadModule"(ptr %_4, ptr @"_SM25java.nio.charset.Charset$G4type", i64 32, ptr @"_SM25java.nio.charset.Charset$RE")
   ret ptr %_5
-_3.0:
-  %_7 = call dereferenceable_or_null(24) ptr @"scalanative_GC_alloc_small"(ptr @"_SM25java.nio.charset.Charset$G4type", i64 24)
-  store ptr %_7, ptr%_4, align 8
-  call void @"_SM25java.nio.charset.Charset$RE"(ptr dereferenceable_or_null(24) %_7)
-  ret ptr %_7
 }
 
 define void @"_SM25java.nio.charset.Charset$RE"(ptr %_1) personality ptr @scalanative_personality {
@@ -6725,16 +6719,16 @@ _2000000.0:
   ret void
 }
 
-define dereferenceable_or_null(48) ptr @"_SM35java.nio.charset.Charset$$$Lambda$1D5applyL16java.lang.ObjectEO"(ptr %_1) personality ptr @scalanative_personality {
+define dereferenceable_or_null(56) ptr @"_SM35java.nio.charset.Charset$$$Lambda$1D5applyL16java.lang.ObjectEO"(ptr %_1) personality ptr @scalanative_personality {
 _2000000.0:
   %_2000006 = icmp ne ptr %_1, null
   br i1 %_2000006, label %_2000004.0, label %_2000005.0
 _2000004.0:
-  %_2000007 = getelementptr { { ptr }, ptr, ptr }, { { ptr }, ptr, ptr }* %_1, i32 0, i32 2
-  %_2000001 = load ptr, ptr %_2000007, !dereferenceable_or_null !{i64 24}
-  %_2000008 = getelementptr { { ptr }, ptr, ptr }, { { ptr }, ptr, ptr }* %_1, i32 0, i32 1
-  %_2000002 = load ptr, ptr %_2000008, !dereferenceable_or_null !{i64 32}
-  %_2000003 = call dereferenceable_or_null(48) ptr @"_SM25java.nio.charset.Charset$D18forName$$anonfun$1L16java.lang.StringL24java.nio.charset.CharsetEPT25java.nio.charset.Charset$"(ptr dereferenceable_or_null(24) %_2000001, ptr dereferenceable_or_null(32) %_2000002)
+  %_2000007 = getelementptr { { ptr, ptr }, ptr, ptr }, { { ptr, ptr }, ptr, ptr }* %_1, i32 0, i32 2
+  %_2000001 = load atomic ptr, ptr %_2000007 unordered, align 8
+  %_2000008 = getelementptr { { ptr, ptr }, ptr, ptr }, { { ptr, ptr }, ptr, ptr }* %_1, i32 0, i32 1
+  %_2000002 = load atomic ptr, ptr %_2000008 unordered, align 8
+  %_2000003 = call dereferenceable_or_null(56) ptr @"_SM25java.nio.charset.Charset$D18forName$$anonfun$1L16java.lang.StringL24java.nio.charset.CharsetEPT25java.nio.charset.Charset$"(ptr dereferenceable_or_null(32) %_2000001, ptr dereferenceable_or_null(40) %_2000002)
   ret ptr %_2000003
 _2000005.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
@@ -6746,10 +6740,10 @@ _4000000.0:
   %_4000005 = icmp ne ptr %_1, null
   br i1 %_4000005, label %_4000003.0, label %_4000004.0
 _4000003.0:
-  %_4000007 = getelementptr { { ptr }, ptr, ptr }, { { ptr }, ptr, ptr }* %_1, i32 0, i32 2
-  store ptr %_2, ptr%_4000007, align 8
-  %_4000009 = getelementptr { { ptr }, ptr, ptr }, { { ptr }, ptr, ptr }* %_1, i32 0, i32 1
-  store ptr %_3, ptr%_4000009, align 8
+  %_4000007 = getelementptr { { ptr, ptr }, ptr, ptr }, { { ptr, ptr }, ptr, ptr }* %_1, i32 0, i32 2
+  store atomic ptr %_2, ptr%_4000007 unordered, align 8
+  %_4000009 = getelementptr { { ptr, ptr }, ptr, ptr }, { { ptr, ptr }, ptr, ptr }* %_1, i32 0, i32 1
+  store atomic ptr %_3, ptr%_4000009 unordered, align 8
   ret void
 _4000004.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
@@ -6761,12 +6755,12 @@ _3000000.0:
   %_3000008 = icmp ne ptr %_1, null
   br i1 %_3000008, label %_3000006.0, label %_3000007.0
 _3000006.0:
-  %_3000009 = getelementptr { { ptr }, ptr, ptr }, { { ptr }, ptr, ptr }* %_1, i32 0, i32 2
-  %_3000002 = load ptr, ptr %_3000009, !dereferenceable_or_null !{i64 24}
-  %_3000010 = getelementptr { { ptr }, ptr, ptr }, { { ptr }, ptr, ptr }* %_1, i32 0, i32 1
-  %_3000003 = load ptr, ptr %_3000010, !dereferenceable_or_null !{i64 8}
+  %_3000009 = getelementptr { { ptr, ptr }, ptr, ptr }, { { ptr, ptr }, ptr, ptr }* %_1, i32 0, i32 2
+  %_3000002 = load atomic ptr, ptr %_3000009 unordered, align 8
+  %_3000010 = getelementptr { { ptr, ptr }, ptr, ptr }, { { ptr, ptr }, ptr, ptr }* %_1, i32 0, i32 1
+  %_3000003 = load atomic ptr, ptr %_3000010 unordered, align 8
   %_3000004 = bitcast ptr %_2 to ptr
-  call void @"_SM25java.nio.charset.Charset$D21CharsetMap$$anonfun$7L28scala.collection.mutable.MapL36java.nio.charset.spi.CharsetProvideruEPT25java.nio.charset.Charset$"(ptr dereferenceable_or_null(24) %_3000002, ptr dereferenceable_or_null(8) %_3000003, ptr dereferenceable_or_null(8) %_3000004)
+  call void @"_SM25java.nio.charset.Charset$D21CharsetMap$$anonfun$7L28scala.collection.mutable.MapL36java.nio.charset.spi.CharsetProvideruEPT25java.nio.charset.Charset$"(ptr dereferenceable_or_null(32) %_3000002, ptr dereferenceable_or_null(16) %_3000003, ptr dereferenceable_or_null(16) %_3000004)
   ret void
 _3000007.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
@@ -6778,10 +6772,10 @@ _4000000.0:
   %_4000005 = icmp ne ptr %_1, null
   br i1 %_4000005, label %_4000003.0, label %_4000004.0
 _4000003.0:
-  %_4000007 = getelementptr { { ptr }, ptr, ptr }, { { ptr }, ptr, ptr }* %_1, i32 0, i32 2
-  store ptr %_2, ptr%_4000007, align 8
-  %_4000009 = getelementptr { { ptr }, ptr, ptr }, { { ptr }, ptr, ptr }* %_1, i32 0, i32 1
-  store ptr %_3, ptr%_4000009, align 8
+  %_4000007 = getelementptr { { ptr, ptr }, ptr, ptr }, { { ptr, ptr }, ptr, ptr }* %_1, i32 0, i32 2
+  store atomic ptr %_2, ptr%_4000007 unordered, align 8
+  %_4000009 = getelementptr { { ptr, ptr }, ptr, ptr }, { { ptr, ptr }, ptr, ptr }* %_1, i32 0, i32 1
+  store atomic ptr %_3, ptr%_4000009 unordered, align 8
   ret void
 _4000004.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
@@ -6793,12 +6787,12 @@ _3000000.0:
   %_3000008 = icmp ne ptr %_1, null
   br i1 %_3000008, label %_3000006.0, label %_3000007.0
 _3000006.0:
-  %_3000009 = getelementptr { { ptr }, ptr, ptr }, { { ptr }, ptr, ptr }* %_1, i32 0, i32 2
-  %_3000002 = load ptr, ptr %_3000009, !dereferenceable_or_null !{i64 24}
-  %_3000010 = getelementptr { { ptr }, ptr, ptr }, { { ptr }, ptr, ptr }* %_1, i32 0, i32 1
-  %_3000003 = load ptr, ptr %_3000010, !dereferenceable_or_null !{i64 8}
+  %_3000009 = getelementptr { { ptr, ptr }, ptr, ptr }, { { ptr, ptr }, ptr, ptr }* %_1, i32 0, i32 2
+  %_3000002 = load atomic ptr, ptr %_3000009 unordered, align 8
+  %_3000010 = getelementptr { { ptr, ptr }, ptr, ptr }, { { ptr, ptr }, ptr, ptr }* %_1, i32 0, i32 1
+  %_3000003 = load atomic ptr, ptr %_3000010 unordered, align 8
   %_3000004 = bitcast ptr %_2 to ptr
-  call void @"_SM25java.nio.charset.Charset$D21CharsetMap$$anonfun$1L28scala.collection.mutable.MapL16java.lang.StringuEPT25java.nio.charset.Charset$"(ptr dereferenceable_or_null(24) %_3000002, ptr dereferenceable_or_null(8) %_3000003, ptr dereferenceable_or_null(32) %_3000004)
+  call void @"_SM25java.nio.charset.Charset$D21CharsetMap$$anonfun$1L28scala.collection.mutable.MapL16java.lang.StringuEPT25java.nio.charset.Charset$"(ptr dereferenceable_or_null(32) %_3000002, ptr dereferenceable_or_null(16) %_3000003, ptr dereferenceable_or_null(40) %_3000004)
   ret void
 _3000007.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
@@ -6810,10 +6804,10 @@ _4000000.0:
   %_4000005 = icmp ne ptr %_1, null
   br i1 %_4000005, label %_4000003.0, label %_4000004.0
 _4000003.0:
-  %_4000007 = getelementptr { { ptr }, ptr, ptr }, { { ptr }, ptr, ptr }* %_1, i32 0, i32 2
-  store ptr %_2, ptr%_4000007, align 8
-  %_4000009 = getelementptr { { ptr }, ptr, ptr }, { { ptr }, ptr, ptr }* %_1, i32 0, i32 1
-  store ptr %_3, ptr%_4000009, align 8
+  %_4000007 = getelementptr { { ptr, ptr }, ptr, ptr }, { { ptr, ptr }, ptr, ptr }* %_1, i32 0, i32 2
+  store atomic ptr %_2, ptr%_4000007 unordered, align 8
+  %_4000009 = getelementptr { { ptr, ptr }, ptr, ptr }, { { ptr, ptr }, ptr, ptr }* %_1, i32 0, i32 1
+  store atomic ptr %_3, ptr%_4000009 unordered, align 8
   ret void
 _4000004.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
@@ -6825,12 +6819,12 @@ _3000000.0:
   %_3000008 = icmp ne ptr %_1, null
   br i1 %_3000008, label %_3000006.0, label %_3000007.0
 _3000006.0:
-  %_3000009 = getelementptr { { ptr }, ptr, ptr }, { { ptr }, ptr, ptr }* %_1, i32 0, i32 2
-  %_3000002 = load ptr, ptr %_3000009, !dereferenceable_or_null !{i64 24}
-  %_3000010 = getelementptr { { ptr }, ptr, ptr }, { { ptr }, ptr, ptr }* %_1, i32 0, i32 1
-  %_3000003 = load ptr, ptr %_3000010, !dereferenceable_or_null !{i64 8}
+  %_3000009 = getelementptr { { ptr, ptr }, ptr, ptr }, { { ptr, ptr }, ptr, ptr }* %_1, i32 0, i32 2
+  %_3000002 = load atomic ptr, ptr %_3000009 unordered, align 8
+  %_3000010 = getelementptr { { ptr, ptr }, ptr, ptr }, { { ptr, ptr }, ptr, ptr }* %_1, i32 0, i32 1
+  %_3000003 = load atomic ptr, ptr %_3000010 unordered, align 8
   %_3000004 = bitcast ptr %_2 to ptr
-  call void @"_SM25java.nio.charset.Charset$D21CharsetMap$$anonfun$2L28scala.collection.mutable.MapL16java.lang.StringuEPT25java.nio.charset.Charset$"(ptr dereferenceable_or_null(24) %_3000002, ptr dereferenceable_or_null(8) %_3000003, ptr dereferenceable_or_null(32) %_3000004)
+  call void @"_SM25java.nio.charset.Charset$D21CharsetMap$$anonfun$2L28scala.collection.mutable.MapL16java.lang.StringuEPT25java.nio.charset.Charset$"(ptr dereferenceable_or_null(32) %_3000002, ptr dereferenceable_or_null(16) %_3000003, ptr dereferenceable_or_null(40) %_3000004)
   ret void
 _3000007.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
@@ -6842,10 +6836,10 @@ _4000000.0:
   %_4000005 = icmp ne ptr %_1, null
   br i1 %_4000005, label %_4000003.0, label %_4000004.0
 _4000003.0:
-  %_4000007 = getelementptr { { ptr }, ptr, ptr }, { { ptr }, ptr, ptr }* %_1, i32 0, i32 2
-  store ptr %_2, ptr%_4000007, align 8
-  %_4000009 = getelementptr { { ptr }, ptr, ptr }, { { ptr }, ptr, ptr }* %_1, i32 0, i32 1
-  store ptr %_3, ptr%_4000009, align 8
+  %_4000007 = getelementptr { { ptr, ptr }, ptr, ptr }, { { ptr, ptr }, ptr, ptr }* %_1, i32 0, i32 2
+  store atomic ptr %_2, ptr%_4000007 unordered, align 8
+  %_4000009 = getelementptr { { ptr, ptr }, ptr, ptr }, { { ptr, ptr }, ptr, ptr }* %_1, i32 0, i32 1
+  store atomic ptr %_3, ptr%_4000009 unordered, align 8
   ret void
 _4000004.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
@@ -6857,12 +6851,12 @@ _3000000.0:
   %_3000008 = icmp ne ptr %_1, null
   br i1 %_3000008, label %_3000006.0, label %_3000007.0
 _3000006.0:
-  %_3000009 = getelementptr { { ptr }, ptr, ptr }, { { ptr }, ptr, ptr }* %_1, i32 0, i32 2
-  %_3000002 = load ptr, ptr %_3000009, !dereferenceable_or_null !{i64 24}
-  %_3000010 = getelementptr { { ptr }, ptr, ptr }, { { ptr }, ptr, ptr }* %_1, i32 0, i32 1
-  %_3000003 = load ptr, ptr %_3000010, !dereferenceable_or_null !{i64 8}
+  %_3000009 = getelementptr { { ptr, ptr }, ptr, ptr }, { { ptr, ptr }, ptr, ptr }* %_1, i32 0, i32 2
+  %_3000002 = load atomic ptr, ptr %_3000009 unordered, align 8
+  %_3000010 = getelementptr { { ptr, ptr }, ptr, ptr }, { { ptr, ptr }, ptr, ptr }* %_1, i32 0, i32 1
+  %_3000003 = load atomic ptr, ptr %_3000010 unordered, align 8
   %_3000004 = bitcast ptr %_2 to ptr
-  call void @"_SM25java.nio.charset.Charset$D21CharsetMap$$anonfun$3L28scala.collection.mutable.MapL16java.lang.StringuEPT25java.nio.charset.Charset$"(ptr dereferenceable_or_null(24) %_3000002, ptr dereferenceable_or_null(8) %_3000003, ptr dereferenceable_or_null(32) %_3000004)
+  call void @"_SM25java.nio.charset.Charset$D21CharsetMap$$anonfun$3L28scala.collection.mutable.MapL16java.lang.StringuEPT25java.nio.charset.Charset$"(ptr dereferenceable_or_null(32) %_3000002, ptr dereferenceable_or_null(16) %_3000003, ptr dereferenceable_or_null(40) %_3000004)
   ret void
 _3000007.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
@@ -6874,10 +6868,10 @@ _4000000.0:
   %_4000005 = icmp ne ptr %_1, null
   br i1 %_4000005, label %_4000003.0, label %_4000004.0
 _4000003.0:
-  %_4000007 = getelementptr { { ptr }, ptr, ptr }, { { ptr }, ptr, ptr }* %_1, i32 0, i32 2
-  store ptr %_2, ptr%_4000007, align 8
-  %_4000009 = getelementptr { { ptr }, ptr, ptr }, { { ptr }, ptr, ptr }* %_1, i32 0, i32 1
-  store ptr %_3, ptr%_4000009, align 8
+  %_4000007 = getelementptr { { ptr, ptr }, ptr, ptr }, { { ptr, ptr }, ptr, ptr }* %_1, i32 0, i32 2
+  store atomic ptr %_2, ptr%_4000007 unordered, align 8
+  %_4000009 = getelementptr { { ptr, ptr }, ptr, ptr }, { { ptr, ptr }, ptr, ptr }* %_1, i32 0, i32 1
+  store atomic ptr %_3, ptr%_4000009 unordered, align 8
   ret void
 _4000004.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
@@ -6889,12 +6883,12 @@ _3000000.0:
   %_3000008 = icmp ne ptr %_1, null
   br i1 %_3000008, label %_3000006.0, label %_3000007.0
 _3000006.0:
-  %_3000009 = getelementptr { { ptr }, ptr, ptr }, { { ptr }, ptr, ptr }* %_1, i32 0, i32 2
-  %_3000002 = load ptr, ptr %_3000009, !dereferenceable_or_null !{i64 24}
-  %_3000010 = getelementptr { { ptr }, ptr, ptr }, { { ptr }, ptr, ptr }* %_1, i32 0, i32 1
-  %_3000003 = load ptr, ptr %_3000010, !dereferenceable_or_null !{i64 8}
+  %_3000009 = getelementptr { { ptr, ptr }, ptr, ptr }, { { ptr, ptr }, ptr, ptr }* %_1, i32 0, i32 2
+  %_3000002 = load atomic ptr, ptr %_3000009 unordered, align 8
+  %_3000010 = getelementptr { { ptr, ptr }, ptr, ptr }, { { ptr, ptr }, ptr, ptr }* %_1, i32 0, i32 1
+  %_3000003 = load atomic ptr, ptr %_3000010 unordered, align 8
   %_3000004 = bitcast ptr %_2 to ptr
-  call void @"_SM25java.nio.charset.Charset$D21CharsetMap$$anonfun$4L28scala.collection.mutable.MapL16java.lang.StringuEPT25java.nio.charset.Charset$"(ptr dereferenceable_or_null(24) %_3000002, ptr dereferenceable_or_null(8) %_3000003, ptr dereferenceable_or_null(32) %_3000004)
+  call void @"_SM25java.nio.charset.Charset$D21CharsetMap$$anonfun$4L28scala.collection.mutable.MapL16java.lang.StringuEPT25java.nio.charset.Charset$"(ptr dereferenceable_or_null(32) %_3000002, ptr dereferenceable_or_null(16) %_3000003, ptr dereferenceable_or_null(40) %_3000004)
   ret void
 _3000007.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
@@ -6906,10 +6900,10 @@ _4000000.0:
   %_4000005 = icmp ne ptr %_1, null
   br i1 %_4000005, label %_4000003.0, label %_4000004.0
 _4000003.0:
-  %_4000007 = getelementptr { { ptr }, ptr, ptr }, { { ptr }, ptr, ptr }* %_1, i32 0, i32 2
-  store ptr %_2, ptr%_4000007, align 8
-  %_4000009 = getelementptr { { ptr }, ptr, ptr }, { { ptr }, ptr, ptr }* %_1, i32 0, i32 1
-  store ptr %_3, ptr%_4000009, align 8
+  %_4000007 = getelementptr { { ptr, ptr }, ptr, ptr }, { { ptr, ptr }, ptr, ptr }* %_1, i32 0, i32 2
+  store atomic ptr %_2, ptr%_4000007 unordered, align 8
+  %_4000009 = getelementptr { { ptr, ptr }, ptr, ptr }, { { ptr, ptr }, ptr, ptr }* %_1, i32 0, i32 1
+  store atomic ptr %_3, ptr%_4000009 unordered, align 8
   ret void
 _4000004.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
@@ -6921,12 +6915,12 @@ _3000000.0:
   %_3000008 = icmp ne ptr %_1, null
   br i1 %_3000008, label %_3000006.0, label %_3000007.0
 _3000006.0:
-  %_3000009 = getelementptr { { ptr }, ptr, ptr }, { { ptr }, ptr, ptr }* %_1, i32 0, i32 2
-  %_3000002 = load ptr, ptr %_3000009, !dereferenceable_or_null !{i64 24}
-  %_3000010 = getelementptr { { ptr }, ptr, ptr }, { { ptr }, ptr, ptr }* %_1, i32 0, i32 1
-  %_3000003 = load ptr, ptr %_3000010, !dereferenceable_or_null !{i64 8}
+  %_3000009 = getelementptr { { ptr, ptr }, ptr, ptr }, { { ptr, ptr }, ptr, ptr }* %_1, i32 0, i32 2
+  %_3000002 = load atomic ptr, ptr %_3000009 unordered, align 8
+  %_3000010 = getelementptr { { ptr, ptr }, ptr, ptr }, { { ptr, ptr }, ptr, ptr }* %_1, i32 0, i32 1
+  %_3000003 = load atomic ptr, ptr %_3000010 unordered, align 8
   %_3000004 = bitcast ptr %_2 to ptr
-  call void @"_SM25java.nio.charset.Charset$D21CharsetMap$$anonfun$5L28scala.collection.mutable.MapL16java.lang.StringuEPT25java.nio.charset.Charset$"(ptr dereferenceable_or_null(24) %_3000002, ptr dereferenceable_or_null(8) %_3000003, ptr dereferenceable_or_null(32) %_3000004)
+  call void @"_SM25java.nio.charset.Charset$D21CharsetMap$$anonfun$5L28scala.collection.mutable.MapL16java.lang.StringuEPT25java.nio.charset.Charset$"(ptr dereferenceable_or_null(32) %_3000002, ptr dereferenceable_or_null(16) %_3000003, ptr dereferenceable_or_null(40) %_3000004)
   ret void
 _3000007.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
@@ -6938,10 +6932,10 @@ _4000000.0:
   %_4000005 = icmp ne ptr %_1, null
   br i1 %_4000005, label %_4000003.0, label %_4000004.0
 _4000003.0:
-  %_4000007 = getelementptr { { ptr }, ptr, ptr }, { { ptr }, ptr, ptr }* %_1, i32 0, i32 2
-  store ptr %_2, ptr%_4000007, align 8
-  %_4000009 = getelementptr { { ptr }, ptr, ptr }, { { ptr }, ptr, ptr }* %_1, i32 0, i32 1
-  store ptr %_3, ptr%_4000009, align 8
+  %_4000007 = getelementptr { { ptr, ptr }, ptr, ptr }, { { ptr, ptr }, ptr, ptr }* %_1, i32 0, i32 2
+  store atomic ptr %_2, ptr%_4000007 unordered, align 8
+  %_4000009 = getelementptr { { ptr, ptr }, ptr, ptr }, { { ptr, ptr }, ptr, ptr }* %_1, i32 0, i32 1
+  store atomic ptr %_3, ptr%_4000009 unordered, align 8
   ret void
 _4000004.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
@@ -6953,12 +6947,12 @@ _3000000.0:
   %_3000008 = icmp ne ptr %_1, null
   br i1 %_3000008, label %_3000006.0, label %_3000007.0
 _3000006.0:
-  %_3000009 = getelementptr { { ptr }, ptr, ptr }, { { ptr }, ptr, ptr }* %_1, i32 0, i32 2
-  %_3000002 = load ptr, ptr %_3000009, !dereferenceable_or_null !{i64 24}
-  %_3000010 = getelementptr { { ptr }, ptr, ptr }, { { ptr }, ptr, ptr }* %_1, i32 0, i32 1
-  %_3000003 = load ptr, ptr %_3000010, !dereferenceable_or_null !{i64 8}
+  %_3000009 = getelementptr { { ptr, ptr }, ptr, ptr }, { { ptr, ptr }, ptr, ptr }* %_1, i32 0, i32 2
+  %_3000002 = load atomic ptr, ptr %_3000009 unordered, align 8
+  %_3000010 = getelementptr { { ptr, ptr }, ptr, ptr }, { { ptr, ptr }, ptr, ptr }* %_1, i32 0, i32 1
+  %_3000003 = load atomic ptr, ptr %_3000010 unordered, align 8
   %_3000004 = bitcast ptr %_2 to ptr
-  call void @"_SM25java.nio.charset.Charset$D21CharsetMap$$anonfun$6L28scala.collection.mutable.MapL16java.lang.StringuEPT25java.nio.charset.Charset$"(ptr dereferenceable_or_null(24) %_3000002, ptr dereferenceable_or_null(8) %_3000003, ptr dereferenceable_or_null(32) %_3000004)
+  call void @"_SM25java.nio.charset.Charset$D21CharsetMap$$anonfun$6L28scala.collection.mutable.MapL16java.lang.StringuEPT25java.nio.charset.Charset$"(ptr dereferenceable_or_null(32) %_3000002, ptr dereferenceable_or_null(16) %_3000003, ptr dereferenceable_or_null(40) %_3000004)
   ret void
 _3000007.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
@@ -6970,24 +6964,24 @@ _4000000.0:
   %_4000005 = icmp ne ptr %_1, null
   br i1 %_4000005, label %_4000003.0, label %_4000004.0
 _4000003.0:
-  %_4000007 = getelementptr { { ptr }, ptr, ptr }, { { ptr }, ptr, ptr }* %_1, i32 0, i32 2
-  store ptr %_2, ptr%_4000007, align 8
-  %_4000009 = getelementptr { { ptr }, ptr, ptr }, { { ptr }, ptr, ptr }* %_1, i32 0, i32 1
-  store ptr %_3, ptr%_4000009, align 8
+  %_4000007 = getelementptr { { ptr, ptr }, ptr, ptr }, { { ptr, ptr }, ptr, ptr }* %_1, i32 0, i32 2
+  store atomic ptr %_2, ptr%_4000007 unordered, align 8
+  %_4000009 = getelementptr { { ptr, ptr }, ptr, ptr }, { { ptr, ptr }, ptr, ptr }* %_1, i32 0, i32 1
+  store atomic ptr %_3, ptr%_4000009 unordered, align 8
   ret void
 _4000004.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
   unreachable
 }
 
-define dereferenceable_or_null(56) ptr @"_SM34java.nio.charset.Charset$$Lambda$1D3getL16java.lang.ObjectEO"(ptr %_1) personality ptr @scalanative_personality {
+define dereferenceable_or_null(64) ptr @"_SM34java.nio.charset.Charset$$Lambda$1D3getL16java.lang.ObjectEO"(ptr %_1) personality ptr @scalanative_personality {
 _2000000.0:
   %_2000005 = icmp ne ptr %_1, null
   br i1 %_2000005, label %_2000003.0, label %_2000004.0
 _2000003.0:
-  %_2000006 = getelementptr { { ptr }, ptr }, { { ptr }, ptr }* %_1, i32 0, i32 1
-  %_2000001 = load ptr, ptr %_2000006, !dereferenceable_or_null !{i64 48}
-  %_2000002 = call dereferenceable_or_null(56) ptr @"_SM24java.nio.charset.CharsetD24cachedDecoder$$anonfun$1L31java.nio.charset.CharsetDecoderEPT24java.nio.charset.Charset"(ptr dereferenceable_or_null(48) %_2000001)
+  %_2000006 = getelementptr { { ptr, ptr }, ptr }, { { ptr, ptr }, ptr }* %_1, i32 0, i32 1
+  %_2000001 = load atomic ptr, ptr %_2000006 unordered, align 8
+  %_2000002 = call dereferenceable_or_null(64) ptr @"_SM24java.nio.charset.CharsetD24cachedDecoder$$anonfun$1L31java.nio.charset.CharsetDecoderEPT24java.nio.charset.Charset"(ptr dereferenceable_or_null(56) %_2000001)
   ret ptr %_2000002
 _2000004.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
@@ -6999,22 +6993,22 @@ _3000000.0:
   %_3000004 = icmp ne ptr %_1, null
   br i1 %_3000004, label %_3000002.0, label %_3000003.0
 _3000002.0:
-  %_3000006 = getelementptr { { ptr }, ptr }, { { ptr }, ptr }* %_1, i32 0, i32 1
-  store ptr %_2, ptr%_3000006, align 8
+  %_3000006 = getelementptr { { ptr, ptr }, ptr }, { { ptr, ptr }, ptr }* %_1, i32 0, i32 1
+  store atomic ptr %_2, ptr%_3000006 unordered, align 8
   ret void
 _3000003.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
   unreachable
 }
 
-define dereferenceable_or_null(56) ptr @"_SM34java.nio.charset.Charset$$Lambda$2D3getL16java.lang.ObjectEO"(ptr %_1) personality ptr @scalanative_personality {
+define dereferenceable_or_null(64) ptr @"_SM34java.nio.charset.Charset$$Lambda$2D3getL16java.lang.ObjectEO"(ptr %_1) personality ptr @scalanative_personality {
 _2000000.0:
   %_2000005 = icmp ne ptr %_1, null
   br i1 %_2000005, label %_2000003.0, label %_2000004.0
 _2000003.0:
-  %_2000006 = getelementptr { { ptr }, ptr }, { { ptr }, ptr }* %_1, i32 0, i32 1
-  %_2000001 = load ptr, ptr %_2000006, !dereferenceable_or_null !{i64 48}
-  %_2000002 = call dereferenceable_or_null(56) ptr @"_SM24java.nio.charset.CharsetD24cachedEncoder$$anonfun$1L31java.nio.charset.CharsetEncoderEPT24java.nio.charset.Charset"(ptr dereferenceable_or_null(48) %_2000001)
+  %_2000006 = getelementptr { { ptr, ptr }, ptr }, { { ptr, ptr }, ptr }* %_1, i32 0, i32 1
+  %_2000001 = load atomic ptr, ptr %_2000006 unordered, align 8
+  %_2000002 = call dereferenceable_or_null(64) ptr @"_SM24java.nio.charset.CharsetD24cachedEncoder$$anonfun$1L31java.nio.charset.CharsetEncoderEPT24java.nio.charset.Charset"(ptr dereferenceable_or_null(56) %_2000001)
   ret ptr %_2000002
 _2000004.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
@@ -7026,15 +7020,15 @@ _3000000.0:
   %_3000004 = icmp ne ptr %_1, null
   br i1 %_3000004, label %_3000002.0, label %_3000003.0
 _3000002.0:
-  %_3000006 = getelementptr { { ptr }, ptr }, { { ptr }, ptr }* %_1, i32 0, i32 1
-  store ptr %_2, ptr%_3000006, align 8
+  %_3000006 = getelementptr { { ptr, ptr }, ptr }, { { ptr, ptr }, ptr }* %_1, i32 0, i32 1
+  store atomic ptr %_2, ptr%_3000006 unordered, align 8
   ret void
 _3000003.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
   unreachable
 }
 
-define dereferenceable_or_null(56) ptr @"_SM31java.nio.charset.CharsetDecoderD11loopFlush$1L19java.nio.CharBufferL19java.nio.CharBufferEPT31java.nio.charset.CharsetDecoder"(ptr %_1, ptr %_2) inlinehint personality ptr @scalanative_personality {
+define dereferenceable_or_null(64) ptr @"_SM31java.nio.charset.CharsetDecoderD11loopFlush$1L19java.nio.CharBufferL19java.nio.CharBufferEPT31java.nio.charset.CharsetDecoder"(ptr %_1, ptr %_2) inlinehint personality ptr @scalanative_personality {
 _3000000.0:
   %_22000007 = icmp ne ptr %_1, null
   br i1 %_22000007, label %_22000005.0, label %_22000006.0
@@ -7046,52 +7040,52 @@ _4000000.0:
 _5000000.0:
   br label %_6000000.0
 _6000000.0:
-  %_6000001 = call dereferenceable_or_null(16) ptr @"_SM31java.nio.charset.CharsetDecoderD5flushL19java.nio.CharBufferL28java.nio.charset.CoderResultEO"(ptr dereferenceable_or_null(56) %_1, ptr dereferenceable_or_null(56) %_4000001)
-  %_6000002 = call i1 @"_SM28java.nio.charset.CoderResultD11isUnderflowzEO"(ptr dereferenceable_or_null(16) %_6000001)
+  %_6000001 = call dereferenceable_or_null(24) ptr @"_SM31java.nio.charset.CharsetDecoderD5flushL19java.nio.CharBufferL28java.nio.charset.CoderResultEO"(ptr dereferenceable_or_null(64) %_1, ptr dereferenceable_or_null(64) %_4000001)
+  %_6000002 = call i1 @"_SM28java.nio.charset.CoderResultD11isUnderflowzEO"(ptr dereferenceable_or_null(24) %_6000001)
   br i1 %_6000002, label %_7000000.0, label %_8000000.0
 _7000000.0:
   br label %_9000000.0
 _8000000.0:
-  %_8000001 = call i1 @"_SM28java.nio.charset.CoderResultD10isOverflowzEO"(ptr dereferenceable_or_null(16) %_6000001)
+  %_8000001 = call i1 @"_SM28java.nio.charset.CoderResultD10isOverflowzEO"(ptr dereferenceable_or_null(24) %_6000001)
   br i1 %_8000001, label %_10000000.0, label %_11000000.0
 _10000000.0:
-  %_10000001 = call dereferenceable_or_null(56) ptr @"_SM31java.nio.charset.CharsetDecoderD6grow$1L19java.nio.CharBufferL19java.nio.CharBufferEpT31java.nio.charset.CharsetDecoder"(ptr dereferenceable_or_null(56) %_4000001)
+  %_10000001 = call dereferenceable_or_null(64) ptr @"_SM31java.nio.charset.CharsetDecoderD6grow$1L19java.nio.CharBufferL19java.nio.CharBufferEpT31java.nio.charset.CharsetDecoder"(ptr dereferenceable_or_null(64) %_4000001)
   br label %_12000000.0
 _9000000.0:
   ret ptr %_4000001
 _12000000.0:
   br label %_4000000.0
 _11000000.0:
-  call void @"_SM28java.nio.charset.CoderResultD14throwExceptionuEO"(ptr dereferenceable_or_null(16) %_6000001)
-  %_18000001 = call dereferenceable_or_null(32) ptr @"_SM16java.lang.StringD8toStringL16java.lang.StringEO"(ptr @"_SM7__constG3-189")
-  %_22000001 = call dereferenceable_or_null(72) ptr @"scalanative_GC_alloc_small"(ptr @"_SM24java.lang.AssertionErrorG4type", i64 72)
-  %_22000010 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_22000001, i32 0, i32 8
+  call void @"_SM28java.nio.charset.CoderResultD14throwExceptionuEO"(ptr dereferenceable_or_null(24) %_6000001)
+  %_18000001 = call dereferenceable_or_null(40) ptr @"_SM16java.lang.StringD8toStringL16java.lang.StringEO"(ptr @"_SM7__constG3-189")
+  %_22000001 = call dereferenceable_or_null(80) ptr @"scalanative_GC_alloc_small"(ptr @"_SM24java.lang.AssertionErrorG4type", i64 80)
+  %_22000010 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_22000001, i32 0, i32 8
   %_22000011 = zext i1 true to i8
-  store i8 %_22000011, ptr%_22000010, align 1
-  %_22000013 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_22000001, i32 0, i32 7
-  store ptr %_18000001, ptr%_22000013, align 8
-  call void @"_SM35scala.scalanative.runtime.ThrowableRzE"(ptr nonnull dereferenceable(72) %_22000001, i1 true)
-  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(72) %_22000001)
+  store atomic i8 %_22000011, ptr%_22000010 unordered, align 1
+  %_22000013 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_22000001, i32 0, i32 7
+  store atomic ptr %_18000001, ptr%_22000013 unordered, align 8
+  call void @"_SM35scala.scalanative.runtime.ThrowableRzE"(ptr nonnull dereferenceable(80) %_22000001, i1 true)
+  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(80) %_22000001)
   unreachable
 _22000006.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
   unreachable
 }
 
-define dereferenceable_or_null(32) ptr @"_SM31java.nio.charset.CharsetDecoderD11replacementL16java.lang.StringEO"(ptr %_1) personality ptr @scalanative_personality {
+define dereferenceable_or_null(40) ptr @"_SM31java.nio.charset.CharsetDecoderD11replacementL16java.lang.StringEO"(ptr %_1) personality ptr @scalanative_personality {
 _2000000.0:
   %_2000004 = icmp ne ptr %_1, null
   br i1 %_2000004, label %_2000002.0, label %_2000003.0
 _2000002.0:
-  %_2000005 = getelementptr { { ptr }, ptr, ptr, ptr, float, float, ptr, i32 }, { { ptr }, ptr, ptr, ptr, float, float, ptr, i32 }* %_1, i32 0, i32 6
-  %_2000001 = load ptr, ptr %_2000005, !dereferenceable_or_null !{i64 32}
+  %_2000005 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, float, float, ptr, i32 }, { { ptr, ptr }, ptr, ptr, ptr, float, float, ptr, i32 }* %_1, i32 0, i32 6
+  %_2000001 = load atomic ptr, ptr %_2000005 unordered, align 8
   ret ptr %_2000001
 _2000003.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
   unreachable
 }
 
-define dereferenceable_or_null(56) ptr @"_SM31java.nio.charset.CharsetDecoderD12loopDecode$1L19java.nio.ByteBufferL19java.nio.CharBufferL19java.nio.CharBufferEPT31java.nio.charset.CharsetDecoder"(ptr %_1, ptr %_2, ptr %_3) inlinehint personality ptr @scalanative_personality {
+define dereferenceable_or_null(64) ptr @"_SM31java.nio.charset.CharsetDecoderD12loopDecode$1L19java.nio.ByteBufferL19java.nio.CharBufferL19java.nio.CharBufferEPT31java.nio.charset.CharsetDecoder"(ptr %_1, ptr %_2, ptr %_3) inlinehint personality ptr @scalanative_personality {
 _4000000.0:
   %_26000007 = icmp ne ptr %_1, null
   br i1 %_26000007, label %_26000005.0, label %_26000006.0
@@ -7103,11 +7097,11 @@ _5000000.0:
 _6000000.0:
   br label %_7000000.0
 _7000000.0:
-  %_7000001 = call dereferenceable_or_null(16) ptr @"_SM31java.nio.charset.CharsetDecoderD6decodeL19java.nio.ByteBufferL19java.nio.CharBufferzL28java.nio.charset.CoderResultEO"(ptr dereferenceable_or_null(56) %_1, ptr dereferenceable_or_null(56) %_2, ptr dereferenceable_or_null(56) %_5000001, i1 true)
-  %_7000002 = call i1 @"_SM28java.nio.charset.CoderResultD11isUnderflowzEO"(ptr dereferenceable_or_null(16) %_7000001)
+  %_7000001 = call dereferenceable_or_null(24) ptr @"_SM31java.nio.charset.CharsetDecoderD6decodeL19java.nio.ByteBufferL19java.nio.CharBufferzL28java.nio.charset.CoderResultEO"(ptr dereferenceable_or_null(64) %_1, ptr dereferenceable_or_null(64) %_2, ptr dereferenceable_or_null(64) %_5000001, i1 true)
+  %_7000002 = call i1 @"_SM28java.nio.charset.CoderResultD11isUnderflowzEO"(ptr dereferenceable_or_null(24) %_7000001)
   br i1 %_7000002, label %_8000000.0, label %_9000000.0
 _8000000.0:
-  %_8000001 = call i1 @"_SM15java.nio.BufferD12hasRemainingzEO"(ptr dereferenceable_or_null(56) %_2)
+  %_8000001 = call i1 @"_SM15java.nio.BufferD12hasRemainingzEO"(ptr dereferenceable_or_null(64) %_2)
   %_8000004 = xor i1 %_8000001, true
   %_8000005 = xor i1 %_8000004, true
   br i1 %_8000005, label %_10000000.0, label %_11000000.0
@@ -7116,29 +7110,29 @@ _11000000.0:
 _12000000.0:
   br label %_13000000.0
 _9000000.0:
-  %_9000001 = call i1 @"_SM28java.nio.charset.CoderResultD10isOverflowzEO"(ptr dereferenceable_or_null(16) %_7000001)
+  %_9000001 = call i1 @"_SM28java.nio.charset.CoderResultD10isOverflowzEO"(ptr dereferenceable_or_null(24) %_7000001)
   br i1 %_9000001, label %_14000000.0, label %_15000000.0
 _14000000.0:
-  %_14000001 = call dereferenceable_or_null(56) ptr @"_SM31java.nio.charset.CharsetDecoderD6grow$1L19java.nio.CharBufferL19java.nio.CharBufferEpT31java.nio.charset.CharsetDecoder"(ptr dereferenceable_or_null(56) %_5000001)
+  %_14000001 = call dereferenceable_or_null(64) ptr @"_SM31java.nio.charset.CharsetDecoderD6grow$1L19java.nio.CharBufferL19java.nio.CharBufferEpT31java.nio.charset.CharsetDecoder"(ptr dereferenceable_or_null(64) %_5000001)
   br label %_16000000.0
 _13000000.0:
   ret ptr %_5000001
 _16000000.0:
   br label %_5000000.0
 _10000000.0:
-  call ptr @"_SM28scala.runtime.Scala3RunTime$D12assertFailednEO"(ptr nonnull dereferenceable(8) @"_SM28scala.runtime.Scala3RunTime$G8instance")
+  call ptr @"_SM28scala.runtime.Scala3RunTime$D12assertFailednEO"(ptr nonnull dereferenceable(16) @"_SM28scala.runtime.Scala3RunTime$G8instance")
   br label %_26000009.0
 _15000000.0:
-  call void @"_SM28java.nio.charset.CoderResultD14throwExceptionuEO"(ptr dereferenceable_or_null(16) %_7000001)
-  %_22000001 = call dereferenceable_or_null(32) ptr @"_SM16java.lang.StringD8toStringL16java.lang.StringEO"(ptr @"_SM7__constG3-189")
-  %_26000001 = call dereferenceable_or_null(72) ptr @"scalanative_GC_alloc_small"(ptr @"_SM24java.lang.AssertionErrorG4type", i64 72)
-  %_26000013 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_26000001, i32 0, i32 8
+  call void @"_SM28java.nio.charset.CoderResultD14throwExceptionuEO"(ptr dereferenceable_or_null(24) %_7000001)
+  %_22000001 = call dereferenceable_or_null(40) ptr @"_SM16java.lang.StringD8toStringL16java.lang.StringEO"(ptr @"_SM7__constG3-189")
+  %_26000001 = call dereferenceable_or_null(80) ptr @"scalanative_GC_alloc_small"(ptr @"_SM24java.lang.AssertionErrorG4type", i64 80)
+  %_26000013 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_26000001, i32 0, i32 8
   %_26000014 = zext i1 true to i8
-  store i8 %_26000014, ptr%_26000013, align 1
-  %_26000016 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_26000001, i32 0, i32 7
-  store ptr %_22000001, ptr%_26000016, align 8
-  call void @"_SM35scala.scalanative.runtime.ThrowableRzE"(ptr nonnull dereferenceable(72) %_26000001, i1 true)
-  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(72) %_26000001)
+  store atomic i8 %_26000014, ptr%_26000013 unordered, align 1
+  %_26000016 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_26000001, i32 0, i32 7
+  store atomic ptr %_22000001, ptr%_26000016 unordered, align 8
+  call void @"_SM35scala.scalanative.runtime.ThrowableRzE"(ptr nonnull dereferenceable(80) %_26000001, i1 true)
+  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(80) %_26000001)
   unreachable
 _26000006.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
@@ -7148,7 +7142,7 @@ _26000009.0:
   unreachable
 }
 
-define dereferenceable_or_null(56) ptr @"_SM31java.nio.charset.CharsetDecoderD16onMalformedInputL34java.nio.charset.CodingErrorActionL31java.nio.charset.CharsetDecoderEO"(ptr %_1, ptr %_2) personality ptr @scalanative_personality {
+define dereferenceable_or_null(64) ptr @"_SM31java.nio.charset.CharsetDecoderD16onMalformedInputL34java.nio.charset.CodingErrorActionL31java.nio.charset.CharsetDecoderEO"(ptr %_1, ptr %_2) personality ptr @scalanative_personality {
 _3000000.0:
   %_12000005 = icmp ne ptr %_1, null
   br i1 %_12000005, label %_12000003.0, label %_12000004.0
@@ -7158,19 +7152,19 @@ _12000003.0:
 _5000000.0:
   br label %_12000000.0
 _12000000.0:
-  %_12000007 = getelementptr { { ptr }, ptr, ptr, ptr, float, float, ptr, i32 }, { { ptr }, ptr, ptr, ptr, float, float, ptr, i32 }* %_1, i32 0, i32 2
-  store ptr %_2, ptr%_12000007, align 8
-  call void @"_SM31java.nio.charset.CharsetDecoderD20implOnMalformedInputL34java.nio.charset.CodingErrorActionuEO"(ptr dereferenceable_or_null(56) %_1, ptr dereferenceable_or_null(16) %_2)
+  %_12000007 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, float, float, ptr, i32 }, { { ptr, ptr }, ptr, ptr, ptr, float, float, ptr, i32 }* %_1, i32 0, i32 2
+  store atomic ptr %_2, ptr%_12000007 unordered, align 8
+  call void @"_SM31java.nio.charset.CharsetDecoderD20implOnMalformedInputL34java.nio.charset.CodingErrorActionuEO"(ptr dereferenceable_or_null(64) %_1, ptr dereferenceable_or_null(24) %_2)
   ret ptr %_1
 _4000000.0:
-  %_11000001 = call dereferenceable_or_null(72) ptr @"scalanative_GC_alloc_small"(ptr @"_SM34java.lang.IllegalArgumentExceptionG4type", i64 72)
-  %_12000010 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_11000001, i32 0, i32 8
+  %_11000001 = call dereferenceable_or_null(80) ptr @"scalanative_GC_alloc_small"(ptr @"_SM34java.lang.IllegalArgumentExceptionG4type", i64 80)
+  %_12000010 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_11000001, i32 0, i32 8
   %_12000011 = zext i1 true to i8
-  store i8 %_12000011, ptr%_12000010, align 1
-  %_12000013 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_11000001, i32 0, i32 7
-  store ptr @"_SM7__constG3-191", ptr%_12000013, align 8
-  call void @"_SM35scala.scalanative.runtime.ThrowableRzE"(ptr nonnull dereferenceable(72) %_11000001, i1 true)
-  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(72) %_11000001)
+  store atomic i8 %_12000011, ptr%_12000010 unordered, align 1
+  %_12000013 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_11000001, i32 0, i32 7
+  store atomic ptr @"_SM7__constG3-191", ptr%_12000013 unordered, align 8
+  call void @"_SM35scala.scalanative.runtime.ThrowableRzE"(ptr nonnull dereferenceable(80) %_11000001, i1 true)
+  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(80) %_11000001)
   unreachable
 _12000004.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
@@ -7182,8 +7176,8 @@ _2000000.0:
   %_2000004 = icmp ne ptr %_1, null
   br i1 %_2000004, label %_2000002.0, label %_2000003.0
 _2000002.0:
-  %_2000005 = getelementptr { { ptr }, ptr, ptr, ptr, float, float, ptr, i32 }, { { ptr }, ptr, ptr, ptr, float, float, ptr, i32 }* %_1, i32 0, i32 4
-  %_2000001 = load float, ptr %_2000005
+  %_2000005 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, float, float, ptr, i32 }, { { ptr, ptr }, ptr, ptr, ptr, float, float, ptr, i32 }* %_1, i32 0, i32 4
+  %_2000001 = load atomic float, ptr %_2000005 unordered, align 4
   ret float %_2000001
 _2000003.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
@@ -7195,20 +7189,20 @@ _3000000.0:
   ret void
 }
 
-define dereferenceable_or_null(16) ptr @"_SM31java.nio.charset.CharsetDecoderD20malformedInputActionL34java.nio.charset.CodingErrorActionEO"(ptr %_1) personality ptr @scalanative_personality {
+define dereferenceable_or_null(24) ptr @"_SM31java.nio.charset.CharsetDecoderD20malformedInputActionL34java.nio.charset.CodingErrorActionEO"(ptr %_1) personality ptr @scalanative_personality {
 _2000000.0:
   %_2000004 = icmp ne ptr %_1, null
   br i1 %_2000004, label %_2000002.0, label %_2000003.0
 _2000002.0:
-  %_2000005 = getelementptr { { ptr }, ptr, ptr, ptr, float, float, ptr, i32 }, { { ptr }, ptr, ptr, ptr, float, float, ptr, i32 }* %_1, i32 0, i32 2
-  %_2000001 = load ptr, ptr %_2000005, !dereferenceable_or_null !{i64 16}
+  %_2000005 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, float, float, ptr, i32 }, { { ptr, ptr }, ptr, ptr, ptr, float, float, ptr, i32 }* %_1, i32 0, i32 2
+  %_2000001 = load atomic ptr, ptr %_2000005 unordered, align 8
   ret ptr %_2000001
 _2000003.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
   unreachable
 }
 
-define dereferenceable_or_null(56) ptr @"_SM31java.nio.charset.CharsetDecoderD21onUnmappableCharacterL34java.nio.charset.CodingErrorActionL31java.nio.charset.CharsetDecoderEO"(ptr %_1, ptr %_2) personality ptr @scalanative_personality {
+define dereferenceable_or_null(64) ptr @"_SM31java.nio.charset.CharsetDecoderD21onUnmappableCharacterL34java.nio.charset.CodingErrorActionL31java.nio.charset.CharsetDecoderEO"(ptr %_1, ptr %_2) personality ptr @scalanative_personality {
 _3000000.0:
   %_12000005 = icmp ne ptr %_1, null
   br i1 %_12000005, label %_12000003.0, label %_12000004.0
@@ -7218,19 +7212,19 @@ _12000003.0:
 _5000000.0:
   br label %_12000000.0
 _12000000.0:
-  %_12000007 = getelementptr { { ptr }, ptr, ptr, ptr, float, float, ptr, i32 }, { { ptr }, ptr, ptr, ptr, float, float, ptr, i32 }* %_1, i32 0, i32 1
-  store ptr %_2, ptr%_12000007, align 8
-  call void @"_SM31java.nio.charset.CharsetDecoderD25implOnUnmappableCharacterL34java.nio.charset.CodingErrorActionuEO"(ptr dereferenceable_or_null(56) %_1, ptr dereferenceable_or_null(16) %_2)
+  %_12000007 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, float, float, ptr, i32 }, { { ptr, ptr }, ptr, ptr, ptr, float, float, ptr, i32 }* %_1, i32 0, i32 1
+  store atomic ptr %_2, ptr%_12000007 unordered, align 8
+  call void @"_SM31java.nio.charset.CharsetDecoderD25implOnUnmappableCharacterL34java.nio.charset.CodingErrorActionuEO"(ptr dereferenceable_or_null(64) %_1, ptr dereferenceable_or_null(24) %_2)
   ret ptr %_1
 _4000000.0:
-  %_11000001 = call dereferenceable_or_null(72) ptr @"scalanative_GC_alloc_small"(ptr @"_SM34java.lang.IllegalArgumentExceptionG4type", i64 72)
-  %_12000010 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_11000001, i32 0, i32 8
+  %_11000001 = call dereferenceable_or_null(80) ptr @"scalanative_GC_alloc_small"(ptr @"_SM34java.lang.IllegalArgumentExceptionG4type", i64 80)
+  %_12000010 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_11000001, i32 0, i32 8
   %_12000011 = zext i1 true to i8
-  store i8 %_12000011, ptr%_12000010, align 1
-  %_12000013 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_11000001, i32 0, i32 7
-  store ptr @"_SM7__constG3-191", ptr%_12000013, align 8
-  call void @"_SM35scala.scalanative.runtime.ThrowableRzE"(ptr nonnull dereferenceable(72) %_11000001, i1 true)
-  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(72) %_11000001)
+  store atomic i8 %_12000011, ptr%_12000010 unordered, align 1
+  %_12000013 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_11000001, i32 0, i32 7
+  store atomic ptr @"_SM7__constG3-191", ptr%_12000013 unordered, align 8
+  call void @"_SM35scala.scalanative.runtime.ThrowableRzE"(ptr nonnull dereferenceable(80) %_11000001, i1 true)
+  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(80) %_11000001)
   unreachable
 _12000004.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
@@ -7242,37 +7236,37 @@ _3000000.0:
   ret void
 }
 
-define dereferenceable_or_null(16) ptr @"_SM31java.nio.charset.CharsetDecoderD25unmappableCharacterActionL34java.nio.charset.CodingErrorActionEO"(ptr %_1) personality ptr @scalanative_personality {
+define dereferenceable_or_null(24) ptr @"_SM31java.nio.charset.CharsetDecoderD25unmappableCharacterActionL34java.nio.charset.CodingErrorActionEO"(ptr %_1) personality ptr @scalanative_personality {
 _2000000.0:
   %_2000004 = icmp ne ptr %_1, null
   br i1 %_2000004, label %_2000002.0, label %_2000003.0
 _2000002.0:
-  %_2000005 = getelementptr { { ptr }, ptr, ptr, ptr, float, float, ptr, i32 }, { { ptr }, ptr, ptr, ptr, float, float, ptr, i32 }* %_1, i32 0, i32 1
-  %_2000001 = load ptr, ptr %_2000005, !dereferenceable_or_null !{i64 16}
+  %_2000005 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, float, float, ptr, i32 }, { { ptr, ptr }, ptr, ptr, ptr, float, float, ptr, i32 }* %_1, i32 0, i32 1
+  %_2000001 = load atomic ptr, ptr %_2000005 unordered, align 8
   ret ptr %_2000001
 _2000003.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
   unreachable
 }
 
-define dereferenceable_or_null(16) ptr @"_SM31java.nio.charset.CharsetDecoderD5flushL19java.nio.CharBufferL28java.nio.charset.CoderResultEO"(ptr %_1, ptr %_2) personality ptr @scalanative_personality {
+define dereferenceable_or_null(24) ptr @"_SM31java.nio.charset.CharsetDecoderD5flushL19java.nio.CharBufferL28java.nio.charset.CoderResultEO"(ptr %_1, ptr %_2) personality ptr @scalanative_personality {
 _3000000.0:
   %_21000006 = icmp ne ptr %_1, null
   br i1 %_21000006, label %_21000004.0, label %_21000005.0
 _21000004.0:
   br label %_4000000.0
 _4000000.0:
-  %_21000007 = getelementptr { { ptr }, ptr, ptr, ptr, float, float, ptr, i32 }, { { ptr }, ptr, ptr, ptr, float, float, ptr, i32 }* %_1, i32 0, i32 7
-  %_4000001 = load i32, ptr %_21000007
+  %_21000007 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, float, float, ptr, i32 }, { { ptr, ptr }, ptr, ptr, ptr, float, float, ptr, i32 }* %_1, i32 0, i32 7
+  %_4000001 = load atomic i32, ptr %_21000007 unordered, align 4
   %_4000003 = icmp eq i32 %_4000001, 3
   br i1 %_4000003, label %_5000000.0, label %_6000000.0
 _5000000.0:
-  %_5000001 = call dereferenceable_or_null(16) ptr @"_SM31java.nio.charset.CharsetDecoderD9implFlushL19java.nio.CharBufferL28java.nio.charset.CoderResultEO"(ptr dereferenceable_or_null(56) %_1, ptr dereferenceable_or_null(56) %_2)
-  %_5000002 = call i1 @"_SM28java.nio.charset.CoderResultD11isUnderflowzEO"(ptr dereferenceable_or_null(16) %_5000001)
+  %_5000001 = call dereferenceable_or_null(24) ptr @"_SM31java.nio.charset.CharsetDecoderD9implFlushL19java.nio.CharBufferL28java.nio.charset.CoderResultEO"(ptr dereferenceable_or_null(64) %_1, ptr dereferenceable_or_null(64) %_2)
+  %_5000002 = call i1 @"_SM28java.nio.charset.CoderResultD11isUnderflowzEO"(ptr dereferenceable_or_null(24) %_5000001)
   br i1 %_5000002, label %_7000000.0, label %_8000000.0
 _7000000.0:
-  %_21000009 = getelementptr { { ptr }, ptr, ptr, ptr, float, float, ptr, i32 }, { { ptr }, ptr, ptr, ptr, float, float, ptr, i32 }* %_1, i32 0, i32 7
-  store i32 4, ptr%_21000009, align 4
+  %_21000009 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, float, float, ptr, i32 }, { { ptr, ptr }, ptr, ptr, ptr, float, float, ptr, i32 }* %_1, i32 0, i32 7
+  store atomic i32 4, ptr%_21000009 unordered, align 4
   br label %_9000000.0
 _8000000.0:
   br label %_9000000.0
@@ -7284,9 +7278,9 @@ _11000000.0:
   %_11000002 = icmp eq i32 %_4000001, 4
   br i1 %_11000002, label %_12000000.0, label %_13000000.0
 _12000000.0:
-  %_12000001 = call dereferenceable_or_null(104) ptr @"_SM29java.nio.charset.CoderResult$G4load"()
-  %_21000010 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_12000001, i32 0, i32 1
-  %_14000001 = load ptr, ptr %_21000010, !dereferenceable_or_null !{i64 16}
+  %_12000001 = call dereferenceable_or_null(112) ptr @"_SM29java.nio.charset.CoderResult$G4load"()
+  %_21000010 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_12000001, i32 0, i32 1
+  %_14000001 = load atomic ptr, ptr %_21000010 unordered, align 8
   br label %_10000000.0
 _13000000.0:
   br label %_15000000.0
@@ -7294,43 +7288,43 @@ _10000000.0:
   %_10000001 = phi ptr [%_14000001, %_12000000.0], [%_5000001, %_9000000.0]
   ret ptr %_10000001
 _15000000.0:
-  %_21000001 = call dereferenceable_or_null(72) ptr @"scalanative_GC_alloc_small"(ptr @"_SM31java.lang.IllegalStateExceptionG4type", i64 72)
-  %_21000012 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_21000001, i32 0, i32 8
+  %_21000001 = call dereferenceable_or_null(80) ptr @"scalanative_GC_alloc_small"(ptr @"_SM31java.lang.IllegalStateExceptionG4type", i64 80)
+  %_21000012 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_21000001, i32 0, i32 8
   %_21000013 = zext i1 true to i8
-  store i8 %_21000013, ptr%_21000012, align 1
-  call void @"_SM35scala.scalanative.runtime.ThrowableRzE"(ptr nonnull dereferenceable(72) %_21000001, i1 true)
-  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(72) %_21000001)
+  store atomic i8 %_21000013, ptr%_21000012 unordered, align 1
+  call void @"_SM35scala.scalanative.runtime.ThrowableRzE"(ptr nonnull dereferenceable(80) %_21000001, i1 true)
+  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(80) %_21000001)
   unreachable
 _21000005.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
   unreachable
 }
 
-define dereferenceable_or_null(56) ptr @"_SM31java.nio.charset.CharsetDecoderD5resetL31java.nio.charset.CharsetDecoderEO"(ptr %_1) personality ptr @scalanative_personality {
+define dereferenceable_or_null(64) ptr @"_SM31java.nio.charset.CharsetDecoderD5resetL31java.nio.charset.CharsetDecoderEO"(ptr %_1) personality ptr @scalanative_personality {
 _2000000.0:
   %_2000007 = icmp ne ptr %_1, null
   br i1 %_2000007, label %_2000005.0, label %_2000006.0
 _2000005.0:
-  %_2000009 = getelementptr { { ptr }, ptr, ptr, ptr, float, float, ptr, i32 }, { { ptr }, ptr, ptr, ptr, float, float, ptr, i32 }* %_1, i32 0, i32 7
-  store i32 1, ptr%_2000009, align 4
+  %_2000009 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, float, float, ptr, i32 }, { { ptr, ptr }, ptr, ptr, ptr, float, float, ptr, i32 }* %_1, i32 0, i32 7
+  store atomic i32 1, ptr%_2000009 unordered, align 4
   %_2000010 = load ptr, ptr %_1
-  %_2000011 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] }* %_2000010, i32 0, i32 7, i32 3
+  %_2000011 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] }* %_2000010, i32 0, i32 7, i32 3
   %_2000003 = load ptr, ptr %_2000011
-  call void %_2000003(ptr dereferenceable_or_null(56) %_1)
+  call void %_2000003(ptr dereferenceable_or_null(64) %_1)
   ret ptr %_1
 _2000006.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
   unreachable
 }
 
-define dereferenceable_or_null(56) ptr @"_SM31java.nio.charset.CharsetDecoderD6decodeL19java.nio.ByteBufferL19java.nio.CharBufferEO"(ptr %_1, ptr %_2) personality ptr @scalanative_personality {
+define dereferenceable_or_null(64) ptr @"_SM31java.nio.charset.CharsetDecoderD6decodeL19java.nio.ByteBufferL19java.nio.CharBufferEO"(ptr %_1, ptr %_2) personality ptr @scalanative_personality {
 _3000000.0:
   %_3000019 = icmp ne ptr %_1, null
   br i1 %_3000019, label %_3000017.0, label %_3000018.0
 _3000017.0:
-  %_3000001 = call dereferenceable_or_null(56) ptr @"_SM31java.nio.charset.CharsetDecoderD5resetL31java.nio.charset.CharsetDecoderEO"(ptr dereferenceable_or_null(56) %_1)
-  %_3000002 = call i32 @"_SM15java.nio.BufferD9remainingiEO"(ptr dereferenceable_or_null(56) %_2)
-  %_3000004 = call float @"_SM31java.nio.charset.CharsetDecoderD19averageCharsPerBytefEO"(ptr dereferenceable_or_null(56) %_1)
+  %_3000001 = call dereferenceable_or_null(64) ptr @"_SM31java.nio.charset.CharsetDecoderD5resetL31java.nio.charset.CharsetDecoderEO"(ptr dereferenceable_or_null(64) %_1)
+  %_3000002 = call i32 @"_SM15java.nio.BufferD9remainingiEO"(ptr dereferenceable_or_null(64) %_2)
+  %_3000004 = call float @"_SM31java.nio.charset.CharsetDecoderD19averageCharsPerBytefEO"(ptr dereferenceable_or_null(64) %_1)
   %_3000009 = sitofp i32 %_3000002 to double
   %_3000010 = fpext float %_3000004 to double
   %_3000011 = fmul double %_3000009, %_3000010
@@ -7353,23 +7347,23 @@ _3000025.0:
   br label %_3000026.0
 _3000026.0:
   %_3000012 = phi i32 [%_3000030, %_3000025.0], [2147483647, %_3000024.0], [-2147483648, %_3000022.0], [zeroinitializer, %_3000020.0]
-  %_3000013 = call dereferenceable_or_null(56) ptr @"_SM20java.nio.CharBuffer$D8allocateiL19java.nio.CharBufferEO"(ptr nonnull dereferenceable(8) @"_SM20java.nio.CharBuffer$G8instance", i32 %_3000012)
-  %_3000014 = call dereferenceable_or_null(56) ptr @"_SM31java.nio.charset.CharsetDecoderD12loopDecode$1L19java.nio.ByteBufferL19java.nio.CharBufferL19java.nio.CharBufferEPT31java.nio.charset.CharsetDecoder"(ptr dereferenceable_or_null(56) %_1, ptr dereferenceable_or_null(56) %_2, ptr dereferenceable_or_null(56) %_3000013)
-  %_3000015 = call dereferenceable_or_null(56) ptr @"_SM31java.nio.charset.CharsetDecoderD11loopFlush$1L19java.nio.CharBufferL19java.nio.CharBufferEPT31java.nio.charset.CharsetDecoder"(ptr dereferenceable_or_null(56) %_1, ptr dereferenceable_or_null(56) %_3000014)
-  %_3000016 = call dereferenceable_or_null(56) ptr @"_SM19java.nio.CharBufferD4flipL19java.nio.CharBufferEO"(ptr dereferenceable_or_null(56) %_3000015)
+  %_3000013 = call dereferenceable_or_null(64) ptr @"_SM20java.nio.CharBuffer$D8allocateiL19java.nio.CharBufferEO"(ptr nonnull dereferenceable(16) @"_SM20java.nio.CharBuffer$G8instance", i32 %_3000012)
+  %_3000014 = call dereferenceable_or_null(64) ptr @"_SM31java.nio.charset.CharsetDecoderD12loopDecode$1L19java.nio.ByteBufferL19java.nio.CharBufferL19java.nio.CharBufferEPT31java.nio.charset.CharsetDecoder"(ptr dereferenceable_or_null(64) %_1, ptr dereferenceable_or_null(64) %_2, ptr dereferenceable_or_null(64) %_3000013)
+  %_3000015 = call dereferenceable_or_null(64) ptr @"_SM31java.nio.charset.CharsetDecoderD11loopFlush$1L19java.nio.CharBufferL19java.nio.CharBufferEPT31java.nio.charset.CharsetDecoder"(ptr dereferenceable_or_null(64) %_1, ptr dereferenceable_or_null(64) %_3000014)
+  %_3000016 = call dereferenceable_or_null(64) ptr @"_SM19java.nio.CharBufferD4flipL19java.nio.CharBufferEO"(ptr dereferenceable_or_null(64) %_3000015)
   ret ptr %_3000015
 _3000018.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
   unreachable
 }
 
-define dereferenceable_or_null(16) ptr @"_SM31java.nio.charset.CharsetDecoderD6decodeL19java.nio.ByteBufferL19java.nio.CharBufferzL28java.nio.charset.CoderResultEO"(ptr %_1, ptr %_2, ptr %_3, i1 %_4) personality ptr @scalanative_personality {
+define dereferenceable_or_null(24) ptr @"_SM31java.nio.charset.CharsetDecoderD6decodeL19java.nio.ByteBufferL19java.nio.CharBufferzL28java.nio.charset.CoderResultEO"(ptr %_1, ptr %_2, ptr %_3, i1 %_4) personality ptr @scalanative_personality {
 _5000000.0:
   %_23000006 = icmp ne ptr %_1, null
   br i1 %_23000006, label %_23000004.0, label %_23000005.0
 _23000004.0:
-  %_23000007 = getelementptr { { ptr }, ptr, ptr, ptr, float, float, ptr, i32 }, { { ptr }, ptr, ptr, ptr, float, float, ptr, i32 }* %_1, i32 0, i32 7
-  %_5000001 = load i32, ptr %_23000007
+  %_23000007 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, float, float, ptr, i32 }, { { ptr, ptr }, ptr, ptr, ptr, float, float, ptr, i32 }* %_1, i32 0, i32 7
+  %_5000001 = load atomic i32, ptr %_23000007 unordered, align 4
   %_5000003 = icmp eq i32 %_5000001, 4
   br i1 %_5000003, label %_6000000.0, label %_7000000.0
 _6000000.0:
@@ -7378,8 +7372,8 @@ _7000000.0:
   %_7000002 = xor i1 %_4, true
   br i1 %_7000002, label %_9000000.0, label %_10000000.0
 _9000000.0:
-  %_23000008 = getelementptr { { ptr }, ptr, ptr, ptr, float, float, ptr, i32 }, { { ptr }, ptr, ptr, ptr, float, float, ptr, i32 }* %_1, i32 0, i32 7
-  %_9000001 = load i32, ptr %_23000008
+  %_23000008 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, float, float, ptr, i32 }, { { ptr, ptr }, ptr, ptr, ptr, float, float, ptr, i32 }* %_1, i32 0, i32 7
+  %_9000001 = load atomic i32, ptr %_23000008 unordered, align 4
   %_9000003 = icmp eq i32 %_9000001, 3
   br label %_11000000.0
 _10000000.0:
@@ -7400,45 +7394,45 @@ _22000000.0:
   br label %_23000000.0
 _23000000.0:
   %_23000001 = phi i32 [2, %_22000000.0], [3, %_21000000.0]
-  %_23000010 = getelementptr { { ptr }, ptr, ptr, ptr, float, float, ptr, i32 }, { { ptr }, ptr, ptr, ptr, float, float, ptr, i32 }* %_1, i32 0, i32 7
-  store i32 %_23000001, ptr%_23000010, align 4
-  %_23000003 = call dereferenceable_or_null(16) ptr @"_SM31java.nio.charset.CharsetDecoderD6loop$1L19java.nio.ByteBufferL19java.nio.CharBufferzL28java.nio.charset.CoderResultEPT31java.nio.charset.CharsetDecoder"(ptr dereferenceable_or_null(56) %_1, ptr dereferenceable_or_null(56) %_2, ptr dereferenceable_or_null(56) %_3, i1 %_4)
+  %_23000010 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, float, float, ptr, i32 }, { { ptr, ptr }, ptr, ptr, ptr, float, float, ptr, i32 }* %_1, i32 0, i32 7
+  store atomic i32 %_23000001, ptr%_23000010 unordered, align 4
+  %_23000003 = call dereferenceable_or_null(24) ptr @"_SM31java.nio.charset.CharsetDecoderD6loop$1L19java.nio.ByteBufferL19java.nio.CharBufferzL28java.nio.charset.CoderResultEPT31java.nio.charset.CharsetDecoder"(ptr dereferenceable_or_null(64) %_1, ptr dereferenceable_or_null(64) %_2, ptr dereferenceable_or_null(64) %_3, i1 %_4)
   ret ptr %_23000003
 _12000000.0:
-  %_19000001 = call dereferenceable_or_null(72) ptr @"scalanative_GC_alloc_small"(ptr @"_SM31java.lang.IllegalStateExceptionG4type", i64 72)
-  %_23000012 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_19000001, i32 0, i32 8
+  %_19000001 = call dereferenceable_or_null(80) ptr @"scalanative_GC_alloc_small"(ptr @"_SM31java.lang.IllegalStateExceptionG4type", i64 80)
+  %_23000012 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_19000001, i32 0, i32 8
   %_23000013 = zext i1 true to i8
-  store i8 %_23000013, ptr%_23000012, align 1
-  call void @"_SM35scala.scalanative.runtime.ThrowableRzE"(ptr nonnull dereferenceable(72) %_19000001, i1 true)
-  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(72) %_19000001)
+  store atomic i8 %_23000013, ptr%_23000012 unordered, align 1
+  call void @"_SM35scala.scalanative.runtime.ThrowableRzE"(ptr nonnull dereferenceable(80) %_19000001, i1 true)
+  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(80) %_19000001)
   unreachable
 _23000005.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
   unreachable
 }
 
-define dereferenceable_or_null(56) ptr @"_SM31java.nio.charset.CharsetDecoderD6grow$1L19java.nio.CharBufferL19java.nio.CharBufferEpT31java.nio.charset.CharsetDecoder"(ptr %_1) personality ptr @scalanative_personality {
+define dereferenceable_or_null(64) ptr @"_SM31java.nio.charset.CharsetDecoderD6grow$1L19java.nio.CharBufferL19java.nio.CharBufferEpT31java.nio.charset.CharsetDecoder"(ptr %_1) personality ptr @scalanative_personality {
 _2000000.0:
-  %_2000001 = call i32 @"_SM15java.nio.BufferD8capacityiEO"(ptr dereferenceable_or_null(56) %_1)
+  %_2000001 = call i32 @"_SM15java.nio.BufferD8capacityiEO"(ptr dereferenceable_or_null(64) %_1)
   %_2000003 = icmp eq i32 %_2000001, 0
   br i1 %_2000003, label %_3000000.0, label %_4000000.0
 _3000000.0:
-  %_3000002 = call dereferenceable_or_null(56) ptr @"_SM20java.nio.CharBuffer$D8allocateiL19java.nio.CharBufferEO"(ptr nonnull dereferenceable(8) @"_SM20java.nio.CharBuffer$G8instance", i32 1)
+  %_3000002 = call dereferenceable_or_null(64) ptr @"_SM20java.nio.CharBuffer$D8allocateiL19java.nio.CharBufferEO"(ptr nonnull dereferenceable(16) @"_SM20java.nio.CharBuffer$G8instance", i32 1)
   br label %_5000000.0
 _4000000.0:
-  %_4000002 = call i32 @"_SM15java.nio.BufferD8capacityiEO"(ptr dereferenceable_or_null(56) %_1)
+  %_4000002 = call i32 @"_SM15java.nio.BufferD8capacityiEO"(ptr dereferenceable_or_null(64) %_1)
   %_5000002 = and i32 1, 31
   %_4000004 = shl i32 %_4000002, %_5000002
-  %_4000005 = call dereferenceable_or_null(56) ptr @"_SM20java.nio.CharBuffer$D8allocateiL19java.nio.CharBufferEO"(ptr nonnull dereferenceable(8) @"_SM20java.nio.CharBuffer$G8instance", i32 %_4000004)
-  %_4000006 = call dereferenceable_or_null(56) ptr @"_SM19java.nio.CharBufferD4flipL19java.nio.CharBufferEO"(ptr dereferenceable_or_null(56) %_1)
-  %_4000007 = call dereferenceable_or_null(56) ptr @"_SM19java.nio.CharBufferD3putL19java.nio.CharBufferL19java.nio.CharBufferEO"(ptr dereferenceable_or_null(56) %_4000005, ptr dereferenceable_or_null(56) %_1)
+  %_4000005 = call dereferenceable_or_null(64) ptr @"_SM20java.nio.CharBuffer$D8allocateiL19java.nio.CharBufferEO"(ptr nonnull dereferenceable(16) @"_SM20java.nio.CharBuffer$G8instance", i32 %_4000004)
+  %_4000006 = call dereferenceable_or_null(64) ptr @"_SM19java.nio.CharBufferD4flipL19java.nio.CharBufferEO"(ptr dereferenceable_or_null(64) %_1)
+  %_4000007 = call dereferenceable_or_null(64) ptr @"_SM19java.nio.CharBufferD3putL19java.nio.CharBufferL19java.nio.CharBufferEO"(ptr dereferenceable_or_null(64) %_4000005, ptr dereferenceable_or_null(64) %_1)
   br label %_5000000.0
 _5000000.0:
   %_5000001 = phi ptr [%_4000005, %_4000000.0], [%_3000002, %_3000000.0]
   ret ptr %_5000001
 }
 
-define dereferenceable_or_null(16) ptr @"_SM31java.nio.charset.CharsetDecoderD6loop$1L19java.nio.ByteBufferL19java.nio.CharBufferzL28java.nio.charset.CoderResultEPT31java.nio.charset.CharsetDecoder"(ptr %_4, ptr %_1, ptr %_2, i1 %_3) inlinehint personality ptr @scalanative_personality {
+define dereferenceable_or_null(24) ptr @"_SM31java.nio.charset.CharsetDecoderD6loop$1L19java.nio.ByteBufferL19java.nio.CharBufferzL28java.nio.charset.CoderResultEPT31java.nio.charset.CharsetDecoder"(ptr %_4, ptr %_1, ptr %_2, i1 %_3) inlinehint personality ptr @scalanative_personality {
 _5.0:
   br label %_6.0
 _6.0:
@@ -7452,9 +7446,9 @@ _13.0:
   br i1 %_175, label %_172.0, label %_173.0
 _172.0:
   %_177 = load ptr, ptr %_4
-  %_179 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] }* %_177, i32 0, i32 7, i32 4
+  %_179 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] }* %_177, i32 0, i32 7, i32 4
   %_18 = load ptr, ptr %_179
-  %_20 = invoke dereferenceable_or_null(16) ptr %_18(ptr dereferenceable_or_null(56) %_4, ptr dereferenceable_or_null(56) %_1, ptr dereferenceable_or_null(56) %_2) to label %_172.1 unwind label %_182.landingpad
+  %_20 = invoke dereferenceable_or_null(24) ptr %_18(ptr dereferenceable_or_null(64) %_4, ptr dereferenceable_or_null(64) %_1, ptr dereferenceable_or_null(64) %_2) to label %_172.1 unwind label %_182.landingpad
 _172.1:
   br label %_14.0
 _12.0:
@@ -7478,9 +7472,9 @@ _189.0:
   %_194 = icmp eq ptr %_193, @"_SM32java.nio.BufferOverflowExceptionG4type"
   br i1 %_194, label %_190.0, label %_191.0
 _190.0:
-  %_27 = call dereferenceable_or_null(72) ptr @"scalanative_GC_alloc_small"(ptr @"_SM38java.nio.charset.CoderMalfunctionErrorG4type", i64 72)
-  call void @"_SM38java.nio.charset.CoderMalfunctionErrorRL19java.lang.ExceptionE"(ptr nonnull dereferenceable(72) %_27, ptr dereferenceable_or_null(72) %_15)
-  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(72) %_27)
+  %_27 = call dereferenceable_or_null(80) ptr @"scalanative_GC_alloc_small"(ptr @"_SM38java.nio.charset.CoderMalfunctionErrorG4type", i64 80)
+  call void @"_SM38java.nio.charset.CoderMalfunctionErrorRL19java.lang.ExceptionE"(ptr nonnull dereferenceable(80) %_27, ptr dereferenceable_or_null(80) %_15)
+  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(80) %_27)
   unreachable
 _23.0:
   %_200 = icmp eq ptr %_15, null
@@ -7502,28 +7496,28 @@ _203.0:
   %_207 = icmp eq ptr %_206, @"_SM33java.nio.BufferUnderflowExceptionG4type"
   br i1 %_207, label %_204.0, label %_191.0
 _204.0:
-  %_37 = call dereferenceable_or_null(72) ptr @"scalanative_GC_alloc_small"(ptr @"_SM38java.nio.charset.CoderMalfunctionErrorG4type", i64 72)
-  call void @"_SM38java.nio.charset.CoderMalfunctionErrorRL19java.lang.ExceptionE"(ptr nonnull dereferenceable(72) %_37, ptr dereferenceable_or_null(72) %_15)
-  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(72) %_37)
+  %_37 = call dereferenceable_or_null(80) ptr @"scalanative_GC_alloc_small"(ptr @"_SM38java.nio.charset.CoderMalfunctionErrorG4type", i64 80)
+  call void @"_SM38java.nio.charset.CoderMalfunctionErrorRL19java.lang.ExceptionE"(ptr nonnull dereferenceable(80) %_37, ptr dereferenceable_or_null(80) %_15)
+  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(80) %_37)
   unreachable
 _33.0:
   %_212 = icmp ne ptr %_15, null
   br i1 %_212, label %_210.0, label %_211.0
 _210.0:
-  call ptr @"scalanative_throw"(ptr dereferenceable_or_null(72) %_15)
+  call ptr @"scalanative_throw"(ptr dereferenceable_or_null(80) %_15)
   unreachable
 _14.0:
   %_16 = phi ptr [%_20, %_172.1]
   %_215 = icmp ne ptr %_16, null
   br i1 %_215, label %_214.0, label %_211.0
 _214.0:
-  %_47 = call i1 @"_SM28java.nio.charset.CoderResultD11isUnderflowzEO"(ptr dereferenceable_or_null(16) %_16)
+  %_47 = call i1 @"_SM28java.nio.charset.CoderResultD11isUnderflowzEO"(ptr dereferenceable_or_null(24) %_16)
   br i1 %_47, label %_42.0, label %_43.0
 _42.0:
   %_217 = icmp ne ptr %_1, null
   br i1 %_217, label %_216.0, label %_211.0
 _216.0:
-  %_49 = call i32 @"_SM15java.nio.BufferD9remainingiEO"(ptr dereferenceable_or_null(56) %_1)
+  %_49 = call i32 @"_SM15java.nio.BufferD9remainingiEO"(ptr dereferenceable_or_null(64) %_1)
   br i1 %_3, label %_54.0, label %_55.0
 _54.0:
   %_58 = icmp sgt i32 %_49, 0
@@ -7534,8 +7528,8 @@ _56.0:
   %_57 = phi i1 [false, %_55.0], [%_58, %_54.0]
   br i1 %_57, label %_50.0, label %_51.0
 _50.0:
-  %_59 = call dereferenceable_or_null(104) ptr @"_SM29java.nio.charset.CoderResult$G4load"()
-  %_61 = call dereferenceable_or_null(16) ptr @"_SM29java.nio.charset.CoderResult$D18malformedForLengthiL28java.nio.charset.CoderResultEO"(ptr nonnull dereferenceable(104) %_59, i32 %_49)
+  %_59 = call dereferenceable_or_null(112) ptr @"_SM29java.nio.charset.CoderResult$G4load"()
+  %_61 = call dereferenceable_or_null(24) ptr @"_SM29java.nio.charset.CoderResult$D18malformedForLengthiL28java.nio.charset.CoderResultEO"(ptr nonnull dereferenceable(112) %_59, i32 %_49)
   br label %_52.0
 _51.0:
   br label %_52.0
@@ -7549,12 +7543,12 @@ _44.0:
   %_219 = icmp ne ptr %_45, null
   br i1 %_219, label %_218.0, label %_211.0
 _218.0:
-  %_71 = call i1 @"_SM28java.nio.charset.CoderResultD11isUnderflowzEO"(ptr dereferenceable_or_null(16) %_45)
+  %_71 = call i1 @"_SM28java.nio.charset.CoderResultD11isUnderflowzEO"(ptr dereferenceable_or_null(24) %_45)
   br i1 %_71, label %_66.0, label %_67.0
 _66.0:
   br label %_68.0
 _67.0:
-  %_73 = call i1 @"_SM28java.nio.charset.CoderResultD10isOverflowzEO"(ptr dereferenceable_or_null(16) %_45)
+  %_73 = call i1 @"_SM28java.nio.charset.CoderResultD10isOverflowzEO"(ptr dereferenceable_or_null(24) %_45)
   br label %_68.0
 _68.0:
   %_69 = phi i1 [%_73, %_67.0], [true, %_66.0]
@@ -7562,20 +7556,20 @@ _68.0:
 _62.0:
   br label %_64.0
 _63.0:
-  %_79 = call i1 @"_SM28java.nio.charset.CoderResultD12isUnmappablezEO"(ptr dereferenceable_or_null(16) %_45)
+  %_79 = call i1 @"_SM28java.nio.charset.CoderResultD12isUnmappablezEO"(ptr dereferenceable_or_null(24) %_45)
   br i1 %_79, label %_74.0, label %_75.0
 _74.0:
-  %_81 = call dereferenceable_or_null(16) ptr @"_SM31java.nio.charset.CharsetDecoderD25unmappableCharacterActionL34java.nio.charset.CodingErrorActionEO"(ptr dereferenceable_or_null(56) %_4)
+  %_81 = call dereferenceable_or_null(24) ptr @"_SM31java.nio.charset.CharsetDecoderD25unmappableCharacterActionL34java.nio.charset.CodingErrorActionEO"(ptr dereferenceable_or_null(64) %_4)
   br label %_76.0
 _75.0:
-  %_83 = call dereferenceable_or_null(16) ptr @"_SM31java.nio.charset.CharsetDecoderD20malformedInputActionL34java.nio.charset.CodingErrorActionEO"(ptr dereferenceable_or_null(56) %_4)
+  %_83 = call dereferenceable_or_null(24) ptr @"_SM31java.nio.charset.CharsetDecoderD20malformedInputActionL34java.nio.charset.CodingErrorActionEO"(ptr dereferenceable_or_null(64) %_4)
   br label %_76.0
 _76.0:
   %_77 = phi ptr [%_83, %_75.0], [%_81, %_74.0]
   br label %_84.0
 _84.0:
-  %_95 = call dereferenceable_or_null(32) ptr @"_SM35java.nio.charset.CodingErrorAction$G4load"()
-  %_97 = call dereferenceable_or_null(16) ptr @"_SM35java.nio.charset.CodingErrorAction$D7REPLACEL34java.nio.charset.CodingErrorActionEO"(ptr nonnull dereferenceable(32) %_95)
+  %_95 = call dereferenceable_or_null(40) ptr @"_SM35java.nio.charset.CodingErrorAction$G4load"()
+  %_97 = call dereferenceable_or_null(24) ptr @"_SM35java.nio.charset.CodingErrorAction$D7REPLACEL34java.nio.charset.CodingErrorActionEO"(ptr nonnull dereferenceable(40) %_95)
   %_98 = icmp eq ptr %_97, null
   br i1 %_98, label %_91.0, label %_92.0
 _91.0:
@@ -7585,7 +7579,7 @@ _92.0:
   %_221 = icmp ne ptr %_97, null
   br i1 %_221, label %_220.0, label %_211.0
 _220.0:
-  %_101 = call i1 @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO"(ptr dereferenceable_or_null(16) %_97, ptr dereferenceable_or_null(16) %_77)
+  %_101 = call i1 @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO"(ptr dereferenceable_or_null(24) %_97, ptr dereferenceable_or_null(24) %_77)
   br label %_93.0
 _93.0:
   %_94 = phi i1 [%_101, %_220.0], [%_99, %_91.0]
@@ -7594,25 +7588,25 @@ _87.0:
   %_223 = icmp ne ptr %_2, null
   br i1 %_223, label %_222.0, label %_211.0
 _222.0:
-  %_107 = call i32 @"_SM15java.nio.BufferD9remainingiEO"(ptr dereferenceable_or_null(56) %_2)
-  %_109 = call dereferenceable_or_null(32) ptr @"_SM31java.nio.charset.CharsetDecoderD11replacementL16java.lang.StringEO"(ptr dereferenceable_or_null(56) %_4)
+  %_107 = call i32 @"_SM15java.nio.BufferD9remainingiEO"(ptr dereferenceable_or_null(64) %_2)
+  %_109 = call dereferenceable_or_null(40) ptr @"_SM31java.nio.charset.CharsetDecoderD11replacementL16java.lang.StringEO"(ptr dereferenceable_or_null(64) %_4)
   %_225 = icmp ne ptr %_109, null
   br i1 %_225, label %_224.0, label %_211.0
 _224.0:
-  %_111 = call i32 @"_SM16java.lang.StringD6lengthiEO"(ptr dereferenceable_or_null(32) %_109)
+  %_111 = call i32 @"_SM16java.lang.StringD6lengthiEO"(ptr dereferenceable_or_null(40) %_109)
   %_112 = icmp slt i32 %_107, %_111
   br i1 %_112, label %_102.0, label %_103.0
 _102.0:
-  %_113 = call dereferenceable_or_null(104) ptr @"_SM29java.nio.charset.CoderResult$G4load"()
-  %_115 = call dereferenceable_or_null(16) ptr @"_SM29java.nio.charset.CoderResult$D8OVERFLOWL28java.nio.charset.CoderResultEO"(ptr nonnull dereferenceable(104) %_113)
+  %_113 = call dereferenceable_or_null(112) ptr @"_SM29java.nio.charset.CoderResult$G4load"()
+  %_115 = call dereferenceable_or_null(24) ptr @"_SM29java.nio.charset.CoderResult$D8OVERFLOWL28java.nio.charset.CoderResultEO"(ptr nonnull dereferenceable(112) %_113)
   br label %_104.0
 _103.0:
-  %_117 = call dereferenceable_or_null(32) ptr @"_SM31java.nio.charset.CharsetDecoderD11replacementL16java.lang.StringEO"(ptr dereferenceable_or_null(56) %_4)
-  %_119 = call dereferenceable_or_null(56) ptr @"_SM19java.nio.CharBufferD3putL16java.lang.StringL19java.nio.CharBufferEO"(ptr dereferenceable_or_null(56) %_2, ptr dereferenceable_or_null(32) %_117)
-  %_121 = call i32 @"_SM15java.nio.BufferD8positioniEO"(ptr dereferenceable_or_null(56) %_1)
-  %_123 = call i32 @"_SM28java.nio.charset.CoderResultD6lengthiEO"(ptr dereferenceable_or_null(16) %_45)
+  %_117 = call dereferenceable_or_null(40) ptr @"_SM31java.nio.charset.CharsetDecoderD11replacementL16java.lang.StringEO"(ptr dereferenceable_or_null(64) %_4)
+  %_119 = call dereferenceable_or_null(64) ptr @"_SM19java.nio.CharBufferD3putL16java.lang.StringL19java.nio.CharBufferEO"(ptr dereferenceable_or_null(64) %_2, ptr dereferenceable_or_null(40) %_117)
+  %_121 = call i32 @"_SM15java.nio.BufferD8positioniEO"(ptr dereferenceable_or_null(64) %_1)
+  %_123 = call i32 @"_SM28java.nio.charset.CoderResultD6lengthiEO"(ptr dereferenceable_or_null(24) %_45)
   %_124 = add i32 %_121, %_123
-  %_126 = call dereferenceable_or_null(56) ptr @"_SM19java.nio.ByteBufferD8positioniL19java.nio.ByteBufferEO"(ptr dereferenceable_or_null(56) %_1, i32 %_124)
+  %_126 = call dereferenceable_or_null(64) ptr @"_SM19java.nio.ByteBufferD8positioniL19java.nio.ByteBufferEO"(ptr dereferenceable_or_null(64) %_1, i32 %_124)
   br label %_10.0
 _104.0:
   %_105 = phi ptr [%_115, %_102.0]
@@ -7620,8 +7614,8 @@ _104.0:
 _88.0:
   br label %_89.0
 _89.0:
-  %_137 = call dereferenceable_or_null(32) ptr @"_SM35java.nio.charset.CodingErrorAction$G4load"()
-  %_139 = call dereferenceable_or_null(16) ptr @"_SM35java.nio.charset.CodingErrorAction$D6REPORTL34java.nio.charset.CodingErrorActionEO"(ptr nonnull dereferenceable(32) %_137)
+  %_137 = call dereferenceable_or_null(40) ptr @"_SM35java.nio.charset.CodingErrorAction$G4load"()
+  %_139 = call dereferenceable_or_null(24) ptr @"_SM35java.nio.charset.CodingErrorAction$D6REPORTL34java.nio.charset.CodingErrorActionEO"(ptr nonnull dereferenceable(40) %_137)
   %_140 = icmp eq ptr %_139, null
   br i1 %_140, label %_133.0, label %_134.0
 _133.0:
@@ -7631,7 +7625,7 @@ _134.0:
   %_227 = icmp ne ptr %_139, null
   br i1 %_227, label %_226.0, label %_211.0
 _226.0:
-  %_143 = call i1 @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO"(ptr dereferenceable_or_null(16) %_139, ptr dereferenceable_or_null(16) %_77)
+  %_143 = call i1 @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO"(ptr dereferenceable_or_null(24) %_139, ptr dereferenceable_or_null(24) %_77)
   br label %_135.0
 _135.0:
   %_136 = phi i1 [%_143, %_226.0], [%_141, %_133.0]
@@ -7641,8 +7635,8 @@ _129.0:
 _130.0:
   br label %_131.0
 _131.0:
-  %_153 = call dereferenceable_or_null(32) ptr @"_SM35java.nio.charset.CodingErrorAction$G4load"()
-  %_155 = call dereferenceable_or_null(16) ptr @"_SM35java.nio.charset.CodingErrorAction$D6IGNOREL34java.nio.charset.CodingErrorActionEO"(ptr nonnull dereferenceable(32) %_153)
+  %_153 = call dereferenceable_or_null(40) ptr @"_SM35java.nio.charset.CodingErrorAction$G4load"()
+  %_155 = call dereferenceable_or_null(24) ptr @"_SM35java.nio.charset.CodingErrorAction$D6IGNOREL34java.nio.charset.CodingErrorActionEO"(ptr nonnull dereferenceable(40) %_153)
   %_156 = icmp eq ptr %_155, null
   br i1 %_156, label %_149.0, label %_150.0
 _149.0:
@@ -7652,23 +7646,23 @@ _150.0:
   %_229 = icmp ne ptr %_155, null
   br i1 %_229, label %_228.0, label %_211.0
 _228.0:
-  %_159 = call i1 @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO"(ptr dereferenceable_or_null(16) %_155, ptr dereferenceable_or_null(16) %_77)
+  %_159 = call i1 @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO"(ptr dereferenceable_or_null(24) %_155, ptr dereferenceable_or_null(24) %_77)
   br label %_151.0
 _151.0:
   %_152 = phi i1 [%_159, %_228.0], [%_157, %_149.0]
   br i1 %_152, label %_145.0, label %_146.0
 _145.0:
-  %_161 = call i32 @"_SM15java.nio.BufferD8positioniEO"(ptr dereferenceable_or_null(56) %_1)
-  %_163 = call i32 @"_SM28java.nio.charset.CoderResultD6lengthiEO"(ptr dereferenceable_or_null(16) %_45)
+  %_161 = call i32 @"_SM15java.nio.BufferD8positioniEO"(ptr dereferenceable_or_null(64) %_1)
+  %_163 = call i32 @"_SM28java.nio.charset.CoderResultD6lengthiEO"(ptr dereferenceable_or_null(24) %_45)
   %_164 = add i32 %_161, %_163
-  %_166 = call dereferenceable_or_null(56) ptr @"_SM19java.nio.ByteBufferD8positioniL19java.nio.ByteBufferEO"(ptr dereferenceable_or_null(56) %_1, i32 %_164)
+  %_166 = call dereferenceable_or_null(64) ptr @"_SM19java.nio.ByteBufferD8positioniL19java.nio.ByteBufferEO"(ptr dereferenceable_or_null(64) %_1, i32 %_164)
   br label %_10.0
 _146.0:
   br label %_147.0
 _147.0:
-  %_169 = call dereferenceable_or_null(88) ptr @"scalanative_GC_alloc_small"(ptr @"_SM16scala.MatchErrorG4type", i64 88)
-  call void @"_SM16scala.MatchErrorRL16java.lang.ObjectE"(ptr nonnull dereferenceable(88) %_169, ptr dereferenceable_or_null(16) %_77)
-  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(88) %_169)
+  %_169 = call dereferenceable_or_null(96) ptr @"scalanative_GC_alloc_small"(ptr @"_SM16scala.MatchErrorG4type", i64 96)
+  call void @"_SM16scala.MatchErrorRL16java.lang.ObjectE"(ptr nonnull dereferenceable(96) %_169, ptr dereferenceable_or_null(24) %_77)
+  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(96) %_169)
   unreachable
 _85.0:
   %_86 = phi ptr [%_45, %_129.0], [%_105, %_104.0]
@@ -7743,11 +7737,11 @@ _232.landingpad.succ:
   br label %_171.0
 }
 
-define dereferenceable_or_null(16) ptr @"_SM31java.nio.charset.CharsetDecoderD9implFlushL19java.nio.CharBufferL28java.nio.charset.CoderResultEO"(ptr %_1, ptr %_2) personality ptr @scalanative_personality {
+define dereferenceable_or_null(24) ptr @"_SM31java.nio.charset.CharsetDecoderD9implFlushL19java.nio.CharBufferL28java.nio.charset.CoderResultEO"(ptr %_1, ptr %_2) personality ptr @scalanative_personality {
 _3000000.0:
-  %_3000001 = call dereferenceable_or_null(104) ptr @"_SM29java.nio.charset.CoderResult$G4load"()
-  %_4000002 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_3000001, i32 0, i32 1
-  %_4000001 = load ptr, ptr %_4000002, !dereferenceable_or_null !{i64 16}
+  %_3000001 = call dereferenceable_or_null(112) ptr @"_SM29java.nio.charset.CoderResult$G4load"()
+  %_4000002 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_3000001, i32 0, i32 1
+  %_4000001 = load atomic ptr, ptr %_4000002 unordered, align 8
   ret ptr %_4000001
 }
 
@@ -7756,7 +7750,7 @@ _2000000.0:
   ret void
 }
 
-define dereferenceable_or_null(56) ptr @"_SM31java.nio.charset.CharsetEncoderD11loopFlush$1L19java.nio.ByteBufferL19java.nio.ByteBufferEPT31java.nio.charset.CharsetEncoder"(ptr %_1, ptr %_2) inlinehint personality ptr @scalanative_personality {
+define dereferenceable_or_null(64) ptr @"_SM31java.nio.charset.CharsetEncoderD11loopFlush$1L19java.nio.ByteBufferL19java.nio.ByteBufferEPT31java.nio.charset.CharsetEncoder"(ptr %_1, ptr %_2) inlinehint personality ptr @scalanative_personality {
 _3000000.0:
   %_22000007 = icmp ne ptr %_1, null
   br i1 %_22000007, label %_22000005.0, label %_22000006.0
@@ -7768,52 +7762,52 @@ _4000000.0:
 _5000000.0:
   br label %_6000000.0
 _6000000.0:
-  %_6000001 = call dereferenceable_or_null(16) ptr @"_SM31java.nio.charset.CharsetEncoderD5flushL19java.nio.ByteBufferL28java.nio.charset.CoderResultEO"(ptr dereferenceable_or_null(56) %_1, ptr dereferenceable_or_null(56) %_4000001)
-  %_6000002 = call i1 @"_SM28java.nio.charset.CoderResultD11isUnderflowzEO"(ptr dereferenceable_or_null(16) %_6000001)
+  %_6000001 = call dereferenceable_or_null(24) ptr @"_SM31java.nio.charset.CharsetEncoderD5flushL19java.nio.ByteBufferL28java.nio.charset.CoderResultEO"(ptr dereferenceable_or_null(64) %_1, ptr dereferenceable_or_null(64) %_4000001)
+  %_6000002 = call i1 @"_SM28java.nio.charset.CoderResultD11isUnderflowzEO"(ptr dereferenceable_or_null(24) %_6000001)
   br i1 %_6000002, label %_7000000.0, label %_8000000.0
 _7000000.0:
   br label %_9000000.0
 _8000000.0:
-  %_8000001 = call i1 @"_SM28java.nio.charset.CoderResultD10isOverflowzEO"(ptr dereferenceable_or_null(16) %_6000001)
+  %_8000001 = call i1 @"_SM28java.nio.charset.CoderResultD10isOverflowzEO"(ptr dereferenceable_or_null(24) %_6000001)
   br i1 %_8000001, label %_10000000.0, label %_11000000.0
 _10000000.0:
-  %_10000001 = call dereferenceable_or_null(56) ptr @"_SM31java.nio.charset.CharsetEncoderD6grow$1L19java.nio.ByteBufferL19java.nio.ByteBufferEpT31java.nio.charset.CharsetEncoder"(ptr dereferenceable_or_null(56) %_4000001)
+  %_10000001 = call dereferenceable_or_null(64) ptr @"_SM31java.nio.charset.CharsetEncoderD6grow$1L19java.nio.ByteBufferL19java.nio.ByteBufferEpT31java.nio.charset.CharsetEncoder"(ptr dereferenceable_or_null(64) %_4000001)
   br label %_12000000.0
 _9000000.0:
   ret ptr %_4000001
 _12000000.0:
   br label %_4000000.0
 _11000000.0:
-  call void @"_SM28java.nio.charset.CoderResultD14throwExceptionuEO"(ptr dereferenceable_or_null(16) %_6000001)
-  %_18000001 = call dereferenceable_or_null(32) ptr @"_SM16java.lang.StringD8toStringL16java.lang.StringEO"(ptr @"_SM7__constG3-189")
-  %_22000001 = call dereferenceable_or_null(72) ptr @"scalanative_GC_alloc_small"(ptr @"_SM24java.lang.AssertionErrorG4type", i64 72)
-  %_22000010 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_22000001, i32 0, i32 8
+  call void @"_SM28java.nio.charset.CoderResultD14throwExceptionuEO"(ptr dereferenceable_or_null(24) %_6000001)
+  %_18000001 = call dereferenceable_or_null(40) ptr @"_SM16java.lang.StringD8toStringL16java.lang.StringEO"(ptr @"_SM7__constG3-189")
+  %_22000001 = call dereferenceable_or_null(80) ptr @"scalanative_GC_alloc_small"(ptr @"_SM24java.lang.AssertionErrorG4type", i64 80)
+  %_22000010 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_22000001, i32 0, i32 8
   %_22000011 = zext i1 true to i8
-  store i8 %_22000011, ptr%_22000010, align 1
-  %_22000013 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_22000001, i32 0, i32 7
-  store ptr %_18000001, ptr%_22000013, align 8
-  call void @"_SM35scala.scalanative.runtime.ThrowableRzE"(ptr nonnull dereferenceable(72) %_22000001, i1 true)
-  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(72) %_22000001)
+  store atomic i8 %_22000011, ptr%_22000010 unordered, align 1
+  %_22000013 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_22000001, i32 0, i32 7
+  store atomic ptr %_18000001, ptr%_22000013 unordered, align 8
+  call void @"_SM35scala.scalanative.runtime.ThrowableRzE"(ptr nonnull dereferenceable(80) %_22000001, i1 true)
+  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(80) %_22000001)
   unreachable
 _22000006.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
   unreachable
 }
 
-define dereferenceable_or_null(16) ptr @"_SM31java.nio.charset.CharsetEncoderD11replacementLAb_EO"(ptr %_1) personality ptr @scalanative_personality {
+define dereferenceable_or_null(24) ptr @"_SM31java.nio.charset.CharsetEncoderD11replacementLAb_EO"(ptr %_1) personality ptr @scalanative_personality {
 _2000000.0:
   %_3000004 = icmp ne ptr %_1, null
   br i1 %_3000004, label %_3000002.0, label %_3000003.0
 _3000002.0:
-  %_3000005 = getelementptr { { ptr }, ptr, ptr, ptr, float, float, ptr, i32 }, { { ptr }, ptr, ptr, ptr, float, float, ptr, i32 }* %_1, i32 0, i32 6
-  %_3000001 = load ptr, ptr %_3000005, !dereferenceable_or_null !{i64 16}
+  %_3000005 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, float, float, ptr, i32 }, { { ptr, ptr }, ptr, ptr, ptr, float, float, ptr, i32 }* %_1, i32 0, i32 6
+  %_3000001 = load atomic ptr, ptr %_3000005 unordered, align 8
   ret ptr %_3000001
 _3000003.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
   unreachable
 }
 
-define dereferenceable_or_null(56) ptr @"_SM31java.nio.charset.CharsetEncoderD12loopEncode$1L19java.nio.CharBufferL19java.nio.ByteBufferL19java.nio.ByteBufferEPT31java.nio.charset.CharsetEncoder"(ptr %_1, ptr %_2, ptr %_3) inlinehint personality ptr @scalanative_personality {
+define dereferenceable_or_null(64) ptr @"_SM31java.nio.charset.CharsetEncoderD12loopEncode$1L19java.nio.CharBufferL19java.nio.ByteBufferL19java.nio.ByteBufferEPT31java.nio.charset.CharsetEncoder"(ptr %_1, ptr %_2, ptr %_3) inlinehint personality ptr @scalanative_personality {
 _4000000.0:
   %_26000007 = icmp ne ptr %_1, null
   br i1 %_26000007, label %_26000005.0, label %_26000006.0
@@ -7825,11 +7819,11 @@ _5000000.0:
 _6000000.0:
   br label %_7000000.0
 _7000000.0:
-  %_7000001 = call dereferenceable_or_null(16) ptr @"_SM31java.nio.charset.CharsetEncoderD6encodeL19java.nio.CharBufferL19java.nio.ByteBufferzL28java.nio.charset.CoderResultEO"(ptr dereferenceable_or_null(56) %_1, ptr dereferenceable_or_null(56) %_2, ptr dereferenceable_or_null(56) %_5000001, i1 true)
-  %_7000002 = call i1 @"_SM28java.nio.charset.CoderResultD11isUnderflowzEO"(ptr dereferenceable_or_null(16) %_7000001)
+  %_7000001 = call dereferenceable_or_null(24) ptr @"_SM31java.nio.charset.CharsetEncoderD6encodeL19java.nio.CharBufferL19java.nio.ByteBufferzL28java.nio.charset.CoderResultEO"(ptr dereferenceable_or_null(64) %_1, ptr dereferenceable_or_null(64) %_2, ptr dereferenceable_or_null(64) %_5000001, i1 true)
+  %_7000002 = call i1 @"_SM28java.nio.charset.CoderResultD11isUnderflowzEO"(ptr dereferenceable_or_null(24) %_7000001)
   br i1 %_7000002, label %_8000000.0, label %_9000000.0
 _8000000.0:
-  %_8000001 = call i1 @"_SM15java.nio.BufferD12hasRemainingzEO"(ptr dereferenceable_or_null(56) %_2)
+  %_8000001 = call i1 @"_SM15java.nio.BufferD12hasRemainingzEO"(ptr dereferenceable_or_null(64) %_2)
   %_8000004 = xor i1 %_8000001, true
   %_8000005 = xor i1 %_8000004, true
   br i1 %_8000005, label %_10000000.0, label %_11000000.0
@@ -7838,29 +7832,29 @@ _11000000.0:
 _12000000.0:
   br label %_13000000.0
 _9000000.0:
-  %_9000001 = call i1 @"_SM28java.nio.charset.CoderResultD10isOverflowzEO"(ptr dereferenceable_or_null(16) %_7000001)
+  %_9000001 = call i1 @"_SM28java.nio.charset.CoderResultD10isOverflowzEO"(ptr dereferenceable_or_null(24) %_7000001)
   br i1 %_9000001, label %_14000000.0, label %_15000000.0
 _14000000.0:
-  %_14000001 = call dereferenceable_or_null(56) ptr @"_SM31java.nio.charset.CharsetEncoderD6grow$1L19java.nio.ByteBufferL19java.nio.ByteBufferEpT31java.nio.charset.CharsetEncoder"(ptr dereferenceable_or_null(56) %_5000001)
+  %_14000001 = call dereferenceable_or_null(64) ptr @"_SM31java.nio.charset.CharsetEncoderD6grow$1L19java.nio.ByteBufferL19java.nio.ByteBufferEpT31java.nio.charset.CharsetEncoder"(ptr dereferenceable_or_null(64) %_5000001)
   br label %_16000000.0
 _13000000.0:
   ret ptr %_5000001
 _16000000.0:
   br label %_5000000.0
 _10000000.0:
-  call ptr @"_SM28scala.runtime.Scala3RunTime$D12assertFailednEO"(ptr nonnull dereferenceable(8) @"_SM28scala.runtime.Scala3RunTime$G8instance")
+  call ptr @"_SM28scala.runtime.Scala3RunTime$D12assertFailednEO"(ptr nonnull dereferenceable(16) @"_SM28scala.runtime.Scala3RunTime$G8instance")
   br label %_26000009.0
 _15000000.0:
-  call void @"_SM28java.nio.charset.CoderResultD14throwExceptionuEO"(ptr dereferenceable_or_null(16) %_7000001)
-  %_22000001 = call dereferenceable_or_null(32) ptr @"_SM16java.lang.StringD8toStringL16java.lang.StringEO"(ptr @"_SM7__constG3-189")
-  %_26000001 = call dereferenceable_or_null(72) ptr @"scalanative_GC_alloc_small"(ptr @"_SM24java.lang.AssertionErrorG4type", i64 72)
-  %_26000013 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_26000001, i32 0, i32 8
+  call void @"_SM28java.nio.charset.CoderResultD14throwExceptionuEO"(ptr dereferenceable_or_null(24) %_7000001)
+  %_22000001 = call dereferenceable_or_null(40) ptr @"_SM16java.lang.StringD8toStringL16java.lang.StringEO"(ptr @"_SM7__constG3-189")
+  %_26000001 = call dereferenceable_or_null(80) ptr @"scalanative_GC_alloc_small"(ptr @"_SM24java.lang.AssertionErrorG4type", i64 80)
+  %_26000013 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_26000001, i32 0, i32 8
   %_26000014 = zext i1 true to i8
-  store i8 %_26000014, ptr%_26000013, align 1
-  %_26000016 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_26000001, i32 0, i32 7
-  store ptr %_22000001, ptr%_26000016, align 8
-  call void @"_SM35scala.scalanative.runtime.ThrowableRzE"(ptr nonnull dereferenceable(72) %_26000001, i1 true)
-  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(72) %_26000001)
+  store atomic i8 %_26000014, ptr%_26000013 unordered, align 1
+  %_26000016 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_26000001, i32 0, i32 7
+  store atomic ptr %_22000001, ptr%_26000016 unordered, align 8
+  call void @"_SM35scala.scalanative.runtime.ThrowableRzE"(ptr nonnull dereferenceable(80) %_26000001, i1 true)
+  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(80) %_26000001)
   unreachable
 _26000006.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
@@ -7870,7 +7864,7 @@ _26000009.0:
   unreachable
 }
 
-define dereferenceable_or_null(56) ptr @"_SM31java.nio.charset.CharsetEncoderD16onMalformedInputL34java.nio.charset.CodingErrorActionL31java.nio.charset.CharsetEncoderEO"(ptr %_1, ptr %_2) personality ptr @scalanative_personality {
+define dereferenceable_or_null(64) ptr @"_SM31java.nio.charset.CharsetEncoderD16onMalformedInputL34java.nio.charset.CodingErrorActionL31java.nio.charset.CharsetEncoderEO"(ptr %_1, ptr %_2) personality ptr @scalanative_personality {
 _3000000.0:
   %_12000005 = icmp ne ptr %_1, null
   br i1 %_12000005, label %_12000003.0, label %_12000004.0
@@ -7880,19 +7874,19 @@ _12000003.0:
 _5000000.0:
   br label %_12000000.0
 _12000000.0:
-  %_12000007 = getelementptr { { ptr }, ptr, ptr, ptr, float, float, ptr, i32 }, { { ptr }, ptr, ptr, ptr, float, float, ptr, i32 }* %_1, i32 0, i32 2
-  store ptr %_2, ptr%_12000007, align 8
-  call void @"_SM31java.nio.charset.CharsetEncoderD20implOnMalformedInputL34java.nio.charset.CodingErrorActionuEO"(ptr dereferenceable_or_null(56) %_1, ptr dereferenceable_or_null(16) %_2)
+  %_12000007 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, float, float, ptr, i32 }, { { ptr, ptr }, ptr, ptr, ptr, float, float, ptr, i32 }* %_1, i32 0, i32 2
+  store atomic ptr %_2, ptr%_12000007 unordered, align 8
+  call void @"_SM31java.nio.charset.CharsetEncoderD20implOnMalformedInputL34java.nio.charset.CodingErrorActionuEO"(ptr dereferenceable_or_null(64) %_1, ptr dereferenceable_or_null(24) %_2)
   ret ptr %_1
 _4000000.0:
-  %_11000001 = call dereferenceable_or_null(72) ptr @"scalanative_GC_alloc_small"(ptr @"_SM34java.lang.IllegalArgumentExceptionG4type", i64 72)
-  %_12000010 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_11000001, i32 0, i32 8
+  %_11000001 = call dereferenceable_or_null(80) ptr @"scalanative_GC_alloc_small"(ptr @"_SM34java.lang.IllegalArgumentExceptionG4type", i64 80)
+  %_12000010 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_11000001, i32 0, i32 8
   %_12000011 = zext i1 true to i8
-  store i8 %_12000011, ptr%_12000010, align 1
-  %_12000013 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_11000001, i32 0, i32 7
-  store ptr @"_SM7__constG3-191", ptr%_12000013, align 8
-  call void @"_SM35scala.scalanative.runtime.ThrowableRzE"(ptr nonnull dereferenceable(72) %_11000001, i1 true)
-  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(72) %_11000001)
+  store atomic i8 %_12000011, ptr%_12000010 unordered, align 1
+  %_12000013 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_11000001, i32 0, i32 7
+  store atomic ptr @"_SM7__constG3-191", ptr%_12000013 unordered, align 8
+  call void @"_SM35scala.scalanative.runtime.ThrowableRzE"(ptr nonnull dereferenceable(80) %_11000001, i1 true)
+  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(80) %_11000001)
   unreachable
 _12000004.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
@@ -7904,8 +7898,8 @@ _2000000.0:
   %_2000004 = icmp ne ptr %_1, null
   br i1 %_2000004, label %_2000002.0, label %_2000003.0
 _2000002.0:
-  %_2000005 = getelementptr { { ptr }, ptr, ptr, ptr, float, float, ptr, i32 }, { { ptr }, ptr, ptr, ptr, float, float, ptr, i32 }* %_1, i32 0, i32 4
-  %_2000001 = load float, ptr %_2000005
+  %_2000005 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, float, float, ptr, i32 }, { { ptr, ptr }, ptr, ptr, ptr, float, float, ptr, i32 }* %_1, i32 0, i32 4
+  %_2000001 = load atomic float, ptr %_2000005 unordered, align 4
   ret float %_2000001
 _2000003.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
@@ -7917,20 +7911,20 @@ _3000000.0:
   ret void
 }
 
-define dereferenceable_or_null(16) ptr @"_SM31java.nio.charset.CharsetEncoderD20malformedInputActionL34java.nio.charset.CodingErrorActionEO"(ptr %_1) personality ptr @scalanative_personality {
+define dereferenceable_or_null(24) ptr @"_SM31java.nio.charset.CharsetEncoderD20malformedInputActionL34java.nio.charset.CodingErrorActionEO"(ptr %_1) personality ptr @scalanative_personality {
 _2000000.0:
   %_2000004 = icmp ne ptr %_1, null
   br i1 %_2000004, label %_2000002.0, label %_2000003.0
 _2000002.0:
-  %_2000005 = getelementptr { { ptr }, ptr, ptr, ptr, float, float, ptr, i32 }, { { ptr }, ptr, ptr, ptr, float, float, ptr, i32 }* %_1, i32 0, i32 2
-  %_2000001 = load ptr, ptr %_2000005, !dereferenceable_or_null !{i64 16}
+  %_2000005 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, float, float, ptr, i32 }, { { ptr, ptr }, ptr, ptr, ptr, float, float, ptr, i32 }* %_1, i32 0, i32 2
+  %_2000001 = load atomic ptr, ptr %_2000005 unordered, align 8
   ret ptr %_2000001
 _2000003.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
   unreachable
 }
 
-define dereferenceable_or_null(56) ptr @"_SM31java.nio.charset.CharsetEncoderD21onUnmappableCharacterL34java.nio.charset.CodingErrorActionL31java.nio.charset.CharsetEncoderEO"(ptr %_1, ptr %_2) personality ptr @scalanative_personality {
+define dereferenceable_or_null(64) ptr @"_SM31java.nio.charset.CharsetEncoderD21onUnmappableCharacterL34java.nio.charset.CodingErrorActionL31java.nio.charset.CharsetEncoderEO"(ptr %_1, ptr %_2) personality ptr @scalanative_personality {
 _3000000.0:
   %_12000005 = icmp ne ptr %_1, null
   br i1 %_12000005, label %_12000003.0, label %_12000004.0
@@ -7940,19 +7934,19 @@ _12000003.0:
 _5000000.0:
   br label %_12000000.0
 _12000000.0:
-  %_12000007 = getelementptr { { ptr }, ptr, ptr, ptr, float, float, ptr, i32 }, { { ptr }, ptr, ptr, ptr, float, float, ptr, i32 }* %_1, i32 0, i32 1
-  store ptr %_2, ptr%_12000007, align 8
-  call void @"_SM31java.nio.charset.CharsetEncoderD25implOnUnmappableCharacterL34java.nio.charset.CodingErrorActionuEO"(ptr dereferenceable_or_null(56) %_1, ptr dereferenceable_or_null(16) %_2)
+  %_12000007 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, float, float, ptr, i32 }, { { ptr, ptr }, ptr, ptr, ptr, float, float, ptr, i32 }* %_1, i32 0, i32 1
+  store atomic ptr %_2, ptr%_12000007 unordered, align 8
+  call void @"_SM31java.nio.charset.CharsetEncoderD25implOnUnmappableCharacterL34java.nio.charset.CodingErrorActionuEO"(ptr dereferenceable_or_null(64) %_1, ptr dereferenceable_or_null(24) %_2)
   ret ptr %_1
 _4000000.0:
-  %_11000001 = call dereferenceable_or_null(72) ptr @"scalanative_GC_alloc_small"(ptr @"_SM34java.lang.IllegalArgumentExceptionG4type", i64 72)
-  %_12000010 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_11000001, i32 0, i32 8
+  %_11000001 = call dereferenceable_or_null(80) ptr @"scalanative_GC_alloc_small"(ptr @"_SM34java.lang.IllegalArgumentExceptionG4type", i64 80)
+  %_12000010 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_11000001, i32 0, i32 8
   %_12000011 = zext i1 true to i8
-  store i8 %_12000011, ptr%_12000010, align 1
-  %_12000013 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_11000001, i32 0, i32 7
-  store ptr @"_SM7__constG3-191", ptr%_12000013, align 8
-  call void @"_SM35scala.scalanative.runtime.ThrowableRzE"(ptr nonnull dereferenceable(72) %_11000001, i1 true)
-  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(72) %_11000001)
+  store atomic i8 %_12000011, ptr%_12000010 unordered, align 1
+  %_12000013 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_11000001, i32 0, i32 7
+  store atomic ptr @"_SM7__constG3-191", ptr%_12000013 unordered, align 8
+  call void @"_SM35scala.scalanative.runtime.ThrowableRzE"(ptr nonnull dereferenceable(80) %_11000001, i1 true)
+  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(80) %_11000001)
   unreachable
 _12000004.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
@@ -7964,37 +7958,37 @@ _3000000.0:
   ret void
 }
 
-define dereferenceable_or_null(16) ptr @"_SM31java.nio.charset.CharsetEncoderD25unmappableCharacterActionL34java.nio.charset.CodingErrorActionEO"(ptr %_1) personality ptr @scalanative_personality {
+define dereferenceable_or_null(24) ptr @"_SM31java.nio.charset.CharsetEncoderD25unmappableCharacterActionL34java.nio.charset.CodingErrorActionEO"(ptr %_1) personality ptr @scalanative_personality {
 _2000000.0:
   %_2000004 = icmp ne ptr %_1, null
   br i1 %_2000004, label %_2000002.0, label %_2000003.0
 _2000002.0:
-  %_2000005 = getelementptr { { ptr }, ptr, ptr, ptr, float, float, ptr, i32 }, { { ptr }, ptr, ptr, ptr, float, float, ptr, i32 }* %_1, i32 0, i32 1
-  %_2000001 = load ptr, ptr %_2000005, !dereferenceable_or_null !{i64 16}
+  %_2000005 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, float, float, ptr, i32 }, { { ptr, ptr }, ptr, ptr, ptr, float, float, ptr, i32 }* %_1, i32 0, i32 1
+  %_2000001 = load atomic ptr, ptr %_2000005 unordered, align 8
   ret ptr %_2000001
 _2000003.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
   unreachable
 }
 
-define dereferenceable_or_null(16) ptr @"_SM31java.nio.charset.CharsetEncoderD5flushL19java.nio.ByteBufferL28java.nio.charset.CoderResultEO"(ptr %_1, ptr %_2) personality ptr @scalanative_personality {
+define dereferenceable_or_null(24) ptr @"_SM31java.nio.charset.CharsetEncoderD5flushL19java.nio.ByteBufferL28java.nio.charset.CoderResultEO"(ptr %_1, ptr %_2) personality ptr @scalanative_personality {
 _3000000.0:
   %_21000006 = icmp ne ptr %_1, null
   br i1 %_21000006, label %_21000004.0, label %_21000005.0
 _21000004.0:
   br label %_4000000.0
 _4000000.0:
-  %_21000007 = getelementptr { { ptr }, ptr, ptr, ptr, float, float, ptr, i32 }, { { ptr }, ptr, ptr, ptr, float, float, ptr, i32 }* %_1, i32 0, i32 7
-  %_4000001 = load i32, ptr %_21000007
+  %_21000007 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, float, float, ptr, i32 }, { { ptr, ptr }, ptr, ptr, ptr, float, float, ptr, i32 }* %_1, i32 0, i32 7
+  %_4000001 = load atomic i32, ptr %_21000007 unordered, align 4
   %_4000003 = icmp eq i32 %_4000001, 2
   br i1 %_4000003, label %_5000000.0, label %_6000000.0
 _5000000.0:
-  %_5000001 = call dereferenceable_or_null(16) ptr @"_SM31java.nio.charset.CharsetEncoderD9implFlushL19java.nio.ByteBufferL28java.nio.charset.CoderResultEO"(ptr dereferenceable_or_null(56) %_1, ptr dereferenceable_or_null(56) %_2)
-  %_5000002 = call i1 @"_SM28java.nio.charset.CoderResultD11isUnderflowzEO"(ptr dereferenceable_or_null(16) %_5000001)
+  %_5000001 = call dereferenceable_or_null(24) ptr @"_SM31java.nio.charset.CharsetEncoderD9implFlushL19java.nio.ByteBufferL28java.nio.charset.CoderResultEO"(ptr dereferenceable_or_null(64) %_1, ptr dereferenceable_or_null(64) %_2)
+  %_5000002 = call i1 @"_SM28java.nio.charset.CoderResultD11isUnderflowzEO"(ptr dereferenceable_or_null(24) %_5000001)
   br i1 %_5000002, label %_7000000.0, label %_8000000.0
 _7000000.0:
-  %_21000009 = getelementptr { { ptr }, ptr, ptr, ptr, float, float, ptr, i32 }, { { ptr }, ptr, ptr, ptr, float, float, ptr, i32 }* %_1, i32 0, i32 7
-  store i32 3, ptr%_21000009, align 4
+  %_21000009 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, float, float, ptr, i32 }, { { ptr, ptr }, ptr, ptr, ptr, float, float, ptr, i32 }* %_1, i32 0, i32 7
+  store atomic i32 3, ptr%_21000009 unordered, align 4
   br label %_9000000.0
 _8000000.0:
   br label %_9000000.0
@@ -8006,9 +8000,9 @@ _11000000.0:
   %_11000002 = icmp eq i32 %_4000001, 3
   br i1 %_11000002, label %_12000000.0, label %_13000000.0
 _12000000.0:
-  %_12000001 = call dereferenceable_or_null(104) ptr @"_SM29java.nio.charset.CoderResult$G4load"()
-  %_21000010 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_12000001, i32 0, i32 1
-  %_14000001 = load ptr, ptr %_21000010, !dereferenceable_or_null !{i64 16}
+  %_12000001 = call dereferenceable_or_null(112) ptr @"_SM29java.nio.charset.CoderResult$G4load"()
+  %_21000010 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_12000001, i32 0, i32 1
+  %_14000001 = load atomic ptr, ptr %_21000010 unordered, align 8
   br label %_10000000.0
 _13000000.0:
   br label %_15000000.0
@@ -8016,50 +8010,50 @@ _10000000.0:
   %_10000001 = phi ptr [%_14000001, %_12000000.0], [%_5000001, %_9000000.0]
   ret ptr %_10000001
 _15000000.0:
-  %_21000001 = call dereferenceable_or_null(72) ptr @"scalanative_GC_alloc_small"(ptr @"_SM31java.lang.IllegalStateExceptionG4type", i64 72)
-  %_21000012 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_21000001, i32 0, i32 8
+  %_21000001 = call dereferenceable_or_null(80) ptr @"scalanative_GC_alloc_small"(ptr @"_SM31java.lang.IllegalStateExceptionG4type", i64 80)
+  %_21000012 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_21000001, i32 0, i32 8
   %_21000013 = zext i1 true to i8
-  store i8 %_21000013, ptr%_21000012, align 1
-  call void @"_SM35scala.scalanative.runtime.ThrowableRzE"(ptr nonnull dereferenceable(72) %_21000001, i1 true)
-  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(72) %_21000001)
+  store atomic i8 %_21000013, ptr%_21000012 unordered, align 1
+  call void @"_SM35scala.scalanative.runtime.ThrowableRzE"(ptr nonnull dereferenceable(80) %_21000001, i1 true)
+  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(80) %_21000001)
   unreachable
 _21000005.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
   unreachable
 }
 
-define dereferenceable_or_null(56) ptr @"_SM31java.nio.charset.CharsetEncoderD5resetL31java.nio.charset.CharsetEncoderEO"(ptr %_1) personality ptr @scalanative_personality {
+define dereferenceable_or_null(64) ptr @"_SM31java.nio.charset.CharsetEncoderD5resetL31java.nio.charset.CharsetEncoderEO"(ptr %_1) personality ptr @scalanative_personality {
 _2000000.0:
   %_2000007 = icmp ne ptr %_1, null
   br i1 %_2000007, label %_2000005.0, label %_2000006.0
 _2000005.0:
-  %_2000009 = getelementptr { { ptr }, ptr, ptr, ptr, float, float, ptr, i32 }, { { ptr }, ptr, ptr, ptr, float, float, ptr, i32 }* %_1, i32 0, i32 7
-  store i32 0, ptr%_2000009, align 4
+  %_2000009 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, float, float, ptr, i32 }, { { ptr, ptr }, ptr, ptr, ptr, float, float, ptr, i32 }* %_1, i32 0, i32 7
+  store atomic i32 0, ptr%_2000009 unordered, align 4
   %_2000010 = load ptr, ptr %_1
-  %_2000011 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] }* %_2000010, i32 0, i32 7, i32 3
+  %_2000011 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] }* %_2000010, i32 0, i32 7, i32 3
   %_2000003 = load ptr, ptr %_2000011
-  call void %_2000003(ptr dereferenceable_or_null(56) %_1)
+  call void %_2000003(ptr dereferenceable_or_null(64) %_1)
   ret ptr %_1
 _2000006.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
   unreachable
 }
 
-define dereferenceable_or_null(56) ptr @"_SM31java.nio.charset.CharsetEncoderD6encodeL19java.nio.CharBufferL19java.nio.ByteBufferEO"(ptr %_1, ptr %_2) personality ptr @scalanative_personality {
+define dereferenceable_or_null(64) ptr @"_SM31java.nio.charset.CharsetEncoderD6encodeL19java.nio.CharBufferL19java.nio.ByteBufferEO"(ptr %_1, ptr %_2) personality ptr @scalanative_personality {
 _3000000.0:
   %_6000004 = icmp ne ptr %_1, null
   br i1 %_6000004, label %_6000002.0, label %_6000003.0
 _6000002.0:
-  %_3000001 = call i32 @"_SM15java.nio.BufferD9remainingiEO"(ptr dereferenceable_or_null(56) %_2)
+  %_3000001 = call i32 @"_SM15java.nio.BufferD9remainingiEO"(ptr dereferenceable_or_null(64) %_2)
   %_3000003 = icmp eq i32 %_3000001, 0
   br i1 %_3000003, label %_4000000.0, label %_5000000.0
 _4000000.0:
-  %_4000002 = call dereferenceable_or_null(56) ptr @"_SM20java.nio.ByteBuffer$D8allocateiL19java.nio.ByteBufferEO"(ptr nonnull dereferenceable(8) @"_SM20java.nio.ByteBuffer$G8instance", i32 0)
+  %_4000002 = call dereferenceable_or_null(64) ptr @"_SM20java.nio.ByteBuffer$D8allocateiL19java.nio.ByteBufferEO"(ptr nonnull dereferenceable(16) @"_SM20java.nio.ByteBuffer$G8instance", i32 0)
   br label %_6000000.0
 _5000000.0:
-  %_5000001 = call dereferenceable_or_null(56) ptr @"_SM31java.nio.charset.CharsetEncoderD5resetL31java.nio.charset.CharsetEncoderEO"(ptr dereferenceable_or_null(56) %_1)
-  %_5000002 = call i32 @"_SM15java.nio.BufferD9remainingiEO"(ptr dereferenceable_or_null(56) %_2)
-  %_5000004 = call float @"_SM31java.nio.charset.CharsetEncoderD19averageBytesPerCharfEO"(ptr dereferenceable_or_null(56) %_1)
+  %_5000001 = call dereferenceable_or_null(64) ptr @"_SM31java.nio.charset.CharsetEncoderD5resetL31java.nio.charset.CharsetEncoderEO"(ptr dereferenceable_or_null(64) %_1)
+  %_5000002 = call i32 @"_SM15java.nio.BufferD9remainingiEO"(ptr dereferenceable_or_null(64) %_2)
+  %_5000004 = call float @"_SM31java.nio.charset.CharsetEncoderD19averageBytesPerCharfEO"(ptr dereferenceable_or_null(64) %_1)
   %_5000008 = sitofp i32 %_5000002 to float
   %_5000009 = fmul float %_5000008, %_5000004
   %_6000012 = fcmp une float %_5000009, %_5000009
@@ -8081,10 +8075,10 @@ _6000010.0:
   br label %_6000011.0
 _6000011.0:
   %_5000010 = phi i32 [%_6000015, %_6000010.0], [2147483647, %_6000009.0], [-2147483648, %_6000007.0], [zeroinitializer, %_6000005.0]
-  %_5000011 = call dereferenceable_or_null(56) ptr @"_SM20java.nio.ByteBuffer$D8allocateiL19java.nio.ByteBufferEO"(ptr nonnull dereferenceable(8) @"_SM20java.nio.ByteBuffer$G8instance", i32 %_5000010)
-  %_5000012 = call dereferenceable_or_null(56) ptr @"_SM31java.nio.charset.CharsetEncoderD12loopEncode$1L19java.nio.CharBufferL19java.nio.ByteBufferL19java.nio.ByteBufferEPT31java.nio.charset.CharsetEncoder"(ptr dereferenceable_or_null(56) %_1, ptr dereferenceable_or_null(56) %_2, ptr dereferenceable_or_null(56) %_5000011)
-  %_5000013 = call dereferenceable_or_null(56) ptr @"_SM31java.nio.charset.CharsetEncoderD11loopFlush$1L19java.nio.ByteBufferL19java.nio.ByteBufferEPT31java.nio.charset.CharsetEncoder"(ptr dereferenceable_or_null(56) %_1, ptr dereferenceable_or_null(56) %_5000012)
-  %_5000014 = call dereferenceable_or_null(56) ptr @"_SM19java.nio.ByteBufferD4flipL19java.nio.ByteBufferEO"(ptr dereferenceable_or_null(56) %_5000013)
+  %_5000011 = call dereferenceable_or_null(64) ptr @"_SM20java.nio.ByteBuffer$D8allocateiL19java.nio.ByteBufferEO"(ptr nonnull dereferenceable(16) @"_SM20java.nio.ByteBuffer$G8instance", i32 %_5000010)
+  %_5000012 = call dereferenceable_or_null(64) ptr @"_SM31java.nio.charset.CharsetEncoderD12loopEncode$1L19java.nio.CharBufferL19java.nio.ByteBufferL19java.nio.ByteBufferEPT31java.nio.charset.CharsetEncoder"(ptr dereferenceable_or_null(64) %_1, ptr dereferenceable_or_null(64) %_2, ptr dereferenceable_or_null(64) %_5000011)
+  %_5000013 = call dereferenceable_or_null(64) ptr @"_SM31java.nio.charset.CharsetEncoderD11loopFlush$1L19java.nio.ByteBufferL19java.nio.ByteBufferEPT31java.nio.charset.CharsetEncoder"(ptr dereferenceable_or_null(64) %_1, ptr dereferenceable_or_null(64) %_5000012)
+  %_5000014 = call dereferenceable_or_null(64) ptr @"_SM19java.nio.ByteBufferD4flipL19java.nio.ByteBufferEO"(ptr dereferenceable_or_null(64) %_5000013)
   br label %_6000000.0
 _6000000.0:
   %_6000001 = phi ptr [%_5000013, %_6000011.0], [%_4000002, %_4000000.0]
@@ -8094,13 +8088,13 @@ _6000003.0:
   unreachable
 }
 
-define dereferenceable_or_null(16) ptr @"_SM31java.nio.charset.CharsetEncoderD6encodeL19java.nio.CharBufferL19java.nio.ByteBufferzL28java.nio.charset.CoderResultEO"(ptr %_1, ptr %_2, ptr %_3, i1 %_4) personality ptr @scalanative_personality {
+define dereferenceable_or_null(24) ptr @"_SM31java.nio.charset.CharsetEncoderD6encodeL19java.nio.CharBufferL19java.nio.ByteBufferzL28java.nio.charset.CoderResultEO"(ptr %_1, ptr %_2, ptr %_3, i1 %_4) personality ptr @scalanative_personality {
 _5000000.0:
   %_23000006 = icmp ne ptr %_1, null
   br i1 %_23000006, label %_23000004.0, label %_23000005.0
 _23000004.0:
-  %_23000007 = getelementptr { { ptr }, ptr, ptr, ptr, float, float, ptr, i32 }, { { ptr }, ptr, ptr, ptr, float, float, ptr, i32 }* %_1, i32 0, i32 7
-  %_5000001 = load i32, ptr %_23000007
+  %_23000007 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, float, float, ptr, i32 }, { { ptr, ptr }, ptr, ptr, ptr, float, float, ptr, i32 }* %_1, i32 0, i32 7
+  %_5000001 = load atomic i32, ptr %_23000007 unordered, align 4
   %_5000003 = icmp eq i32 %_5000001, 3
   br i1 %_5000003, label %_6000000.0, label %_7000000.0
 _6000000.0:
@@ -8109,8 +8103,8 @@ _7000000.0:
   %_7000002 = xor i1 %_4, true
   br i1 %_7000002, label %_9000000.0, label %_10000000.0
 _9000000.0:
-  %_23000008 = getelementptr { { ptr }, ptr, ptr, ptr, float, float, ptr, i32 }, { { ptr }, ptr, ptr, ptr, float, float, ptr, i32 }* %_1, i32 0, i32 7
-  %_9000001 = load i32, ptr %_23000008
+  %_23000008 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, float, float, ptr, i32 }, { { ptr, ptr }, ptr, ptr, ptr, float, float, ptr, i32 }* %_1, i32 0, i32 7
+  %_9000001 = load atomic i32, ptr %_23000008 unordered, align 4
   %_9000003 = icmp eq i32 %_9000001, 2
   br label %_11000000.0
 _10000000.0:
@@ -8131,45 +8125,45 @@ _22000000.0:
   br label %_23000000.0
 _23000000.0:
   %_23000001 = phi i32 [1, %_22000000.0], [2, %_21000000.0]
-  %_23000010 = getelementptr { { ptr }, ptr, ptr, ptr, float, float, ptr, i32 }, { { ptr }, ptr, ptr, ptr, float, float, ptr, i32 }* %_1, i32 0, i32 7
-  store i32 %_23000001, ptr%_23000010, align 4
-  %_23000003 = call dereferenceable_or_null(16) ptr @"_SM31java.nio.charset.CharsetEncoderD6loop$2L19java.nio.CharBufferL19java.nio.ByteBufferzL28java.nio.charset.CoderResultEPT31java.nio.charset.CharsetEncoder"(ptr dereferenceable_or_null(56) %_1, ptr dereferenceable_or_null(56) %_2, ptr dereferenceable_or_null(56) %_3, i1 %_4)
+  %_23000010 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, float, float, ptr, i32 }, { { ptr, ptr }, ptr, ptr, ptr, float, float, ptr, i32 }* %_1, i32 0, i32 7
+  store atomic i32 %_23000001, ptr%_23000010 unordered, align 4
+  %_23000003 = call dereferenceable_or_null(24) ptr @"_SM31java.nio.charset.CharsetEncoderD6loop$2L19java.nio.CharBufferL19java.nio.ByteBufferzL28java.nio.charset.CoderResultEPT31java.nio.charset.CharsetEncoder"(ptr dereferenceable_or_null(64) %_1, ptr dereferenceable_or_null(64) %_2, ptr dereferenceable_or_null(64) %_3, i1 %_4)
   ret ptr %_23000003
 _12000000.0:
-  %_19000001 = call dereferenceable_or_null(72) ptr @"scalanative_GC_alloc_small"(ptr @"_SM31java.lang.IllegalStateExceptionG4type", i64 72)
-  %_23000012 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_19000001, i32 0, i32 8
+  %_19000001 = call dereferenceable_or_null(80) ptr @"scalanative_GC_alloc_small"(ptr @"_SM31java.lang.IllegalStateExceptionG4type", i64 80)
+  %_23000012 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_19000001, i32 0, i32 8
   %_23000013 = zext i1 true to i8
-  store i8 %_23000013, ptr%_23000012, align 1
-  call void @"_SM35scala.scalanative.runtime.ThrowableRzE"(ptr nonnull dereferenceable(72) %_19000001, i1 true)
-  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(72) %_19000001)
+  store atomic i8 %_23000013, ptr%_23000012 unordered, align 1
+  call void @"_SM35scala.scalanative.runtime.ThrowableRzE"(ptr nonnull dereferenceable(80) %_19000001, i1 true)
+  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(80) %_19000001)
   unreachable
 _23000005.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
   unreachable
 }
 
-define dereferenceable_or_null(56) ptr @"_SM31java.nio.charset.CharsetEncoderD6grow$1L19java.nio.ByteBufferL19java.nio.ByteBufferEpT31java.nio.charset.CharsetEncoder"(ptr %_1) personality ptr @scalanative_personality {
+define dereferenceable_or_null(64) ptr @"_SM31java.nio.charset.CharsetEncoderD6grow$1L19java.nio.ByteBufferL19java.nio.ByteBufferEpT31java.nio.charset.CharsetEncoder"(ptr %_1) personality ptr @scalanative_personality {
 _2000000.0:
-  %_2000001 = call i32 @"_SM15java.nio.BufferD8capacityiEO"(ptr dereferenceable_or_null(56) %_1)
+  %_2000001 = call i32 @"_SM15java.nio.BufferD8capacityiEO"(ptr dereferenceable_or_null(64) %_1)
   %_2000003 = icmp eq i32 %_2000001, 0
   br i1 %_2000003, label %_3000000.0, label %_4000000.0
 _3000000.0:
-  %_3000002 = call dereferenceable_or_null(56) ptr @"_SM20java.nio.ByteBuffer$D8allocateiL19java.nio.ByteBufferEO"(ptr nonnull dereferenceable(8) @"_SM20java.nio.ByteBuffer$G8instance", i32 1)
+  %_3000002 = call dereferenceable_or_null(64) ptr @"_SM20java.nio.ByteBuffer$D8allocateiL19java.nio.ByteBufferEO"(ptr nonnull dereferenceable(16) @"_SM20java.nio.ByteBuffer$G8instance", i32 1)
   br label %_5000000.0
 _4000000.0:
-  %_4000002 = call i32 @"_SM15java.nio.BufferD8capacityiEO"(ptr dereferenceable_or_null(56) %_1)
+  %_4000002 = call i32 @"_SM15java.nio.BufferD8capacityiEO"(ptr dereferenceable_or_null(64) %_1)
   %_5000002 = and i32 1, 31
   %_4000004 = shl i32 %_4000002, %_5000002
-  %_4000005 = call dereferenceable_or_null(56) ptr @"_SM20java.nio.ByteBuffer$D8allocateiL19java.nio.ByteBufferEO"(ptr nonnull dereferenceable(8) @"_SM20java.nio.ByteBuffer$G8instance", i32 %_4000004)
-  %_4000006 = call dereferenceable_or_null(56) ptr @"_SM19java.nio.ByteBufferD4flipL19java.nio.ByteBufferEO"(ptr dereferenceable_or_null(56) %_1)
-  %_4000007 = call dereferenceable_or_null(56) ptr @"_SM19java.nio.ByteBufferD3putL19java.nio.ByteBufferL19java.nio.ByteBufferEO"(ptr dereferenceable_or_null(56) %_4000005, ptr dereferenceable_or_null(56) %_1)
+  %_4000005 = call dereferenceable_or_null(64) ptr @"_SM20java.nio.ByteBuffer$D8allocateiL19java.nio.ByteBufferEO"(ptr nonnull dereferenceable(16) @"_SM20java.nio.ByteBuffer$G8instance", i32 %_4000004)
+  %_4000006 = call dereferenceable_or_null(64) ptr @"_SM19java.nio.ByteBufferD4flipL19java.nio.ByteBufferEO"(ptr dereferenceable_or_null(64) %_1)
+  %_4000007 = call dereferenceable_or_null(64) ptr @"_SM19java.nio.ByteBufferD3putL19java.nio.ByteBufferL19java.nio.ByteBufferEO"(ptr dereferenceable_or_null(64) %_4000005, ptr dereferenceable_or_null(64) %_1)
   br label %_5000000.0
 _5000000.0:
   %_5000001 = phi ptr [%_4000005, %_4000000.0], [%_3000002, %_3000000.0]
   ret ptr %_5000001
 }
 
-define dereferenceable_or_null(16) ptr @"_SM31java.nio.charset.CharsetEncoderD6loop$2L19java.nio.CharBufferL19java.nio.ByteBufferzL28java.nio.charset.CoderResultEPT31java.nio.charset.CharsetEncoder"(ptr %_4, ptr %_1, ptr %_2, i1 %_3) inlinehint personality ptr @scalanative_personality {
+define dereferenceable_or_null(24) ptr @"_SM31java.nio.charset.CharsetEncoderD6loop$2L19java.nio.CharBufferL19java.nio.ByteBufferzL28java.nio.charset.CoderResultEPT31java.nio.charset.CharsetEncoder"(ptr %_4, ptr %_1, ptr %_2, i1 %_3) inlinehint personality ptr @scalanative_personality {
 _5.0:
   br label %_6.0
 _6.0:
@@ -8183,9 +8177,9 @@ _13.0:
   br i1 %_174, label %_171.0, label %_172.0
 _171.0:
   %_176 = load ptr, ptr %_4
-  %_178 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] }* %_176, i32 0, i32 7, i32 4
+  %_178 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] }* %_176, i32 0, i32 7, i32 4
   %_18 = load ptr, ptr %_178
-  %_20 = invoke dereferenceable_or_null(16) ptr %_18(ptr dereferenceable_or_null(56) %_4, ptr dereferenceable_or_null(56) %_1, ptr dereferenceable_or_null(56) %_2) to label %_171.1 unwind label %_181.landingpad
+  %_20 = invoke dereferenceable_or_null(24) ptr %_18(ptr dereferenceable_or_null(64) %_4, ptr dereferenceable_or_null(64) %_1, ptr dereferenceable_or_null(64) %_2) to label %_171.1 unwind label %_181.landingpad
 _171.1:
   br label %_14.0
 _12.0:
@@ -8209,9 +8203,9 @@ _188.0:
   %_193 = icmp eq ptr %_192, @"_SM32java.nio.BufferOverflowExceptionG4type"
   br i1 %_193, label %_189.0, label %_190.0
 _189.0:
-  %_27 = call dereferenceable_or_null(72) ptr @"scalanative_GC_alloc_small"(ptr @"_SM38java.nio.charset.CoderMalfunctionErrorG4type", i64 72)
-  call void @"_SM38java.nio.charset.CoderMalfunctionErrorRL19java.lang.ExceptionE"(ptr nonnull dereferenceable(72) %_27, ptr dereferenceable_or_null(72) %_15)
-  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(72) %_27)
+  %_27 = call dereferenceable_or_null(80) ptr @"scalanative_GC_alloc_small"(ptr @"_SM38java.nio.charset.CoderMalfunctionErrorG4type", i64 80)
+  call void @"_SM38java.nio.charset.CoderMalfunctionErrorRL19java.lang.ExceptionE"(ptr nonnull dereferenceable(80) %_27, ptr dereferenceable_or_null(80) %_15)
+  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(80) %_27)
   unreachable
 _23.0:
   %_199 = icmp eq ptr %_15, null
@@ -8233,28 +8227,28 @@ _202.0:
   %_206 = icmp eq ptr %_205, @"_SM33java.nio.BufferUnderflowExceptionG4type"
   br i1 %_206, label %_203.0, label %_190.0
 _203.0:
-  %_37 = call dereferenceable_or_null(72) ptr @"scalanative_GC_alloc_small"(ptr @"_SM38java.nio.charset.CoderMalfunctionErrorG4type", i64 72)
-  call void @"_SM38java.nio.charset.CoderMalfunctionErrorRL19java.lang.ExceptionE"(ptr nonnull dereferenceable(72) %_37, ptr dereferenceable_or_null(72) %_15)
-  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(72) %_37)
+  %_37 = call dereferenceable_or_null(80) ptr @"scalanative_GC_alloc_small"(ptr @"_SM38java.nio.charset.CoderMalfunctionErrorG4type", i64 80)
+  call void @"_SM38java.nio.charset.CoderMalfunctionErrorRL19java.lang.ExceptionE"(ptr nonnull dereferenceable(80) %_37, ptr dereferenceable_or_null(80) %_15)
+  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(80) %_37)
   unreachable
 _33.0:
   %_211 = icmp ne ptr %_15, null
   br i1 %_211, label %_209.0, label %_210.0
 _209.0:
-  call ptr @"scalanative_throw"(ptr dereferenceable_or_null(72) %_15)
+  call ptr @"scalanative_throw"(ptr dereferenceable_or_null(80) %_15)
   unreachable
 _14.0:
   %_16 = phi ptr [%_20, %_171.1]
   %_214 = icmp ne ptr %_16, null
   br i1 %_214, label %_213.0, label %_210.0
 _213.0:
-  %_47 = call i1 @"_SM28java.nio.charset.CoderResultD11isUnderflowzEO"(ptr dereferenceable_or_null(16) %_16)
+  %_47 = call i1 @"_SM28java.nio.charset.CoderResultD11isUnderflowzEO"(ptr dereferenceable_or_null(24) %_16)
   br i1 %_47, label %_42.0, label %_43.0
 _42.0:
   %_216 = icmp ne ptr %_1, null
   br i1 %_216, label %_215.0, label %_210.0
 _215.0:
-  %_49 = call i32 @"_SM15java.nio.BufferD9remainingiEO"(ptr dereferenceable_or_null(56) %_1)
+  %_49 = call i32 @"_SM15java.nio.BufferD9remainingiEO"(ptr dereferenceable_or_null(64) %_1)
   br i1 %_3, label %_54.0, label %_55.0
 _54.0:
   %_58 = icmp sgt i32 %_49, 0
@@ -8265,8 +8259,8 @@ _56.0:
   %_57 = phi i1 [false, %_55.0], [%_58, %_54.0]
   br i1 %_57, label %_50.0, label %_51.0
 _50.0:
-  %_59 = call dereferenceable_or_null(104) ptr @"_SM29java.nio.charset.CoderResult$G4load"()
-  %_61 = call dereferenceable_or_null(16) ptr @"_SM29java.nio.charset.CoderResult$D18malformedForLengthiL28java.nio.charset.CoderResultEO"(ptr nonnull dereferenceable(104) %_59, i32 %_49)
+  %_59 = call dereferenceable_or_null(112) ptr @"_SM29java.nio.charset.CoderResult$G4load"()
+  %_61 = call dereferenceable_or_null(24) ptr @"_SM29java.nio.charset.CoderResult$D18malformedForLengthiL28java.nio.charset.CoderResultEO"(ptr nonnull dereferenceable(112) %_59, i32 %_49)
   br label %_52.0
 _51.0:
   br label %_52.0
@@ -8280,12 +8274,12 @@ _44.0:
   %_218 = icmp ne ptr %_45, null
   br i1 %_218, label %_217.0, label %_210.0
 _217.0:
-  %_71 = call i1 @"_SM28java.nio.charset.CoderResultD11isUnderflowzEO"(ptr dereferenceable_or_null(16) %_45)
+  %_71 = call i1 @"_SM28java.nio.charset.CoderResultD11isUnderflowzEO"(ptr dereferenceable_or_null(24) %_45)
   br i1 %_71, label %_66.0, label %_67.0
 _66.0:
   br label %_68.0
 _67.0:
-  %_73 = call i1 @"_SM28java.nio.charset.CoderResultD10isOverflowzEO"(ptr dereferenceable_or_null(16) %_45)
+  %_73 = call i1 @"_SM28java.nio.charset.CoderResultD10isOverflowzEO"(ptr dereferenceable_or_null(24) %_45)
   br label %_68.0
 _68.0:
   %_69 = phi i1 [%_73, %_67.0], [true, %_66.0]
@@ -8293,20 +8287,20 @@ _68.0:
 _62.0:
   br label %_64.0
 _63.0:
-  %_79 = call i1 @"_SM28java.nio.charset.CoderResultD12isUnmappablezEO"(ptr dereferenceable_or_null(16) %_45)
+  %_79 = call i1 @"_SM28java.nio.charset.CoderResultD12isUnmappablezEO"(ptr dereferenceable_or_null(24) %_45)
   br i1 %_79, label %_74.0, label %_75.0
 _74.0:
-  %_81 = call dereferenceable_or_null(16) ptr @"_SM31java.nio.charset.CharsetEncoderD25unmappableCharacterActionL34java.nio.charset.CodingErrorActionEO"(ptr dereferenceable_or_null(56) %_4)
+  %_81 = call dereferenceable_or_null(24) ptr @"_SM31java.nio.charset.CharsetEncoderD25unmappableCharacterActionL34java.nio.charset.CodingErrorActionEO"(ptr dereferenceable_or_null(64) %_4)
   br label %_76.0
 _75.0:
-  %_83 = call dereferenceable_or_null(16) ptr @"_SM31java.nio.charset.CharsetEncoderD20malformedInputActionL34java.nio.charset.CodingErrorActionEO"(ptr dereferenceable_or_null(56) %_4)
+  %_83 = call dereferenceable_or_null(24) ptr @"_SM31java.nio.charset.CharsetEncoderD20malformedInputActionL34java.nio.charset.CodingErrorActionEO"(ptr dereferenceable_or_null(64) %_4)
   br label %_76.0
 _76.0:
   %_77 = phi ptr [%_83, %_75.0], [%_81, %_74.0]
   br label %_84.0
 _84.0:
-  %_95 = call dereferenceable_or_null(32) ptr @"_SM35java.nio.charset.CodingErrorAction$G4load"()
-  %_97 = call dereferenceable_or_null(16) ptr @"_SM35java.nio.charset.CodingErrorAction$D7REPLACEL34java.nio.charset.CodingErrorActionEO"(ptr nonnull dereferenceable(32) %_95)
+  %_95 = call dereferenceable_or_null(40) ptr @"_SM35java.nio.charset.CodingErrorAction$G4load"()
+  %_97 = call dereferenceable_or_null(24) ptr @"_SM35java.nio.charset.CodingErrorAction$D7REPLACEL34java.nio.charset.CodingErrorActionEO"(ptr nonnull dereferenceable(40) %_95)
   %_98 = icmp eq ptr %_97, null
   br i1 %_98, label %_91.0, label %_92.0
 _91.0:
@@ -8316,7 +8310,7 @@ _92.0:
   %_220 = icmp ne ptr %_97, null
   br i1 %_220, label %_219.0, label %_210.0
 _219.0:
-  %_101 = call i1 @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO"(ptr dereferenceable_or_null(16) %_97, ptr dereferenceable_or_null(16) %_77)
+  %_101 = call i1 @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO"(ptr dereferenceable_or_null(24) %_97, ptr dereferenceable_or_null(24) %_77)
   br label %_93.0
 _93.0:
   %_94 = phi i1 [%_101, %_219.0], [%_99, %_91.0]
@@ -8325,26 +8319,26 @@ _87.0:
   %_222 = icmp ne ptr %_2, null
   br i1 %_222, label %_221.0, label %_210.0
 _221.0:
-  %_107 = call i32 @"_SM15java.nio.BufferD9remainingiEO"(ptr dereferenceable_or_null(56) %_2)
-  %_109 = call dereferenceable_or_null(16) ptr @"_SM31java.nio.charset.CharsetEncoderD11replacementLAb_EO"(ptr dereferenceable_or_null(56) %_4)
+  %_107 = call i32 @"_SM15java.nio.BufferD9remainingiEO"(ptr dereferenceable_or_null(64) %_2)
+  %_109 = call dereferenceable_or_null(24) ptr @"_SM31java.nio.charset.CharsetEncoderD11replacementLAb_EO"(ptr dereferenceable_or_null(64) %_4)
   %_224 = icmp ne ptr %_109, null
   br i1 %_224, label %_223.0, label %_210.0
 _223.0:
-  %_225 = getelementptr { ptr, i32, i32 }, { ptr, i32, i32 }* %_109, i32 0, i32 1
-  %_110 = load i32, ptr %_225
+  %_225 = getelementptr { ptr, ptr, i32, i32 }, { ptr, ptr, i32, i32 }* %_109, i32 0, i32 2
+  %_110 = load atomic i32, ptr %_225 unordered, align 4
   %_111 = icmp slt i32 %_107, %_110
   br i1 %_111, label %_102.0, label %_103.0
 _102.0:
-  %_112 = call dereferenceable_or_null(104) ptr @"_SM29java.nio.charset.CoderResult$G4load"()
-  %_114 = call dereferenceable_or_null(16) ptr @"_SM29java.nio.charset.CoderResult$D8OVERFLOWL28java.nio.charset.CoderResultEO"(ptr nonnull dereferenceable(104) %_112)
+  %_112 = call dereferenceable_or_null(112) ptr @"_SM29java.nio.charset.CoderResult$G4load"()
+  %_114 = call dereferenceable_or_null(24) ptr @"_SM29java.nio.charset.CoderResult$D8OVERFLOWL28java.nio.charset.CoderResultEO"(ptr nonnull dereferenceable(112) %_112)
   br label %_104.0
 _103.0:
-  %_116 = call dereferenceable_or_null(16) ptr @"_SM31java.nio.charset.CharsetEncoderD11replacementLAb_EO"(ptr dereferenceable_or_null(56) %_4)
-  %_118 = call dereferenceable_or_null(56) ptr @"_SM19java.nio.ByteBufferD3putLAb_L19java.nio.ByteBufferEO"(ptr dereferenceable_or_null(56) %_2, ptr dereferenceable_or_null(16) %_116)
-  %_120 = call i32 @"_SM15java.nio.BufferD8positioniEO"(ptr dereferenceable_or_null(56) %_1)
-  %_122 = call i32 @"_SM28java.nio.charset.CoderResultD6lengthiEO"(ptr dereferenceable_or_null(16) %_45)
+  %_116 = call dereferenceable_or_null(24) ptr @"_SM31java.nio.charset.CharsetEncoderD11replacementLAb_EO"(ptr dereferenceable_or_null(64) %_4)
+  %_118 = call dereferenceable_or_null(64) ptr @"_SM19java.nio.ByteBufferD3putLAb_L19java.nio.ByteBufferEO"(ptr dereferenceable_or_null(64) %_2, ptr dereferenceable_or_null(24) %_116)
+  %_120 = call i32 @"_SM15java.nio.BufferD8positioniEO"(ptr dereferenceable_or_null(64) %_1)
+  %_122 = call i32 @"_SM28java.nio.charset.CoderResultD6lengthiEO"(ptr dereferenceable_or_null(24) %_45)
   %_123 = add i32 %_120, %_122
-  %_125 = call dereferenceable_or_null(56) ptr @"_SM19java.nio.CharBufferD8positioniL19java.nio.CharBufferEO"(ptr dereferenceable_or_null(56) %_1, i32 %_123)
+  %_125 = call dereferenceable_or_null(64) ptr @"_SM19java.nio.CharBufferD8positioniL19java.nio.CharBufferEO"(ptr dereferenceable_or_null(64) %_1, i32 %_123)
   br label %_10.0
 _104.0:
   %_105 = phi ptr [%_114, %_102.0]
@@ -8352,8 +8346,8 @@ _104.0:
 _88.0:
   br label %_89.0
 _89.0:
-  %_136 = call dereferenceable_or_null(32) ptr @"_SM35java.nio.charset.CodingErrorAction$G4load"()
-  %_138 = call dereferenceable_or_null(16) ptr @"_SM35java.nio.charset.CodingErrorAction$D6REPORTL34java.nio.charset.CodingErrorActionEO"(ptr nonnull dereferenceable(32) %_136)
+  %_136 = call dereferenceable_or_null(40) ptr @"_SM35java.nio.charset.CodingErrorAction$G4load"()
+  %_138 = call dereferenceable_or_null(24) ptr @"_SM35java.nio.charset.CodingErrorAction$D6REPORTL34java.nio.charset.CodingErrorActionEO"(ptr nonnull dereferenceable(40) %_136)
   %_139 = icmp eq ptr %_138, null
   br i1 %_139, label %_132.0, label %_133.0
 _132.0:
@@ -8363,7 +8357,7 @@ _133.0:
   %_227 = icmp ne ptr %_138, null
   br i1 %_227, label %_226.0, label %_210.0
 _226.0:
-  %_142 = call i1 @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO"(ptr dereferenceable_or_null(16) %_138, ptr dereferenceable_or_null(16) %_77)
+  %_142 = call i1 @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO"(ptr dereferenceable_or_null(24) %_138, ptr dereferenceable_or_null(24) %_77)
   br label %_134.0
 _134.0:
   %_135 = phi i1 [%_142, %_226.0], [%_140, %_132.0]
@@ -8373,8 +8367,8 @@ _128.0:
 _129.0:
   br label %_130.0
 _130.0:
-  %_152 = call dereferenceable_or_null(32) ptr @"_SM35java.nio.charset.CodingErrorAction$G4load"()
-  %_154 = call dereferenceable_or_null(16) ptr @"_SM35java.nio.charset.CodingErrorAction$D6IGNOREL34java.nio.charset.CodingErrorActionEO"(ptr nonnull dereferenceable(32) %_152)
+  %_152 = call dereferenceable_or_null(40) ptr @"_SM35java.nio.charset.CodingErrorAction$G4load"()
+  %_154 = call dereferenceable_or_null(24) ptr @"_SM35java.nio.charset.CodingErrorAction$D6IGNOREL34java.nio.charset.CodingErrorActionEO"(ptr nonnull dereferenceable(40) %_152)
   %_155 = icmp eq ptr %_154, null
   br i1 %_155, label %_148.0, label %_149.0
 _148.0:
@@ -8384,23 +8378,23 @@ _149.0:
   %_229 = icmp ne ptr %_154, null
   br i1 %_229, label %_228.0, label %_210.0
 _228.0:
-  %_158 = call i1 @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO"(ptr dereferenceable_or_null(16) %_154, ptr dereferenceable_or_null(16) %_77)
+  %_158 = call i1 @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO"(ptr dereferenceable_or_null(24) %_154, ptr dereferenceable_or_null(24) %_77)
   br label %_150.0
 _150.0:
   %_151 = phi i1 [%_158, %_228.0], [%_156, %_148.0]
   br i1 %_151, label %_144.0, label %_145.0
 _144.0:
-  %_160 = call i32 @"_SM15java.nio.BufferD8positioniEO"(ptr dereferenceable_or_null(56) %_1)
-  %_162 = call i32 @"_SM28java.nio.charset.CoderResultD6lengthiEO"(ptr dereferenceable_or_null(16) %_45)
+  %_160 = call i32 @"_SM15java.nio.BufferD8positioniEO"(ptr dereferenceable_or_null(64) %_1)
+  %_162 = call i32 @"_SM28java.nio.charset.CoderResultD6lengthiEO"(ptr dereferenceable_or_null(24) %_45)
   %_163 = add i32 %_160, %_162
-  %_165 = call dereferenceable_or_null(56) ptr @"_SM19java.nio.CharBufferD8positioniL19java.nio.CharBufferEO"(ptr dereferenceable_or_null(56) %_1, i32 %_163)
+  %_165 = call dereferenceable_or_null(64) ptr @"_SM19java.nio.CharBufferD8positioniL19java.nio.CharBufferEO"(ptr dereferenceable_or_null(64) %_1, i32 %_163)
   br label %_10.0
 _145.0:
   br label %_146.0
 _146.0:
-  %_168 = call dereferenceable_or_null(88) ptr @"scalanative_GC_alloc_small"(ptr @"_SM16scala.MatchErrorG4type", i64 88)
-  call void @"_SM16scala.MatchErrorRL16java.lang.ObjectE"(ptr nonnull dereferenceable(88) %_168, ptr dereferenceable_or_null(16) %_77)
-  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(88) %_168)
+  %_168 = call dereferenceable_or_null(96) ptr @"scalanative_GC_alloc_small"(ptr @"_SM16scala.MatchErrorG4type", i64 96)
+  call void @"_SM16scala.MatchErrorRL16java.lang.ObjectE"(ptr nonnull dereferenceable(96) %_168, ptr dereferenceable_or_null(24) %_77)
+  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(96) %_168)
   unreachable
 _85.0:
   %_86 = phi ptr [%_45, %_128.0], [%_105, %_104.0]
@@ -8475,11 +8469,11 @@ _232.landingpad.succ:
   br label %_170.0
 }
 
-define dereferenceable_or_null(16) ptr @"_SM31java.nio.charset.CharsetEncoderD9implFlushL19java.nio.ByteBufferL28java.nio.charset.CoderResultEO"(ptr %_1, ptr %_2) personality ptr @scalanative_personality {
+define dereferenceable_or_null(24) ptr @"_SM31java.nio.charset.CharsetEncoderD9implFlushL19java.nio.ByteBufferL28java.nio.charset.CoderResultEO"(ptr %_1, ptr %_2) personality ptr @scalanative_personality {
 _3000000.0:
-  %_3000001 = call dereferenceable_or_null(104) ptr @"_SM29java.nio.charset.CoderResult$G4load"()
-  %_4000002 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_3000001, i32 0, i32 1
-  %_4000001 = load ptr, ptr %_4000002, !dereferenceable_or_null !{i64 16}
+  %_3000001 = call dereferenceable_or_null(112) ptr @"_SM29java.nio.charset.CoderResult$G4load"()
+  %_4000002 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_3000001, i32 0, i32 1
+  %_4000001 = load atomic ptr, ptr %_4000002 unordered, align 8
   ret ptr %_4000001
 }
 
@@ -8498,18 +8492,18 @@ _10000005.0:
 _5000000.0:
   br label %_7000000.0
 _6000000.0:
-  %_6000001 = call dereferenceable_or_null(32) ptr @"_SM19java.lang.ThrowableD8toStringL16java.lang.StringEO"(ptr dereferenceable_or_null(72) %_2)
+  %_6000001 = call dereferenceable_or_null(40) ptr @"_SM19java.lang.ThrowableD8toStringL16java.lang.StringEO"(ptr dereferenceable_or_null(80) %_2)
   br label %_7000000.0
 _7000000.0:
   %_7000001 = phi ptr [%_6000001, %_6000000.0], [null, %_5000000.0]
-  %_10000009 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_1, i32 0, i32 7
-  store ptr %_7000001, ptr%_10000009, align 8
-  %_10000011 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_1, i32 0, i32 6
-  store ptr %_2, ptr%_10000011, align 8
-  %_10000013 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_1, i32 0, i32 8
+  %_10000009 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_1, i32 0, i32 7
+  store atomic ptr %_7000001, ptr%_10000009 unordered, align 8
+  %_10000011 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_1, i32 0, i32 6
+  store atomic ptr %_2, ptr%_10000011 unordered, align 8
+  %_10000013 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_1, i32 0, i32 8
   %_10000014 = zext i1 true to i8
-  store i8 %_10000014, ptr%_10000013, align 1
-  call void @"_SM35scala.scalanative.runtime.ThrowableRzE"(ptr dereferenceable_or_null(72) %_1, i1 true)
+  store atomic i8 %_10000014, ptr%_10000013 unordered, align 1
+  call void @"_SM35scala.scalanative.runtime.ThrowableRzE"(ptr dereferenceable_or_null(80) %_1, i1 true)
   ret void
 _10000006.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
@@ -8521,8 +8515,8 @@ _2000000.0:
   %_2000006 = icmp ne ptr %_1, null
   br i1 %_2000006, label %_2000004.0, label %_2000005.0
 _2000004.0:
-  %_2000007 = getelementptr { { ptr }, i32, i32 }, { { ptr }, i32, i32 }* %_1, i32 0, i32 2
-  %_2000001 = load i32, ptr %_2000007
+  %_2000007 = getelementptr { { ptr, ptr }, i32, i32 }, { { ptr, ptr }, i32, i32 }* %_1, i32 0, i32 2
+  %_2000001 = load atomic i32, ptr %_2000007 unordered, align 4
   %_2000003 = icmp eq i32 %_2000001, 1
   ret i1 %_2000003
 _2000005.0:
@@ -8535,8 +8529,8 @@ _2000000.0:
   %_2000006 = icmp ne ptr %_1, null
   br i1 %_2000006, label %_2000004.0, label %_2000005.0
 _2000004.0:
-  %_2000007 = getelementptr { { ptr }, i32, i32 }, { { ptr }, i32, i32 }* %_1, i32 0, i32 2
-  %_2000001 = load i32, ptr %_2000007
+  %_2000007 = getelementptr { { ptr, ptr }, i32, i32 }, { { ptr, ptr }, i32, i32 }* %_1, i32 0, i32 2
+  %_2000001 = load atomic i32, ptr %_2000007 unordered, align 4
   %_2000003 = icmp eq i32 %_2000001, 0
   ret i1 %_2000003
 _2000005.0:
@@ -8549,8 +8543,8 @@ _2000000.0:
   %_2000006 = icmp ne ptr %_1, null
   br i1 %_2000006, label %_2000004.0, label %_2000005.0
 _2000004.0:
-  %_2000007 = getelementptr { { ptr }, i32, i32 }, { { ptr }, i32, i32 }* %_1, i32 0, i32 2
-  %_2000001 = load i32, ptr %_2000007
+  %_2000007 = getelementptr { { ptr, ptr }, i32, i32 }, { { ptr, ptr }, i32, i32 }* %_1, i32 0, i32 2
+  %_2000001 = load atomic i32, ptr %_2000007 unordered, align 4
   %_2000003 = icmp eq i32 %_2000001, 3
   ret i1 %_2000003
 _2000005.0:
@@ -8565,8 +8559,8 @@ _2000000.0:
 _42000005.0:
   br label %_3000000.0
 _3000000.0:
-  %_42000008 = getelementptr { { ptr }, i32, i32 }, { { ptr }, i32, i32 }* %_1, i32 0, i32 2
-  %_3000001 = load i32, ptr %_42000008
+  %_42000008 = getelementptr { { ptr, ptr }, i32, i32 }, { { ptr, ptr }, i32, i32 }* %_1, i32 0, i32 2
+  %_3000001 = load atomic i32, ptr %_42000008 unordered, align 4
   switch i32 %_3000001, label %_4000000.0 [
     i32 0, label %_5000000.0
     i32 1, label %_6000000.0
@@ -8574,55 +8568,55 @@ _3000000.0:
     i32 3, label %_8000000.0
   ]
 _4000000.0:
-  %_14000001 = call dereferenceable_or_null(88) ptr @"scalanative_GC_alloc_small"(ptr @"_SM16scala.MatchErrorG4type", i64 88)
-  %_42000010 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_14000001, i32 0, i32 8
+  %_14000001 = call dereferenceable_or_null(96) ptr @"scalanative_GC_alloc_small"(ptr @"_SM16scala.MatchErrorG4type", i64 96)
+  %_42000010 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_14000001, i32 0, i32 8
   %_42000011 = zext i1 true to i8
-  store i8 %_42000011, ptr%_42000010, align 1
-  %_14000003 = call dereferenceable_or_null(16) ptr @"_SM27scala.runtime.BoxesRunTime$D12boxToIntegeriL17java.lang.IntegerEO"(ptr null, i32 %_3000001)
-  %_42000013 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1, ptr, ptr }, { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1, ptr, ptr }* %_14000001, i32 0, i32 9
-  store ptr %_14000003, ptr%_42000013, align 8
-  call void @"_SM35scala.scalanative.runtime.ThrowableRzE"(ptr nonnull dereferenceable(88) %_14000001, i1 true)
-  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(88) %_14000001)
+  store atomic i8 %_42000011, ptr%_42000010 unordered, align 1
+  %_14000003 = call dereferenceable_or_null(24) ptr @"_SM27scala.runtime.BoxesRunTime$D12boxToIntegeriL17java.lang.IntegerEO"(ptr null, i32 %_3000001)
+  %_42000013 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1, ptr, ptr }, { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1, ptr, ptr }* %_14000001, i32 0, i32 9
+  store atomic ptr %_14000003, ptr%_42000013 unordered, align 8
+  call void @"_SM35scala.scalanative.runtime.ThrowableRzE"(ptr nonnull dereferenceable(96) %_14000001, i1 true)
+  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(96) %_14000001)
   unreachable
 _5000000.0:
-  %_21000001 = call dereferenceable_or_null(72) ptr @"scalanative_GC_alloc_small"(ptr @"_SM33java.nio.BufferUnderflowExceptionG4type", i64 72)
-  %_42000017 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_21000001, i32 0, i32 8
+  %_21000001 = call dereferenceable_or_null(80) ptr @"scalanative_GC_alloc_small"(ptr @"_SM33java.nio.BufferUnderflowExceptionG4type", i64 80)
+  %_42000017 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_21000001, i32 0, i32 8
   %_42000018 = zext i1 true to i8
-  store i8 %_42000018, ptr%_42000017, align 1
-  call void @"_SM35scala.scalanative.runtime.ThrowableRzE"(ptr nonnull dereferenceable(72) %_21000001, i1 true)
-  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(72) %_21000001)
+  store atomic i8 %_42000018, ptr%_42000017 unordered, align 1
+  call void @"_SM35scala.scalanative.runtime.ThrowableRzE"(ptr nonnull dereferenceable(80) %_21000001, i1 true)
+  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(80) %_21000001)
   unreachable
 _6000000.0:
-  %_28000001 = call dereferenceable_or_null(72) ptr @"scalanative_GC_alloc_small"(ptr @"_SM32java.nio.BufferOverflowExceptionG4type", i64 72)
-  %_42000022 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_28000001, i32 0, i32 8
+  %_28000001 = call dereferenceable_or_null(80) ptr @"scalanative_GC_alloc_small"(ptr @"_SM32java.nio.BufferOverflowExceptionG4type", i64 80)
+  %_42000022 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_28000001, i32 0, i32 8
   %_42000023 = zext i1 true to i8
-  store i8 %_42000023, ptr%_42000022, align 1
-  call void @"_SM35scala.scalanative.runtime.ThrowableRzE"(ptr nonnull dereferenceable(72) %_28000001, i1 true)
-  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(72) %_28000001)
+  store atomic i8 %_42000023, ptr%_42000022 unordered, align 1
+  call void @"_SM35scala.scalanative.runtime.ThrowableRzE"(ptr nonnull dereferenceable(80) %_28000001, i1 true)
+  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(80) %_28000001)
   unreachable
 _7000000.0:
-  %_42000026 = getelementptr { { ptr }, i32, i32 }, { { ptr }, i32, i32 }* %_1, i32 0, i32 1
-  %_7000002 = load i32, ptr %_42000026
-  %_35000001 = call dereferenceable_or_null(72) ptr @"scalanative_GC_alloc_small"(ptr @"_SM40java.nio.charset.MalformedInputExceptionG4type", i64 72)
-  %_42000028 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_35000001, i32 0, i32 8
+  %_42000026 = getelementptr { { ptr, ptr }, i32, i32 }, { { ptr, ptr }, i32, i32 }* %_1, i32 0, i32 1
+  %_7000002 = load atomic i32, ptr %_42000026 unordered, align 4
+  %_35000001 = call dereferenceable_or_null(80) ptr @"scalanative_GC_alloc_small"(ptr @"_SM40java.nio.charset.MalformedInputExceptionG4type", i64 80)
+  %_42000028 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_35000001, i32 0, i32 8
   %_42000029 = zext i1 true to i8
-  store i8 %_42000029, ptr%_42000028, align 1
-  %_42000031 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1, i32 }, { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1, i32 }* %_35000001, i32 0, i32 9
-  store i32 %_7000002, ptr%_42000031, align 4
-  call void @"_SM35scala.scalanative.runtime.ThrowableRzE"(ptr nonnull dereferenceable(72) %_35000001, i1 true)
-  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(72) %_35000001)
+  store atomic i8 %_42000029, ptr%_42000028 unordered, align 1
+  %_42000031 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1, i32 }, { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1, i32 }* %_35000001, i32 0, i32 9
+  store atomic i32 %_7000002, ptr%_42000031 unordered, align 4
+  call void @"_SM35scala.scalanative.runtime.ThrowableRzE"(ptr nonnull dereferenceable(80) %_35000001, i1 true)
+  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(80) %_35000001)
   unreachable
 _8000000.0:
-  %_42000034 = getelementptr { { ptr }, i32, i32 }, { { ptr }, i32, i32 }* %_1, i32 0, i32 1
-  %_8000002 = load i32, ptr %_42000034
-  %_42000001 = call dereferenceable_or_null(72) ptr @"scalanative_GC_alloc_small"(ptr @"_SM45java.nio.charset.UnmappableCharacterExceptionG4type", i64 72)
-  %_42000036 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_42000001, i32 0, i32 8
+  %_42000034 = getelementptr { { ptr, ptr }, i32, i32 }, { { ptr, ptr }, i32, i32 }* %_1, i32 0, i32 1
+  %_8000002 = load atomic i32, ptr %_42000034 unordered, align 4
+  %_42000001 = call dereferenceable_or_null(80) ptr @"scalanative_GC_alloc_small"(ptr @"_SM45java.nio.charset.UnmappableCharacterExceptionG4type", i64 80)
+  %_42000036 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_42000001, i32 0, i32 8
   %_42000037 = zext i1 true to i8
-  store i8 %_42000037, ptr%_42000036, align 1
-  %_42000039 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1, i32 }, { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1, i32 }* %_42000001, i32 0, i32 9
-  store i32 %_8000002, ptr%_42000039, align 4
-  call void @"_SM35scala.scalanative.runtime.ThrowableRzE"(ptr nonnull dereferenceable(72) %_42000001, i1 true)
-  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(72) %_42000001)
+  store atomic i8 %_42000037, ptr%_42000036 unordered, align 1
+  %_42000039 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1, i32 }, { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1, i32 }* %_42000001, i32 0, i32 9
+  store atomic i32 %_8000002, ptr%_42000039 unordered, align 4
+  call void @"_SM35scala.scalanative.runtime.ThrowableRzE"(ptr nonnull dereferenceable(80) %_42000001, i1 true)
+  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(80) %_42000001)
   unreachable
 _42000006.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
@@ -8634,8 +8628,8 @@ _2000000.0:
   %_11000003 = icmp ne ptr %_1, null
   br i1 %_11000003, label %_11000001.0, label %_11000002.0
 _11000001.0:
-  %_11000004 = getelementptr { { ptr }, i32, i32 }, { { ptr }, i32, i32 }* %_1, i32 0, i32 1
-  %_2000001 = load i32, ptr %_11000004
+  %_11000004 = getelementptr { { ptr, ptr }, i32, i32 }, { { ptr, ptr }, i32, i32 }* %_1, i32 0, i32 1
+  %_2000001 = load atomic i32, ptr %_11000004 unordered, align 4
   %_2000003 = icmp slt i32 %_2000001, 0
   br i1 %_2000003, label %_3000000.0, label %_4000000.0
 _4000000.0:
@@ -8643,27 +8637,27 @@ _4000000.0:
 _11000000.0:
   ret i32 %_2000001
 _3000000.0:
-  %_10000001 = call dereferenceable_or_null(72) ptr @"scalanative_GC_alloc_small"(ptr @"_SM39java.lang.UnsupportedOperationExceptionG4type", i64 72)
-  %_11000006 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_10000001, i32 0, i32 8
+  %_10000001 = call dereferenceable_or_null(80) ptr @"scalanative_GC_alloc_small"(ptr @"_SM39java.lang.UnsupportedOperationExceptionG4type", i64 80)
+  %_11000006 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_10000001, i32 0, i32 8
   %_11000007 = zext i1 true to i8
-  store i8 %_11000007, ptr%_11000006, align 1
-  call void @"_SM35scala.scalanative.runtime.ThrowableRzE"(ptr nonnull dereferenceable(72) %_10000001, i1 true)
-  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(72) %_10000001)
+  store atomic i8 %_11000007, ptr%_11000006 unordered, align 1
+  call void @"_SM35scala.scalanative.runtime.ThrowableRzE"(ptr nonnull dereferenceable(80) %_10000001, i1 true)
+  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(80) %_10000001)
   unreachable
 _11000002.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
   unreachable
 }
 
-define dereferenceable_or_null(32) ptr @"_SM28java.nio.charset.CoderResultD8toStringL16java.lang.StringEO"(ptr %_1) personality ptr @scalanative_personality {
+define dereferenceable_or_null(40) ptr @"_SM28java.nio.charset.CoderResultD8toStringL16java.lang.StringEO"(ptr %_1) personality ptr @scalanative_personality {
 _2000000.0:
   %_15000004 = icmp ne ptr %_1, null
   br i1 %_15000004, label %_15000002.0, label %_15000003.0
 _15000002.0:
   br label %_3000000.0
 _3000000.0:
-  %_15000005 = getelementptr { { ptr }, i32, i32 }, { { ptr }, i32, i32 }* %_1, i32 0, i32 2
-  %_3000001 = load i32, ptr %_15000005
+  %_15000005 = getelementptr { { ptr, ptr }, i32, i32 }, { { ptr, ptr }, i32, i32 }* %_1, i32 0, i32 2
+  %_3000001 = load atomic i32, ptr %_15000005 unordered, align 4
   switch i32 %_3000001, label %_4000000.0 [
     i32 0, label %_5000000.0
     i32 1, label %_6000000.0
@@ -8675,49 +8669,49 @@ _5000000.0:
 _6000000.0:
   br label %_15000000.0
 _7000000.0:
-  %_7000004 = call dereferenceable_or_null(24) ptr @"scalanative_GC_alloc_small"(ptr @"_SM23java.lang.StringBuilderG4type", i64 24)
-  %_7000005 = call dereferenceable_or_null(16) ptr @"_SM36scala.scalanative.runtime.CharArray$D5allociL35scala.scalanative.runtime.CharArrayEO"(ptr @"_SM36scala.scalanative.runtime.CharArray$G8instance", i32 11)
-  %_15000008 = getelementptr { { ptr }, i32, i1, ptr }, { { ptr }, i32, i1, ptr }* %_7000004, i32 0, i32 3
-  store ptr %_7000005, ptr%_15000008, align 8
-  %_7000007 = call dereferenceable_or_null(24) ptr @"_SM23java.lang.StringBuilderD6appendL16java.lang.StringL23java.lang.StringBuilderEO"(ptr nonnull dereferenceable(24) %_7000004, ptr @"_SM7__constG3-193")
-  %_15000009 = getelementptr { { ptr }, i32, i32 }, { { ptr }, i32, i32 }* %_1, i32 0, i32 1
-  %_7000008 = load i32, ptr %_15000009
-  %_7000009 = call dereferenceable_or_null(24) ptr @"_SM23java.lang.StringBuilderD6appendiL23java.lang.StringBuilderEO"(ptr nonnull dereferenceable(24) %_7000004, i32 %_7000008)
-  %_7000012 = call dereferenceable_or_null(24) ptr @"_SM23java.lang.StringBuilderD6appendL16java.lang.StringL23java.lang.StringBuilderEO"(ptr nonnull dereferenceable(24) %_7000004, ptr @"_SM7__constG3-195")
-  %_7000013 = call dereferenceable_or_null(32) ptr @"_SM23java.lang.StringBuilderD8toStringL16java.lang.StringEO"(ptr nonnull dereferenceable(24) %_7000004)
+  %_7000004 = call dereferenceable_or_null(32) ptr @"scalanative_GC_alloc_small"(ptr @"_SM23java.lang.StringBuilderG4type", i64 32)
+  %_7000005 = call dereferenceable_or_null(24) ptr @"_SM36scala.scalanative.runtime.CharArray$D5allociL35scala.scalanative.runtime.CharArrayEO"(ptr @"_SM36scala.scalanative.runtime.CharArray$G8instance", i32 11)
+  %_15000008 = getelementptr { { ptr, ptr }, i32, i1, ptr }, { { ptr, ptr }, i32, i1, ptr }* %_7000004, i32 0, i32 3
+  store atomic ptr %_7000005, ptr%_15000008 unordered, align 8
+  %_7000007 = call dereferenceable_or_null(32) ptr @"_SM23java.lang.StringBuilderD6appendL16java.lang.StringL23java.lang.StringBuilderEO"(ptr nonnull dereferenceable(32) %_7000004, ptr @"_SM7__constG3-193")
+  %_15000009 = getelementptr { { ptr, ptr }, i32, i32 }, { { ptr, ptr }, i32, i32 }* %_1, i32 0, i32 1
+  %_7000008 = load atomic i32, ptr %_15000009 unordered, align 4
+  %_7000009 = call dereferenceable_or_null(32) ptr @"_SM23java.lang.StringBuilderD6appendiL23java.lang.StringBuilderEO"(ptr nonnull dereferenceable(32) %_7000004, i32 %_7000008)
+  %_7000012 = call dereferenceable_or_null(32) ptr @"_SM23java.lang.StringBuilderD6appendL16java.lang.StringL23java.lang.StringBuilderEO"(ptr nonnull dereferenceable(32) %_7000004, ptr @"_SM7__constG3-195")
+  %_7000013 = call dereferenceable_or_null(40) ptr @"_SM23java.lang.StringBuilderD8toStringL16java.lang.StringEO"(ptr nonnull dereferenceable(32) %_7000004)
   br label %_15000000.0
 _8000000.0:
-  %_8000004 = call dereferenceable_or_null(24) ptr @"scalanative_GC_alloc_small"(ptr @"_SM23java.lang.StringBuilderG4type", i64 24)
-  %_8000005 = call dereferenceable_or_null(16) ptr @"_SM36scala.scalanative.runtime.CharArray$D5allociL35scala.scalanative.runtime.CharArrayEO"(ptr @"_SM36scala.scalanative.runtime.CharArray$G8instance", i32 12)
-  %_15000012 = getelementptr { { ptr }, i32, i1, ptr }, { { ptr }, i32, i1, ptr }* %_8000004, i32 0, i32 3
-  store ptr %_8000005, ptr%_15000012, align 8
-  %_8000007 = call dereferenceable_or_null(24) ptr @"_SM23java.lang.StringBuilderD6appendL16java.lang.StringL23java.lang.StringBuilderEO"(ptr nonnull dereferenceable(24) %_8000004, ptr @"_SM7__constG3-197")
-  %_15000013 = getelementptr { { ptr }, i32, i32 }, { { ptr }, i32, i32 }* %_1, i32 0, i32 1
-  %_8000008 = load i32, ptr %_15000013
-  %_8000009 = call dereferenceable_or_null(24) ptr @"_SM23java.lang.StringBuilderD6appendiL23java.lang.StringBuilderEO"(ptr nonnull dereferenceable(24) %_8000004, i32 %_8000008)
-  %_8000012 = call dereferenceable_or_null(24) ptr @"_SM23java.lang.StringBuilderD6appendL16java.lang.StringL23java.lang.StringBuilderEO"(ptr nonnull dereferenceable(24) %_8000004, ptr @"_SM7__constG3-195")
-  %_8000013 = call dereferenceable_or_null(32) ptr @"_SM23java.lang.StringBuilderD8toStringL16java.lang.StringEO"(ptr nonnull dereferenceable(24) %_8000004)
+  %_8000004 = call dereferenceable_or_null(32) ptr @"scalanative_GC_alloc_small"(ptr @"_SM23java.lang.StringBuilderG4type", i64 32)
+  %_8000005 = call dereferenceable_or_null(24) ptr @"_SM36scala.scalanative.runtime.CharArray$D5allociL35scala.scalanative.runtime.CharArrayEO"(ptr @"_SM36scala.scalanative.runtime.CharArray$G8instance", i32 12)
+  %_15000012 = getelementptr { { ptr, ptr }, i32, i1, ptr }, { { ptr, ptr }, i32, i1, ptr }* %_8000004, i32 0, i32 3
+  store atomic ptr %_8000005, ptr%_15000012 unordered, align 8
+  %_8000007 = call dereferenceable_or_null(32) ptr @"_SM23java.lang.StringBuilderD6appendL16java.lang.StringL23java.lang.StringBuilderEO"(ptr nonnull dereferenceable(32) %_8000004, ptr @"_SM7__constG3-197")
+  %_15000013 = getelementptr { { ptr, ptr }, i32, i32 }, { { ptr, ptr }, i32, i32 }* %_1, i32 0, i32 1
+  %_8000008 = load atomic i32, ptr %_15000013 unordered, align 4
+  %_8000009 = call dereferenceable_or_null(32) ptr @"_SM23java.lang.StringBuilderD6appendiL23java.lang.StringBuilderEO"(ptr nonnull dereferenceable(32) %_8000004, i32 %_8000008)
+  %_8000012 = call dereferenceable_or_null(32) ptr @"_SM23java.lang.StringBuilderD6appendL16java.lang.StringL23java.lang.StringBuilderEO"(ptr nonnull dereferenceable(32) %_8000004, ptr @"_SM7__constG3-195")
+  %_8000013 = call dereferenceable_or_null(40) ptr @"_SM23java.lang.StringBuilderD8toStringL16java.lang.StringEO"(ptr nonnull dereferenceable(32) %_8000004)
   br label %_15000000.0
 _15000000.0:
   %_15000001 = phi ptr [%_8000013, %_8000000.0], [%_7000013, %_7000000.0], [@"_SM7__constG3-199", %_6000000.0], [@"_SM7__constG3-201", %_5000000.0]
   ret ptr %_15000001
 _4000000.0:
-  %_14000001 = call dereferenceable_or_null(88) ptr @"scalanative_GC_alloc_small"(ptr @"_SM16scala.MatchErrorG4type", i64 88)
-  %_15000015 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_14000001, i32 0, i32 8
+  %_14000001 = call dereferenceable_or_null(96) ptr @"scalanative_GC_alloc_small"(ptr @"_SM16scala.MatchErrorG4type", i64 96)
+  %_15000015 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_14000001, i32 0, i32 8
   %_15000016 = zext i1 true to i8
-  store i8 %_15000016, ptr%_15000015, align 1
-  %_14000003 = call dereferenceable_or_null(16) ptr @"_SM27scala.runtime.BoxesRunTime$D12boxToIntegeriL17java.lang.IntegerEO"(ptr null, i32 %_3000001)
-  %_15000018 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1, ptr, ptr }, { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1, ptr, ptr }* %_14000001, i32 0, i32 9
-  store ptr %_14000003, ptr%_15000018, align 8
-  call void @"_SM35scala.scalanative.runtime.ThrowableRzE"(ptr nonnull dereferenceable(88) %_14000001, i1 true)
-  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(88) %_14000001)
+  store atomic i8 %_15000016, ptr%_15000015 unordered, align 1
+  %_14000003 = call dereferenceable_or_null(24) ptr @"_SM27scala.runtime.BoxesRunTime$D12boxToIntegeriL17java.lang.IntegerEO"(ptr null, i32 %_3000001)
+  %_15000018 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1, ptr, ptr }, { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1, ptr, ptr }* %_14000001, i32 0, i32 9
+  store atomic ptr %_14000003, ptr%_15000018 unordered, align 8
+  call void @"_SM35scala.scalanative.runtime.ThrowableRzE"(ptr nonnull dereferenceable(96) %_14000001, i1 true)
+  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(96) %_14000001)
   unreachable
 _15000003.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
   unreachable
 }
 
-define dereferenceable_or_null(16) ptr @"_SM29java.nio.charset.CoderResult$D18malformedForLengthiL28java.nio.charset.CoderResultEO"(ptr %_1, i32 %_2) inlinehint personality ptr @scalanative_personality {
+define dereferenceable_or_null(24) ptr @"_SM29java.nio.charset.CoderResult$D18malformedForLengthiL28java.nio.charset.CoderResultEO"(ptr %_1, i32 %_2) inlinehint personality ptr @scalanative_personality {
 _3000000.0:
   %_10000004 = icmp ne ptr %_1, null
   br i1 %_10000004, label %_10000002.0, label %_10000003.0
@@ -8731,27 +8725,27 @@ _4000000.0:
     i32 4, label %_9000000.0
   ]
 _5000000.0:
-  %_5000001 = call dereferenceable_or_null(16) ptr @"_SM29java.nio.charset.CoderResult$D22malformedForLengthImpliL28java.nio.charset.CoderResultEPT29java.nio.charset.CoderResult$"(ptr dereferenceable_or_null(104) %_1, i32 %_2)
+  %_5000001 = call dereferenceable_or_null(24) ptr @"_SM29java.nio.charset.CoderResult$D22malformedForLengthImpliL28java.nio.charset.CoderResultEPT29java.nio.charset.CoderResult$"(ptr dereferenceable_or_null(112) %_1, i32 %_2)
   br label %_10000000.0
 _6000000.0:
-  %_6000001 = call dereferenceable_or_null(104) ptr @"_SM29java.nio.charset.CoderResult$G4load"()
-  %_10000005 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_6000001, i32 0, i32 11
-  %_6000002 = load ptr, ptr %_10000005, !dereferenceable_or_null !{i64 16}
+  %_6000001 = call dereferenceable_or_null(112) ptr @"_SM29java.nio.charset.CoderResult$G4load"()
+  %_10000005 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_6000001, i32 0, i32 11
+  %_6000002 = load atomic ptr, ptr %_10000005 unordered, align 8
   br label %_10000000.0
 _7000000.0:
-  %_7000001 = call dereferenceable_or_null(104) ptr @"_SM29java.nio.charset.CoderResult$G4load"()
-  %_10000006 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_7000001, i32 0, i32 10
-  %_7000002 = load ptr, ptr %_10000006, !dereferenceable_or_null !{i64 16}
+  %_7000001 = call dereferenceable_or_null(112) ptr @"_SM29java.nio.charset.CoderResult$G4load"()
+  %_10000006 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_7000001, i32 0, i32 10
+  %_7000002 = load atomic ptr, ptr %_10000006 unordered, align 8
   br label %_10000000.0
 _8000000.0:
-  %_8000001 = call dereferenceable_or_null(104) ptr @"_SM29java.nio.charset.CoderResult$G4load"()
-  %_10000007 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_8000001, i32 0, i32 9
-  %_8000002 = load ptr, ptr %_10000007, !dereferenceable_or_null !{i64 16}
+  %_8000001 = call dereferenceable_or_null(112) ptr @"_SM29java.nio.charset.CoderResult$G4load"()
+  %_10000007 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_8000001, i32 0, i32 9
+  %_8000002 = load atomic ptr, ptr %_10000007 unordered, align 8
   br label %_10000000.0
 _9000000.0:
-  %_9000001 = call dereferenceable_or_null(104) ptr @"_SM29java.nio.charset.CoderResult$G4load"()
-  %_10000008 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_9000001, i32 0, i32 8
-  %_9000002 = load ptr, ptr %_10000008, !dereferenceable_or_null !{i64 16}
+  %_9000001 = call dereferenceable_or_null(112) ptr @"_SM29java.nio.charset.CoderResult$G4load"()
+  %_10000008 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_9000001, i32 0, i32 8
+  %_9000002 = load atomic ptr, ptr %_10000008 unordered, align 8
   br label %_10000000.0
 _10000000.0:
   %_10000001 = phi ptr [%_9000002, %_9000000.0], [%_8000002, %_8000000.0], [%_7000002, %_7000000.0], [%_6000002, %_6000000.0], [%_5000001, %_5000000.0]
@@ -8761,7 +8755,7 @@ _10000003.0:
   unreachable
 }
 
-define dereferenceable_or_null(16) ptr @"_SM29java.nio.charset.CoderResult$D19unmappableForLengthiL28java.nio.charset.CoderResultEO"(ptr %_1, i32 %_2) inlinehint personality ptr @scalanative_personality {
+define dereferenceable_or_null(24) ptr @"_SM29java.nio.charset.CoderResult$D19unmappableForLengthiL28java.nio.charset.CoderResultEO"(ptr %_1, i32 %_2) inlinehint personality ptr @scalanative_personality {
 _3000000.0:
   %_10000004 = icmp ne ptr %_1, null
   br i1 %_10000004, label %_10000002.0, label %_10000003.0
@@ -8775,27 +8769,27 @@ _4000000.0:
     i32 4, label %_9000000.0
   ]
 _5000000.0:
-  %_5000001 = call dereferenceable_or_null(16) ptr @"_SM29java.nio.charset.CoderResult$D23unmappableForLengthImpliL28java.nio.charset.CoderResultEPT29java.nio.charset.CoderResult$"(ptr dereferenceable_or_null(104) %_1, i32 %_2)
+  %_5000001 = call dereferenceable_or_null(24) ptr @"_SM29java.nio.charset.CoderResult$D23unmappableForLengthImpliL28java.nio.charset.CoderResultEPT29java.nio.charset.CoderResult$"(ptr dereferenceable_or_null(112) %_1, i32 %_2)
   br label %_10000000.0
 _6000000.0:
-  %_6000001 = call dereferenceable_or_null(104) ptr @"_SM29java.nio.charset.CoderResult$G4load"()
-  %_10000005 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_6000001, i32 0, i32 6
-  %_6000002 = load ptr, ptr %_10000005, !dereferenceable_or_null !{i64 16}
+  %_6000001 = call dereferenceable_or_null(112) ptr @"_SM29java.nio.charset.CoderResult$G4load"()
+  %_10000005 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_6000001, i32 0, i32 6
+  %_6000002 = load atomic ptr, ptr %_10000005 unordered, align 8
   br label %_10000000.0
 _7000000.0:
-  %_7000001 = call dereferenceable_or_null(104) ptr @"_SM29java.nio.charset.CoderResult$G4load"()
-  %_10000006 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_7000001, i32 0, i32 5
-  %_7000002 = load ptr, ptr %_10000006, !dereferenceable_or_null !{i64 16}
+  %_7000001 = call dereferenceable_or_null(112) ptr @"_SM29java.nio.charset.CoderResult$G4load"()
+  %_10000006 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_7000001, i32 0, i32 5
+  %_7000002 = load atomic ptr, ptr %_10000006 unordered, align 8
   br label %_10000000.0
 _8000000.0:
-  %_8000001 = call dereferenceable_or_null(104) ptr @"_SM29java.nio.charset.CoderResult$G4load"()
-  %_10000007 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_8000001, i32 0, i32 4
-  %_8000002 = load ptr, ptr %_10000007, !dereferenceable_or_null !{i64 16}
+  %_8000001 = call dereferenceable_or_null(112) ptr @"_SM29java.nio.charset.CoderResult$G4load"()
+  %_10000007 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_8000001, i32 0, i32 4
+  %_8000002 = load atomic ptr, ptr %_10000007 unordered, align 8
   br label %_10000000.0
 _9000000.0:
-  %_9000001 = call dereferenceable_or_null(104) ptr @"_SM29java.nio.charset.CoderResult$G4load"()
-  %_10000008 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_9000001, i32 0, i32 3
-  %_9000002 = load ptr, ptr %_10000008, !dereferenceable_or_null !{i64 16}
+  %_9000001 = call dereferenceable_or_null(112) ptr @"_SM29java.nio.charset.CoderResult$G4load"()
+  %_10000008 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_9000001, i32 0, i32 3
+  %_9000002 = load atomic ptr, ptr %_10000008 unordered, align 8
   br label %_10000000.0
 _10000000.0:
   %_10000001 = phi ptr [%_9000002, %_9000000.0], [%_8000002, %_8000000.0], [%_7000002, %_7000000.0], [%_6000002, %_6000000.0], [%_5000001, %_5000000.0]
@@ -8805,34 +8799,34 @@ _10000003.0:
   unreachable
 }
 
-define dereferenceable_or_null(16) ptr @"_SM29java.nio.charset.CoderResult$D22malformedForLengthImpliL28java.nio.charset.CoderResultEPT29java.nio.charset.CoderResult$"(ptr %_1, i32 %_2) personality ptr @scalanative_personality {
+define dereferenceable_or_null(24) ptr @"_SM29java.nio.charset.CoderResult$D22malformedForLengthImpliL28java.nio.charset.CoderResultEPT29java.nio.charset.CoderResult$"(ptr %_1, i32 %_2) personality ptr @scalanative_personality {
 _3000000.0:
   %_3000015 = icmp ne ptr %_1, null
   br i1 %_3000015, label %_3000013.0, label %_3000014.0
 _3000013.0:
-  %_3000001 = call dereferenceable_or_null(104) ptr @"_SM29java.nio.charset.CoderResult$G4load"()
-  %_3000016 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_3000001, i32 0, i32 7
-  %_3000002 = load ptr, ptr %_3000016, !dereferenceable_or_null !{i64 8}
+  %_3000001 = call dereferenceable_or_null(112) ptr @"_SM29java.nio.charset.CoderResult$G4load"()
+  %_3000016 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_3000001, i32 0, i32 7
+  %_3000002 = load atomic ptr, ptr %_3000016 unordered, align 8
   %_3000018 = icmp ne ptr %_3000002, null
   br i1 %_3000018, label %_3000017.0, label %_3000014.0
 _3000017.0:
   %_3000019 = load ptr, ptr %_3000002
-  %_3000020 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_3000019, i32 0, i32 4
+  %_3000020 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_3000019, i32 0, i32 4
   %_3000021 = load i32, ptr %_3000020
-  %_3000022 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_3000019, i32 0, i32 5
+  %_3000022 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_3000019, i32 0, i32 5
   %_3000023 = load ptr, ptr %_3000022
   %_3000024 = and i32 -2147483540, %_3000021
   %_3000025 = getelementptr { i32, ptr }, { i32, ptr }* %_3000023, i32 %_3000024, i32 1
   %_3000026 = load ptr, ptr %_3000025
   %_3000027 = getelementptr ptr, ptr %_3000026, i32 1
   %_3000006 = load ptr, ptr %_3000027
-  %_3000007 = call dereferenceable_or_null(16) ptr @"_SM27scala.runtime.BoxesRunTime$D12boxToIntegeriL17java.lang.IntegerEO"(ptr null, i32 %_2)
-  %_3000008 = call dereferenceable_or_null(24) ptr @"scalanative_GC_alloc_small"(ptr @"_SM39java.nio.charset.CoderResult$$$Lambda$1G4type", i64 24)
-  %_3000029 = getelementptr { { ptr }, ptr, i32 }, { { ptr }, ptr, i32 }* %_3000008, i32 0, i32 2
-  store i32 %_2, ptr%_3000029, align 4
-  %_3000031 = getelementptr { { ptr }, ptr, i32 }, { { ptr }, ptr, i32 }* %_3000008, i32 0, i32 1
-  store ptr %_1, ptr%_3000031, align 8
-  %_3000011 = call dereferenceable_or_null(8) ptr %_3000006(ptr dereferenceable_or_null(8) %_3000002, ptr nonnull dereferenceable(16) %_3000007, ptr nonnull dereferenceable(24) %_3000008)
+  %_3000007 = call dereferenceable_or_null(24) ptr @"_SM27scala.runtime.BoxesRunTime$D12boxToIntegeriL17java.lang.IntegerEO"(ptr null, i32 %_2)
+  %_3000008 = call dereferenceable_or_null(32) ptr @"scalanative_GC_alloc_small"(ptr @"_SM39java.nio.charset.CoderResult$$$Lambda$1G4type", i64 32)
+  %_3000029 = getelementptr { { ptr, ptr }, ptr, i32 }, { { ptr, ptr }, ptr, i32 }* %_3000008, i32 0, i32 2
+  store atomic i32 %_2, ptr%_3000029 unordered, align 4
+  %_3000031 = getelementptr { { ptr, ptr }, ptr, i32 }, { { ptr, ptr }, ptr, i32 }* %_3000008, i32 0, i32 1
+  store atomic ptr %_1, ptr%_3000031 unordered, align 8
+  %_3000011 = call dereferenceable_or_null(16) ptr %_3000006(ptr dereferenceable_or_null(16) %_3000002, ptr nonnull dereferenceable(24) %_3000007, ptr nonnull dereferenceable(32) %_3000008)
   %_3000035 = icmp eq ptr %_3000011, null
   br i1 %_3000035, label %_3000033.0, label %_3000032.0
 _3000032.0:
@@ -8852,34 +8846,34 @@ _3000034.0:
   unreachable
 }
 
-define dereferenceable_or_null(16) ptr @"_SM29java.nio.charset.CoderResult$D23unmappableForLengthImpliL28java.nio.charset.CoderResultEPT29java.nio.charset.CoderResult$"(ptr %_1, i32 %_2) personality ptr @scalanative_personality {
+define dereferenceable_or_null(24) ptr @"_SM29java.nio.charset.CoderResult$D23unmappableForLengthImpliL28java.nio.charset.CoderResultEPT29java.nio.charset.CoderResult$"(ptr %_1, i32 %_2) personality ptr @scalanative_personality {
 _3000000.0:
   %_3000015 = icmp ne ptr %_1, null
   br i1 %_3000015, label %_3000013.0, label %_3000014.0
 _3000013.0:
-  %_3000001 = call dereferenceable_or_null(104) ptr @"_SM29java.nio.charset.CoderResult$G4load"()
-  %_3000016 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_3000001, i32 0, i32 2
-  %_3000002 = load ptr, ptr %_3000016, !dereferenceable_or_null !{i64 8}
+  %_3000001 = call dereferenceable_or_null(112) ptr @"_SM29java.nio.charset.CoderResult$G4load"()
+  %_3000016 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_3000001, i32 0, i32 2
+  %_3000002 = load atomic ptr, ptr %_3000016 unordered, align 8
   %_3000018 = icmp ne ptr %_3000002, null
   br i1 %_3000018, label %_3000017.0, label %_3000014.0
 _3000017.0:
   %_3000019 = load ptr, ptr %_3000002
-  %_3000020 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_3000019, i32 0, i32 4
+  %_3000020 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_3000019, i32 0, i32 4
   %_3000021 = load i32, ptr %_3000020
-  %_3000022 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_3000019, i32 0, i32 5
+  %_3000022 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_3000019, i32 0, i32 5
   %_3000023 = load ptr, ptr %_3000022
   %_3000024 = and i32 -2147483540, %_3000021
   %_3000025 = getelementptr { i32, ptr }, { i32, ptr }* %_3000023, i32 %_3000024, i32 1
   %_3000026 = load ptr, ptr %_3000025
   %_3000027 = getelementptr ptr, ptr %_3000026, i32 1
   %_3000006 = load ptr, ptr %_3000027
-  %_3000007 = call dereferenceable_or_null(16) ptr @"_SM27scala.runtime.BoxesRunTime$D12boxToIntegeriL17java.lang.IntegerEO"(ptr null, i32 %_2)
-  %_3000008 = call dereferenceable_or_null(24) ptr @"scalanative_GC_alloc_small"(ptr @"_SM39java.nio.charset.CoderResult$$$Lambda$2G4type", i64 24)
-  %_3000029 = getelementptr { { ptr }, ptr, i32 }, { { ptr }, ptr, i32 }* %_3000008, i32 0, i32 2
-  store i32 %_2, ptr%_3000029, align 4
-  %_3000031 = getelementptr { { ptr }, ptr, i32 }, { { ptr }, ptr, i32 }* %_3000008, i32 0, i32 1
-  store ptr %_1, ptr%_3000031, align 8
-  %_3000011 = call dereferenceable_or_null(8) ptr %_3000006(ptr dereferenceable_or_null(8) %_3000002, ptr nonnull dereferenceable(16) %_3000007, ptr nonnull dereferenceable(24) %_3000008)
+  %_3000007 = call dereferenceable_or_null(24) ptr @"_SM27scala.runtime.BoxesRunTime$D12boxToIntegeriL17java.lang.IntegerEO"(ptr null, i32 %_2)
+  %_3000008 = call dereferenceable_or_null(32) ptr @"scalanative_GC_alloc_small"(ptr @"_SM39java.nio.charset.CoderResult$$$Lambda$2G4type", i64 32)
+  %_3000029 = getelementptr { { ptr, ptr }, ptr, i32 }, { { ptr, ptr }, ptr, i32 }* %_3000008, i32 0, i32 2
+  store atomic i32 %_2, ptr%_3000029 unordered, align 4
+  %_3000031 = getelementptr { { ptr, ptr }, ptr, i32 }, { { ptr, ptr }, ptr, i32 }* %_3000008, i32 0, i32 1
+  store atomic ptr %_1, ptr%_3000031 unordered, align 8
+  %_3000011 = call dereferenceable_or_null(16) ptr %_3000006(ptr dereferenceable_or_null(16) %_3000002, ptr nonnull dereferenceable(24) %_3000007, ptr nonnull dereferenceable(32) %_3000008)
   %_3000035 = icmp eq ptr %_3000011, null
   br i1 %_3000035, label %_3000033.0, label %_3000032.0
 _3000032.0:
@@ -8899,109 +8893,101 @@ _3000034.0:
   unreachable
 }
 
-define nonnull dereferenceable(16) ptr @"_SM29java.nio.charset.CoderResult$D33malformedForLengthImpl$$anonfun$1iL28java.nio.charset.CoderResultEPT29java.nio.charset.CoderResult$"(ptr %_1, i32 %_2) personality ptr @scalanative_personality {
+define nonnull dereferenceable(24) ptr @"_SM29java.nio.charset.CoderResult$D33malformedForLengthImpl$$anonfun$1iL28java.nio.charset.CoderResultEPT29java.nio.charset.CoderResult$"(ptr %_1, i32 %_2) personality ptr @scalanative_personality {
 _3000000.0:
-  %_3000002 = call dereferenceable_or_null(16) ptr @"scalanative_GC_alloc_small"(ptr @"_SM28java.nio.charset.CoderResultG4type", i64 16)
-  %_3000006 = getelementptr { { ptr }, i32, i32 }, { { ptr }, i32, i32 }* %_3000002, i32 0, i32 1
-  store i32 %_2, ptr%_3000006, align 4
-  %_3000008 = getelementptr { { ptr }, i32, i32 }, { { ptr }, i32, i32 }* %_3000002, i32 0, i32 2
-  store i32 2, ptr%_3000008, align 4
+  %_3000002 = call dereferenceable_or_null(24) ptr @"scalanative_GC_alloc_small"(ptr @"_SM28java.nio.charset.CoderResultG4type", i64 24)
+  %_3000006 = getelementptr { { ptr, ptr }, i32, i32 }, { { ptr, ptr }, i32, i32 }* %_3000002, i32 0, i32 1
+  store atomic i32 %_2, ptr%_3000006 unordered, align 4
+  %_3000008 = getelementptr { { ptr, ptr }, i32, i32 }, { { ptr, ptr }, i32, i32 }* %_3000002, i32 0, i32 2
+  store atomic i32 2, ptr%_3000008 unordered, align 4
   ret ptr %_3000002
 }
 
-define nonnull dereferenceable(16) ptr @"_SM29java.nio.charset.CoderResult$D34unmappableForLengthImpl$$anonfun$1iL28java.nio.charset.CoderResultEPT29java.nio.charset.CoderResult$"(ptr %_1, i32 %_2) personality ptr @scalanative_personality {
+define nonnull dereferenceable(24) ptr @"_SM29java.nio.charset.CoderResult$D34unmappableForLengthImpl$$anonfun$1iL28java.nio.charset.CoderResultEPT29java.nio.charset.CoderResult$"(ptr %_1, i32 %_2) personality ptr @scalanative_personality {
 _3000000.0:
-  %_3000002 = call dereferenceable_or_null(16) ptr @"scalanative_GC_alloc_small"(ptr @"_SM28java.nio.charset.CoderResultG4type", i64 16)
-  %_3000006 = getelementptr { { ptr }, i32, i32 }, { { ptr }, i32, i32 }* %_3000002, i32 0, i32 1
-  store i32 %_2, ptr%_3000006, align 4
-  %_3000008 = getelementptr { { ptr }, i32, i32 }, { { ptr }, i32, i32 }* %_3000002, i32 0, i32 2
-  store i32 3, ptr%_3000008, align 4
+  %_3000002 = call dereferenceable_or_null(24) ptr @"scalanative_GC_alloc_small"(ptr @"_SM28java.nio.charset.CoderResultG4type", i64 24)
+  %_3000006 = getelementptr { { ptr, ptr }, i32, i32 }, { { ptr, ptr }, i32, i32 }* %_3000002, i32 0, i32 1
+  store atomic i32 %_2, ptr%_3000006 unordered, align 4
+  %_3000008 = getelementptr { { ptr, ptr }, i32, i32 }, { { ptr, ptr }, i32, i32 }* %_3000002, i32 0, i32 2
+  store atomic i32 3, ptr%_3000008 unordered, align 4
   ret ptr %_3000002
 }
 
-define dereferenceable_or_null(16) ptr @"_SM29java.nio.charset.CoderResult$D8OVERFLOWL28java.nio.charset.CoderResultEO"(ptr %_1) alwaysinline personality ptr @scalanative_personality {
+define dereferenceable_or_null(24) ptr @"_SM29java.nio.charset.CoderResult$D8OVERFLOWL28java.nio.charset.CoderResultEO"(ptr %_1) alwaysinline personality ptr @scalanative_personality {
 _2000000.0:
-  %_2000001 = call dereferenceable_or_null(104) ptr @"_SM29java.nio.charset.CoderResult$G4load"()
-  %_2000003 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_2000001, i32 0, i32 12
-  %_2000002 = load ptr, ptr %_2000003, !dereferenceable_or_null !{i64 16}
+  %_2000001 = call dereferenceable_or_null(112) ptr @"_SM29java.nio.charset.CoderResult$G4load"()
+  %_2000003 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_2000001, i32 0, i32 12
+  %_2000002 = load atomic ptr, ptr %_2000003 unordered, align 8
   ret ptr %_2000002
 }
 
-define dereferenceable_or_null(16) ptr @"_SM29java.nio.charset.CoderResult$D9UNDERFLOWL28java.nio.charset.CoderResultEO"(ptr %_1) alwaysinline personality ptr @scalanative_personality {
+define dereferenceable_or_null(24) ptr @"_SM29java.nio.charset.CoderResult$D9UNDERFLOWL28java.nio.charset.CoderResultEO"(ptr %_1) alwaysinline personality ptr @scalanative_personality {
 _2000000.0:
-  %_2000001 = call dereferenceable_or_null(104) ptr @"_SM29java.nio.charset.CoderResult$G4load"()
-  %_2000003 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_2000001, i32 0, i32 1
-  %_2000002 = load ptr, ptr %_2000003, !dereferenceable_or_null !{i64 16}
+  %_2000001 = call dereferenceable_or_null(112) ptr @"_SM29java.nio.charset.CoderResult$G4load"()
+  %_2000003 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_2000001, i32 0, i32 1
+  %_2000002 = load atomic ptr, ptr %_2000003 unordered, align 8
   ret ptr %_2000002
 }
 
-define dereferenceable_or_null(104) ptr @"_SM29java.nio.charset.CoderResult$G4load"() noinline personality ptr @scalanative_personality {
+define dereferenceable_or_null(112) ptr @"_SM29java.nio.charset.CoderResult$G4load"() personality ptr @scalanative_personality {
 _1.0:
-  %_4 = getelementptr ptr, ptr @"__modules", i32 256
-  %_5 = load ptr, ptr %_4, !dereferenceable_or_null !{i64 104}
-  %_6 = icmp ne ptr %_5, null
-  br i1 %_6, label %_2.0, label %_3.0
-_2.0:
+  %_4 = getelementptr ptr, ptr @"__modules", i32 389
+  %_5 = call ptr @"__scalanative_loadModule"(ptr %_4, ptr @"_SM29java.nio.charset.CoderResult$G4type", i64 112, ptr @"_SM29java.nio.charset.CoderResult$RE")
   ret ptr %_5
-_3.0:
-  %_7 = call dereferenceable_or_null(104) ptr @"scalanative_GC_alloc_small"(ptr @"_SM29java.nio.charset.CoderResult$G4type", i64 104)
-  store ptr %_7, ptr%_4, align 8
-  call void @"_SM29java.nio.charset.CoderResult$RE"(ptr dereferenceable_or_null(104) %_7)
-  ret ptr %_7
 }
 
 define void @"_SM29java.nio.charset.CoderResult$RE"(ptr %_1) personality ptr @scalanative_personality {
 _2000000.0:
-  %_2000001 = call dereferenceable_or_null(104) ptr @"_SM29java.nio.charset.CoderResult$G4load"()
-  %_2000003 = call dereferenceable_or_null(16) ptr @"scalanative_GC_alloc_small"(ptr @"_SM28java.nio.charset.CoderResultG4type", i64 16)
-  %_2000059 = getelementptr { { ptr }, i32, i32 }, { { ptr }, i32, i32 }* %_2000003, i32 0, i32 1
-  store i32 -1, ptr%_2000059, align 4
-  %_2000061 = getelementptr { { ptr }, i32, i32 }, { { ptr }, i32, i32 }* %_2000003, i32 0, i32 2
-  store i32 1, ptr%_2000061, align 4
-  %_2000063 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_2000001, i32 0, i32 12
-  store ptr %_2000003, ptr%_2000063, align 8
-  %_2000008 = call dereferenceable_or_null(16) ptr @"scalanative_GC_alloc_small"(ptr @"_SM28java.nio.charset.CoderResultG4type", i64 16)
-  %_2000065 = getelementptr { { ptr }, i32, i32 }, { { ptr }, i32, i32 }* %_2000008, i32 0, i32 1
-  store i32 -1, ptr%_2000065, align 4
-  %_2000067 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_2000001, i32 0, i32 1
-  store ptr %_2000008, ptr%_2000067, align 8
-  %_2000012 = call dereferenceable_or_null(16) ptr @"scalanative_GC_alloc_small"(ptr @"_SM28java.nio.charset.CoderResultG4type", i64 16)
-  %_2000069 = getelementptr { { ptr }, i32, i32 }, { { ptr }, i32, i32 }* %_2000012, i32 0, i32 1
-  store i32 1, ptr%_2000069, align 4
-  %_2000071 = getelementptr { { ptr }, i32, i32 }, { { ptr }, i32, i32 }* %_2000012, i32 0, i32 2
-  store i32 2, ptr%_2000071, align 4
-  %_2000073 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_2000001, i32 0, i32 11
-  store ptr %_2000012, ptr%_2000073, align 8
-  %_2000017 = call dereferenceable_or_null(16) ptr @"scalanative_GC_alloc_small"(ptr @"_SM28java.nio.charset.CoderResultG4type", i64 16)
-  %_2000075 = getelementptr { { ptr }, i32, i32 }, { { ptr }, i32, i32 }* %_2000017, i32 0, i32 1
-  store i32 2, ptr%_2000075, align 4
-  %_2000077 = getelementptr { { ptr }, i32, i32 }, { { ptr }, i32, i32 }* %_2000017, i32 0, i32 2
-  store i32 2, ptr%_2000077, align 4
-  %_2000079 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_2000001, i32 0, i32 10
-  store ptr %_2000017, ptr%_2000079, align 8
-  %_2000022 = call dereferenceable_or_null(16) ptr @"scalanative_GC_alloc_small"(ptr @"_SM28java.nio.charset.CoderResultG4type", i64 16)
-  %_2000081 = getelementptr { { ptr }, i32, i32 }, { { ptr }, i32, i32 }* %_2000022, i32 0, i32 1
-  store i32 3, ptr%_2000081, align 4
-  %_2000083 = getelementptr { { ptr }, i32, i32 }, { { ptr }, i32, i32 }* %_2000022, i32 0, i32 2
-  store i32 2, ptr%_2000083, align 4
-  %_2000085 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_2000001, i32 0, i32 9
-  store ptr %_2000022, ptr%_2000085, align 8
-  %_2000027 = call dereferenceable_or_null(16) ptr @"scalanative_GC_alloc_small"(ptr @"_SM28java.nio.charset.CoderResultG4type", i64 16)
-  %_2000087 = getelementptr { { ptr }, i32, i32 }, { { ptr }, i32, i32 }* %_2000027, i32 0, i32 1
-  store i32 4, ptr%_2000087, align 4
-  %_2000089 = getelementptr { { ptr }, i32, i32 }, { { ptr }, i32, i32 }* %_2000027, i32 0, i32 2
-  store i32 2, ptr%_2000089, align 4
-  %_2000091 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_2000001, i32 0, i32 8
-  store ptr %_2000027, ptr%_2000091, align 8
-  %_2000031 = call dereferenceable_or_null(16) ptr @"_SM29scala.collection.mutable.Map$G4load"()
-  %_2000032 = call dereferenceable_or_null(8) ptr @"_SM36scala.collection.MapFactory$DelegateD5emptyL16java.lang.ObjectEO"(ptr nonnull dereferenceable(16) %_2000031)
+  %_2000001 = call dereferenceable_or_null(112) ptr @"_SM29java.nio.charset.CoderResult$G4load"()
+  %_2000003 = call dereferenceable_or_null(24) ptr @"scalanative_GC_alloc_small"(ptr @"_SM28java.nio.charset.CoderResultG4type", i64 24)
+  %_2000059 = getelementptr { { ptr, ptr }, i32, i32 }, { { ptr, ptr }, i32, i32 }* %_2000003, i32 0, i32 1
+  store atomic i32 -1, ptr%_2000059 unordered, align 4
+  %_2000061 = getelementptr { { ptr, ptr }, i32, i32 }, { { ptr, ptr }, i32, i32 }* %_2000003, i32 0, i32 2
+  store atomic i32 1, ptr%_2000061 unordered, align 4
+  %_2000063 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_2000001, i32 0, i32 12
+  store atomic ptr %_2000003, ptr%_2000063 unordered, align 8
+  %_2000008 = call dereferenceable_or_null(24) ptr @"scalanative_GC_alloc_small"(ptr @"_SM28java.nio.charset.CoderResultG4type", i64 24)
+  %_2000065 = getelementptr { { ptr, ptr }, i32, i32 }, { { ptr, ptr }, i32, i32 }* %_2000008, i32 0, i32 1
+  store atomic i32 -1, ptr%_2000065 unordered, align 4
+  %_2000067 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_2000001, i32 0, i32 1
+  store atomic ptr %_2000008, ptr%_2000067 unordered, align 8
+  %_2000012 = call dereferenceable_or_null(24) ptr @"scalanative_GC_alloc_small"(ptr @"_SM28java.nio.charset.CoderResultG4type", i64 24)
+  %_2000069 = getelementptr { { ptr, ptr }, i32, i32 }, { { ptr, ptr }, i32, i32 }* %_2000012, i32 0, i32 1
+  store atomic i32 1, ptr%_2000069 unordered, align 4
+  %_2000071 = getelementptr { { ptr, ptr }, i32, i32 }, { { ptr, ptr }, i32, i32 }* %_2000012, i32 0, i32 2
+  store atomic i32 2, ptr%_2000071 unordered, align 4
+  %_2000073 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_2000001, i32 0, i32 11
+  store atomic ptr %_2000012, ptr%_2000073 unordered, align 8
+  %_2000017 = call dereferenceable_or_null(24) ptr @"scalanative_GC_alloc_small"(ptr @"_SM28java.nio.charset.CoderResultG4type", i64 24)
+  %_2000075 = getelementptr { { ptr, ptr }, i32, i32 }, { { ptr, ptr }, i32, i32 }* %_2000017, i32 0, i32 1
+  store atomic i32 2, ptr%_2000075 unordered, align 4
+  %_2000077 = getelementptr { { ptr, ptr }, i32, i32 }, { { ptr, ptr }, i32, i32 }* %_2000017, i32 0, i32 2
+  store atomic i32 2, ptr%_2000077 unordered, align 4
+  %_2000079 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_2000001, i32 0, i32 10
+  store atomic ptr %_2000017, ptr%_2000079 unordered, align 8
+  %_2000022 = call dereferenceable_or_null(24) ptr @"scalanative_GC_alloc_small"(ptr @"_SM28java.nio.charset.CoderResultG4type", i64 24)
+  %_2000081 = getelementptr { { ptr, ptr }, i32, i32 }, { { ptr, ptr }, i32, i32 }* %_2000022, i32 0, i32 1
+  store atomic i32 3, ptr%_2000081 unordered, align 4
+  %_2000083 = getelementptr { { ptr, ptr }, i32, i32 }, { { ptr, ptr }, i32, i32 }* %_2000022, i32 0, i32 2
+  store atomic i32 2, ptr%_2000083 unordered, align 4
+  %_2000085 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_2000001, i32 0, i32 9
+  store atomic ptr %_2000022, ptr%_2000085 unordered, align 8
+  %_2000027 = call dereferenceable_or_null(24) ptr @"scalanative_GC_alloc_small"(ptr @"_SM28java.nio.charset.CoderResultG4type", i64 24)
+  %_2000087 = getelementptr { { ptr, ptr }, i32, i32 }, { { ptr, ptr }, i32, i32 }* %_2000027, i32 0, i32 1
+  store atomic i32 4, ptr%_2000087 unordered, align 4
+  %_2000089 = getelementptr { { ptr, ptr }, i32, i32 }, { { ptr, ptr }, i32, i32 }* %_2000027, i32 0, i32 2
+  store atomic i32 2, ptr%_2000089 unordered, align 4
+  %_2000091 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_2000001, i32 0, i32 8
+  store atomic ptr %_2000027, ptr%_2000091 unordered, align 8
+  %_2000031 = call dereferenceable_or_null(24) ptr @"_SM29scala.collection.mutable.Map$G4load"()
+  %_2000032 = call dereferenceable_or_null(16) ptr @"_SM36scala.collection.MapFactory$DelegateD5emptyL16java.lang.ObjectEO"(ptr nonnull dereferenceable(24) %_2000031)
   %_2000095 = icmp eq ptr %_2000032, null
   br i1 %_2000095, label %_2000093.0, label %_2000092.0
 _2000092.0:
   %_2000096 = load ptr, ptr %_2000032
-  %_2000097 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_2000096, i32 0, i32 4
+  %_2000097 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_2000096, i32 0, i32 4
   %_2000098 = load i32, ptr %_2000097
-  %_2000100 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_2000096, i32 0, i32 5
+  %_2000100 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_2000096, i32 0, i32 5
   %_2000101 = load ptr, ptr %_2000100
   %_2000102 = and i32 -2147483540, %_2000098
   %_2000103 = getelementptr { i32, ptr }, { i32, ptr }* %_2000101, i32 %_2000102, i32 0
@@ -9009,44 +8995,44 @@ _2000092.0:
   %_2000105 = icmp eq i32 -2147483540, %_2000104
   br i1 %_2000105, label %_2000093.0, label %_2000094.0
 _2000093.0:
-  %_2000107 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_2000001, i32 0, i32 7
-  store ptr %_2000032, ptr%_2000107, align 8
-  %_2000036 = call dereferenceable_or_null(16) ptr @"scalanative_GC_alloc_small"(ptr @"_SM28java.nio.charset.CoderResultG4type", i64 16)
-  %_2000109 = getelementptr { { ptr }, i32, i32 }, { { ptr }, i32, i32 }* %_2000036, i32 0, i32 1
-  store i32 1, ptr%_2000109, align 4
-  %_2000111 = getelementptr { { ptr }, i32, i32 }, { { ptr }, i32, i32 }* %_2000036, i32 0, i32 2
-  store i32 3, ptr%_2000111, align 4
-  %_2000113 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_2000001, i32 0, i32 6
-  store ptr %_2000036, ptr%_2000113, align 8
-  %_2000041 = call dereferenceable_or_null(16) ptr @"scalanative_GC_alloc_small"(ptr @"_SM28java.nio.charset.CoderResultG4type", i64 16)
-  %_2000115 = getelementptr { { ptr }, i32, i32 }, { { ptr }, i32, i32 }* %_2000041, i32 0, i32 1
-  store i32 2, ptr%_2000115, align 4
-  %_2000117 = getelementptr { { ptr }, i32, i32 }, { { ptr }, i32, i32 }* %_2000041, i32 0, i32 2
-  store i32 3, ptr%_2000117, align 4
-  %_2000119 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_2000001, i32 0, i32 5
-  store ptr %_2000041, ptr%_2000119, align 8
-  %_2000046 = call dereferenceable_or_null(16) ptr @"scalanative_GC_alloc_small"(ptr @"_SM28java.nio.charset.CoderResultG4type", i64 16)
-  %_2000121 = getelementptr { { ptr }, i32, i32 }, { { ptr }, i32, i32 }* %_2000046, i32 0, i32 1
-  store i32 3, ptr%_2000121, align 4
-  %_2000123 = getelementptr { { ptr }, i32, i32 }, { { ptr }, i32, i32 }* %_2000046, i32 0, i32 2
-  store i32 3, ptr%_2000123, align 4
-  %_2000125 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_2000001, i32 0, i32 4
-  store ptr %_2000046, ptr%_2000125, align 8
-  %_2000051 = call dereferenceable_or_null(16) ptr @"scalanative_GC_alloc_small"(ptr @"_SM28java.nio.charset.CoderResultG4type", i64 16)
-  %_2000127 = getelementptr { { ptr }, i32, i32 }, { { ptr }, i32, i32 }* %_2000051, i32 0, i32 1
-  store i32 4, ptr%_2000127, align 4
-  %_2000129 = getelementptr { { ptr }, i32, i32 }, { { ptr }, i32, i32 }* %_2000051, i32 0, i32 2
-  store i32 3, ptr%_2000129, align 4
-  %_2000131 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_2000001, i32 0, i32 3
-  store ptr %_2000051, ptr%_2000131, align 8
-  %_2000055 = call dereferenceable_or_null(8) ptr @"_SM36scala.collection.MapFactory$DelegateD5emptyL16java.lang.ObjectEO"(ptr nonnull dereferenceable(16) %_2000031)
+  %_2000107 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_2000001, i32 0, i32 7
+  store atomic ptr %_2000032, ptr%_2000107 unordered, align 8
+  %_2000036 = call dereferenceable_or_null(24) ptr @"scalanative_GC_alloc_small"(ptr @"_SM28java.nio.charset.CoderResultG4type", i64 24)
+  %_2000109 = getelementptr { { ptr, ptr }, i32, i32 }, { { ptr, ptr }, i32, i32 }* %_2000036, i32 0, i32 1
+  store atomic i32 1, ptr%_2000109 unordered, align 4
+  %_2000111 = getelementptr { { ptr, ptr }, i32, i32 }, { { ptr, ptr }, i32, i32 }* %_2000036, i32 0, i32 2
+  store atomic i32 3, ptr%_2000111 unordered, align 4
+  %_2000113 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_2000001, i32 0, i32 6
+  store atomic ptr %_2000036, ptr%_2000113 unordered, align 8
+  %_2000041 = call dereferenceable_or_null(24) ptr @"scalanative_GC_alloc_small"(ptr @"_SM28java.nio.charset.CoderResultG4type", i64 24)
+  %_2000115 = getelementptr { { ptr, ptr }, i32, i32 }, { { ptr, ptr }, i32, i32 }* %_2000041, i32 0, i32 1
+  store atomic i32 2, ptr%_2000115 unordered, align 4
+  %_2000117 = getelementptr { { ptr, ptr }, i32, i32 }, { { ptr, ptr }, i32, i32 }* %_2000041, i32 0, i32 2
+  store atomic i32 3, ptr%_2000117 unordered, align 4
+  %_2000119 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_2000001, i32 0, i32 5
+  store atomic ptr %_2000041, ptr%_2000119 unordered, align 8
+  %_2000046 = call dereferenceable_or_null(24) ptr @"scalanative_GC_alloc_small"(ptr @"_SM28java.nio.charset.CoderResultG4type", i64 24)
+  %_2000121 = getelementptr { { ptr, ptr }, i32, i32 }, { { ptr, ptr }, i32, i32 }* %_2000046, i32 0, i32 1
+  store atomic i32 3, ptr%_2000121 unordered, align 4
+  %_2000123 = getelementptr { { ptr, ptr }, i32, i32 }, { { ptr, ptr }, i32, i32 }* %_2000046, i32 0, i32 2
+  store atomic i32 3, ptr%_2000123 unordered, align 4
+  %_2000125 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_2000001, i32 0, i32 4
+  store atomic ptr %_2000046, ptr%_2000125 unordered, align 8
+  %_2000051 = call dereferenceable_or_null(24) ptr @"scalanative_GC_alloc_small"(ptr @"_SM28java.nio.charset.CoderResultG4type", i64 24)
+  %_2000127 = getelementptr { { ptr, ptr }, i32, i32 }, { { ptr, ptr }, i32, i32 }* %_2000051, i32 0, i32 1
+  store atomic i32 4, ptr%_2000127 unordered, align 4
+  %_2000129 = getelementptr { { ptr, ptr }, i32, i32 }, { { ptr, ptr }, i32, i32 }* %_2000051, i32 0, i32 2
+  store atomic i32 3, ptr%_2000129 unordered, align 4
+  %_2000131 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_2000001, i32 0, i32 3
+  store atomic ptr %_2000051, ptr%_2000131 unordered, align 8
+  %_2000055 = call dereferenceable_or_null(16) ptr @"_SM36scala.collection.MapFactory$DelegateD5emptyL16java.lang.ObjectEO"(ptr nonnull dereferenceable(24) %_2000031)
   %_2000134 = icmp eq ptr %_2000055, null
   br i1 %_2000134, label %_2000133.0, label %_2000132.0
 _2000132.0:
   %_2000135 = load ptr, ptr %_2000055
-  %_2000136 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_2000135, i32 0, i32 4
+  %_2000136 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_2000135, i32 0, i32 4
   %_2000137 = load i32, ptr %_2000136
-  %_2000139 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_2000135, i32 0, i32 5
+  %_2000139 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_2000135, i32 0, i32 5
   %_2000140 = load ptr, ptr %_2000139
   %_2000141 = and i32 -2147483540, %_2000137
   %_2000142 = getelementptr { i32, ptr }, { i32, ptr }* %_2000140, i32 %_2000141, i32 0
@@ -9054,8 +9040,8 @@ _2000132.0:
   %_2000144 = icmp eq i32 -2147483540, %_2000143
   br i1 %_2000144, label %_2000133.0, label %_2000094.0
 _2000133.0:
-  %_2000146 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_2000001, i32 0, i32 2
-  store ptr %_2000055, ptr%_2000146, align 8
+  %_2000146 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }, { { ptr, ptr }, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr, ptr }* %_2000001, i32 0, i32 2
+  store atomic ptr %_2000055, ptr%_2000146 unordered, align 8
   ret void
 _2000094.0:
   %_2000147 = phi ptr [%_2000032, %_2000092.0], [%_2000055, %_2000132.0]
@@ -9065,170 +9051,162 @@ _2000094.0:
   unreachable
 }
 
-define dereferenceable_or_null(16) ptr @"_SM39java.nio.charset.CoderResult$$$Lambda$1D5applyL16java.lang.ObjectEO"(ptr %_1) personality ptr @scalanative_personality {
+define dereferenceable_or_null(24) ptr @"_SM39java.nio.charset.CoderResult$$$Lambda$1D5applyL16java.lang.ObjectEO"(ptr %_1) personality ptr @scalanative_personality {
 _2000000.0:
   %_2000006 = icmp ne ptr %_1, null
   br i1 %_2000006, label %_2000004.0, label %_2000005.0
 _2000004.0:
-  %_2000007 = getelementptr { { ptr }, ptr, i32 }, { { ptr }, ptr, i32 }* %_1, i32 0, i32 1
-  %_2000001 = load ptr, ptr %_2000007, !dereferenceable_or_null !{i64 104}
-  %_2000008 = getelementptr { { ptr }, ptr, i32 }, { { ptr }, ptr, i32 }* %_1, i32 0, i32 2
-  %_2000002 = load i32, ptr %_2000008
-  %_2000003 = call dereferenceable_or_null(16) ptr @"_SM29java.nio.charset.CoderResult$D33malformedForLengthImpl$$anonfun$1iL28java.nio.charset.CoderResultEPT29java.nio.charset.CoderResult$"(ptr dereferenceable_or_null(104) %_2000001, i32 %_2000002)
+  %_2000007 = getelementptr { { ptr, ptr }, ptr, i32 }, { { ptr, ptr }, ptr, i32 }* %_1, i32 0, i32 1
+  %_2000001 = load atomic ptr, ptr %_2000007 unordered, align 8
+  %_2000008 = getelementptr { { ptr, ptr }, ptr, i32 }, { { ptr, ptr }, ptr, i32 }* %_1, i32 0, i32 2
+  %_2000002 = load atomic i32, ptr %_2000008 unordered, align 4
+  %_2000003 = call dereferenceable_or_null(24) ptr @"_SM29java.nio.charset.CoderResult$D33malformedForLengthImpl$$anonfun$1iL28java.nio.charset.CoderResultEPT29java.nio.charset.CoderResult$"(ptr dereferenceable_or_null(112) %_2000001, i32 %_2000002)
   ret ptr %_2000003
 _2000005.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
   unreachable
 }
 
-define dereferenceable_or_null(16) ptr @"_SM39java.nio.charset.CoderResult$$$Lambda$2D5applyL16java.lang.ObjectEO"(ptr %_1) personality ptr @scalanative_personality {
+define dereferenceable_or_null(24) ptr @"_SM39java.nio.charset.CoderResult$$$Lambda$2D5applyL16java.lang.ObjectEO"(ptr %_1) personality ptr @scalanative_personality {
 _2000000.0:
   %_2000006 = icmp ne ptr %_1, null
   br i1 %_2000006, label %_2000004.0, label %_2000005.0
 _2000004.0:
-  %_2000007 = getelementptr { { ptr }, ptr, i32 }, { { ptr }, ptr, i32 }* %_1, i32 0, i32 1
-  %_2000001 = load ptr, ptr %_2000007, !dereferenceable_or_null !{i64 104}
-  %_2000008 = getelementptr { { ptr }, ptr, i32 }, { { ptr }, ptr, i32 }* %_1, i32 0, i32 2
-  %_2000002 = load i32, ptr %_2000008
-  %_2000003 = call dereferenceable_or_null(16) ptr @"_SM29java.nio.charset.CoderResult$D34unmappableForLengthImpl$$anonfun$1iL28java.nio.charset.CoderResultEPT29java.nio.charset.CoderResult$"(ptr dereferenceable_or_null(104) %_2000001, i32 %_2000002)
+  %_2000007 = getelementptr { { ptr, ptr }, ptr, i32 }, { { ptr, ptr }, ptr, i32 }* %_1, i32 0, i32 1
+  %_2000001 = load atomic ptr, ptr %_2000007 unordered, align 8
+  %_2000008 = getelementptr { { ptr, ptr }, ptr, i32 }, { { ptr, ptr }, ptr, i32 }* %_1, i32 0, i32 2
+  %_2000002 = load atomic i32, ptr %_2000008 unordered, align 4
+  %_2000003 = call dereferenceable_or_null(24) ptr @"_SM29java.nio.charset.CoderResult$D34unmappableForLengthImpl$$anonfun$1iL28java.nio.charset.CoderResultEPT29java.nio.charset.CoderResult$"(ptr dereferenceable_or_null(112) %_2000001, i32 %_2000002)
   ret ptr %_2000003
 _2000005.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
   unreachable
 }
 
-define dereferenceable_or_null(32) ptr @"_SM34java.nio.charset.CodingErrorActionD8toStringL16java.lang.StringEO"(ptr %_1) personality ptr @scalanative_personality {
+define dereferenceable_or_null(40) ptr @"_SM34java.nio.charset.CodingErrorActionD8toStringL16java.lang.StringEO"(ptr %_1) personality ptr @scalanative_personality {
 _2000000.0:
   %_2000004 = icmp ne ptr %_1, null
   br i1 %_2000004, label %_2000002.0, label %_2000003.0
 _2000002.0:
-  %_2000005 = getelementptr { { ptr }, ptr }, { { ptr }, ptr }* %_1, i32 0, i32 1
-  %_2000001 = load ptr, ptr %_2000005, !dereferenceable_or_null !{i64 32}
+  %_2000005 = getelementptr { { ptr, ptr }, ptr }, { { ptr, ptr }, ptr }* %_1, i32 0, i32 1
+  %_2000001 = load atomic ptr, ptr %_2000005 unordered, align 8
   ret ptr %_2000001
 _2000003.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
   unreachable
 }
 
-define dereferenceable_or_null(16) ptr @"_SM35java.nio.charset.CodingErrorAction$D6IGNOREL34java.nio.charset.CodingErrorActionEO"(ptr %_1) alwaysinline personality ptr @scalanative_personality {
+define dereferenceable_or_null(24) ptr @"_SM35java.nio.charset.CodingErrorAction$D6IGNOREL34java.nio.charset.CodingErrorActionEO"(ptr %_1) alwaysinline personality ptr @scalanative_personality {
 _2000000.0:
-  %_2000001 = call dereferenceable_or_null(32) ptr @"_SM35java.nio.charset.CodingErrorAction$G4load"()
-  %_2000003 = getelementptr { { ptr }, ptr, ptr, ptr }, { { ptr }, ptr, ptr, ptr }* %_2000001, i32 0, i32 3
-  %_2000002 = load ptr, ptr %_2000003, !dereferenceable_or_null !{i64 16}
+  %_2000001 = call dereferenceable_or_null(40) ptr @"_SM35java.nio.charset.CodingErrorAction$G4load"()
+  %_2000003 = getelementptr { { ptr, ptr }, ptr, ptr, ptr }, { { ptr, ptr }, ptr, ptr, ptr }* %_2000001, i32 0, i32 3
+  %_2000002 = load atomic ptr, ptr %_2000003 unordered, align 8
   ret ptr %_2000002
 }
 
-define dereferenceable_or_null(16) ptr @"_SM35java.nio.charset.CodingErrorAction$D6REPORTL34java.nio.charset.CodingErrorActionEO"(ptr %_1) alwaysinline personality ptr @scalanative_personality {
+define dereferenceable_or_null(24) ptr @"_SM35java.nio.charset.CodingErrorAction$D6REPORTL34java.nio.charset.CodingErrorActionEO"(ptr %_1) alwaysinline personality ptr @scalanative_personality {
 _2000000.0:
-  %_2000001 = call dereferenceable_or_null(32) ptr @"_SM35java.nio.charset.CodingErrorAction$G4load"()
-  %_2000003 = getelementptr { { ptr }, ptr, ptr, ptr }, { { ptr }, ptr, ptr, ptr }* %_2000001, i32 0, i32 2
-  %_2000002 = load ptr, ptr %_2000003, !dereferenceable_or_null !{i64 16}
+  %_2000001 = call dereferenceable_or_null(40) ptr @"_SM35java.nio.charset.CodingErrorAction$G4load"()
+  %_2000003 = getelementptr { { ptr, ptr }, ptr, ptr, ptr }, { { ptr, ptr }, ptr, ptr, ptr }* %_2000001, i32 0, i32 2
+  %_2000002 = load atomic ptr, ptr %_2000003 unordered, align 8
   ret ptr %_2000002
 }
 
-define dereferenceable_or_null(16) ptr @"_SM35java.nio.charset.CodingErrorAction$D7REPLACEL34java.nio.charset.CodingErrorActionEO"(ptr %_1) alwaysinline personality ptr @scalanative_personality {
+define dereferenceable_or_null(24) ptr @"_SM35java.nio.charset.CodingErrorAction$D7REPLACEL34java.nio.charset.CodingErrorActionEO"(ptr %_1) alwaysinline personality ptr @scalanative_personality {
 _2000000.0:
-  %_2000001 = call dereferenceable_or_null(32) ptr @"_SM35java.nio.charset.CodingErrorAction$G4load"()
-  %_2000003 = getelementptr { { ptr }, ptr, ptr, ptr }, { { ptr }, ptr, ptr, ptr }* %_2000001, i32 0, i32 1
-  %_2000002 = load ptr, ptr %_2000003, !dereferenceable_or_null !{i64 16}
+  %_2000001 = call dereferenceable_or_null(40) ptr @"_SM35java.nio.charset.CodingErrorAction$G4load"()
+  %_2000003 = getelementptr { { ptr, ptr }, ptr, ptr, ptr }, { { ptr, ptr }, ptr, ptr, ptr }* %_2000001, i32 0, i32 1
+  %_2000002 = load atomic ptr, ptr %_2000003 unordered, align 8
   ret ptr %_2000002
 }
 
-define dereferenceable_or_null(32) ptr @"_SM35java.nio.charset.CodingErrorAction$G4load"() noinline personality ptr @scalanative_personality {
+define dereferenceable_or_null(40) ptr @"_SM35java.nio.charset.CodingErrorAction$G4load"() personality ptr @scalanative_personality {
 _1.0:
-  %_4 = getelementptr ptr, ptr @"__modules", i32 483
-  %_5 = load ptr, ptr %_4, !dereferenceable_or_null !{i64 32}
-  %_6 = icmp ne ptr %_5, null
-  br i1 %_6, label %_2.0, label %_3.0
-_2.0:
+  %_4 = getelementptr ptr, ptr @"__modules", i32 501
+  %_5 = call ptr @"__scalanative_loadModule"(ptr %_4, ptr @"_SM35java.nio.charset.CodingErrorAction$G4type", i64 40, ptr @"_SM35java.nio.charset.CodingErrorAction$RE")
   ret ptr %_5
-_3.0:
-  %_7 = call dereferenceable_or_null(32) ptr @"scalanative_GC_alloc_small"(ptr @"_SM35java.nio.charset.CodingErrorAction$G4type", i64 32)
-  store ptr %_7, ptr%_4, align 8
-  call void @"_SM35java.nio.charset.CodingErrorAction$RE"(ptr dereferenceable_or_null(32) %_7)
-  ret ptr %_7
 }
 
 define void @"_SM35java.nio.charset.CodingErrorAction$RE"(ptr %_1) personality ptr @scalanative_personality {
 _2000000.0:
-  %_2000001 = call dereferenceable_or_null(32) ptr @"_SM35java.nio.charset.CodingErrorAction$G4load"()
-  %_2000005 = call dereferenceable_or_null(16) ptr @"scalanative_GC_alloc_small"(ptr @"_SM34java.nio.charset.CodingErrorActionG4type", i64 16)
-  %_2000021 = getelementptr { { ptr }, ptr }, { { ptr }, ptr }* %_2000005, i32 0, i32 1
-  store ptr @"_SM7__constG3-203", ptr%_2000021, align 8
-  %_2000023 = getelementptr { { ptr }, ptr, ptr, ptr }, { { ptr }, ptr, ptr, ptr }* %_2000001, i32 0, i32 3
-  store ptr %_2000005, ptr%_2000023, align 8
-  %_2000011 = call dereferenceable_or_null(16) ptr @"scalanative_GC_alloc_small"(ptr @"_SM34java.nio.charset.CodingErrorActionG4type", i64 16)
-  %_2000025 = getelementptr { { ptr }, ptr }, { { ptr }, ptr }* %_2000011, i32 0, i32 1
-  store ptr @"_SM7__constG3-205", ptr%_2000025, align 8
-  %_2000027 = getelementptr { { ptr }, ptr, ptr, ptr }, { { ptr }, ptr, ptr, ptr }* %_2000001, i32 0, i32 1
-  store ptr %_2000011, ptr%_2000027, align 8
-  %_2000017 = call dereferenceable_or_null(16) ptr @"scalanative_GC_alloc_small"(ptr @"_SM34java.nio.charset.CodingErrorActionG4type", i64 16)
-  %_2000029 = getelementptr { { ptr }, ptr }, { { ptr }, ptr }* %_2000017, i32 0, i32 1
-  store ptr @"_SM7__constG3-207", ptr%_2000029, align 8
-  %_2000031 = getelementptr { { ptr }, ptr, ptr, ptr }, { { ptr }, ptr, ptr, ptr }* %_2000001, i32 0, i32 2
-  store ptr %_2000017, ptr%_2000031, align 8
+  %_2000001 = call dereferenceable_or_null(40) ptr @"_SM35java.nio.charset.CodingErrorAction$G4load"()
+  %_2000005 = call dereferenceable_or_null(24) ptr @"scalanative_GC_alloc_small"(ptr @"_SM34java.nio.charset.CodingErrorActionG4type", i64 24)
+  %_2000021 = getelementptr { { ptr, ptr }, ptr }, { { ptr, ptr }, ptr }* %_2000005, i32 0, i32 1
+  store atomic ptr @"_SM7__constG3-203", ptr%_2000021 unordered, align 8
+  %_2000023 = getelementptr { { ptr, ptr }, ptr, ptr, ptr }, { { ptr, ptr }, ptr, ptr, ptr }* %_2000001, i32 0, i32 3
+  store atomic ptr %_2000005, ptr%_2000023 unordered, align 8
+  %_2000011 = call dereferenceable_or_null(24) ptr @"scalanative_GC_alloc_small"(ptr @"_SM34java.nio.charset.CodingErrorActionG4type", i64 24)
+  %_2000025 = getelementptr { { ptr, ptr }, ptr }, { { ptr, ptr }, ptr }* %_2000011, i32 0, i32 1
+  store atomic ptr @"_SM7__constG3-205", ptr%_2000025 unordered, align 8
+  %_2000027 = getelementptr { { ptr, ptr }, ptr, ptr, ptr }, { { ptr, ptr }, ptr, ptr, ptr }* %_2000001, i32 0, i32 1
+  store atomic ptr %_2000011, ptr%_2000027 unordered, align 8
+  %_2000017 = call dereferenceable_or_null(24) ptr @"scalanative_GC_alloc_small"(ptr @"_SM34java.nio.charset.CodingErrorActionG4type", i64 24)
+  %_2000029 = getelementptr { { ptr, ptr }, ptr }, { { ptr, ptr }, ptr }* %_2000017, i32 0, i32 1
+  store atomic ptr @"_SM7__constG3-207", ptr%_2000029 unordered, align 8
+  %_2000031 = getelementptr { { ptr, ptr }, ptr, ptr, ptr }, { { ptr, ptr }, ptr, ptr, ptr }* %_2000001, i32 0, i32 2
+  store atomic ptr %_2000017, ptr%_2000031 unordered, align 8
   ret void
 }
 
-define dereferenceable_or_null(32) ptr @"_SM40java.nio.charset.MalformedInputExceptionD10getMessageL16java.lang.StringEO"(ptr %_1) personality ptr @scalanative_personality {
+define dereferenceable_or_null(40) ptr @"_SM40java.nio.charset.MalformedInputExceptionD10getMessageL16java.lang.StringEO"(ptr %_1) personality ptr @scalanative_personality {
 _2000000.0:
   %_2000013 = icmp ne ptr %_1, null
   br i1 %_2000013, label %_2000011.0, label %_2000012.0
 _2000011.0:
-  %_2000004 = call dereferenceable_or_null(24) ptr @"scalanative_GC_alloc_small"(ptr @"_SM23java.lang.StringBuilderG4type", i64 24)
-  %_2000005 = call dereferenceable_or_null(16) ptr @"_SM36scala.scalanative.runtime.CharArray$D5allociL35scala.scalanative.runtime.CharArrayEO"(ptr @"_SM36scala.scalanative.runtime.CharArray$G8instance", i32 15)
-  %_2000016 = getelementptr { { ptr }, i32, i1, ptr }, { { ptr }, i32, i1, ptr }* %_2000004, i32 0, i32 3
-  store ptr %_2000005, ptr%_2000016, align 8
-  %_2000007 = call dereferenceable_or_null(24) ptr @"_SM23java.lang.StringBuilderD6appendL16java.lang.StringL23java.lang.StringBuilderEO"(ptr nonnull dereferenceable(24) %_2000004, ptr @"_SM7__constG3-209")
-  %_2000017 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1, i32 }, { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1, i32 }* %_1, i32 0, i32 9
-  %_2000008 = load i32, ptr %_2000017
-  %_2000009 = call dereferenceable_or_null(24) ptr @"_SM23java.lang.StringBuilderD6appendiL23java.lang.StringBuilderEO"(ptr nonnull dereferenceable(24) %_2000004, i32 %_2000008)
-  %_2000010 = call dereferenceable_or_null(32) ptr @"_SM23java.lang.StringBuilderD8toStringL16java.lang.StringEO"(ptr nonnull dereferenceable(24) %_2000004)
+  %_2000004 = call dereferenceable_or_null(32) ptr @"scalanative_GC_alloc_small"(ptr @"_SM23java.lang.StringBuilderG4type", i64 32)
+  %_2000005 = call dereferenceable_or_null(24) ptr @"_SM36scala.scalanative.runtime.CharArray$D5allociL35scala.scalanative.runtime.CharArrayEO"(ptr @"_SM36scala.scalanative.runtime.CharArray$G8instance", i32 15)
+  %_2000016 = getelementptr { { ptr, ptr }, i32, i1, ptr }, { { ptr, ptr }, i32, i1, ptr }* %_2000004, i32 0, i32 3
+  store atomic ptr %_2000005, ptr%_2000016 unordered, align 8
+  %_2000007 = call dereferenceable_or_null(32) ptr @"_SM23java.lang.StringBuilderD6appendL16java.lang.StringL23java.lang.StringBuilderEO"(ptr nonnull dereferenceable(32) %_2000004, ptr @"_SM7__constG3-209")
+  %_2000017 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1, i32 }, { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1, i32 }* %_1, i32 0, i32 9
+  %_2000008 = load atomic i32, ptr %_2000017 unordered, align 4
+  %_2000009 = call dereferenceable_or_null(32) ptr @"_SM23java.lang.StringBuilderD6appendiL23java.lang.StringBuilderEO"(ptr nonnull dereferenceable(32) %_2000004, i32 %_2000008)
+  %_2000010 = call dereferenceable_or_null(40) ptr @"_SM23java.lang.StringBuilderD8toStringL16java.lang.StringEO"(ptr nonnull dereferenceable(32) %_2000004)
   ret ptr %_2000010
 _2000012.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
   unreachable
 }
 
-define dereferenceable_or_null(48) ptr @"_SM33java.nio.charset.StandardCharsetsD5UTF_8L24java.nio.charset.CharsetEo"() inlinehint personality ptr @scalanative_personality {
+define dereferenceable_or_null(56) ptr @"_SM33java.nio.charset.StandardCharsetsD5UTF_8L24java.nio.charset.CharsetEo"() inlinehint personality ptr @scalanative_personality {
 _1000000.0:
-  %_1000002 = call dereferenceable_or_null(48) ptr @"_SM34java.nio.charset.StandardCharsets$D5UTF_8L24java.nio.charset.CharsetEO"(ptr nonnull dereferenceable(8) @"_SM34java.nio.charset.StandardCharsets$G8instance")
+  %_1000002 = call dereferenceable_or_null(56) ptr @"_SM34java.nio.charset.StandardCharsets$D5UTF_8L24java.nio.charset.CharsetEO"(ptr nonnull dereferenceable(16) @"_SM34java.nio.charset.StandardCharsets$G8instance")
   ret ptr %_1000002
 }
 
-define dereferenceable_or_null(48) ptr @"_SM34java.nio.charset.StandardCharsets$D10ISO_8859_1L24java.nio.charset.CharsetEO"(ptr %_1) personality ptr @scalanative_personality {
+define dereferenceable_or_null(56) ptr @"_SM34java.nio.charset.StandardCharsets$D10ISO_8859_1L24java.nio.charset.CharsetEO"(ptr %_1) personality ptr @scalanative_personality {
 _2000000.0:
-  %_2000002 = call dereferenceable_or_null(48) ptr @"_SM28niocharset.StandardCharsets$D10ISO_8859_1L24java.nio.charset.CharsetEO"(ptr nonnull dereferenceable(8) @"_SM28niocharset.StandardCharsets$G8instance")
+  %_2000002 = call dereferenceable_or_null(56) ptr @"_SM28niocharset.StandardCharsets$D10ISO_8859_1L24java.nio.charset.CharsetEO"(ptr nonnull dereferenceable(16) @"_SM28niocharset.StandardCharsets$G8instance")
   ret ptr %_2000002
 }
 
-define dereferenceable_or_null(48) ptr @"_SM34java.nio.charset.StandardCharsets$D5UTF_8L24java.nio.charset.CharsetEO"(ptr %_1) personality ptr @scalanative_personality {
+define dereferenceable_or_null(56) ptr @"_SM34java.nio.charset.StandardCharsets$D5UTF_8L24java.nio.charset.CharsetEO"(ptr %_1) personality ptr @scalanative_personality {
 _2000000.0:
-  %_2000002 = call dereferenceable_or_null(48) ptr @"_SM28niocharset.StandardCharsets$D5UTF_8L24java.nio.charset.CharsetEO"(ptr nonnull dereferenceable(8) @"_SM28niocharset.StandardCharsets$G8instance")
+  %_2000002 = call dereferenceable_or_null(56) ptr @"_SM28niocharset.StandardCharsets$D5UTF_8L24java.nio.charset.CharsetEO"(ptr nonnull dereferenceable(16) @"_SM28niocharset.StandardCharsets$G8instance")
   ret ptr %_2000002
 }
 
-define dereferenceable_or_null(48) ptr @"_SM34java.nio.charset.StandardCharsets$D6UTF_16L24java.nio.charset.CharsetEO"(ptr %_1) personality ptr @scalanative_personality {
+define dereferenceable_or_null(56) ptr @"_SM34java.nio.charset.StandardCharsets$D6UTF_16L24java.nio.charset.CharsetEO"(ptr %_1) personality ptr @scalanative_personality {
 _2000000.0:
-  %_2000002 = call dereferenceable_or_null(48) ptr @"_SM28niocharset.StandardCharsets$D6UTF_16L24java.nio.charset.CharsetEO"(ptr nonnull dereferenceable(8) @"_SM28niocharset.StandardCharsets$G8instance")
+  %_2000002 = call dereferenceable_or_null(56) ptr @"_SM28niocharset.StandardCharsets$D6UTF_16L24java.nio.charset.CharsetEO"(ptr nonnull dereferenceable(16) @"_SM28niocharset.StandardCharsets$G8instance")
   ret ptr %_2000002
 }
 
-define dereferenceable_or_null(48) ptr @"_SM34java.nio.charset.StandardCharsets$D8US_ASCIIL24java.nio.charset.CharsetEO"(ptr %_1) personality ptr @scalanative_personality {
+define dereferenceable_or_null(56) ptr @"_SM34java.nio.charset.StandardCharsets$D8US_ASCIIL24java.nio.charset.CharsetEO"(ptr %_1) personality ptr @scalanative_personality {
 _2000000.0:
-  %_2000002 = call dereferenceable_or_null(48) ptr @"_SM28niocharset.StandardCharsets$D8US_ASCIIL24java.nio.charset.CharsetEO"(ptr nonnull dereferenceable(8) @"_SM28niocharset.StandardCharsets$G8instance")
+  %_2000002 = call dereferenceable_or_null(56) ptr @"_SM28niocharset.StandardCharsets$D8US_ASCIIL24java.nio.charset.CharsetEO"(ptr nonnull dereferenceable(16) @"_SM28niocharset.StandardCharsets$G8instance")
   ret ptr %_2000002
 }
 
-define dereferenceable_or_null(48) ptr @"_SM34java.nio.charset.StandardCharsets$D8UTF_16BEL24java.nio.charset.CharsetEO"(ptr %_1) personality ptr @scalanative_personality {
+define dereferenceable_or_null(56) ptr @"_SM34java.nio.charset.StandardCharsets$D8UTF_16BEL24java.nio.charset.CharsetEO"(ptr %_1) personality ptr @scalanative_personality {
 _2000000.0:
-  %_2000002 = call dereferenceable_or_null(48) ptr @"_SM28niocharset.StandardCharsets$D8UTF_16BEL24java.nio.charset.CharsetEO"(ptr nonnull dereferenceable(8) @"_SM28niocharset.StandardCharsets$G8instance")
+  %_2000002 = call dereferenceable_or_null(56) ptr @"_SM28niocharset.StandardCharsets$D8UTF_16BEL24java.nio.charset.CharsetEO"(ptr nonnull dereferenceable(16) @"_SM28niocharset.StandardCharsets$G8instance")
   ret ptr %_2000002
 }
 
-define dereferenceable_or_null(48) ptr @"_SM34java.nio.charset.StandardCharsets$D8UTF_16LEL24java.nio.charset.CharsetEO"(ptr %_1) personality ptr @scalanative_personality {
+define dereferenceable_or_null(56) ptr @"_SM34java.nio.charset.StandardCharsets$D8UTF_16LEL24java.nio.charset.CharsetEO"(ptr %_1) personality ptr @scalanative_personality {
 _2000000.0:
-  %_2000002 = call dereferenceable_or_null(48) ptr @"_SM28niocharset.StandardCharsets$D8UTF_16LEL24java.nio.charset.CharsetEO"(ptr nonnull dereferenceable(8) @"_SM28niocharset.StandardCharsets$G8instance")
+  %_2000002 = call dereferenceable_or_null(56) ptr @"_SM28niocharset.StandardCharsets$D8UTF_16LEL24java.nio.charset.CharsetEO"(ptr nonnull dereferenceable(16) @"_SM28niocharset.StandardCharsets$G8instance")
   ret ptr %_2000002
 }
 
@@ -9237,20 +9215,20 @@ _2000000.0:
   ret void
 }
 
-define dereferenceable_or_null(32) ptr @"_SM45java.nio.charset.UnmappableCharacterExceptionD10getMessageL16java.lang.StringEO"(ptr %_1) personality ptr @scalanative_personality {
+define dereferenceable_or_null(40) ptr @"_SM45java.nio.charset.UnmappableCharacterExceptionD10getMessageL16java.lang.StringEO"(ptr %_1) personality ptr @scalanative_personality {
 _2000000.0:
   %_2000013 = icmp ne ptr %_1, null
   br i1 %_2000013, label %_2000011.0, label %_2000012.0
 _2000011.0:
-  %_2000004 = call dereferenceable_or_null(24) ptr @"scalanative_GC_alloc_small"(ptr @"_SM23java.lang.StringBuilderG4type", i64 24)
-  %_2000005 = call dereferenceable_or_null(16) ptr @"_SM36scala.scalanative.runtime.CharArray$D5allociL35scala.scalanative.runtime.CharArrayEO"(ptr @"_SM36scala.scalanative.runtime.CharArray$G8instance", i32 15)
-  %_2000016 = getelementptr { { ptr }, i32, i1, ptr }, { { ptr }, i32, i1, ptr }* %_2000004, i32 0, i32 3
-  store ptr %_2000005, ptr%_2000016, align 8
-  %_2000007 = call dereferenceable_or_null(24) ptr @"_SM23java.lang.StringBuilderD6appendL16java.lang.StringL23java.lang.StringBuilderEO"(ptr nonnull dereferenceable(24) %_2000004, ptr @"_SM7__constG3-209")
-  %_2000017 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1, i32 }, { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1, i32 }* %_1, i32 0, i32 9
-  %_2000008 = load i32, ptr %_2000017
-  %_2000009 = call dereferenceable_or_null(24) ptr @"_SM23java.lang.StringBuilderD6appendiL23java.lang.StringBuilderEO"(ptr nonnull dereferenceable(24) %_2000004, i32 %_2000008)
-  %_2000010 = call dereferenceable_or_null(32) ptr @"_SM23java.lang.StringBuilderD8toStringL16java.lang.StringEO"(ptr nonnull dereferenceable(24) %_2000004)
+  %_2000004 = call dereferenceable_or_null(32) ptr @"scalanative_GC_alloc_small"(ptr @"_SM23java.lang.StringBuilderG4type", i64 32)
+  %_2000005 = call dereferenceable_or_null(24) ptr @"_SM36scala.scalanative.runtime.CharArray$D5allociL35scala.scalanative.runtime.CharArrayEO"(ptr @"_SM36scala.scalanative.runtime.CharArray$G8instance", i32 15)
+  %_2000016 = getelementptr { { ptr, ptr }, i32, i1, ptr }, { { ptr, ptr }, i32, i1, ptr }* %_2000004, i32 0, i32 3
+  store atomic ptr %_2000005, ptr%_2000016 unordered, align 8
+  %_2000007 = call dereferenceable_or_null(32) ptr @"_SM23java.lang.StringBuilderD6appendL16java.lang.StringL23java.lang.StringBuilderEO"(ptr nonnull dereferenceable(32) %_2000004, ptr @"_SM7__constG3-209")
+  %_2000017 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1, i32 }, { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1, i32 }* %_1, i32 0, i32 9
+  %_2000008 = load atomic i32, ptr %_2000017 unordered, align 4
+  %_2000009 = call dereferenceable_or_null(32) ptr @"_SM23java.lang.StringBuilderD6appendiL23java.lang.StringBuilderEO"(ptr nonnull dereferenceable(32) %_2000004, i32 %_2000008)
+  %_2000010 = call dereferenceable_or_null(40) ptr @"_SM23java.lang.StringBuilderD8toStringL16java.lang.StringEO"(ptr nonnull dereferenceable(32) %_2000004)
   ret ptr %_2000010
 _2000012.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)

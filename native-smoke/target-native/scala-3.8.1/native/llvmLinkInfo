@@ -51,6 +51,7 @@
 /home/optick/work/pureconfig/native-smoke/target-native/scala-3.8.1/native/generated/27e28490.ll.o
 /home/optick/work/pureconfig/native-smoke/target-native/scala-3.8.1/native/generated/8fc81284.ll.o
 /home/optick/work/pureconfig/native-smoke/target-native/scala-3.8.1/native/generated/89bf2831.ll.o
+/home/optick/work/pureconfig/native-smoke/target-native/scala-3.8.1/native/generated/221fffa8.ll.o
 /home/optick/work/pureconfig/native-smoke/target-native/scala-3.8.1/native/generated/99a272ab.ll.o
 /home/optick/work/pureconfig/native-smoke/target-native/scala-3.8.1/native/generated/5c235ecf.ll.o
 /home/optick/work/pureconfig/native-smoke/target-native/scala-3.8.1/native/generated/124dfa07.ll.o
@@ -64,10 +65,12 @@
 /home/optick/work/pureconfig/native-smoke/target-native/scala-3.8.1/native/generated/81baced.ll.o
 /home/optick/work/pureconfig/native-smoke/target-native/scala-3.8.1/native/generated/4ef1748d.ll.o
 /home/optick/work/pureconfig/native-smoke/target-native/scala-3.8.1/native/generated/3de205d8.ll.o
+/home/optick/work/pureconfig/native-smoke/target-native/scala-3.8.1/native/generated/158f3053.ll.o
 /home/optick/work/pureconfig/native-smoke/target-native/scala-3.8.1/native/generated/693b132b.ll.o
 /home/optick/work/pureconfig/native-smoke/target-native/scala-3.8.1/native/generated/69329e0a.ll.o
 /home/optick/work/pureconfig/native-smoke/target-native/scala-3.8.1/native/generated/11dbcfe4.ll.o
 /home/optick/work/pureconfig/native-smoke/target-native/scala-3.8.1/native/generated/9be61218.ll.o
+/home/optick/work/pureconfig/native-smoke/target-native/scala-3.8.1/native/generated/373c1303.ll.o
 /home/optick/work/pureconfig/native-smoke/target-native/scala-3.8.1/native/generated/b611fe3f.ll.o
 /home/optick/work/pureconfig/native-smoke/target-native/scala-3.8.1/native/generated/30fd4620.ll.o
 /home/optick/work/pureconfig/native-smoke/target-native/scala-3.8.1/native/generated/69372a31.ll.o
@@ -250,6 +253,10 @@
 /home/optick/work/pureconfig/native-smoke/target-native/scala-3.8.1/native/dependencies/javalib_native0.5_3-0.5.10-4/scala-native/z.c.o
 /home/optick/work/pureconfig/native-smoke/target-native/scala-3.8.1/native/dependencies/javalib_native0.5_3-0.5.10-4/scala-native/time_nano.c.o
 -Wl,--as-needed
+-L/nix/store/20sg3mav9lz8vd8lvmpvbyw1q2birbb2-boehm-gc-8.2.8/lib
+-lgc
+-Wl,-rpath,/nix/store/20sg3mav9lz8vd8lvmpvbyw1q2birbb2-boehm-gc-8.2.8/lib
 -lpthread
 -ldl
 -lm
+-lgc

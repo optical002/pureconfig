@@ -2,110 +2,110 @@ declare i32 @scalanative_personality(...)
 declare ptr @scalanative_catch(ptr)
 
 @"_SM7__constG1-0" = private unnamed_addr constant [1 x ptr] [ ptr @"_SM23java.lang.AutoCloseableG4type" ]
-@"_SM7__constG1-1" = private unnamed_addr constant { ptr, i32, i32, [27 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 27, i32 2, [27 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 117, i16 116, i16 105, i16 108, i16 46, i16 115, i16 116, i16 114, i16 101, i16 97, i16 109, i16 46, i16 66, i16 97, i16 115, i16 101, i16 83, i16 116, i16 114, i16 101, i16 97, i16 109 ] }
-@"_SM7__constG1-2" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG1-1", i32 0, i32 27, i32 -1230632097 }
+@"_SM7__constG1-1" = private unnamed_addr constant { ptr, ptr, i32, i32, [27 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 27, i32 2, [27 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 117, i16 116, i16 105, i16 108, i16 46, i16 115, i16 116, i16 114, i16 101, i16 97, i16 109, i16 46, i16 66, i16 97, i16 115, i16 101, i16 83, i16 116, i16 114, i16 101, i16 97, i16 109 ] }
+@"_SM7__constG1-2" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG1-1", i32 0, i32 27, i32 -1230632097 }
 @"_SM7__constG1-3" = private unnamed_addr constant [2 x ptr] [ ptr @"_SM23java.lang.AutoCloseableG4type", ptr @"_SM27java.util.stream.BaseStreamG4type" ]
-@"_SM7__constG1-4" = private unnamed_addr constant { ptr, i32, i32, [26 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 26, i32 2, [26 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 117, i16 116, i16 105, i16 108, i16 46, i16 115, i16 116, i16 114, i16 101, i16 97, i16 109, i16 46, i16 73, i16 110, i16 116, i16 83, i16 116, i16 114, i16 101, i16 97, i16 109 ] }
-@"_SM7__constG1-5" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG1-4", i32 0, i32 26, i32 807472353 }
+@"_SM7__constG1-4" = private unnamed_addr constant { ptr, ptr, i32, i32, [26 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 26, i32 2, [26 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 117, i16 116, i16 105, i16 108, i16 46, i16 115, i16 116, i16 114, i16 101, i16 97, i16 109, i16 46, i16 73, i16 110, i16 116, i16 83, i16 116, i16 114, i16 101, i16 97, i16 109 ] }
+@"_SM7__constG1-5" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG1-4", i32 0, i32 26, i32 807472353 }
 @"_SM7__constG1-6" = private unnamed_addr constant [3 x ptr] [ ptr @"_SM33java.util.Spliterator$OfPrimitiveG4type", ptr @"_SM21java.util.SpliteratorG4type", ptr @"_SM27java.util.Spliterator$OfIntG4type" ]
-@"_SM7__constG1-7" = private unnamed_addr constant { ptr, i32, i32, [34 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 34, i32 2, [34 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 117, i16 116, i16 105, i16 108, i16 46, i16 115, i16 116, i16 114, i16 101, i16 97, i16 109, i16 46, i16 73, i16 110, i16 116, i16 83, i16 116, i16 114, i16 101, i16 97, i16 109, i16 36, i16 36, i16 97, i16 110, i16 111, i16 110, i16 36, i16 51 ] }
-@"_SM7__constG1-8" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG1-7", i32 0, i32 34, i32 -1135770436 }
-@"_SM7__constG1-9" = private unnamed_addr constant [3 x i32] [ i32 32, i32 40, i32 -1 ]
+@"_SM7__constG1-7" = private unnamed_addr constant { ptr, ptr, i32, i32, [34 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 34, i32 2, [34 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 117, i16 116, i16 105, i16 108, i16 46, i16 115, i16 116, i16 114, i16 101, i16 97, i16 109, i16 46, i16 73, i16 110, i16 116, i16 83, i16 116, i16 114, i16 101, i16 97, i16 109, i16 36, i16 36, i16 97, i16 110, i16 111, i16 110, i16 36, i16 51 ] }
+@"_SM7__constG1-8" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG1-7", i32 0, i32 34, i32 -1135770436 }
+@"_SM7__constG1-9" = private unnamed_addr constant [3 x i32] [ i32 40, i32 48, i32 -1 ]
 @"_SM7__constG2-10" = private unnamed_addr constant [2 x ptr] [ ptr @"_SM45java.util.Spliterators$AbstractIntSpliteratorD16forEachRemainingL30java.util.function.IntConsumeruEO", ptr @"_SM34java.util.stream.IntStream$$anon$3D10tryAdvanceL30java.util.function.IntConsumerzEO" ]
 @"_SM7__constG2-11" = private unnamed_addr constant [3 x ptr] [ ptr @"_SM45java.util.Spliterators$AbstractIntSpliteratorD12estimateSizejEO", ptr @"_SM45java.util.Spliterators$AbstractIntSpliteratorD15characteristicsiEO", ptr @"_SM45java.util.Spliterators$AbstractIntSpliteratorD10tryAdvanceL27java.util.function.ConsumerzEO" ]
-@"_SM7__constG2-12" = private unnamed_addr constant [4 x { i32, ptr }] [ { i32, ptr } { i32 -2147481728, ptr @"_SM7__constG2-10" }, { i32, ptr } { i32 -2147482847, ptr @"_SM7__constG2-11" }, { i32, ptr } { i32 -2147483198, ptr null }, { i32, ptr } { i32 0, ptr null } ]
+@"_SM7__constG2-12" = private unnamed_addr constant [4 x { i32, ptr }] [ { i32, ptr } { i32 -2147481696, ptr @"_SM7__constG2-10" }, { i32, ptr } { i32 -2147482847, ptr @"_SM7__constG2-11" }, { i32, ptr } { i32 -2147483198, ptr null }, { i32, ptr } { i32 0, ptr null } ]
 @"_SM7__constG2-13" = private unnamed_addr constant [1 x ptr] [ ptr @"_SM27java.util.function.ConsumerG4type" ]
-@"_SM7__constG2-14" = private unnamed_addr constant { ptr, i32, i32, [44 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 44, i32 2, [44 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 117, i16 116, i16 105, i16 108, i16 46, i16 115, i16 116, i16 114, i16 101, i16 97, i16 109, i16 46, i16 73, i16 110, i16 116, i16 83, i16 116, i16 114, i16 101, i16 97, i16 109, i16 36, i16 36, i16 97, i16 110, i16 111, i16 110, i16 36, i16 51, i16 36, i16 36, i16 76, i16 97, i16 109, i16 98, i16 100, i16 97, i16 36, i16 49 ] }
-@"_SM7__constG2-15" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG2-14", i32 0, i32 44, i32 -1714866960 }
-@"_SM7__constG2-16" = private unnamed_addr constant [3 x i32] [ i32 8, i32 16, i32 -1 ]
+@"_SM7__constG2-14" = private unnamed_addr constant { ptr, ptr, i32, i32, [44 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 44, i32 2, [44 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 117, i16 116, i16 105, i16 108, i16 46, i16 115, i16 116, i16 114, i16 101, i16 97, i16 109, i16 46, i16 73, i16 110, i16 116, i16 83, i16 116, i16 114, i16 101, i16 97, i16 109, i16 36, i16 36, i16 97, i16 110, i16 111, i16 110, i16 36, i16 51, i16 36, i16 36, i16 76, i16 97, i16 109, i16 98, i16 100, i16 97, i16 36, i16 49 ] }
+@"_SM7__constG2-15" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG2-14", i32 0, i32 44, i32 -1714866960 }
+@"_SM7__constG2-16" = private unnamed_addr constant [3 x i32] [ i32 16, i32 24, i32 -1 ]
 @"_SM7__constG2-17" = private unnamed_addr constant [1 x ptr] [ ptr @"_SM44java.util.stream.IntStream$$anon$3$$Lambda$1D6acceptL16java.lang.ObjectuEO" ]
 @"_SM7__constG2-18" = private unnamed_addr constant [1 x { i32, ptr }] [ { i32, ptr } { i32 -2147482720, ptr @"_SM7__constG2-17" } ]
 @"_SM7__constG2-19" = private unnamed_addr constant [3 x ptr] [ ptr @"_SM23java.lang.AutoCloseableG4type", ptr @"_SM26java.util.stream.IntStreamG4type", ptr @"_SM27java.util.stream.BaseStreamG4type" ]
-@"_SM7__constG2-20" = private unnamed_addr constant { ptr, i32, i32, [30 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 30, i32 2, [30 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 117, i16 116, i16 105, i16 108, i16 46, i16 115, i16 116, i16 114, i16 101, i16 97, i16 109, i16 46, i16 73, i16 110, i16 116, i16 83, i16 116, i16 114, i16 101, i16 97, i16 109, i16 73, i16 109, i16 112, i16 108 ] }
-@"_SM7__constG2-21" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG2-20", i32 0, i32 30, i32 -314537311 }
-@"_SM7__constG2-22" = private unnamed_addr constant [5 x i32] [ i32 16, i32 24, i32 32, i32 56, i32 -1 ]
-@"_SM7__constG2-23" = private unnamed_addr constant [16 x { i32, ptr }] [ { i32, ptr } { i32 -2147482272, ptr null }, { i32, ptr } { i32 -2147482015, ptr null }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 -2147483384, ptr null }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 0, ptr null } ]
+@"_SM7__constG2-20" = private unnamed_addr constant { ptr, ptr, i32, i32, [30 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 30, i32 2, [30 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 117, i16 116, i16 105, i16 108, i16 46, i16 115, i16 116, i16 114, i16 101, i16 97, i16 109, i16 46, i16 73, i16 110, i16 116, i16 83, i16 116, i16 114, i16 101, i16 97, i16 109, i16 73, i16 109, i16 112, i16 108 ] }
+@"_SM7__constG2-21" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG2-20", i32 0, i32 30, i32 -314537311 }
+@"_SM7__constG2-22" = private unnamed_addr constant [5 x i32] [ i32 24, i32 32, i32 40, i32 64, i32 -1 ]
+@"_SM7__constG2-23" = private unnamed_addr constant [16 x { i32, ptr }] [ { i32, ptr } { i32 -2147482240, ptr null }, { i32, ptr } { i32 -2147481983, ptr null }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 -2147483384, ptr null }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 0, ptr null } ]
 @"_SM7__constG2-24" = private unnamed_addr constant [1 x ptr] [ ptr @"_SM30java.util.function.IntConsumerG4type" ]
-@"_SM7__constG2-25" = private unnamed_addr constant { ptr, i32, i32, [40 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 40, i32 2, [40 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 117, i16 116, i16 105, i16 108, i16 46, i16 115, i16 116, i16 114, i16 101, i16 97, i16 109, i16 46, i16 73, i16 110, i16 116, i16 83, i16 116, i16 114, i16 101, i16 97, i16 109, i16 73, i16 109, i16 112, i16 108, i16 36, i16 36, i16 76, i16 97, i16 109, i16 98, i16 100, i16 97, i16 36, i16 56 ] }
-@"_SM7__constG2-26" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG2-25", i32 0, i32 40, i32 521003164 }
-@"_SM7__constG2-27" = private unnamed_addr constant [2 x i32] [ i32 8, i32 -1 ]
+@"_SM7__constG2-25" = private unnamed_addr constant { ptr, ptr, i32, i32, [40 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 40, i32 2, [40 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 117, i16 116, i16 105, i16 108, i16 46, i16 115, i16 116, i16 114, i16 101, i16 97, i16 109, i16 46, i16 73, i16 110, i16 116, i16 83, i16 116, i16 114, i16 101, i16 97, i16 109, i16 73, i16 109, i16 112, i16 108, i16 36, i16 36, i16 76, i16 97, i16 109, i16 98, i16 100, i16 97, i16 36, i16 56 ] }
+@"_SM7__constG2-26" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG2-25", i32 0, i32 40, i32 521003164 }
+@"_SM7__constG2-27" = private unnamed_addr constant [2 x i32] [ i32 16, i32 -1 ]
 @"_SM7__constG2-28" = private unnamed_addr constant [1 x ptr] [ ptr @"_SM40java.util.stream.IntStreamImpl$$Lambda$8D6acceptiuEO" ]
-@"_SM7__constG2-29" = private unnamed_addr constant [1 x { i32, ptr }] [ { i32, ptr } { i32 -2147481312, ptr @"_SM7__constG2-28" } ]
-@"_SM7__constG2-30" = private unnamed_addr constant { ptr, i32, i32, [23 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 23, i32 2, [23 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 117, i16 116, i16 105, i16 108, i16 46, i16 115, i16 116, i16 114, i16 101, i16 97, i16 109, i16 46, i16 83, i16 116, i16 114, i16 101, i16 97, i16 109 ] }
-@"_SM7__constG2-31" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG2-30", i32 0, i32 23, i32 1847410734 }
+@"_SM7__constG2-29" = private unnamed_addr constant [1 x { i32, ptr }] [ { i32, ptr } { i32 -2147481280, ptr @"_SM7__constG2-28" } ]
+@"_SM7__constG2-30" = private unnamed_addr constant { ptr, ptr, i32, i32, [23 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 23, i32 2, [23 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 117, i16 116, i16 105, i16 108, i16 46, i16 115, i16 116, i16 114, i16 101, i16 97, i16 109, i16 46, i16 83, i16 116, i16 114, i16 101, i16 97, i16 109 ] }
+@"_SM7__constG2-31" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG2-30", i32 0, i32 23, i32 1847410734 }
 @"_SM7__constG2-32" = private unnamed_addr constant [3 x ptr] [ ptr @"_SM23java.lang.AutoCloseableG4type", ptr @"_SM23java.util.stream.StreamG4type", ptr @"_SM27java.util.stream.BaseStreamG4type" ]
-@"_SM7__constG2-33" = private unnamed_addr constant { ptr, i32, i32, [27 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 27, i32 2, [27 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 117, i16 116, i16 105, i16 108, i16 46, i16 115, i16 116, i16 114, i16 101, i16 97, i16 109, i16 46, i16 83, i16 116, i16 114, i16 101, i16 97, i16 109, i16 73, i16 109, i16 112, i16 108 ] }
-@"_SM7__constG2-34" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG2-33", i32 0, i32 27, i32 -1607970962 }
-@"_SM7__constG2-35" = private unnamed_addr constant [5 x i32] [ i32 8, i32 16, i32 24, i32 40, i32 -1 ]
-@"_SM7__constG2-36" = private unnamed_addr constant [16 x { i32, ptr }] [ { i32, ptr } { i32 -2147483168, ptr null }, { i32, ptr } { i32 -2147482015, ptr null }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 -2147483384, ptr null }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 0, ptr null } ]
+@"_SM7__constG2-33" = private unnamed_addr constant { ptr, ptr, i32, i32, [27 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 27, i32 2, [27 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 117, i16 116, i16 105, i16 108, i16 46, i16 115, i16 116, i16 114, i16 101, i16 97, i16 109, i16 46, i16 83, i16 116, i16 114, i16 101, i16 97, i16 109, i16 73, i16 109, i16 112, i16 108 ] }
+@"_SM7__constG2-34" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG2-33", i32 0, i32 27, i32 -1607970962 }
+@"_SM7__constG2-35" = private unnamed_addr constant [5 x i32] [ i32 16, i32 24, i32 32, i32 48, i32 -1 ]
+@"_SM7__constG2-36" = private unnamed_addr constant [16 x { i32, ptr }] [ { i32, ptr } { i32 -2147483168, ptr null }, { i32, ptr } { i32 -2147481983, ptr null }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 -2147483384, ptr null }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 0, ptr null }, { i32, ptr } { i32 0, ptr null } ]
 @"_SM7__constG2-37" = private unnamed_addr constant [0 x ptr] [  ]
-@"_SM7__constG2-38" = private unnamed_addr constant { ptr, i32, i32, [28 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 28, i32 2, [28 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 117, i16 116, i16 105, i16 108, i16 46, i16 115, i16 116, i16 114, i16 101, i16 97, i16 109, i16 46, i16 83, i16 116, i16 114, i16 101, i16 97, i16 109, i16 73, i16 109, i16 112, i16 108, i16 36 ] }
-@"_SM7__constG2-39" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG2-38", i32 0, i32 28, i32 1692507766 }
+@"_SM7__constG2-38" = private unnamed_addr constant { ptr, ptr, i32, i32, [28 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 28, i32 2, [28 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 117, i16 116, i16 105, i16 108, i16 46, i16 115, i16 116, i16 114, i16 101, i16 97, i16 109, i16 46, i16 83, i16 116, i16 114, i16 101, i16 97, i16 109, i16 73, i16 109, i16 112, i16 108, i16 36 ] }
+@"_SM7__constG2-39" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG2-38", i32 0, i32 28, i32 1692507766 }
 @"_SM7__constG2-40" = private unnamed_addr constant [1 x i32] [ i32 -1 ]
 @"_SM7__constG2-41" = private unnamed_addr constant [0 x { i32, ptr }] [  ]
 @"_SM7__constG2-42" = private unnamed_addr constant [1 x ptr] [ ptr @"_SM21java.util.SpliteratorG4type" ]
-@"_SM7__constG2-43" = private unnamed_addr constant { ptr, i32, i32, [35 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 35, i32 2, [35 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 117, i16 116, i16 105, i16 108, i16 46, i16 115, i16 116, i16 114, i16 101, i16 97, i16 109, i16 46, i16 83, i16 116, i16 114, i16 101, i16 97, i16 109, i16 73, i16 109, i16 112, i16 108, i16 36, i16 36, i16 97, i16 110, i16 111, i16 110, i16 36, i16 53 ] }
-@"_SM7__constG2-44" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG2-43", i32 0, i32 35, i32 -2086409653 }
+@"_SM7__constG2-43" = private unnamed_addr constant { ptr, ptr, i32, i32, [35 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 35, i32 2, [35 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 117, i16 116, i16 105, i16 108, i16 46, i16 115, i16 116, i16 114, i16 101, i16 97, i16 109, i16 46, i16 83, i16 116, i16 114, i16 101, i16 97, i16 109, i16 73, i16 109, i16 112, i16 108, i16 36, i16 36, i16 97, i16 110, i16 111, i16 110, i16 36, i16 53 ] }
+@"_SM7__constG2-44" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG2-43", i32 0, i32 35, i32 -2086409653 }
 @"_SM7__constG2-45" = private unnamed_addr constant [3 x ptr] [ ptr @"_SM42java.util.Spliterators$AbstractSpliteratorD12estimateSizejEO", ptr @"_SM42java.util.Spliterators$AbstractSpliteratorD15characteristicsiEO", ptr @"_SM35java.util.stream.StreamImpl$$anon$5D10tryAdvanceL27java.util.function.ConsumerzEO" ]
 @"_SM7__constG2-46" = private unnamed_addr constant [1 x { i32, ptr }] [ { i32, ptr } { i32 -2147482847, ptr @"_SM7__constG2-45" } ]
-@"_SM7__constG2-47" = private unnamed_addr constant { ptr, i32, i32, [45 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 45, i32 2, [45 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 117, i16 116, i16 105, i16 108, i16 46, i16 115, i16 116, i16 114, i16 101, i16 97, i16 109, i16 46, i16 83, i16 116, i16 114, i16 101, i16 97, i16 109, i16 73, i16 109, i16 112, i16 108, i16 36, i16 36, i16 97, i16 110, i16 111, i16 110, i16 36, i16 53, i16 36, i16 36, i16 76, i16 97, i16 109, i16 98, i16 100, i16 97, i16 36, i16 49 ] }
-@"_SM7__constG2-48" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG2-47", i32 0, i32 45, i32 333788095 }
+@"_SM7__constG2-47" = private unnamed_addr constant { ptr, ptr, i32, i32, [45 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 45, i32 2, [45 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 117, i16 116, i16 105, i16 108, i16 46, i16 115, i16 116, i16 114, i16 101, i16 97, i16 109, i16 46, i16 83, i16 116, i16 114, i16 101, i16 97, i16 109, i16 73, i16 109, i16 112, i16 108, i16 36, i16 36, i16 97, i16 110, i16 111, i16 110, i16 36, i16 53, i16 36, i16 36, i16 76, i16 97, i16 109, i16 98, i16 100, i16 97, i16 36, i16 49 ] }
+@"_SM7__constG2-48" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG2-47", i32 0, i32 45, i32 333788095 }
 @"_SM7__constG2-49" = private unnamed_addr constant [1 x ptr] [ ptr @"_SM45java.util.stream.StreamImpl$$anon$5$$Lambda$1D6acceptL16java.lang.ObjectuEO" ]
 @"_SM7__constG2-50" = private unnamed_addr constant [1 x { i32, ptr }] [ { i32, ptr } { i32 -2147482720, ptr @"_SM7__constG2-49" } ]
-@"_SM7__constG2-51" = private unnamed_addr constant { ptr, i32, i32, [31 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 31, i32 2, [31 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 117, i16 116, i16 105, i16 108, i16 46, i16 115, i16 116, i16 114, i16 101, i16 97, i16 109, i16 46, i16 83, i16 116, i16 114, i16 101, i16 97, i16 109, i16 83, i16 117, i16 112, i16 112, i16 111, i16 114, i16 116, i16 36 ] }
-@"_SM7__constG2-52" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG2-51", i32 0, i32 31, i32 1642139779 }
-@"_SM7__constG2-53" = private unnamed_addr constant { ptr, i32, i32, [47 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", i32 47, i32 2, [47 x i16] [ i16 115, i16 116, i16 114, i16 101, i16 97, i16 109, i16 32, i16 104, i16 97, i16 115, i16 32, i16 97, i16 108, i16 114, i16 101, i16 97, i16 100, i16 121, i16 32, i16 98, i16 101, i16 101, i16 110, i16 32, i16 111, i16 112, i16 101, i16 114, i16 97, i16 116, i16 101, i16 100, i16 32, i16 117, i16 112, i16 111, i16 110, i16 32, i16 111, i16 114, i16 32, i16 99, i16 108, i16 111, i16 115, i16 101, i16 100 ] }
-@"_SM7__constG2-54" = private unnamed_addr constant { ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr @"_SM7__constG2-53", i32 0, i32 47, i32 -585932451 }
-@"_SM16java.lang.StringG4type" = external global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] }
+@"_SM7__constG2-51" = private unnamed_addr constant { ptr, ptr, i32, i32, [31 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 31, i32 2, [31 x i16] [ i16 106, i16 97, i16 118, i16 97, i16 46, i16 117, i16 116, i16 105, i16 108, i16 46, i16 115, i16 116, i16 114, i16 101, i16 97, i16 109, i16 46, i16 83, i16 116, i16 114, i16 101, i16 97, i16 109, i16 83, i16 117, i16 112, i16 112, i16 111, i16 114, i16 116, i16 36 ] }
+@"_SM7__constG2-52" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG2-51", i32 0, i32 31, i32 1642139779 }
+@"_SM7__constG2-53" = private unnamed_addr constant { ptr, ptr, i32, i32, [47 x i16] } { ptr @"_SM35scala.scalanative.runtime.CharArrayG4type", ptr null, i32 47, i32 2, [47 x i16] [ i16 115, i16 116, i16 114, i16 101, i16 97, i16 109, i16 32, i16 104, i16 97, i16 115, i16 32, i16 97, i16 108, i16 114, i16 101, i16 97, i16 100, i16 121, i16 32, i16 98, i16 101, i16 101, i16 110, i16 32, i16 111, i16 112, i16 101, i16 114, i16 97, i16 116, i16 101, i16 100, i16 32, i16 117, i16 112, i16 111, i16 110, i16 32, i16 111, i16 114, i16 32, i16 99, i16 108, i16 111, i16 115, i16 101, i16 100 ] }
+@"_SM7__constG2-54" = private unnamed_addr constant { ptr, ptr, ptr, i32, i32, i32 } { ptr @"_SM16java.lang.StringG4type", ptr null, ptr @"_SM7__constG2-53", i32 0, i32 47, i32 -585932451 }
+@"_SM16java.lang.StringG4type" = external global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] }
 
 declare void @"_SM45java.util.Spliterators$AbstractIntSpliteratorD16forEachRemainingL30java.util.function.IntConsumeruEO"(ptr, ptr) alwaysinline
-@"_SM18java.util.Objects$G8instance" = external global { ptr }
-@"_SM30java.util.function.IntConsumerG4type" = external global { ptr, i32, i32, ptr, ptr }
-@"_SM27java.util.function.ConsumerG4type" = external global { ptr, i32, i32, ptr, ptr }
+@"_SM18java.util.Objects$G8instance" = external global { ptr, ptr }
+@"_SM30java.util.function.IntConsumerG4type" = external global { ptr, ptr, i32, i32, ptr, ptr }
+@"_SM27java.util.function.ConsumerG4type" = external global { ptr, ptr, i32, i32, ptr, ptr }
 
 declare i1 @"_SM31java.math.Conversion$$$Lambda$1D4testizEO"(ptr, i32)
 
-declare dereferenceable_or_null(16) ptr @"_SM21scala.runtime.LongRefD6createjL21scala.runtime.LongRefEo"(i64) inlinehint
-@"_SM45java.util.Spliterators$AbstractIntSpliteratorG4type" = external global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] }
-@"_SM21java.util.SpliteratorG4type" = external global { ptr, i32, i32, ptr, ptr }
+declare dereferenceable_or_null(24) ptr @"_SM21scala.runtime.LongRefD6createjL21scala.runtime.LongRefEo"(i64) inlinehint
+@"_SM45java.util.Spliterators$AbstractIntSpliteratorG4type" = external global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] }
+@"_SM21java.util.SpliteratorG4type" = external global { ptr, ptr, i32, i32, ptr, ptr }
 
 declare i64 @"_SM42java.util.Spliterators$AbstractSpliteratorD12estimateSizejEO"(ptr)
 
 declare i32 @"_SM16java.lang.ObjectD8hashCodeiEO"(ptr) inlinehint
-@"_SM31java.lang.IllegalStateExceptionG4type" = external global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] }
+@"_SM31java.lang.IllegalStateExceptionG4type" = external global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] }
 
-declare dereferenceable_or_null(16) ptr @"_SM38scala.scalanative.runtime.ObjectArray$D5allociL37scala.scalanative.runtime.ObjectArrayEO"(ptr, i32) inlinehint
+declare dereferenceable_or_null(24) ptr @"_SM38scala.scalanative.runtime.ObjectArray$D5allociL37scala.scalanative.runtime.ObjectArrayEO"(ptr, i32) inlinehint
 
 declare i1 @"_SM45java.util.Spliterators$AbstractIntSpliteratorD10tryAdvanceL27java.util.function.ConsumerzEO"(ptr, ptr) alwaysinline
 
 declare ptr @"_SM34scala.scalanative.runtime.package$D14throwClassCastR_R_nEO"(ptr, ptr, ptr) noinline
 
-declare nonnull dereferenceable(24) ptr @"_SM23java.util.Spliterators$D8iteratorL21java.util.SpliteratorL18java.util.IteratorEO"(ptr, ptr)
-@"_SM33java.util.Spliterator$OfPrimitiveG4type" = external global { ptr, i32, i32, ptr, ptr }
+declare nonnull dereferenceable(32) ptr @"_SM23java.util.Spliterators$D8iteratorL21java.util.SpliteratorL18java.util.IteratorEO"(ptr, ptr)
+@"_SM33java.util.Spliterator$OfPrimitiveG4type" = external global { ptr, ptr, i32, i32, ptr, ptr }
 
 declare ptr @"scalanative_throw"(ptr)
-@"_SM27java.util.Spliterator$OfIntG4type" = external global { ptr, i32, i32, ptr, ptr }
+@"_SM27java.util.Spliterator$OfIntG4type" = external global { ptr, ptr, i32, i32, ptr, ptr }
 
-declare dereferenceable_or_null(8) ptr @"_SM18java.util.Objects$D14requireNonNullL16java.lang.ObjectL16java.lang.ObjectEO"(ptr, ptr) inlinehint
+declare dereferenceable_or_null(16) ptr @"_SM18java.util.Objects$D14requireNonNullL16java.lang.ObjectL16java.lang.ObjectEO"(ptr, ptr) inlinehint
 
 declare void @"_SM20java.util.ArrayDequeD7addLastL16java.lang.ObjectuEO"(ptr, ptr)
-@"_SM19java.lang.ThrowableG4type" = external global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] }
+@"_SM19java.lang.ThrowableG4type" = external global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] }
 
 declare ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr) noinline
 
 declare i32 @"_SM13scala.Predef$D11Integer2intL17java.lang.IntegeriEO"(ptr, ptr)
-@"_SM15java.lang.ClassG4type" = external global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] }
-@"_SM23scala.runtime.LazyVals$G8instance" = external global { ptr }
-@"_SM38scala.scalanative.runtime.ObjectArray$G8instance" = external global { ptr }
-@"_SM35scala.scalanative.runtime.CharArrayG4type" = external global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [6 x ptr] }
+@"_SM15java.lang.ClassG4type" = external global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] }
+@"_SM23scala.runtime.LazyVals$G8instance" = external global { ptr, ptr }
+@"_SM38scala.scalanative.runtime.ObjectArray$G8instance" = external global { ptr, ptr }
+@"_SM35scala.scalanative.runtime.CharArrayG4type" = external global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [6 x ptr] }
 
 declare i64 @"_SM23scala.runtime.LazyVals$D5STATEjijEO"(ptr, i64, i32)
 
 declare i1 @"_SM35scala.scalanative.runtime.LazyVals$D3CASR_jiizEO"(ptr, ptr, i64, i32, i32) inlinehint
 
 declare i32 @"_SM42java.util.Spliterators$AbstractSpliteratorD15characteristicsiEO"(ptr)
-@"_SM30java.lang.NullPointerExceptionG4type" = external global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] }
-@"_SM35scala.scalanative.runtime.LazyVals$G8instance" = external global { ptr }
+@"_SM30java.lang.NullPointerExceptionG4type" = external global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [5 x ptr] }
+@"_SM35scala.scalanative.runtime.LazyVals$G8instance" = external global { ptr, ptr }
 
 declare void @"_SM35scala.scalanative.runtime.LazyVals$D7setFlagR_iiuEO"(ptr, ptr, i32, i32) inlinehint
 
@@ -113,48 +113,48 @@ declare void @"_SM35scala.scalanative.runtime.ThrowableRzE"(ptr, i1) noinline
 
 declare i32 @"_SM45java.util.Spliterators$AbstractIntSpliteratorD15characteristicsiEO"(ptr)
 
-declare dereferenceable_or_null(32) ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO"(ptr) inlinehint
-@"_SM13scala.Predef$G8instance" = external global { ptr }
-@"_SM42java.util.Spliterators$AbstractSpliteratorG4type" = external global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] }
-@"_SM33java.util.ArrayDeque$DeqIterator$G4type" = external global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] }
+declare dereferenceable_or_null(40) ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO"(ptr) inlinehint
+@"_SM13scala.Predef$G8instance" = external global { ptr, ptr }
+@"_SM42java.util.Spliterators$AbstractSpliteratorG4type" = external global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] }
+@"_SM33java.util.ArrayDeque$DeqIterator$G4type" = external global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] }
 
-declare ptr @"_SM35scala.scalanative.runtime.LazyVals$D17wait4NotificationR_jiuEO"(ptr, ptr, i64, i32)
+declare void @"_SM35scala.scalanative.runtime.LazyVals$D17wait4NotificationR_jiuEO"(ptr, ptr, i64, i32)
 
 declare i64 @"_SM35scala.scalanative.runtime.LazyVals$D3getR_jEO"(ptr, ptr) alwaysinline
-@"_SM23java.lang.AutoCloseableG4type" = external global { ptr, i32, i32, ptr, ptr }
-@"_SM16java.lang.ObjectG4type" = external global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] }
-@"_SM20java.util.ArrayDequeG4type" = external global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [7 x ptr] }
-@"_SM23java.util.Spliterators$G8instance" = external global { ptr }
+@"_SM23java.lang.AutoCloseableG4type" = external global { ptr, ptr, i32, i32, ptr, ptr }
+@"_SM16java.lang.ObjectG4type" = external global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] }
+@"_SM20java.util.ArrayDequeG4type" = external global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [7 x ptr] }
+@"_SM23java.util.Spliterators$G8instance" = external global { ptr, ptr }
 
 declare i1 @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO"(ptr, ptr) inlinehint
 
 declare i64 @"_SM45java.util.Spliterators$AbstractIntSpliteratorD12estimateSizejEO"(ptr)
 
 declare ptr @"scalanative_GC_alloc_small"(ptr, i64)
-@"_SM27java.util.stream.BaseStreamG4type" = hidden global { ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", i32 -2147482015, i32 1, ptr @"_SM7__constG1-0", ptr @"_SM7__constG1-2" }
-@"_SM26java.util.stream.IntStreamG4type" = hidden global { ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", i32 -2147482272, i32 2, ptr @"_SM7__constG1-3", ptr @"_SM7__constG1-5" }
-@"_SM34java.util.stream.IntStream$$anon$3G4type" = hidden global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", i32 986, i32 3, ptr @"_SM7__constG1-6", ptr @"_SM7__constG1-8" }, i32 56, i32 986, ptr @"_SM7__constG1-9", i32 3, ptr @"_SM7__constG2-12", ptr @"_SM45java.util.Spliterators$AbstractIntSpliteratorG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
-@"_SM44java.util.stream.IntStream$$anon$3$$Lambda$1G4type" = hidden global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", i32 1462, i32 1, ptr @"_SM7__constG2-13", ptr @"_SM7__constG2-15" }, i32 24, i32 1462, ptr @"_SM7__constG2-16", i32 0, ptr @"_SM7__constG2-18", ptr @"_SM16java.lang.ObjectG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
-@"_SM30java.util.stream.IntStreamImplG4type" = hidden global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", i32 1749, i32 3, ptr @"_SM7__constG2-19", ptr @"_SM7__constG2-21" }, i32 64, i32 1749, ptr @"_SM7__constG2-22", i32 15, ptr @"_SM7__constG2-23", ptr @"_SM16java.lang.ObjectG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
-@"_SM40java.util.stream.IntStreamImpl$$Lambda$8G4type" = hidden global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", i32 1378, i32 1, ptr @"_SM7__constG2-24", ptr @"_SM7__constG2-26" }, i32 16, i32 1378, ptr @"_SM7__constG2-27", i32 0, ptr @"_SM7__constG2-29", ptr @"_SM16java.lang.ObjectG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
-@"_SM23java.util.stream.StreamG4type" = hidden global { ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", i32 -2147483168, i32 2, ptr @"_SM7__constG1-3", ptr @"_SM7__constG2-31" }
-@"_SM27java.util.stream.StreamImplG4type" = hidden global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", i32 1369, i32 3, ptr @"_SM7__constG2-32", ptr @"_SM7__constG2-34" }, i32 56, i32 1369, ptr @"_SM7__constG2-35", i32 15, ptr @"_SM7__constG2-36", ptr @"_SM16java.lang.ObjectG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
-@"_SM28java.util.stream.StreamImpl$G4type" = hidden global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", i32 1282, i32 0, ptr @"_SM7__constG2-37", ptr @"_SM7__constG2-39" }, i32 8, i32 1282, ptr @"_SM7__constG2-40", i32 0, ptr @"_SM7__constG2-41", ptr @"_SM16java.lang.ObjectG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
-@"_SM28java.util.stream.StreamImpl$G8instance" = hidden global { ptr } { ptr @"_SM28java.util.stream.StreamImpl$G4type" }
-@"_SM35java.util.stream.StreamImpl$$anon$5G4type" = hidden global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", i32 379, i32 1, ptr @"_SM7__constG2-42", ptr @"_SM7__constG2-44" }, i32 48, i32 379, ptr @"_SM7__constG1-9", i32 0, ptr @"_SM7__constG2-46", ptr @"_SM42java.util.Spliterators$AbstractSpliteratorG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
-@"_SM45java.util.stream.StreamImpl$$anon$5$$Lambda$1G4type" = hidden global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", i32 129, i32 1, ptr @"_SM7__constG2-13", ptr @"_SM7__constG2-48" }, i32 24, i32 129, ptr @"_SM7__constG2-16", i32 0, ptr @"_SM7__constG2-50", ptr @"_SM16java.lang.ObjectG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
-@"_SM31java.util.stream.StreamSupport$G4type" = hidden global { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", i32 1445, i32 0, ptr @"_SM7__constG2-37", ptr @"_SM7__constG2-52" }, i32 8, i32 1445, ptr @"_SM7__constG2-40", i32 0, ptr @"_SM7__constG2-41", ptr @"_SM16java.lang.ObjectG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
-@"_SM31java.util.stream.StreamSupport$G8instance" = hidden global { ptr } { ptr @"_SM31java.util.stream.StreamSupport$G4type" }
+@"_SM27java.util.stream.BaseStreamG4type" = hidden global { ptr, ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", ptr null, i32 -2147481983, i32 1, ptr @"_SM7__constG1-0", ptr @"_SM7__constG1-2" }
+@"_SM26java.util.stream.IntStreamG4type" = hidden global { ptr, ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", ptr null, i32 -2147482240, i32 2, ptr @"_SM7__constG1-3", ptr @"_SM7__constG1-5" }
+@"_SM34java.util.stream.IntStream$$anon$3G4type" = hidden global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", ptr null, i32 258, i32 3, ptr @"_SM7__constG1-6", ptr @"_SM7__constG1-8" }, i32 64, i32 258, ptr @"_SM7__constG1-9", i32 3, ptr @"_SM7__constG2-12", ptr @"_SM45java.util.Spliterators$AbstractIntSpliteratorG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
+@"_SM44java.util.stream.IntStream$$anon$3$$Lambda$1G4type" = hidden global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", ptr null, i32 344, i32 1, ptr @"_SM7__constG2-13", ptr @"_SM7__constG2-15" }, i32 32, i32 344, ptr @"_SM7__constG2-16", i32 0, ptr @"_SM7__constG2-18", ptr @"_SM16java.lang.ObjectG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
+@"_SM30java.util.stream.IntStreamImplG4type" = hidden global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", ptr null, i32 1251, i32 3, ptr @"_SM7__constG2-19", ptr @"_SM7__constG2-21" }, i32 72, i32 1251, ptr @"_SM7__constG2-22", i32 15, ptr @"_SM7__constG2-23", ptr @"_SM16java.lang.ObjectG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
+@"_SM40java.util.stream.IntStreamImpl$$Lambda$8G4type" = hidden global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", ptr null, i32 1204, i32 1, ptr @"_SM7__constG2-24", ptr @"_SM7__constG2-26" }, i32 24, i32 1204, ptr @"_SM7__constG2-27", i32 0, ptr @"_SM7__constG2-29", ptr @"_SM16java.lang.ObjectG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
+@"_SM23java.util.stream.StreamG4type" = hidden global { ptr, ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", ptr null, i32 -2147483168, i32 2, ptr @"_SM7__constG1-3", ptr @"_SM7__constG2-31" }
+@"_SM27java.util.stream.StreamImplG4type" = hidden global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", ptr null, i32 1722, i32 3, ptr @"_SM7__constG2-32", ptr @"_SM7__constG2-34" }, i32 64, i32 1722, ptr @"_SM7__constG2-35", i32 15, ptr @"_SM7__constG2-36", ptr @"_SM16java.lang.ObjectG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
+@"_SM28java.util.stream.StreamImpl$G4type" = hidden global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", ptr null, i32 85, i32 0, ptr @"_SM7__constG2-37", ptr @"_SM7__constG2-39" }, i32 16, i32 85, ptr @"_SM7__constG2-40", i32 0, ptr @"_SM7__constG2-41", ptr @"_SM16java.lang.ObjectG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
+@"_SM28java.util.stream.StreamImpl$G8instance" = hidden global { ptr, ptr } { ptr @"_SM28java.util.stream.StreamImpl$G4type", ptr null }
+@"_SM35java.util.stream.StreamImpl$$anon$5G4type" = hidden global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", ptr null, i32 423, i32 1, ptr @"_SM7__constG2-42", ptr @"_SM7__constG2-44" }, i32 56, i32 423, ptr @"_SM7__constG1-9", i32 0, ptr @"_SM7__constG2-46", ptr @"_SM42java.util.Spliterators$AbstractSpliteratorG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
+@"_SM45java.util.stream.StreamImpl$$anon$5$$Lambda$1G4type" = hidden global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", ptr null, i32 975, i32 1, ptr @"_SM7__constG2-13", ptr @"_SM7__constG2-48" }, i32 32, i32 975, ptr @"_SM7__constG2-16", i32 0, ptr @"_SM7__constG2-50", ptr @"_SM16java.lang.ObjectG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
+@"_SM31java.util.stream.StreamSupport$G4type" = hidden global { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [3 x ptr] } { { ptr, ptr, i32, i32, ptr, ptr } { ptr @"_SM15java.lang.ClassG4type", ptr null, i32 1424, i32 0, ptr @"_SM7__constG2-37", ptr @"_SM7__constG2-52" }, i32 16, i32 1424, ptr @"_SM7__constG2-40", i32 0, ptr @"_SM7__constG2-41", ptr @"_SM16java.lang.ObjectG4type", [3 x ptr] [ ptr @"_SM16java.lang.ObjectD8hashCodeiEO", ptr @"_SM16java.lang.ObjectD8toStringL16java.lang.StringEO", ptr @"_SM16java.lang.ObjectD6equalsL16java.lang.ObjectzEO" ] }
+@"_SM31java.util.stream.StreamSupport$G8instance" = hidden global { ptr, ptr } { ptr @"_SM31java.util.stream.StreamSupport$G4type", ptr null }
 
-define nonnull dereferenceable(64) ptr @"_SM26java.util.stream.IntStreamD9takeWhileL31java.util.function.IntPredicateL26java.util.stream.IntStreamEO"(ptr %_1, ptr %_2) personality ptr @scalanative_personality {
+define nonnull dereferenceable(72) ptr @"_SM26java.util.stream.IntStreamD9takeWhileL31java.util.function.IntPredicateL26java.util.stream.IntStreamEO"(ptr %_1, ptr %_2) personality ptr @scalanative_personality {
 _3000000.0:
   %_13000004 = icmp ne ptr %_1, null
   br i1 %_13000004, label %_13000002.0, label %_13000003.0
 _13000002.0:
-  %_3000002 = call dereferenceable_or_null(8) ptr @"_SM18java.util.Objects$D14requireNonNullL16java.lang.ObjectL16java.lang.ObjectEO"(ptr nonnull dereferenceable(8) @"_SM18java.util.Objects$G8instance", ptr dereferenceable_or_null(8) %_2)
+  %_3000002 = call dereferenceable_or_null(16) ptr @"_SM18java.util.Objects$D14requireNonNullL16java.lang.ObjectL16java.lang.ObjectEO"(ptr nonnull dereferenceable(16) @"_SM18java.util.Objects$G8instance", ptr dereferenceable_or_null(16) %_2)
   %_4000001 = bitcast ptr %_1 to ptr
-  %_4000002 = call dereferenceable_or_null(8) ptr @"_SM30java.util.stream.IntStreamImplD11spliteratorL27java.util.Spliterator$OfIntEO"(ptr dereferenceable_or_null(64) %_4000001)
-  %_3000004 = call i32 @"_SM45java.util.Spliterators$AbstractIntSpliteratorD15characteristicsiEO"(ptr dereferenceable_or_null(8) %_4000002)
+  %_4000002 = call dereferenceable_or_null(16) ptr @"_SM30java.util.stream.IntStreamImplD11spliteratorL27java.util.Spliterator$OfIntEO"(ptr dereferenceable_or_null(72) %_4000001)
+  %_3000004 = call i32 @"_SM45java.util.Spliterators$AbstractIntSpliteratorD15characteristicsiEO"(ptr dereferenceable_or_null(16) %_4000002)
   %_13000008 = icmp eq ptr %_1, null
   br i1 %_13000008, label %_13000006.0, label %_13000005.0
 _13000005.0:
@@ -165,29 +165,29 @@ _13000006.0:
   %_13000012 = icmp ne ptr %_1, null
   br i1 %_13000012, label %_13000011.0, label %_13000003.0
 _13000011.0:
-  %_13000013 = getelementptr { { ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }, { { ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }* %_1, i32 0, i32 8
-  %_9000001 = load ptr, ptr %_13000013, !dereferenceable_or_null !{i64 32}
-  %_10000001 = call dereferenceable_or_null(64) ptr @"scalanative_GC_alloc_small"(ptr @"_SM30java.util.stream.IntStreamImplG4type", i64 64)
-  %_13000015 = getelementptr { { ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }, { { ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }* %_10000001, i32 0, i32 8
-  store ptr %_9000001, ptr%_13000015, align 8
-  call void @"_SM20java.util.ArrayDequeD7addLastL16java.lang.ObjectuEO"(ptr dereferenceable_or_null(32) %_9000001, ptr nonnull dereferenceable(64) %_10000001)
-  %_12000001 = call dereferenceable_or_null(56) ptr @"scalanative_GC_alloc_small"(ptr @"_SM34java.util.stream.IntStream$$anon$3G4type", i64 56)
-  %_13000018 = getelementptr { { ptr }, i32, i64, i64 }, { { ptr }, i32, i64, i64 }* %_12000001, i32 0, i32 3
-  store i64 1, ptr%_13000018, align 8
-  %_13000020 = getelementptr { { ptr }, i32, i64, i64 }, { { ptr }, i32, i64, i64 }* %_12000001, i32 0, i32 2
-  store i64 9223372036854775807, ptr%_13000020, align 8
+  %_13000013 = getelementptr { { ptr, ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }, { { ptr, ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }* %_1, i32 0, i32 8
+  %_9000001 = load atomic ptr, ptr %_13000013 unordered, align 8
+  %_10000001 = call dereferenceable_or_null(72) ptr @"scalanative_GC_alloc_small"(ptr @"_SM30java.util.stream.IntStreamImplG4type", i64 72)
+  %_13000015 = getelementptr { { ptr, ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }, { { ptr, ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }* %_10000001, i32 0, i32 8
+  store atomic ptr %_9000001, ptr%_13000015 unordered, align 8
+  call void @"_SM20java.util.ArrayDequeD7addLastL16java.lang.ObjectuEO"(ptr dereferenceable_or_null(40) %_9000001, ptr nonnull dereferenceable(72) %_10000001)
+  %_12000001 = call dereferenceable_or_null(64) ptr @"scalanative_GC_alloc_small"(ptr @"_SM34java.util.stream.IntStream$$anon$3G4type", i64 64)
+  %_13000018 = getelementptr { { ptr, ptr }, i32, i64, i64 }, { { ptr, ptr }, i32, i64, i64 }* %_12000001, i32 0, i32 3
+  store atomic i64 1, ptr%_13000018 unordered, align 8
+  %_13000020 = getelementptr { { ptr, ptr }, i32, i64, i64 }, { { ptr, ptr }, i32, i64, i64 }* %_12000001, i32 0, i32 2
+  store atomic i64 9223372036854775807, ptr%_13000020 unordered, align 8
   %_12000004 = and i32 %_3000004, -16449
-  %_13000022 = getelementptr { { ptr }, i32, i64, i64 }, { { ptr }, i32, i64, i64 }* %_12000001, i32 0, i32 1
-  store i32 %_12000004, ptr%_13000022, align 4
-  %_13000024 = getelementptr { { ptr }, i32, i64, i64, ptr, ptr, i1 }, { { ptr }, i32, i64, i64, ptr, ptr, i1 }* %_12000001, i32 0, i32 5
-  store ptr %_4000002, ptr%_13000024, align 8
-  %_13000026 = getelementptr { { ptr }, i32, i64, i64, ptr, ptr, i1 }, { { ptr }, i32, i64, i64, ptr, ptr, i1 }* %_12000001, i32 0, i32 4
-  store ptr %_2, ptr%_13000026, align 8
-  %_13000028 = getelementptr { { ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }, { { ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }* %_10000001, i32 0, i32 2
-  store ptr %_12000001, ptr%_13000028, align 8
-  %_13000030 = getelementptr { { ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }, { { ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }* %_10000001, i32 0, i32 1
+  %_13000022 = getelementptr { { ptr, ptr }, i32, i64, i64 }, { { ptr, ptr }, i32, i64, i64 }* %_12000001, i32 0, i32 1
+  store atomic i32 %_12000004, ptr%_13000022 unordered, align 4
+  %_13000024 = getelementptr { { ptr, ptr }, i32, i64, i64, ptr, ptr, i1 }, { { ptr, ptr }, i32, i64, i64, ptr, ptr, i1 }* %_12000001, i32 0, i32 5
+  store atomic ptr %_4000002, ptr%_13000024 unordered, align 8
+  %_13000026 = getelementptr { { ptr, ptr }, i32, i64, i64, ptr, ptr, i1 }, { { ptr, ptr }, i32, i64, i64, ptr, ptr, i1 }* %_12000001, i32 0, i32 4
+  store atomic ptr %_2, ptr%_13000026 unordered, align 8
+  %_13000028 = getelementptr { { ptr, ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }, { { ptr, ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }* %_10000001, i32 0, i32 2
+  store atomic ptr %_12000001, ptr%_13000028 unordered, align 8
+  %_13000030 = getelementptr { { ptr, ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }, { { ptr, ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }* %_10000001, i32 0, i32 1
   %_13000031 = zext i1 false to i8
-  store i8 %_13000031, ptr%_13000030, align 1
+  store atomic i8 %_13000031, ptr%_13000030 unordered, align 1
   ret ptr %_10000001
 _13000003.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
@@ -205,34 +205,34 @@ _3000000.0:
   %_7000004 = icmp ne ptr %_1, null
   br i1 %_7000004, label %_7000002.0, label %_7000003.0
 _7000002.0:
-  %_7000005 = getelementptr { { ptr }, i32, i64, i64, ptr, ptr, i1 }, { { ptr }, i32, i64, i64, ptr, ptr, i1 }* %_1, i32 0, i32 6
-  %_7000006 = load i8, ptr %_7000005
+  %_7000005 = getelementptr { { ptr, ptr }, i32, i64, i64, ptr, ptr, i1 }, { { ptr, ptr }, i32, i64, i64, ptr, ptr, i1 }* %_1, i32 0, i32 6
+  %_7000006 = load atomic i8, ptr %_7000005 unordered, align 1
   %_4000001 = trunc i8 %_7000006 to i1
   br i1 %_4000001, label %_5000000.0, label %_6000000.0
 _5000000.0:
   br label %_7000000.0
 _6000000.0:
-  %_7000007 = getelementptr { { ptr }, i32, i64, i64, ptr, ptr, i1 }, { { ptr }, i32, i64, i64, ptr, ptr, i1 }* %_1, i32 0, i32 5
-  %_6000001 = load ptr, ptr %_7000007, !dereferenceable_or_null !{i64 8}
+  %_7000007 = getelementptr { { ptr, ptr }, i32, i64, i64, ptr, ptr, i1 }, { { ptr, ptr }, i32, i64, i64, ptr, ptr, i1 }* %_1, i32 0, i32 5
+  %_6000001 = load atomic ptr, ptr %_7000007 unordered, align 8
   %_7000009 = icmp ne ptr %_6000001, null
   br i1 %_7000009, label %_7000008.0, label %_7000003.0
 _7000008.0:
   %_7000010 = load ptr, ptr %_6000001
-  %_7000011 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_7000010, i32 0, i32 4
+  %_7000011 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_7000010, i32 0, i32 4
   %_7000012 = load i32, ptr %_7000011
-  %_7000013 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_7000010, i32 0, i32 5
+  %_7000013 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_7000010, i32 0, i32 5
   %_7000014 = load ptr, ptr %_7000013
   %_7000015 = and i32 -2147482847, %_7000012
   %_7000016 = getelementptr { i32, ptr }, { i32, ptr }* %_7000014, i32 %_7000015, i32 1
   %_7000017 = load ptr, ptr %_7000016
   %_7000018 = getelementptr ptr, ptr %_7000017, i32 2
   %_6000004 = load ptr, ptr %_7000018
-  %_6000005 = call dereferenceable_or_null(24) ptr @"scalanative_GC_alloc_small"(ptr @"_SM44java.util.stream.IntStream$$anon$3$$Lambda$1G4type", i64 24)
-  %_7000020 = getelementptr { { ptr }, ptr, ptr }, { { ptr }, ptr, ptr }* %_6000005, i32 0, i32 2
-  store ptr %_2, ptr%_7000020, align 8
-  %_7000022 = getelementptr { { ptr }, ptr, ptr }, { { ptr }, ptr, ptr }* %_6000005, i32 0, i32 1
-  store ptr %_1, ptr%_7000022, align 8
-  %_6000008 = call i1 %_6000004(ptr dereferenceable_or_null(8) %_6000001, ptr nonnull dereferenceable(24) %_6000005)
+  %_6000005 = call dereferenceable_or_null(32) ptr @"scalanative_GC_alloc_small"(ptr @"_SM44java.util.stream.IntStream$$anon$3$$Lambda$1G4type", i64 32)
+  %_7000020 = getelementptr { { ptr, ptr }, ptr, ptr }, { { ptr, ptr }, ptr, ptr }* %_6000005, i32 0, i32 2
+  store atomic ptr %_2, ptr%_7000020 unordered, align 8
+  %_7000022 = getelementptr { { ptr, ptr }, ptr, ptr }, { { ptr, ptr }, ptr, ptr }* %_6000005, i32 0, i32 1
+  store atomic ptr %_1, ptr%_7000022 unordered, align 8
+  %_6000008 = call i1 %_6000004(ptr dereferenceable_or_null(16) %_6000001, ptr nonnull dereferenceable(32) %_6000005)
   br label %_7000000.0
 _7000000.0:
   %_7000001 = phi i1 [%_6000008, %_7000008.0], [false, %_5000000.0]
@@ -247,33 +247,33 @@ _4000000.0:
   %_8000003 = icmp ne ptr %_1, null
   br i1 %_8000003, label %_8000001.0, label %_8000002.0
 _8000001.0:
-  %_8000004 = getelementptr { { ptr }, i32, i64, i64, ptr, ptr, i1 }, { { ptr }, i32, i64, i64, ptr, ptr, i1 }* %_1, i32 0, i32 4
-  %_4000001 = load ptr, ptr %_8000004, !dereferenceable_or_null !{i64 8}
-  %_4000004 = call i32 @"_SM13scala.Predef$D11Integer2intL17java.lang.IntegeriEO"(ptr nonnull dereferenceable(8) @"_SM13scala.Predef$G8instance", ptr dereferenceable_or_null(16) %_3)
-  %_4000005 = call i1 @"_SM31java.math.Conversion$$$Lambda$1D4testizEO"(ptr dereferenceable_or_null(8) %_4000001, i32 %_4000004)
+  %_8000004 = getelementptr { { ptr, ptr }, i32, i64, i64, ptr, ptr, i1 }, { { ptr, ptr }, i32, i64, i64, ptr, ptr, i1 }* %_1, i32 0, i32 4
+  %_4000001 = load atomic ptr, ptr %_8000004 unordered, align 8
+  %_4000004 = call i32 @"_SM13scala.Predef$D11Integer2intL17java.lang.IntegeriEO"(ptr nonnull dereferenceable(16) @"_SM13scala.Predef$G8instance", ptr dereferenceable_or_null(24) %_3)
+  %_4000005 = call i1 @"_SM31java.math.Conversion$$$Lambda$1D4testizEO"(ptr dereferenceable_or_null(16) %_4000001, i32 %_4000004)
   %_4000007 = xor i1 %_4000005, true
   br i1 %_4000007, label %_5000000.0, label %_6000000.0
 _5000000.0:
-  %_8000006 = getelementptr { { ptr }, i32, i64, i64, ptr, ptr, i1 }, { { ptr }, i32, i64, i64, ptr, ptr, i1 }* %_1, i32 0, i32 6
+  %_8000006 = getelementptr { { ptr, ptr }, i32, i64, i64, ptr, ptr, i1 }, { { ptr, ptr }, i32, i64, i64, ptr, ptr, i1 }* %_1, i32 0, i32 6
   %_8000007 = zext i1 true to i8
-  store i8 %_8000007, ptr%_8000006, align 1
+  store atomic i8 %_8000007, ptr%_8000006 unordered, align 1
   br label %_8000000.0
 _6000000.0:
-  %_6000001 = call i32 @"_SM13scala.Predef$D11Integer2intL17java.lang.IntegeriEO"(ptr nonnull dereferenceable(8) @"_SM13scala.Predef$G8instance", ptr dereferenceable_or_null(16) %_3)
+  %_6000001 = call i32 @"_SM13scala.Predef$D11Integer2intL17java.lang.IntegeriEO"(ptr nonnull dereferenceable(16) @"_SM13scala.Predef$G8instance", ptr dereferenceable_or_null(24) %_3)
   %_8000009 = icmp ne ptr %_2, null
   br i1 %_8000009, label %_8000008.0, label %_8000002.0
 _8000008.0:
   %_8000010 = load ptr, ptr %_2
-  %_8000011 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_8000010, i32 0, i32 4
+  %_8000011 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_8000010, i32 0, i32 4
   %_8000012 = load i32, ptr %_8000011
-  %_8000013 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_8000010, i32 0, i32 5
+  %_8000013 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_8000010, i32 0, i32 5
   %_8000014 = load ptr, ptr %_8000013
-  %_8000015 = and i32 -2147481312, %_8000012
+  %_8000015 = and i32 -2147481280, %_8000012
   %_8000016 = getelementptr { i32, ptr }, { i32, ptr }* %_8000014, i32 %_8000015, i32 1
   %_8000017 = load ptr, ptr %_8000016
   %_8000018 = getelementptr ptr, ptr %_8000017, i32 0
   %_6000003 = load ptr, ptr %_8000018
-  call void %_6000003(ptr dereferenceable_or_null(8) %_2, i32 %_6000001)
+  call void %_6000003(ptr dereferenceable_or_null(16) %_2, i32 %_6000001)
   br label %_8000000.0
 _8000000.0:
   ret void
@@ -287,38 +287,38 @@ _3000000.0:
   %_3000008 = icmp ne ptr %_1, null
   br i1 %_3000008, label %_3000006.0, label %_3000007.0
 _3000006.0:
-  %_3000009 = getelementptr { { ptr }, ptr, ptr }, { { ptr }, ptr, ptr }* %_1, i32 0, i32 1
-  %_3000002 = load ptr, ptr %_3000009, !dereferenceable_or_null !{i64 56}
-  %_3000010 = getelementptr { { ptr }, ptr, ptr }, { { ptr }, ptr, ptr }* %_1, i32 0, i32 2
-  %_3000003 = load ptr, ptr %_3000010, !dereferenceable_or_null !{i64 8}
+  %_3000009 = getelementptr { { ptr, ptr }, ptr, ptr }, { { ptr, ptr }, ptr, ptr }* %_1, i32 0, i32 1
+  %_3000002 = load atomic ptr, ptr %_3000009 unordered, align 8
+  %_3000010 = getelementptr { { ptr, ptr }, ptr, ptr }, { { ptr, ptr }, ptr, ptr }* %_1, i32 0, i32 2
+  %_3000003 = load atomic ptr, ptr %_3000010 unordered, align 8
   %_3000004 = bitcast ptr %_2 to ptr
-  call void @"_SM34java.util.stream.IntStream$$anon$3D21tryAdvance$$anonfun$2L30java.util.function.IntConsumerL17java.lang.IntegeruEPT34java.util.stream.IntStream$$anon$3"(ptr dereferenceable_or_null(56) %_3000002, ptr dereferenceable_or_null(8) %_3000003, ptr dereferenceable_or_null(16) %_3000004)
+  call void @"_SM34java.util.stream.IntStream$$anon$3D21tryAdvance$$anonfun$2L30java.util.function.IntConsumerL17java.lang.IntegeruEPT34java.util.stream.IntStream$$anon$3"(ptr dereferenceable_or_null(64) %_3000002, ptr dereferenceable_or_null(16) %_3000003, ptr dereferenceable_or_null(24) %_3000004)
   ret void
 _3000007.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
   unreachable
 }
 
-define dereferenceable_or_null(8) ptr @"_SM30java.util.stream.IntStreamImplD11_spliterArgL27java.util.Spliterator$OfIntEO"(ptr %_1) alwaysinline personality ptr @scalanative_personality {
+define dereferenceable_or_null(16) ptr @"_SM30java.util.stream.IntStreamImplD11_spliterArgL27java.util.Spliterator$OfIntEO"(ptr %_1) alwaysinline personality ptr @scalanative_personality {
 _2000000.0:
   %_2000004 = icmp ne ptr %_1, null
   br i1 %_2000004, label %_2000002.0, label %_2000003.0
 _2000002.0:
-  %_2000005 = getelementptr { { ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }, { { ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }* %_1, i32 0, i32 2
-  %_2000001 = load ptr, ptr %_2000005, !dereferenceable_or_null !{i64 8}
+  %_2000005 = getelementptr { { ptr, ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }, { { ptr, ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }* %_1, i32 0, i32 2
+  %_2000001 = load atomic ptr, ptr %_2000005 unordered, align 8
   ret ptr %_2000001
 _2000003.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
   unreachable
 }
 
-define dereferenceable_or_null(8) ptr @"_SM30java.util.stream.IntStreamImplD11spliteratorL27java.util.Spliterator$OfIntEO"(ptr %_1) personality ptr @scalanative_personality {
+define dereferenceable_or_null(16) ptr @"_SM30java.util.stream.IntStreamImplD11spliteratorL27java.util.Spliterator$OfIntEO"(ptr %_1) personality ptr @scalanative_personality {
 _2.0:
   %_9 = icmp ne ptr %_1, null
   br i1 %_9, label %_7.0, label %_8.0
 _7.0:
-  call void @"_SM30java.util.stream.IntStreamImplD17commenceOperationuEO"(ptr dereferenceable_or_null(64) %_1)
-  %_6 = call dereferenceable_or_null(8) ptr @"_SM30java.util.stream.IntStreamImplD8_spliterL27java.util.Spliterator$OfIntEO"(ptr dereferenceable_or_null(64) %_1)
+  call void @"_SM30java.util.stream.IntStreamImplD17commenceOperationuEO"(ptr dereferenceable_or_null(72) %_1)
+  %_6 = call dereferenceable_or_null(16) ptr @"_SM30java.util.stream.IntStreamImplD8_spliterL27java.util.Spliterator$OfIntEO"(ptr dereferenceable_or_null(72) %_1)
   ret ptr %_6
 _8.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
@@ -330,11 +330,11 @@ _3000000.0:
   %_3000007 = icmp ne ptr %_1, null
   br i1 %_3000007, label %_3000005.0, label %_3000006.0
 _3000005.0:
-  %_3000008 = getelementptr { { ptr }, i64 }, { { ptr }, i64 }* %_1, i32 0, i32 1
-  %_3000001 = load i64, ptr %_3000008
+  %_3000008 = getelementptr { { ptr, ptr }, i64 }, { { ptr, ptr }, i64 }* %_1, i32 0, i32 1
+  %_3000001 = load atomic i64, ptr %_3000008 unordered, align 8
   %_3000003 = add i64 %_3000001, 1
-  %_3000010 = getelementptr { { ptr }, i64 }, { { ptr }, i64 }* %_1, i32 0, i32 1
-  store i64 %_3000003, ptr%_3000010, align 8
+  %_3000010 = getelementptr { { ptr, ptr }, i64 }, { { ptr, ptr }, i64 }* %_1, i32 0, i32 1
+  store atomic i64 %_3000003, ptr%_3000010 unordered, align 8
   ret void
 _3000006.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
@@ -346,29 +346,29 @@ _2000000.0:
   %_11000004 = icmp ne ptr %_1, null
   br i1 %_11000004, label %_11000002.0, label %_11000003.0
 _11000002.0:
-  %_11000005 = getelementptr { { ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }, { { ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }* %_1, i32 0, i32 7
-  %_11000006 = load i8, ptr %_11000005
+  %_11000005 = getelementptr { { ptr, ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }, { { ptr, ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }* %_1, i32 0, i32 7
+  %_11000006 = load atomic i8, ptr %_11000005 unordered, align 1
   %_3000001 = trunc i8 %_11000006 to i1
   br i1 %_3000001, label %_4000000.0, label %_5000000.0
 _4000000.0:
   br label %_6000000.0
 _5000000.0:
-  %_11000007 = getelementptr { { ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }, { { ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }* %_1, i32 0, i32 6
-  %_11000008 = load i8, ptr %_11000007
+  %_11000007 = getelementptr { { ptr, ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }, { { ptr, ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }* %_1, i32 0, i32 6
+  %_11000008 = load atomic i8, ptr %_11000007 unordered, align 1
   %_7000001 = trunc i8 %_11000008 to i1
   br label %_6000000.0
 _6000000.0:
   %_6000001 = phi i1 [%_7000001, %_5000000.0], [true, %_4000000.0]
   br i1 %_6000001, label %_8000000.0, label %_9000000.0
 _8000000.0:
-  call void @"_SM28java.util.stream.StreamImpl$D26throwIllegalStateExceptionuEO"(ptr nonnull dereferenceable(8) @"_SM28java.util.stream.StreamImpl$G8instance")
+  call void @"_SM28java.util.stream.StreamImpl$D26throwIllegalStateExceptionuEO"(ptr nonnull dereferenceable(16) @"_SM28java.util.stream.StreamImpl$G8instance")
   br label %_10000000.0
 _9000000.0:
   br label %_10000000.0
 _10000000.0:
-  %_11000011 = getelementptr { { ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }, { { ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }* %_1, i32 0, i32 7
+  %_11000011 = getelementptr { { ptr, ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }, { { ptr, ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }* %_1, i32 0, i32 7
   %_11000012 = zext i1 true to i8
-  store i8 %_11000012, ptr%_11000011, align 1
+  store atomic i8 %_11000012, ptr%_11000011 unordered, align 1
   ret void
 _11000003.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
@@ -380,27 +380,27 @@ _2.0:
   %_15 = icmp ne ptr %_1, null
   br i1 %_15, label %_13.0, label %_14.0
 _13.0:
-  call void @"_SM30java.util.stream.IntStreamImplD17commenceOperationuEO"(ptr dereferenceable_or_null(64) %_1)
-  %_5 = call dereferenceable_or_null(16) ptr @"_SM21scala.runtime.LongRefD6createjL21scala.runtime.LongRefEo"(i64 0)
-  %_7 = call dereferenceable_or_null(8) ptr @"_SM30java.util.stream.IntStreamImplD8_spliterL27java.util.Spliterator$OfIntEO"(ptr dereferenceable_or_null(64) %_1)
-  %_8 = call dereferenceable_or_null(16) ptr @"scalanative_GC_alloc_small"(ptr @"_SM40java.util.stream.IntStreamImpl$$Lambda$8G4type", i64 16)
-  call void @"_SM40java.util.stream.IntStreamImpl$$Lambda$8RL21scala.runtime.LongRefE"(ptr nonnull dereferenceable(16) %_8, ptr dereferenceable_or_null(16) %_5)
+  call void @"_SM30java.util.stream.IntStreamImplD17commenceOperationuEO"(ptr dereferenceable_or_null(72) %_1)
+  %_5 = call dereferenceable_or_null(24) ptr @"_SM21scala.runtime.LongRefD6createjL21scala.runtime.LongRefEo"(i64 0)
+  %_7 = call dereferenceable_or_null(16) ptr @"_SM30java.util.stream.IntStreamImplD8_spliterL27java.util.Spliterator$OfIntEO"(ptr dereferenceable_or_null(72) %_1)
+  %_8 = call dereferenceable_or_null(24) ptr @"scalanative_GC_alloc_small"(ptr @"_SM40java.util.stream.IntStreamImpl$$Lambda$8G4type", i64 24)
+  call void @"_SM40java.util.stream.IntStreamImpl$$Lambda$8RL21scala.runtime.LongRefE"(ptr nonnull dereferenceable(24) %_8, ptr dereferenceable_or_null(24) %_5)
   %_19 = icmp ne ptr %_7, null
   br i1 %_19, label %_18.0, label %_14.0
 _18.0:
-  call void @"_SM45java.util.Spliterators$AbstractIntSpliteratorD16forEachRemainingL30java.util.function.IntConsumeruEO"(ptr dereferenceable_or_null(8) %_7, ptr nonnull dereferenceable(16) %_8)
+  call void @"_SM45java.util.Spliterators$AbstractIntSpliteratorD16forEachRemainingL30java.util.function.IntConsumeruEO"(ptr dereferenceable_or_null(16) %_7, ptr nonnull dereferenceable(24) %_8)
   %_22 = icmp ne ptr %_5, null
   br i1 %_22, label %_21.0, label %_14.0
 _21.0:
-  %_23 = getelementptr { { ptr }, i64 }, { { ptr }, i64 }* %_5, i32 0, i32 1
-  %_12 = load i64, ptr %_23
+  %_23 = getelementptr { { ptr, ptr }, i64 }, { { ptr, ptr }, i64 }* %_5, i32 0, i32 1
+  %_12 = load atomic i64, ptr %_23 unordered, align 8
   ret i64 %_12
 _14.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
   unreachable
 }
 
-define dereferenceable_or_null(8) ptr @"_SM30java.util.stream.IntStreamImplD8_spliterL27java.util.Spliterator$OfIntEO"(ptr %_1) alwaysinline personality ptr @scalanative_personality {
+define dereferenceable_or_null(16) ptr @"_SM30java.util.stream.IntStreamImplD8_spliterL27java.util.Spliterator$OfIntEO"(ptr %_1) alwaysinline personality ptr @scalanative_personality {
 _2.0:
   br label %_3.0
 _3.0:
@@ -409,75 +409,75 @@ _4.0:
   %_96 = icmp ne ptr %_1, null
   br i1 %_96, label %_94.0, label %_95.0
 _94.0:
-  %_97 = getelementptr { { ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }, { { ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }* %_1, i32 0, i32 5
-  %_9 = call i64 @"_SM35scala.scalanative.runtime.LazyVals$D3getR_jEO"(ptr nonnull dereferenceable(8) @"_SM35scala.scalanative.runtime.LazyVals$G8instance", ptr %_97)
-  %_12 = call i64 @"_SM23scala.runtime.LazyVals$D5STATEjijEO"(ptr nonnull dereferenceable(8) @"_SM23scala.runtime.LazyVals$G8instance", i64 %_9, i32 0)
+  %_97 = getelementptr { { ptr, ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }, { { ptr, ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }* %_1, i32 0, i32 5
+  %_9 = call i64 @"_SM35scala.scalanative.runtime.LazyVals$D3getR_jEO"(ptr nonnull dereferenceable(16) @"_SM35scala.scalanative.runtime.LazyVals$G8instance", ptr %_97)
+  %_12 = call i64 @"_SM23scala.runtime.LazyVals$D5STATEjijEO"(ptr nonnull dereferenceable(16) @"_SM23scala.runtime.LazyVals$G8instance", i64 %_9, i32 0)
   %_17 = sext i32 3 to i64
   %_18 = icmp eq i64 %_12, %_17
   br i1 %_18, label %_13.0, label %_14.0
 _13.0:
-  %_98 = getelementptr { { ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }, { { ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }* %_1, i32 0, i32 4
-  %_19 = load ptr, ptr %_98, !dereferenceable_or_null !{i64 8}
+  %_98 = getelementptr { { ptr, ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }, { { ptr, ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }* %_1, i32 0, i32 4
+  %_19 = load atomic ptr, ptr %_98 unordered, align 8
   ret ptr %_19
 _14.0:
   %_25 = sext i32 0 to i64
   %_26 = icmp eq i64 %_12, %_25
   br i1 %_26, label %_21.0, label %_22.0
 _21.0:
-  %_99 = getelementptr { { ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }, { { ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }* %_1, i32 0, i32 5
-  %_34 = call i1 @"_SM35scala.scalanative.runtime.LazyVals$D3CASR_jiizEO"(ptr nonnull dereferenceable(8) @"_SM35scala.scalanative.runtime.LazyVals$G8instance", ptr %_99, i64 %_9, i32 1, i32 0)
+  %_99 = getelementptr { { ptr, ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }, { { ptr, ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }* %_1, i32 0, i32 5
+  %_34 = call i1 @"_SM35scala.scalanative.runtime.LazyVals$D3CASR_jiizEO"(ptr nonnull dereferenceable(16) @"_SM35scala.scalanative.runtime.LazyVals$G8instance", ptr %_99, i64 %_9, i32 1, i32 0)
   br i1 %_34, label %_27.0, label %_28.0
 _27.0:
   br label %_36.0
 _36.0:
-  %_47 = invoke dereferenceable_or_null(8) ptr @"_SM30java.util.stream.IntStreamImplD11_spliterArgL27java.util.Spliterator$OfIntEO"(ptr dereferenceable_or_null(64) %_1) to label %_36.1 unwind label %_103.landingpad
+  %_47 = invoke dereferenceable_or_null(16) ptr @"_SM30java.util.stream.IntStreamImplD11_spliterArgL27java.util.Spliterator$OfIntEO"(ptr dereferenceable_or_null(72) %_1) to label %_36.1 unwind label %_103.landingpad
 _36.1:
   %_49 = icmp eq ptr %_47, null
   %_51 = xor i1 true, %_49
   br i1 %_51, label %_40.0, label %_41.0
 _40.0:
-  %_55 = invoke dereferenceable_or_null(8) ptr @"_SM30java.util.stream.IntStreamImplD11_spliterArgL27java.util.Spliterator$OfIntEO"(ptr dereferenceable_or_null(64) %_1) to label %_40.1 unwind label %_111.landingpad
+  %_55 = invoke dereferenceable_or_null(16) ptr @"_SM30java.util.stream.IntStreamImplD11_spliterArgL27java.util.Spliterator$OfIntEO"(ptr dereferenceable_or_null(72) %_1) to label %_40.1 unwind label %_111.landingpad
 _40.1:
   br label %_42.0
 _41.0:
-  %_59 = invoke dereferenceable_or_null(8) ptr @"_SM30java.util.stream.IntStreamImplD9_supplierL27java.util.function.SupplierEO"(ptr dereferenceable_or_null(64) %_1) to label %_41.1 unwind label %_115.landingpad
+  %_59 = invoke dereferenceable_or_null(16) ptr @"_SM30java.util.stream.IntStreamImplD9_supplierL27java.util.function.SupplierEO"(ptr dereferenceable_or_null(72) %_1) to label %_41.1 unwind label %_115.landingpad
 _41.1:
   %_120 = icmp ne ptr %_59, null
   br i1 %_120, label %_117.0, label %_118.0
 _117.0:
   %_122 = load ptr, ptr %_59
-  %_124 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_122, i32 0, i32 4
+  %_124 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_122, i32 0, i32 4
   %_126 = load i32, ptr %_124
-  %_128 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_122, i32 0, i32 5
+  %_128 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_122, i32 0, i32 5
   %_130 = load ptr, ptr %_128
-  %_132 = and i32 -2147479584, %_126
+  %_132 = and i32 -2147479424, %_126
   %_134 = getelementptr { i32, ptr }, { i32, ptr }* %_130, i32 %_132, i32 1
   %_136 = load ptr, ptr %_134
   %_138 = getelementptr ptr, ptr %_136, i32 0
   %_61 = load ptr, ptr %_138
-  %_63 = invoke dereferenceable_or_null(8) ptr %_61(ptr dereferenceable_or_null(8) %_59) to label %_117.1 unwind label %_141.landingpad
+  %_63 = invoke dereferenceable_or_null(16) ptr %_61(ptr dereferenceable_or_null(16) %_59) to label %_117.1 unwind label %_141.landingpad
 _117.1:
   %_147 = icmp eq ptr %_63, null
   br i1 %_147, label %_144.0, label %_143.0
 _143.0:
   %_149 = load ptr, ptr %_63
-  %_151 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_149, i32 0, i32 4
+  %_151 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_149, i32 0, i32 4
   %_153 = load i32, ptr %_151
-  %_156 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_149, i32 0, i32 5
+  %_156 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_149, i32 0, i32 5
   %_158 = load ptr, ptr %_156
-  %_160 = and i32 -2147481728, %_153
+  %_160 = and i32 -2147481696, %_153
   %_162 = getelementptr { i32, ptr }, { i32, ptr }* %_158, i32 %_160, i32 0
   %_164 = load i32, ptr %_162
-  %_166 = icmp eq i32 -2147481728, %_164
+  %_166 = icmp eq i32 -2147481696, %_164
   br i1 %_166, label %_144.0, label %_145.0
 _144.0:
   br label %_42.0
 _42.0:
   %_43 = phi ptr [%_63, %_144.0], [%_55, %_40.1]
-  %_171 = getelementptr { { ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }, { { ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }* %_1, i32 0, i32 4
-  store ptr %_43, ptr%_171, align 8
-  %_178 = getelementptr { { ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }, { { ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }* %_1, i32 0, i32 5
-  invoke void @"_SM35scala.scalanative.runtime.LazyVals$D7setFlagR_iiuEO"(ptr nonnull dereferenceable(8) @"_SM35scala.scalanative.runtime.LazyVals$G8instance", ptr %_178, i32 3, i32 0) to label %_42.1 unwind label %_184.landingpad
+  %_171 = getelementptr { { ptr, ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }, { { ptr, ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }* %_1, i32 0, i32 4
+  store atomic ptr %_43, ptr%_171 unordered, align 8
+  %_178 = getelementptr { { ptr, ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }, { { ptr, ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }* %_1, i32 0, i32 5
+  invoke void @"_SM35scala.scalanative.runtime.LazyVals$D7setFlagR_iiuEO"(ptr nonnull dereferenceable(16) @"_SM35scala.scalanative.runtime.LazyVals$G8instance", ptr %_178, i32 3, i32 0) to label %_42.1 unwind label %_184.landingpad
 _42.1:
   ret ptr %_43
 _35.0:
@@ -488,10 +488,10 @@ _186.0:
   br label %_188.0
 _187.0:
   %_190 = load ptr, ptr %_38
-  %_191 = getelementptr { ptr, i32, i32, ptr, ptr }, { ptr, i32, i32, ptr, ptr }* %_190, i32 0, i32 1
+  %_191 = getelementptr { ptr, ptr, i32, i32, ptr, ptr }, { ptr, ptr, i32, i32, ptr, ptr }* %_190, i32 0, i32 2
   %_192 = load i32, ptr %_191
-  %_193 = icmp sle i32 384, %_192
-  %_194 = icmp sle i32 %_192, 453
+  %_193 = icmp sle i32 1122, %_192
+  %_194 = icmp sle i32 %_192, 1197
   %_195 = and i1 %_193, %_194
   br label %_188.0
 _188.0:
@@ -502,33 +502,33 @@ _78.0:
   br i1 %_199, label %_197.0, label %_196.0
 _196.0:
   %_200 = load ptr, ptr %_38
-  %_201 = getelementptr { ptr, i32, i32, ptr, ptr }, { ptr, i32, i32, ptr, ptr }* %_200, i32 0, i32 1
+  %_201 = getelementptr { ptr, ptr, i32, i32, ptr, ptr }, { ptr, ptr, i32, i32, ptr, ptr }* %_200, i32 0, i32 2
   %_202 = load i32, ptr %_201
-  %_203 = icmp sle i32 384, %_202
-  %_204 = icmp sle i32 %_202, 453
+  %_203 = icmp sle i32 1122, %_202
+  %_204 = icmp sle i32 %_202, 1197
   %_205 = and i1 %_203, %_204
   br i1 %_205, label %_197.0, label %_198.0
 _197.0:
-  %_206 = getelementptr { { ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }, { { ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }* %_1, i32 0, i32 5
-  call void @"_SM35scala.scalanative.runtime.LazyVals$D7setFlagR_iiuEO"(ptr nonnull dereferenceable(8) @"_SM35scala.scalanative.runtime.LazyVals$G8instance", ptr %_206, i32 0, i32 0)
+  %_206 = getelementptr { { ptr, ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }, { { ptr, ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }* %_1, i32 0, i32 5
+  call void @"_SM35scala.scalanative.runtime.LazyVals$D7setFlagR_iiuEO"(ptr nonnull dereferenceable(16) @"_SM35scala.scalanative.runtime.LazyVals$G8instance", ptr %_206, i32 0, i32 0)
   %_209 = icmp ne ptr %_38, null
   br i1 %_209, label %_208.0, label %_95.0
 _208.0:
-  call ptr @"scalanative_throw"(ptr dereferenceable_or_null(72) %_38)
+  call ptr @"scalanative_throw"(ptr dereferenceable_or_null(80) %_38)
   unreachable
 _79.0:
   %_212 = icmp ne ptr %_38, null
   br i1 %_212, label %_211.0, label %_95.0
 _211.0:
-  call ptr @"scalanative_throw"(ptr dereferenceable_or_null(72) %_38)
+  call ptr @"scalanative_throw"(ptr dereferenceable_or_null(80) %_38)
   unreachable
 _28.0:
   br label %_29.0
 _29.0:
   br label %_23.0
 _22.0:
-  %_214 = getelementptr { { ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }, { { ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }* %_1, i32 0, i32 5
-  call void @"_SM35scala.scalanative.runtime.LazyVals$D17wait4NotificationR_jiuEO"(ptr nonnull dereferenceable(8) @"_SM35scala.scalanative.runtime.LazyVals$G8instance", ptr %_214, i64 %_9, i32 0)
+  %_214 = getelementptr { { ptr, ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }, { { ptr, ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }* %_1, i32 0, i32 5
+  call void @"_SM35scala.scalanative.runtime.LazyVals$D17wait4NotificationR_jiuEO"(ptr nonnull dereferenceable(16) @"_SM35scala.scalanative.runtime.LazyVals$G8instance", ptr %_214, i64 %_9, i32 0)
   br label %_23.0
 _23.0:
   br label %_15.0
@@ -893,13 +893,13 @@ _223.landingpad.succ:
   br label %_142.0
 }
 
-define dereferenceable_or_null(8) ptr @"_SM30java.util.stream.IntStreamImplD9_supplierL27java.util.function.SupplierEO"(ptr %_1) alwaysinline personality ptr @scalanative_personality {
+define dereferenceable_or_null(16) ptr @"_SM30java.util.stream.IntStreamImplD9_supplierL27java.util.function.SupplierEO"(ptr %_1) alwaysinline personality ptr @scalanative_personality {
 _2000000.0:
   %_2000004 = icmp ne ptr %_1, null
   br i1 %_2000004, label %_2000002.0, label %_2000003.0
 _2000002.0:
-  %_2000005 = getelementptr { { ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }, { { ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }* %_1, i32 0, i32 3
-  %_2000001 = load ptr, ptr %_2000005, !dereferenceable_or_null !{i64 8}
+  %_2000005 = getelementptr { { ptr, ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }, { { ptr, ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }* %_1, i32 0, i32 3
+  %_2000001 = load atomic ptr, ptr %_2000005 unordered, align 8
   ret ptr %_2000001
 _2000003.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
@@ -911,9 +911,9 @@ _3000000.0:
   %_3000005 = icmp ne ptr %_1, null
   br i1 %_3000005, label %_3000003.0, label %_3000004.0
 _3000003.0:
-  %_3000006 = getelementptr { { ptr }, ptr }, { { ptr }, ptr }* %_1, i32 0, i32 1
-  %_3000001 = load ptr, ptr %_3000006, !dereferenceable_or_null !{i64 16}
-  call void @"_SM30java.util.stream.IntStreamImplD16count$$anonfun$1L21scala.runtime.LongRefiuEpT30java.util.stream.IntStreamImpl"(ptr dereferenceable_or_null(16) %_3000001, i32 %_2)
+  %_3000006 = getelementptr { { ptr, ptr }, ptr }, { { ptr, ptr }, ptr }* %_1, i32 0, i32 1
+  %_3000001 = load atomic ptr, ptr %_3000006 unordered, align 8
+  call void @"_SM30java.util.stream.IntStreamImplD16count$$anonfun$1L21scala.runtime.LongRefiuEpT30java.util.stream.IntStreamImpl"(ptr dereferenceable_or_null(24) %_3000001, i32 %_2)
   ret void
 _3000004.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
@@ -925,21 +925,21 @@ _3000000.0:
   %_3000004 = icmp ne ptr %_1, null
   br i1 %_3000004, label %_3000002.0, label %_3000003.0
 _3000002.0:
-  %_3000006 = getelementptr { { ptr }, ptr }, { { ptr }, ptr }* %_1, i32 0, i32 1
-  store ptr %_2, ptr%_3000006, align 8
+  %_3000006 = getelementptr { { ptr, ptr }, ptr }, { { ptr, ptr }, ptr }* %_1, i32 0, i32 1
+  store atomic ptr %_2, ptr%_3000006 unordered, align 8
   ret void
 _3000003.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
   unreachable
 }
 
-define dereferenceable_or_null(8) ptr @"_SM27java.util.stream.StreamImplD11_spliterArgL21java.util.SpliteratorEO"(ptr %_1) alwaysinline personality ptr @scalanative_personality {
+define dereferenceable_or_null(16) ptr @"_SM27java.util.stream.StreamImplD11_spliterArgL21java.util.SpliteratorEO"(ptr %_1) alwaysinline personality ptr @scalanative_personality {
 _2000000.0:
   %_2000004 = icmp ne ptr %_1, null
   br i1 %_2000004, label %_2000002.0, label %_2000003.0
 _2000002.0:
-  %_2000005 = getelementptr { { ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }, { { ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }* %_1, i32 0, i32 1
-  %_2000001 = load ptr, ptr %_2000005, !dereferenceable_or_null !{i64 8}
+  %_2000005 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }, { { ptr, ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }* %_1, i32 0, i32 1
+  %_2000001 = load atomic ptr, ptr %_2000005 unordered, align 8
   ret ptr %_2000001
 _2000003.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
@@ -951,81 +951,81 @@ _2000000.0:
   %_11000004 = icmp ne ptr %_1, null
   br i1 %_11000004, label %_11000002.0, label %_11000003.0
 _11000002.0:
-  %_11000005 = getelementptr { { ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }, { { ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }* %_1, i32 0, i32 8
-  %_11000006 = load i8, ptr %_11000005
+  %_11000005 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }, { { ptr, ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }* %_1, i32 0, i32 8
+  %_11000006 = load atomic i8, ptr %_11000005 unordered, align 1
   %_3000001 = trunc i8 %_11000006 to i1
   br i1 %_3000001, label %_4000000.0, label %_5000000.0
 _4000000.0:
   br label %_6000000.0
 _5000000.0:
-  %_11000007 = getelementptr { { ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }, { { ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }* %_1, i32 0, i32 7
-  %_11000008 = load i8, ptr %_11000007
+  %_11000007 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }, { { ptr, ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }* %_1, i32 0, i32 7
+  %_11000008 = load atomic i8, ptr %_11000007 unordered, align 1
   %_7000001 = trunc i8 %_11000008 to i1
   br label %_6000000.0
 _6000000.0:
   %_6000001 = phi i1 [%_7000001, %_5000000.0], [true, %_4000000.0]
   br i1 %_6000001, label %_8000000.0, label %_9000000.0
 _8000000.0:
-  call void @"_SM28java.util.stream.StreamImpl$D26throwIllegalStateExceptionuEO"(ptr nonnull dereferenceable(8) @"_SM28java.util.stream.StreamImpl$G8instance")
+  call void @"_SM28java.util.stream.StreamImpl$D26throwIllegalStateExceptionuEO"(ptr nonnull dereferenceable(16) @"_SM28java.util.stream.StreamImpl$G8instance")
   br label %_10000000.0
 _9000000.0:
   br label %_10000000.0
 _10000000.0:
-  %_11000011 = getelementptr { { ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }, { { ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }* %_1, i32 0, i32 8
+  %_11000011 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }, { { ptr, ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }* %_1, i32 0, i32 8
   %_11000012 = zext i1 true to i8
-  store i8 %_11000012, ptr%_11000011, align 1
+  store atomic i8 %_11000012, ptr%_11000011 unordered, align 1
   ret void
 _11000003.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
   unreachable
 }
 
-define nonnull dereferenceable(56) ptr @"_SM27java.util.stream.StreamImplD3mapL27java.util.function.FunctionL23java.util.stream.StreamEO"(ptr %_1, ptr %_2) personality ptr @scalanative_personality {
+define nonnull dereferenceable(64) ptr @"_SM27java.util.stream.StreamImplD3mapL27java.util.function.FunctionL23java.util.stream.StreamEO"(ptr %_1, ptr %_2) personality ptr @scalanative_personality {
 _3000000.0:
   %_23000004 = icmp ne ptr %_1, null
   br i1 %_23000004, label %_23000002.0, label %_23000003.0
 _23000002.0:
-  call void @"_SM27java.util.stream.StreamImplD17commenceOperationuEO"(ptr dereferenceable_or_null(56) %_1)
+  call void @"_SM27java.util.stream.StreamImplD17commenceOperationuEO"(ptr dereferenceable_or_null(64) %_1)
   %_4000002 = icmp eq ptr %_1, null
   br i1 %_4000002, label %_5000000.0, label %_6000000.0
 _6000000.0:
   br label %_14000000.0
 _5000000.0:
-  %_13000001 = call dereferenceable_or_null(72) ptr @"scalanative_GC_alloc_small"(ptr @"_SM30java.lang.NullPointerExceptionG4type", i64 72)
-  %_23000007 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_13000001, i32 0, i32 8
+  %_13000001 = call dereferenceable_or_null(80) ptr @"scalanative_GC_alloc_small"(ptr @"_SM30java.lang.NullPointerExceptionG4type", i64 80)
+  %_23000007 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_13000001, i32 0, i32 8
   %_23000008 = zext i1 true to i8
-  store i8 %_23000008, ptr%_23000007, align 1
-  call void @"_SM35scala.scalanative.runtime.ThrowableRzE"(ptr nonnull dereferenceable(72) %_13000001, i1 true)
-  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(72) %_13000001)
+  store atomic i8 %_23000008, ptr%_23000007 unordered, align 1
+  call void @"_SM35scala.scalanative.runtime.ThrowableRzE"(ptr nonnull dereferenceable(80) %_13000001, i1 true)
+  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(80) %_13000001)
   unreachable
 _14000000.0:
-  %_14000001 = call i64 @"_SM27java.util.stream.StreamImplD51java$util$stream$StreamImpl$$_$_$$anon$superArg$4$1jEO"(ptr dereferenceable_or_null(56) %_1)
-  %_14000002 = call i32 @"_SM27java.util.stream.StreamImplD51java$util$stream$StreamImpl$$_$_$$anon$superArg$5$1iEO"(ptr dereferenceable_or_null(56) %_1)
-  %_23000011 = getelementptr { { ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }, { { ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }* %_1, i32 0, i32 6
-  %_23000012 = load i8, ptr %_23000011
+  %_14000001 = call i64 @"_SM27java.util.stream.StreamImplD51java$util$stream$StreamImpl$$_$_$$anon$superArg$4$1jEO"(ptr dereferenceable_or_null(64) %_1)
+  %_14000002 = call i32 @"_SM27java.util.stream.StreamImplD51java$util$stream$StreamImpl$$_$_$$anon$superArg$5$1iEO"(ptr dereferenceable_or_null(64) %_1)
+  %_23000011 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }, { { ptr, ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }* %_1, i32 0, i32 6
+  %_23000012 = load atomic i8, ptr %_23000011 unordered, align 1
   %_17000001 = trunc i8 %_23000012 to i1
-  %_23000013 = getelementptr { { ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }, { { ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }* %_1, i32 0, i32 5
-  %_18000001 = load ptr, ptr %_23000013, !dereferenceable_or_null !{i64 32}
-  %_20000001 = call dereferenceable_or_null(56) ptr @"scalanative_GC_alloc_small"(ptr @"_SM27java.util.stream.StreamImplG4type", i64 56)
-  %_23000015 = getelementptr { { ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }, { { ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }* %_20000001, i32 0, i32 5
-  store ptr %_18000001, ptr%_23000015, align 8
-  call void @"_SM20java.util.ArrayDequeD7addLastL16java.lang.ObjectuEO"(ptr dereferenceable_or_null(32) %_18000001, ptr nonnull dereferenceable(56) %_20000001)
-  %_22000001 = call dereferenceable_or_null(48) ptr @"scalanative_GC_alloc_small"(ptr @"_SM35java.util.stream.StreamImpl$$anon$5G4type", i64 48)
-  %_23000018 = getelementptr { { ptr }, i32, i64, i64 }, { { ptr }, i32, i64, i64 }* %_22000001, i32 0, i32 3
-  store i64 1, ptr%_23000018, align 8
-  %_23000020 = getelementptr { { ptr }, i32, i64, i64 }, { { ptr }, i32, i64, i64 }* %_22000001, i32 0, i32 2
-  store i64 %_14000001, ptr%_23000020, align 8
-  %_23000022 = getelementptr { { ptr }, i32, i64, i64 }, { { ptr }, i32, i64, i64 }* %_22000001, i32 0, i32 1
-  store i32 %_14000002, ptr%_23000022, align 4
-  %_23000024 = getelementptr { { ptr }, i32, i64, i64, ptr, ptr }, { { ptr }, i32, i64, i64, ptr, ptr }* %_22000001, i32 0, i32 5
-  store ptr %_1, ptr%_23000024, align 8
-  %_23000026 = getelementptr { { ptr }, i32, i64, i64, ptr, ptr }, { { ptr }, i32, i64, i64, ptr, ptr }* %_22000001, i32 0, i32 4
-  store ptr %_2, ptr%_23000026, align 8
-  %_23000028 = getelementptr { { ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }, { { ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }* %_20000001, i32 0, i32 1
-  store ptr %_22000001, ptr%_23000028, align 8
-  %_23000030 = getelementptr { { ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }, { { ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }* %_20000001, i32 0, i32 6
+  %_23000013 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }, { { ptr, ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }* %_1, i32 0, i32 5
+  %_18000001 = load atomic ptr, ptr %_23000013 unordered, align 8
+  %_20000001 = call dereferenceable_or_null(64) ptr @"scalanative_GC_alloc_small"(ptr @"_SM27java.util.stream.StreamImplG4type", i64 64)
+  %_23000015 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }, { { ptr, ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }* %_20000001, i32 0, i32 5
+  store atomic ptr %_18000001, ptr%_23000015 unordered, align 8
+  call void @"_SM20java.util.ArrayDequeD7addLastL16java.lang.ObjectuEO"(ptr dereferenceable_or_null(40) %_18000001, ptr nonnull dereferenceable(64) %_20000001)
+  %_22000001 = call dereferenceable_or_null(56) ptr @"scalanative_GC_alloc_small"(ptr @"_SM35java.util.stream.StreamImpl$$anon$5G4type", i64 56)
+  %_23000018 = getelementptr { { ptr, ptr }, i32, i64, i64 }, { { ptr, ptr }, i32, i64, i64 }* %_22000001, i32 0, i32 3
+  store atomic i64 1, ptr%_23000018 unordered, align 8
+  %_23000020 = getelementptr { { ptr, ptr }, i32, i64, i64 }, { { ptr, ptr }, i32, i64, i64 }* %_22000001, i32 0, i32 2
+  store atomic i64 %_14000001, ptr%_23000020 unordered, align 8
+  %_23000022 = getelementptr { { ptr, ptr }, i32, i64, i64 }, { { ptr, ptr }, i32, i64, i64 }* %_22000001, i32 0, i32 1
+  store atomic i32 %_14000002, ptr%_23000022 unordered, align 4
+  %_23000024 = getelementptr { { ptr, ptr }, i32, i64, i64, ptr, ptr }, { { ptr, ptr }, i32, i64, i64, ptr, ptr }* %_22000001, i32 0, i32 5
+  store atomic ptr %_1, ptr%_23000024 unordered, align 8
+  %_23000026 = getelementptr { { ptr, ptr }, i32, i64, i64, ptr, ptr }, { { ptr, ptr }, i32, i64, i64, ptr, ptr }* %_22000001, i32 0, i32 4
+  store atomic ptr %_2, ptr%_23000026 unordered, align 8
+  %_23000028 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }, { { ptr, ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }* %_20000001, i32 0, i32 1
+  store atomic ptr %_22000001, ptr%_23000028 unordered, align 8
+  %_23000030 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }, { { ptr, ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }* %_20000001, i32 0, i32 6
   %_23000031 = zext i1 %_17000001 to i8
-  store i8 %_23000031, ptr%_23000030, align 1
+  store atomic i8 %_23000031, ptr%_23000030 unordered, align 1
   ret ptr %_20000001
 _23000003.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
@@ -1037,21 +1037,21 @@ _2.0:
   %_9 = icmp ne ptr %_1, null
   br i1 %_9, label %_7.0, label %_8.0
 _7.0:
-  %_4 = call dereferenceable_or_null(8) ptr @"_SM27java.util.stream.StreamImplD8_spliterL21java.util.SpliteratorEO"(ptr dereferenceable_or_null(56) %_1)
+  %_4 = call dereferenceable_or_null(16) ptr @"_SM27java.util.stream.StreamImplD8_spliterL21java.util.SpliteratorEO"(ptr dereferenceable_or_null(64) %_1)
   %_11 = icmp ne ptr %_4, null
   br i1 %_11, label %_10.0, label %_8.0
 _10.0:
   %_12 = load ptr, ptr %_4
-  %_13 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_12, i32 0, i32 4
+  %_13 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_12, i32 0, i32 4
   %_14 = load i32, ptr %_13
-  %_15 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_12, i32 0, i32 5
+  %_15 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_12, i32 0, i32 5
   %_16 = load ptr, ptr %_15
   %_17 = and i32 -2147482847, %_14
   %_18 = getelementptr { i32, ptr }, { i32, ptr }* %_16, i32 %_17, i32 1
   %_19 = load ptr, ptr %_18
   %_20 = getelementptr ptr, ptr %_19, i32 0
   %_5 = load ptr, ptr %_20
-  %_6 = call i64 %_5(ptr dereferenceable_or_null(8) %_4)
+  %_6 = call i64 %_5(ptr dereferenceable_or_null(16) %_4)
   ret i64 %_6
 _8.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
@@ -1063,28 +1063,28 @@ _2.0:
   %_9 = icmp ne ptr %_1, null
   br i1 %_9, label %_7.0, label %_8.0
 _7.0:
-  %_4 = call dereferenceable_or_null(8) ptr @"_SM27java.util.stream.StreamImplD8_spliterL21java.util.SpliteratorEO"(ptr dereferenceable_or_null(56) %_1)
+  %_4 = call dereferenceable_or_null(16) ptr @"_SM27java.util.stream.StreamImplD8_spliterL21java.util.SpliteratorEO"(ptr dereferenceable_or_null(64) %_1)
   %_11 = icmp ne ptr %_4, null
   br i1 %_11, label %_10.0, label %_8.0
 _10.0:
   %_12 = load ptr, ptr %_4
-  %_13 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_12, i32 0, i32 4
+  %_13 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_12, i32 0, i32 4
   %_14 = load i32, ptr %_13
-  %_15 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_12, i32 0, i32 5
+  %_15 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_12, i32 0, i32 5
   %_16 = load ptr, ptr %_15
   %_17 = and i32 -2147482847, %_14
   %_18 = getelementptr { i32, ptr }, { i32, ptr }* %_16, i32 %_17, i32 1
   %_19 = load ptr, ptr %_18
   %_20 = getelementptr ptr, ptr %_19, i32 1
   %_5 = load ptr, ptr %_20
-  %_6 = call i32 %_5(ptr dereferenceable_or_null(8) %_4)
+  %_6 = call i32 %_5(ptr dereferenceable_or_null(16) %_4)
   ret i32 %_6
 _8.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
   unreachable
 }
 
-define dereferenceable_or_null(8) ptr @"_SM27java.util.stream.StreamImplD8_spliterL21java.util.SpliteratorEO"(ptr %_1) alwaysinline personality ptr @scalanative_personality {
+define dereferenceable_or_null(16) ptr @"_SM27java.util.stream.StreamImplD8_spliterL21java.util.SpliteratorEO"(ptr %_1) alwaysinline personality ptr @scalanative_personality {
 _2.0:
   br label %_3.0
 _3.0:
@@ -1093,61 +1093,61 @@ _4.0:
   %_96 = icmp ne ptr %_1, null
   br i1 %_96, label %_94.0, label %_95.0
 _94.0:
-  %_97 = getelementptr { { ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }, { { ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }* %_1, i32 0, i32 4
-  %_9 = call i64 @"_SM35scala.scalanative.runtime.LazyVals$D3getR_jEO"(ptr nonnull dereferenceable(8) @"_SM35scala.scalanative.runtime.LazyVals$G8instance", ptr %_97)
-  %_12 = call i64 @"_SM23scala.runtime.LazyVals$D5STATEjijEO"(ptr nonnull dereferenceable(8) @"_SM23scala.runtime.LazyVals$G8instance", i64 %_9, i32 0)
+  %_97 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }, { { ptr, ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }* %_1, i32 0, i32 4
+  %_9 = call i64 @"_SM35scala.scalanative.runtime.LazyVals$D3getR_jEO"(ptr nonnull dereferenceable(16) @"_SM35scala.scalanative.runtime.LazyVals$G8instance", ptr %_97)
+  %_12 = call i64 @"_SM23scala.runtime.LazyVals$D5STATEjijEO"(ptr nonnull dereferenceable(16) @"_SM23scala.runtime.LazyVals$G8instance", i64 %_9, i32 0)
   %_17 = sext i32 3 to i64
   %_18 = icmp eq i64 %_12, %_17
   br i1 %_18, label %_13.0, label %_14.0
 _13.0:
-  %_98 = getelementptr { { ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }, { { ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }* %_1, i32 0, i32 3
-  %_19 = load ptr, ptr %_98, !dereferenceable_or_null !{i64 8}
+  %_98 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }, { { ptr, ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }* %_1, i32 0, i32 3
+  %_19 = load atomic ptr, ptr %_98 unordered, align 8
   ret ptr %_19
 _14.0:
   %_25 = sext i32 0 to i64
   %_26 = icmp eq i64 %_12, %_25
   br i1 %_26, label %_21.0, label %_22.0
 _21.0:
-  %_99 = getelementptr { { ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }, { { ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }* %_1, i32 0, i32 4
-  %_34 = call i1 @"_SM35scala.scalanative.runtime.LazyVals$D3CASR_jiizEO"(ptr nonnull dereferenceable(8) @"_SM35scala.scalanative.runtime.LazyVals$G8instance", ptr %_99, i64 %_9, i32 1, i32 0)
+  %_99 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }, { { ptr, ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }* %_1, i32 0, i32 4
+  %_34 = call i1 @"_SM35scala.scalanative.runtime.LazyVals$D3CASR_jiizEO"(ptr nonnull dereferenceable(16) @"_SM35scala.scalanative.runtime.LazyVals$G8instance", ptr %_99, i64 %_9, i32 1, i32 0)
   br i1 %_34, label %_27.0, label %_28.0
 _27.0:
   br label %_36.0
 _36.0:
-  %_47 = invoke dereferenceable_or_null(8) ptr @"_SM27java.util.stream.StreamImplD11_spliterArgL21java.util.SpliteratorEO"(ptr dereferenceable_or_null(56) %_1) to label %_36.1 unwind label %_103.landingpad
+  %_47 = invoke dereferenceable_or_null(16) ptr @"_SM27java.util.stream.StreamImplD11_spliterArgL21java.util.SpliteratorEO"(ptr dereferenceable_or_null(64) %_1) to label %_36.1 unwind label %_103.landingpad
 _36.1:
   %_49 = icmp eq ptr %_47, null
   %_51 = xor i1 true, %_49
   br i1 %_51, label %_40.0, label %_41.0
 _40.0:
-  %_55 = invoke dereferenceable_or_null(8) ptr @"_SM27java.util.stream.StreamImplD11_spliterArgL21java.util.SpliteratorEO"(ptr dereferenceable_or_null(56) %_1) to label %_40.1 unwind label %_111.landingpad
+  %_55 = invoke dereferenceable_or_null(16) ptr @"_SM27java.util.stream.StreamImplD11_spliterArgL21java.util.SpliteratorEO"(ptr dereferenceable_or_null(64) %_1) to label %_40.1 unwind label %_111.landingpad
 _40.1:
   br label %_42.0
 _41.0:
-  %_59 = invoke dereferenceable_or_null(8) ptr @"_SM27java.util.stream.StreamImplD9_supplierL27java.util.function.SupplierEO"(ptr dereferenceable_or_null(56) %_1) to label %_41.1 unwind label %_115.landingpad
+  %_59 = invoke dereferenceable_or_null(16) ptr @"_SM27java.util.stream.StreamImplD9_supplierL27java.util.function.SupplierEO"(ptr dereferenceable_or_null(64) %_1) to label %_41.1 unwind label %_115.landingpad
 _41.1:
   %_120 = icmp ne ptr %_59, null
   br i1 %_120, label %_117.0, label %_118.0
 _117.0:
   %_122 = load ptr, ptr %_59
-  %_124 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_122, i32 0, i32 4
+  %_124 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_122, i32 0, i32 4
   %_126 = load i32, ptr %_124
-  %_128 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_122, i32 0, i32 5
+  %_128 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_122, i32 0, i32 5
   %_130 = load ptr, ptr %_128
-  %_132 = and i32 -2147479584, %_126
+  %_132 = and i32 -2147479424, %_126
   %_134 = getelementptr { i32, ptr }, { i32, ptr }* %_130, i32 %_132, i32 1
   %_136 = load ptr, ptr %_134
   %_138 = getelementptr ptr, ptr %_136, i32 0
   %_61 = load ptr, ptr %_138
-  %_63 = invoke dereferenceable_or_null(8) ptr %_61(ptr dereferenceable_or_null(8) %_59) to label %_117.1 unwind label %_141.landingpad
+  %_63 = invoke dereferenceable_or_null(16) ptr %_61(ptr dereferenceable_or_null(16) %_59) to label %_117.1 unwind label %_141.landingpad
 _117.1:
   %_147 = icmp eq ptr %_63, null
   br i1 %_147, label %_144.0, label %_143.0
 _143.0:
   %_149 = load ptr, ptr %_63
-  %_151 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_149, i32 0, i32 4
+  %_151 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_149, i32 0, i32 4
   %_153 = load i32, ptr %_151
-  %_156 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_149, i32 0, i32 5
+  %_156 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_149, i32 0, i32 5
   %_158 = load ptr, ptr %_156
   %_160 = and i32 -2147482847, %_153
   %_162 = getelementptr { i32, ptr }, { i32, ptr }* %_158, i32 %_160, i32 0
@@ -1158,10 +1158,10 @@ _144.0:
   br label %_42.0
 _42.0:
   %_43 = phi ptr [%_63, %_144.0], [%_55, %_40.1]
-  %_171 = getelementptr { { ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }, { { ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }* %_1, i32 0, i32 3
-  store ptr %_43, ptr%_171, align 8
-  %_178 = getelementptr { { ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }, { { ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }* %_1, i32 0, i32 4
-  invoke void @"_SM35scala.scalanative.runtime.LazyVals$D7setFlagR_iiuEO"(ptr nonnull dereferenceable(8) @"_SM35scala.scalanative.runtime.LazyVals$G8instance", ptr %_178, i32 3, i32 0) to label %_42.1 unwind label %_184.landingpad
+  %_171 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }, { { ptr, ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }* %_1, i32 0, i32 3
+  store atomic ptr %_43, ptr%_171 unordered, align 8
+  %_178 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }, { { ptr, ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }* %_1, i32 0, i32 4
+  invoke void @"_SM35scala.scalanative.runtime.LazyVals$D7setFlagR_iiuEO"(ptr nonnull dereferenceable(16) @"_SM35scala.scalanative.runtime.LazyVals$G8instance", ptr %_178, i32 3, i32 0) to label %_42.1 unwind label %_184.landingpad
 _42.1:
   ret ptr %_43
 _35.0:
@@ -1172,10 +1172,10 @@ _186.0:
   br label %_188.0
 _187.0:
   %_190 = load ptr, ptr %_38
-  %_191 = getelementptr { ptr, i32, i32, ptr, ptr }, { ptr, i32, i32, ptr, ptr }* %_190, i32 0, i32 1
+  %_191 = getelementptr { ptr, ptr, i32, i32, ptr, ptr }, { ptr, ptr, i32, i32, ptr, ptr }* %_190, i32 0, i32 2
   %_192 = load i32, ptr %_191
-  %_193 = icmp sle i32 384, %_192
-  %_194 = icmp sle i32 %_192, 453
+  %_193 = icmp sle i32 1122, %_192
+  %_194 = icmp sle i32 %_192, 1197
   %_195 = and i1 %_193, %_194
   br label %_188.0
 _188.0:
@@ -1186,33 +1186,33 @@ _78.0:
   br i1 %_199, label %_197.0, label %_196.0
 _196.0:
   %_200 = load ptr, ptr %_38
-  %_201 = getelementptr { ptr, i32, i32, ptr, ptr }, { ptr, i32, i32, ptr, ptr }* %_200, i32 0, i32 1
+  %_201 = getelementptr { ptr, ptr, i32, i32, ptr, ptr }, { ptr, ptr, i32, i32, ptr, ptr }* %_200, i32 0, i32 2
   %_202 = load i32, ptr %_201
-  %_203 = icmp sle i32 384, %_202
-  %_204 = icmp sle i32 %_202, 453
+  %_203 = icmp sle i32 1122, %_202
+  %_204 = icmp sle i32 %_202, 1197
   %_205 = and i1 %_203, %_204
   br i1 %_205, label %_197.0, label %_198.0
 _197.0:
-  %_206 = getelementptr { { ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }, { { ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }* %_1, i32 0, i32 4
-  call void @"_SM35scala.scalanative.runtime.LazyVals$D7setFlagR_iiuEO"(ptr nonnull dereferenceable(8) @"_SM35scala.scalanative.runtime.LazyVals$G8instance", ptr %_206, i32 0, i32 0)
+  %_206 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }, { { ptr, ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }* %_1, i32 0, i32 4
+  call void @"_SM35scala.scalanative.runtime.LazyVals$D7setFlagR_iiuEO"(ptr nonnull dereferenceable(16) @"_SM35scala.scalanative.runtime.LazyVals$G8instance", ptr %_206, i32 0, i32 0)
   %_209 = icmp ne ptr %_38, null
   br i1 %_209, label %_208.0, label %_95.0
 _208.0:
-  call ptr @"scalanative_throw"(ptr dereferenceable_or_null(72) %_38)
+  call ptr @"scalanative_throw"(ptr dereferenceable_or_null(80) %_38)
   unreachable
 _79.0:
   %_212 = icmp ne ptr %_38, null
   br i1 %_212, label %_211.0, label %_95.0
 _211.0:
-  call ptr @"scalanative_throw"(ptr dereferenceable_or_null(72) %_38)
+  call ptr @"scalanative_throw"(ptr dereferenceable_or_null(80) %_38)
   unreachable
 _28.0:
   br label %_29.0
 _29.0:
   br label %_23.0
 _22.0:
-  %_214 = getelementptr { { ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }, { { ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }* %_1, i32 0, i32 4
-  call void @"_SM35scala.scalanative.runtime.LazyVals$D17wait4NotificationR_jiuEO"(ptr nonnull dereferenceable(8) @"_SM35scala.scalanative.runtime.LazyVals$G8instance", ptr %_214, i64 %_9, i32 0)
+  %_214 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }, { { ptr, ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }* %_1, i32 0, i32 4
+  call void @"_SM35scala.scalanative.runtime.LazyVals$D17wait4NotificationR_jiuEO"(ptr nonnull dereferenceable(16) @"_SM35scala.scalanative.runtime.LazyVals$G8instance", ptr %_214, i64 %_9, i32 0)
   br label %_23.0
 _23.0:
   br label %_15.0
@@ -1577,27 +1577,27 @@ _223.landingpad.succ:
   br label %_142.0
 }
 
-define dereferenceable_or_null(8) ptr @"_SM27java.util.stream.StreamImplD8iteratorL18java.util.IteratorEO"(ptr %_1) personality ptr @scalanative_personality {
+define dereferenceable_or_null(16) ptr @"_SM27java.util.stream.StreamImplD8iteratorL18java.util.IteratorEO"(ptr %_1) personality ptr @scalanative_personality {
 _2.0:
   %_12 = icmp ne ptr %_1, null
   br i1 %_12, label %_10.0, label %_11.0
 _10.0:
-  call void @"_SM27java.util.stream.StreamImplD17commenceOperationuEO"(ptr dereferenceable_or_null(56) %_1)
-  %_7 = call dereferenceable_or_null(8) ptr @"_SM27java.util.stream.StreamImplD8_spliterL21java.util.SpliteratorEO"(ptr dereferenceable_or_null(56) %_1)
-  %_9 = call dereferenceable_or_null(8) ptr @"_SM23java.util.Spliterators$D8iteratorL21java.util.SpliteratorL18java.util.IteratorEO"(ptr nonnull dereferenceable(8) @"_SM23java.util.Spliterators$G8instance", ptr dereferenceable_or_null(8) %_7)
+  call void @"_SM27java.util.stream.StreamImplD17commenceOperationuEO"(ptr dereferenceable_or_null(64) %_1)
+  %_7 = call dereferenceable_or_null(16) ptr @"_SM27java.util.stream.StreamImplD8_spliterL21java.util.SpliteratorEO"(ptr dereferenceable_or_null(64) %_1)
+  %_9 = call dereferenceable_or_null(16) ptr @"_SM23java.util.Spliterators$D8iteratorL21java.util.SpliteratorL18java.util.IteratorEO"(ptr nonnull dereferenceable(16) @"_SM23java.util.Spliterators$G8instance", ptr dereferenceable_or_null(16) %_7)
   ret ptr %_9
 _11.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
   unreachable
 }
 
-define dereferenceable_or_null(8) ptr @"_SM27java.util.stream.StreamImplD9_supplierL27java.util.function.SupplierEO"(ptr %_1) alwaysinline personality ptr @scalanative_personality {
+define dereferenceable_or_null(16) ptr @"_SM27java.util.stream.StreamImplD9_supplierL27java.util.function.SupplierEO"(ptr %_1) alwaysinline personality ptr @scalanative_personality {
 _2000000.0:
   %_2000004 = icmp ne ptr %_1, null
   br i1 %_2000004, label %_2000002.0, label %_2000003.0
 _2000002.0:
-  %_2000005 = getelementptr { { ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }, { { ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }* %_1, i32 0, i32 2
-  %_2000001 = load ptr, ptr %_2000005, !dereferenceable_or_null !{i64 8}
+  %_2000005 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }, { { ptr, ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }* %_1, i32 0, i32 2
+  %_2000001 = load atomic ptr, ptr %_2000005 unordered, align 8
   ret ptr %_2000001
 _2000003.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
@@ -1606,14 +1606,14 @@ _2000003.0:
 
 define ptr @"_SM28java.util.stream.StreamImpl$D26throwIllegalStateExceptionuEO"(ptr %_1) personality ptr @scalanative_personality {
 _2000000.0:
-  %_8000001 = call dereferenceable_or_null(72) ptr @"scalanative_GC_alloc_small"(ptr @"_SM31java.lang.IllegalStateExceptionG4type", i64 72)
-  %_8000006 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_8000001, i32 0, i32 8
+  %_8000001 = call dereferenceable_or_null(80) ptr @"scalanative_GC_alloc_small"(ptr @"_SM31java.lang.IllegalStateExceptionG4type", i64 80)
+  %_8000006 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_8000001, i32 0, i32 8
   %_8000007 = zext i1 true to i8
-  store i8 %_8000007, ptr%_8000006, align 1
-  %_8000009 = getelementptr { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_8000001, i32 0, i32 7
-  store ptr @"_SM7__constG2-54", ptr%_8000009, align 8
-  call void @"_SM35scala.scalanative.runtime.ThrowableRzE"(ptr nonnull dereferenceable(72) %_8000001, i1 true)
-  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(72) %_8000001)
+  store atomic i8 %_8000007, ptr%_8000006 unordered, align 1
+  %_8000009 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }, { { ptr, ptr }, ptr, ptr, ptr, ptr, i1, ptr, ptr, i1 }* %_8000001, i32 0, i32 7
+  store atomic ptr @"_SM7__constG2-54", ptr%_8000009 unordered, align 8
+  call void @"_SM35scala.scalanative.runtime.ThrowableRzE"(ptr nonnull dereferenceable(80) %_8000001, i1 true)
+  call ptr @"scalanative_throw"(ptr nonnull dereferenceable(80) %_8000001)
   unreachable
 }
 
@@ -1627,28 +1627,28 @@ _3.0:
   %_13 = icmp ne ptr %_2, null
   br i1 %_13, label %_11.0, label %_12.0
 _11.0:
-  %_14 = getelementptr { { ptr }, i32, i64, i64, ptr, ptr }, { { ptr }, i32, i64, i64, ptr, ptr }* %_2, i32 0, i32 5
-  %_4 = load ptr, ptr %_14, !dereferenceable_or_null !{i64 56}
+  %_14 = getelementptr { { ptr, ptr }, i32, i64, i64, ptr, ptr }, { { ptr, ptr }, i32, i64, i64, ptr, ptr }* %_2, i32 0, i32 5
+  %_4 = load atomic ptr, ptr %_14 unordered, align 8
   %_16 = icmp ne ptr %_4, null
   br i1 %_16, label %_15.0, label %_12.0
 _15.0:
-  %_6 = call dereferenceable_or_null(8) ptr @"_SM27java.util.stream.StreamImplD8_spliterL21java.util.SpliteratorEO"(ptr dereferenceable_or_null(56) %_4)
-  %_7 = call dereferenceable_or_null(24) ptr @"scalanative_GC_alloc_small"(ptr @"_SM45java.util.stream.StreamImpl$$anon$5$$Lambda$1G4type", i64 24)
-  call void @"_SM45java.util.stream.StreamImpl$$anon$5$$Lambda$1RL35java.util.stream.StreamImpl$$anon$5L27java.util.function.ConsumerE"(ptr nonnull dereferenceable(24) %_7, ptr dereferenceable_or_null(48) %_2, ptr dereferenceable_or_null(8) %_1)
+  %_6 = call dereferenceable_or_null(16) ptr @"_SM27java.util.stream.StreamImplD8_spliterL21java.util.SpliteratorEO"(ptr dereferenceable_or_null(64) %_4)
+  %_7 = call dereferenceable_or_null(32) ptr @"scalanative_GC_alloc_small"(ptr @"_SM45java.util.stream.StreamImpl$$anon$5$$Lambda$1G4type", i64 32)
+  call void @"_SM45java.util.stream.StreamImpl$$anon$5$$Lambda$1RL35java.util.stream.StreamImpl$$anon$5L27java.util.function.ConsumerE"(ptr nonnull dereferenceable(32) %_7, ptr dereferenceable_or_null(56) %_2, ptr dereferenceable_or_null(16) %_1)
   %_19 = icmp ne ptr %_6, null
   br i1 %_19, label %_18.0, label %_12.0
 _18.0:
   %_20 = load ptr, ptr %_6
-  %_21 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_20, i32 0, i32 4
+  %_21 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_20, i32 0, i32 4
   %_22 = load i32, ptr %_21
-  %_23 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_20, i32 0, i32 5
+  %_23 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_20, i32 0, i32 5
   %_24 = load ptr, ptr %_23
   %_25 = and i32 -2147482847, %_22
   %_26 = getelementptr { i32, ptr }, { i32, ptr }* %_24, i32 %_25, i32 1
   %_27 = load ptr, ptr %_26
   %_28 = getelementptr ptr, ptr %_27, i32 2
   %_9 = load ptr, ptr %_28
-  %_10 = call i1 %_9(ptr dereferenceable_or_null(8) %_6, ptr nonnull dereferenceable(24) %_7)
+  %_10 = call i1 %_9(ptr dereferenceable_or_null(16) %_6, ptr nonnull dereferenceable(32) %_7)
   ret i1 %_10
 _12.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
@@ -1660,36 +1660,36 @@ _4000000.0:
   %_4000010 = icmp ne ptr %_1, null
   br i1 %_4000010, label %_4000008.0, label %_4000009.0
 _4000008.0:
-  %_4000011 = getelementptr { { ptr }, i32, i64, i64, ptr, ptr }, { { ptr }, i32, i64, i64, ptr, ptr }* %_1, i32 0, i32 4
-  %_4000001 = load ptr, ptr %_4000011, !dereferenceable_or_null !{i64 8}
+  %_4000011 = getelementptr { { ptr, ptr }, i32, i64, i64, ptr, ptr }, { { ptr, ptr }, i32, i64, i64, ptr, ptr }* %_1, i32 0, i32 4
+  %_4000001 = load atomic ptr, ptr %_4000011 unordered, align 8
   %_4000013 = icmp ne ptr %_4000001, null
   br i1 %_4000013, label %_4000012.0, label %_4000009.0
 _4000012.0:
   %_4000014 = load ptr, ptr %_4000001
-  %_4000015 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_4000014, i32 0, i32 4
+  %_4000015 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_4000014, i32 0, i32 4
   %_4000016 = load i32, ptr %_4000015
-  %_4000017 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_4000014, i32 0, i32 5
+  %_4000017 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_4000014, i32 0, i32 5
   %_4000018 = load ptr, ptr %_4000017
-  %_4000019 = and i32 -2147479392, %_4000016
+  %_4000019 = and i32 -2147479232, %_4000016
   %_4000020 = getelementptr { i32, ptr }, { i32, ptr }* %_4000018, i32 %_4000019, i32 1
   %_4000021 = load ptr, ptr %_4000020
   %_4000022 = getelementptr ptr, ptr %_4000021, i32 0
   %_4000003 = load ptr, ptr %_4000022
-  %_4000004 = call dereferenceable_or_null(8) ptr %_4000003(ptr dereferenceable_or_null(8) %_4000001, ptr dereferenceable_or_null(8) %_3)
+  %_4000004 = call dereferenceable_or_null(16) ptr %_4000003(ptr dereferenceable_or_null(16) %_4000001, ptr dereferenceable_or_null(16) %_3)
   %_4000024 = icmp ne ptr %_2, null
   br i1 %_4000024, label %_4000023.0, label %_4000009.0
 _4000023.0:
   %_4000025 = load ptr, ptr %_2
-  %_4000026 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_4000025, i32 0, i32 4
+  %_4000026 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_4000025, i32 0, i32 4
   %_4000027 = load i32, ptr %_4000026
-  %_4000028 = getelementptr { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_4000025, i32 0, i32 5
+  %_4000028 = getelementptr { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }, { { ptr, ptr, i32, i32, ptr, ptr }, i32, i32, ptr, i32, ptr, ptr, [0 x ptr] }* %_4000025, i32 0, i32 5
   %_4000029 = load ptr, ptr %_4000028
   %_4000030 = and i32 -2147482720, %_4000027
   %_4000031 = getelementptr { i32, ptr }, { i32, ptr }* %_4000029, i32 %_4000030, i32 1
   %_4000032 = load ptr, ptr %_4000031
   %_4000033 = getelementptr ptr, ptr %_4000032, i32 0
   %_4000006 = load ptr, ptr %_4000033
-  call void %_4000006(ptr dereferenceable_or_null(8) %_2, ptr dereferenceable_or_null(8) %_4000004)
+  call void %_4000006(ptr dereferenceable_or_null(16) %_2, ptr dereferenceable_or_null(16) %_4000004)
   ret void
 _4000009.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
@@ -1701,11 +1701,11 @@ _3000000.0:
   %_3000006 = icmp ne ptr %_1, null
   br i1 %_3000006, label %_3000004.0, label %_3000005.0
 _3000004.0:
-  %_3000007 = getelementptr { { ptr }, ptr, ptr }, { { ptr }, ptr, ptr }* %_1, i32 0, i32 2
-  %_3000001 = load ptr, ptr %_3000007, !dereferenceable_or_null !{i64 48}
-  %_3000008 = getelementptr { { ptr }, ptr, ptr }, { { ptr }, ptr, ptr }* %_1, i32 0, i32 1
-  %_3000002 = load ptr, ptr %_3000008, !dereferenceable_or_null !{i64 8}
-  call void @"_SM35java.util.stream.StreamImpl$$anon$5D21tryAdvance$$anonfun$2L27java.util.function.ConsumerL16java.lang.ObjectuEPT35java.util.stream.StreamImpl$$anon$5"(ptr dereferenceable_or_null(48) %_3000001, ptr dereferenceable_or_null(8) %_3000002, ptr dereferenceable_or_null(8) %_2)
+  %_3000007 = getelementptr { { ptr, ptr }, ptr, ptr }, { { ptr, ptr }, ptr, ptr }* %_1, i32 0, i32 2
+  %_3000001 = load atomic ptr, ptr %_3000007 unordered, align 8
+  %_3000008 = getelementptr { { ptr, ptr }, ptr, ptr }, { { ptr, ptr }, ptr, ptr }* %_1, i32 0, i32 1
+  %_3000002 = load atomic ptr, ptr %_3000008 unordered, align 8
+  call void @"_SM35java.util.stream.StreamImpl$$anon$5D21tryAdvance$$anonfun$2L27java.util.function.ConsumerL16java.lang.ObjectuEPT35java.util.stream.StreamImpl$$anon$5"(ptr dereferenceable_or_null(56) %_3000001, ptr dereferenceable_or_null(16) %_3000002, ptr dereferenceable_or_null(16) %_2)
   ret void
 _3000005.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
@@ -1717,69 +1717,69 @@ _4000000.0:
   %_4000005 = icmp ne ptr %_1, null
   br i1 %_4000005, label %_4000003.0, label %_4000004.0
 _4000003.0:
-  %_4000007 = getelementptr { { ptr }, ptr, ptr }, { { ptr }, ptr, ptr }* %_1, i32 0, i32 2
-  store ptr %_2, ptr%_4000007, align 8
-  %_4000009 = getelementptr { { ptr }, ptr, ptr }, { { ptr }, ptr, ptr }* %_1, i32 0, i32 1
-  store ptr %_3, ptr%_4000009, align 8
+  %_4000007 = getelementptr { { ptr, ptr }, ptr, ptr }, { { ptr, ptr }, ptr, ptr }* %_1, i32 0, i32 2
+  store atomic ptr %_2, ptr%_4000007 unordered, align 8
+  %_4000009 = getelementptr { { ptr, ptr }, ptr, ptr }, { { ptr, ptr }, ptr, ptr }* %_1, i32 0, i32 1
+  store atomic ptr %_3, ptr%_4000009 unordered, align 8
   ret void
 _4000004.0:
   call ptr @"_SM34scala.scalanative.runtime.package$D16throwNullPointernEO"(ptr null)
   unreachable
 }
 
-define nonnull dereferenceable(56) ptr @"_SM31java.util.stream.StreamSupport$D6streamL27java.util.function.SupplierizL23java.util.stream.StreamEO"(ptr %_1, ptr %_2, i32 %_3, i1 %_4) personality ptr @scalanative_personality {
+define nonnull dereferenceable(64) ptr @"_SM31java.util.stream.StreamSupport$D6streamL27java.util.function.SupplierizL23java.util.stream.StreamEO"(ptr %_1, ptr %_2, i32 %_3, i1 %_4) personality ptr @scalanative_personality {
 _5000000.0:
   br label %_12000000.0
 _12000000.0:
   br label %_13000000.0
 _13000000.0:
-  %_15000001 = call dereferenceable_or_null(32) ptr @"scalanative_GC_alloc_small"(ptr @"_SM20java.util.ArrayDequeG4type", i64 32)
-  %_15000002 = call dereferenceable_or_null(16) ptr @"scalanative_GC_alloc_small"(ptr @"_SM33java.util.ArrayDeque$DeqIterator$G4type", i64 16)
-  %_19000003 = getelementptr { { ptr }, ptr }, { { ptr }, ptr }* %_15000002, i32 0, i32 1
-  store ptr %_15000001, ptr%_19000003, align 8
-  %_19000005 = getelementptr { { ptr }, i32, i32, ptr, ptr }, { { ptr }, i32, i32, ptr, ptr }* %_15000001, i32 0, i32 4
-  store ptr %_15000002, ptr%_19000005, align 8
-  %_15000005 = call dereferenceable_or_null(16) ptr @"_SM38scala.scalanative.runtime.ObjectArray$D5allociL37scala.scalanative.runtime.ObjectArrayEO"(ptr @"_SM38scala.scalanative.runtime.ObjectArray$G8instance", i32 17)
-  %_19000008 = getelementptr { { ptr }, i32, i32, ptr, ptr }, { { ptr }, i32, i32, ptr, ptr }* %_15000001, i32 0, i32 3
-  store ptr %_15000005, ptr%_19000008, align 8
-  %_15000007 = call dereferenceable_or_null(56) ptr @"scalanative_GC_alloc_small"(ptr @"_SM27java.util.stream.StreamImplG4type", i64 56)
-  %_19000010 = getelementptr { { ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }, { { ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }* %_15000007, i32 0, i32 5
-  store ptr %_15000001, ptr%_19000010, align 8
-  call void @"_SM20java.util.ArrayDequeD7addLastL16java.lang.ObjectuEO"(ptr nonnull dereferenceable(32) %_15000001, ptr nonnull dereferenceable(56) %_15000007)
-  %_19000013 = getelementptr { { ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }, { { ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }* %_15000007, i32 0, i32 2
-  store ptr %_2, ptr%_19000013, align 8
-  %_19000015 = getelementptr { { ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }, { { ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }* %_15000007, i32 0, i32 6
+  %_15000001 = call dereferenceable_or_null(40) ptr @"scalanative_GC_alloc_small"(ptr @"_SM20java.util.ArrayDequeG4type", i64 40)
+  %_15000002 = call dereferenceable_or_null(24) ptr @"scalanative_GC_alloc_small"(ptr @"_SM33java.util.ArrayDeque$DeqIterator$G4type", i64 24)
+  %_19000003 = getelementptr { { ptr, ptr }, ptr }, { { ptr, ptr }, ptr }* %_15000002, i32 0, i32 1
+  store atomic ptr %_15000001, ptr%_19000003 unordered, align 8
+  %_19000005 = getelementptr { { ptr, ptr }, i32, i32, ptr, ptr }, { { ptr, ptr }, i32, i32, ptr, ptr }* %_15000001, i32 0, i32 4
+  store atomic ptr %_15000002, ptr%_19000005 unordered, align 8
+  %_15000005 = call dereferenceable_or_null(24) ptr @"_SM38scala.scalanative.runtime.ObjectArray$D5allociL37scala.scalanative.runtime.ObjectArrayEO"(ptr @"_SM38scala.scalanative.runtime.ObjectArray$G8instance", i32 17)
+  %_19000008 = getelementptr { { ptr, ptr }, i32, i32, ptr, ptr }, { { ptr, ptr }, i32, i32, ptr, ptr }* %_15000001, i32 0, i32 3
+  store atomic ptr %_15000005, ptr%_19000008 unordered, align 8
+  %_15000007 = call dereferenceable_or_null(64) ptr @"scalanative_GC_alloc_small"(ptr @"_SM27java.util.stream.StreamImplG4type", i64 64)
+  %_19000010 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }, { { ptr, ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }* %_15000007, i32 0, i32 5
+  store atomic ptr %_15000001, ptr%_19000010 unordered, align 8
+  call void @"_SM20java.util.ArrayDequeD7addLastL16java.lang.ObjectuEO"(ptr nonnull dereferenceable(40) %_15000001, ptr nonnull dereferenceable(64) %_15000007)
+  %_19000013 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }, { { ptr, ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }* %_15000007, i32 0, i32 2
+  store atomic ptr %_2, ptr%_19000013 unordered, align 8
+  %_19000015 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }, { { ptr, ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }* %_15000007, i32 0, i32 6
   %_19000016 = zext i1 %_4 to i8
-  store i8 %_19000016, ptr%_19000015, align 1
-  %_19000018 = getelementptr { { ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }, { { ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }* %_15000007, i32 0, i32 9
-  store i32 %_3, ptr%_19000018, align 4
+  store atomic i8 %_19000016, ptr%_19000015 unordered, align 1
+  %_19000018 = getelementptr { { ptr, ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }, { { ptr, ptr }, ptr, ptr, ptr, i64, ptr, i1, i1, i1, i32 }* %_15000007, i32 0, i32 9
+  store atomic i32 %_3, ptr%_19000018 unordered, align 4
   ret ptr %_15000007
 }
 
-define nonnull dereferenceable(64) ptr @"_SM31java.util.stream.StreamSupport$D9intStreamL27java.util.Spliterator$OfIntzL26java.util.stream.IntStreamEO"(ptr %_1, ptr %_2, i1 %_3) personality ptr @scalanative_personality {
+define nonnull dereferenceable(72) ptr @"_SM31java.util.stream.StreamSupport$D9intStreamL27java.util.Spliterator$OfIntzL26java.util.stream.IntStreamEO"(ptr %_1, ptr %_2, i1 %_3) personality ptr @scalanative_personality {
 _4000000.0:
   br label %_11000000.0
 _11000000.0:
   br label %_12000000.0
 _12000000.0:
-  %_14000001 = call dereferenceable_or_null(32) ptr @"scalanative_GC_alloc_small"(ptr @"_SM20java.util.ArrayDequeG4type", i64 32)
-  %_14000002 = call dereferenceable_or_null(16) ptr @"scalanative_GC_alloc_small"(ptr @"_SM33java.util.ArrayDeque$DeqIterator$G4type", i64 16)
-  %_17000003 = getelementptr { { ptr }, ptr }, { { ptr }, ptr }* %_14000002, i32 0, i32 1
-  store ptr %_14000001, ptr%_17000003, align 8
-  %_17000005 = getelementptr { { ptr }, i32, i32, ptr, ptr }, { { ptr }, i32, i32, ptr, ptr }* %_14000001, i32 0, i32 4
-  store ptr %_14000002, ptr%_17000005, align 8
-  %_14000005 = call dereferenceable_or_null(16) ptr @"_SM38scala.scalanative.runtime.ObjectArray$D5allociL37scala.scalanative.runtime.ObjectArrayEO"(ptr @"_SM38scala.scalanative.runtime.ObjectArray$G8instance", i32 17)
-  %_17000008 = getelementptr { { ptr }, i32, i32, ptr, ptr }, { { ptr }, i32, i32, ptr, ptr }* %_14000001, i32 0, i32 3
-  store ptr %_14000005, ptr%_17000008, align 8
-  %_14000007 = call dereferenceable_or_null(64) ptr @"scalanative_GC_alloc_small"(ptr @"_SM30java.util.stream.IntStreamImplG4type", i64 64)
-  %_17000010 = getelementptr { { ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }, { { ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }* %_14000007, i32 0, i32 8
-  store ptr %_14000001, ptr%_17000010, align 8
-  call void @"_SM20java.util.ArrayDequeD7addLastL16java.lang.ObjectuEO"(ptr nonnull dereferenceable(32) %_14000001, ptr nonnull dereferenceable(64) %_14000007)
-  %_17000013 = getelementptr { { ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }, { { ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }* %_14000007, i32 0, i32 2
-  store ptr %_2, ptr%_17000013, align 8
-  %_17000015 = getelementptr { { ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }, { { ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }* %_14000007, i32 0, i32 1
+  %_14000001 = call dereferenceable_or_null(40) ptr @"scalanative_GC_alloc_small"(ptr @"_SM20java.util.ArrayDequeG4type", i64 40)
+  %_14000002 = call dereferenceable_or_null(24) ptr @"scalanative_GC_alloc_small"(ptr @"_SM33java.util.ArrayDeque$DeqIterator$G4type", i64 24)
+  %_17000003 = getelementptr { { ptr, ptr }, ptr }, { { ptr, ptr }, ptr }* %_14000002, i32 0, i32 1
+  store atomic ptr %_14000001, ptr%_17000003 unordered, align 8
+  %_17000005 = getelementptr { { ptr, ptr }, i32, i32, ptr, ptr }, { { ptr, ptr }, i32, i32, ptr, ptr }* %_14000001, i32 0, i32 4
+  store atomic ptr %_14000002, ptr%_17000005 unordered, align 8
+  %_14000005 = call dereferenceable_or_null(24) ptr @"_SM38scala.scalanative.runtime.ObjectArray$D5allociL37scala.scalanative.runtime.ObjectArrayEO"(ptr @"_SM38scala.scalanative.runtime.ObjectArray$G8instance", i32 17)
+  %_17000008 = getelementptr { { ptr, ptr }, i32, i32, ptr, ptr }, { { ptr, ptr }, i32, i32, ptr, ptr }* %_14000001, i32 0, i32 3
+  store atomic ptr %_14000005, ptr%_17000008 unordered, align 8
+  %_14000007 = call dereferenceable_or_null(72) ptr @"scalanative_GC_alloc_small"(ptr @"_SM30java.util.stream.IntStreamImplG4type", i64 72)
+  %_17000010 = getelementptr { { ptr, ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }, { { ptr, ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }* %_14000007, i32 0, i32 8
+  store atomic ptr %_14000001, ptr%_17000010 unordered, align 8
+  call void @"_SM20java.util.ArrayDequeD7addLastL16java.lang.ObjectuEO"(ptr nonnull dereferenceable(40) %_14000001, ptr nonnull dereferenceable(72) %_14000007)
+  %_17000013 = getelementptr { { ptr, ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }, { { ptr, ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }* %_14000007, i32 0, i32 2
+  store atomic ptr %_2, ptr%_17000013 unordered, align 8
+  %_17000015 = getelementptr { { ptr, ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }, { { ptr, ptr }, i1, ptr, ptr, ptr, i64, i1, i1, ptr }* %_14000007, i32 0, i32 1
   %_17000016 = zext i1 %_3 to i8
-  store i8 %_17000016, ptr%_17000015, align 1
+  store atomic i8 %_17000016, ptr%_17000015 unordered, align 1
   ret ptr %_14000007
 }
 

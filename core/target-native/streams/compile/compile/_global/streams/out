@@ -12,4 +12,232 @@
 [warn]    |The syntax `private[this]` will be deprecated in the future; just write `private` instead.
 [warn]    |See: https://docs.scala-lang.org/scala3/reference/dropped-features/this-qualifier.html
 [warn]    |This construct can be rewritten automatically under -rewrite -source 3.4-migration.
-[warn] two warnings found
+[warn] -- Warning: /home/optick/work/pureconfig/core/src/main/scala/pureconfig/CollectionReaders.scala:12:44 
+[warn] 12 |trait ReadsMissingKeys { this: ConfigReader[_] => }
+[warn]    |                                            ^
+[warn]    |`_` is deprecated for wildcard arguments of types: use `?` instead
+[warn]    |This construct can be rewritten automatically under -rewrite -source 3.4-migration.
+[warn] -- Warning: /home/optick/work/pureconfig/core/src/main/scala/pureconfig/ConfigConvert.scala:83:42 
+[warn] 83 |    viaString[A](string => ensureNonEmpty(ct)(string).flatMap(s => fromF(s)), toF)
+[warn]    |                                          ^^
+[warn]    |Implicit parameters should be provided with a `using` clause.
+[warn]    |This code can be rewritten automatically under -rewrite -source 3.7-migration.
+[warn]    |To disable the warning, please use the following option:
+[warn]    |  "-Wconf:msg=Implicit parameters should be provided with a `using` clause:s"
+[warn] -- Warning: /home/optick/work/pureconfig/core/src/main/scala/pureconfig/ConfigCursor.scala:263:9 
+[warn] 263 |  private[this] def castOrFail[A](
+[warn]     |         ^^^^^^
+[warn]     |Ignoring [this] qualifier.
+[warn]     |The syntax `private[this]` will be deprecated in the future; just write `private` instead.
+[warn]     |See: https://docs.scala-lang.org/scala3/reference/dropped-features/this-qualifier.html
+[warn]     |This construct can be rewritten automatically under -rewrite -source 3.4-migration.
+[warn] -- Warning: /home/optick/work/pureconfig/core/src/main/scala/pureconfig/ConfigCursor.scala:362:17 
+[warn] 362 |  @inline private[this] def validIndex(idx: Int) = idx >= 0 && idx < size
+[warn]     |                 ^^^^^^
+[warn]     |Ignoring [this] qualifier.
+[warn]     |The syntax `private[this]` will be deprecated in the future; just write `private` instead.
+[warn]     |See: https://docs.scala-lang.org/scala3/reference/dropped-features/this-qualifier.html
+[warn]     |This construct can be rewritten automatically under -rewrite -source 3.4-migration.
+[warn] -- Warning: /home/optick/work/pureconfig/core/src/main/scala/pureconfig/ConfigCursor.scala:363:17 
+[warn] 363 |  @inline private[this] def indexKey(idx: Int) = (offset + idx).toString
+[warn]     |                 ^^^^^^
+[warn]     |Ignoring [this] qualifier.
+[warn]     |The syntax `private[this]` will be deprecated in the future; just write `private` instead.
+[warn]     |See: https://docs.scala-lang.org/scala3/reference/dropped-features/this-qualifier.html
+[warn]     |This construct can be rewritten automatically under -rewrite -source 3.4-migration.
+[warn] -- Warning: /home/optick/work/pureconfig/core/src/main/scala/pureconfig/ConfigFieldMapping.scala:50:41 
+[warn] 50 |      apply(typeFieldConvention.toTokens _ andThen configFieldConvention.fromTokens)
+[warn]    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[warn]    |The syntax `<function> _` is no longer supported;
+[warn]    |you can simply leave out the trailing ` _`
+[warn]    |This construct can be rewritten automatically under -rewrite -source 3.4-migration.
+[warn] -- Warning: /home/optick/work/pureconfig/core/src/main/scala/pureconfig/ConfigReader.scala:237:40 
+[warn] 237 |    fromString(string => ensureNonEmpty(ct)(string).flatMap(s => fromF(s)))
+[warn]     |                                        ^^
+[warn]     |Implicit parameters should be provided with a `using` clause.
+[warn]     |This code can be rewritten automatically under -rewrite -source 3.7-migration.
+[warn]     |To disable the warning, please use the following option:
+[warn]     |  "-Wconf:msg=Implicit parameters should be provided with a `using` clause:s"
+[warn] -- Warning: /home/optick/work/pureconfig/core/src/main/scala/pureconfig/ConfigSource.scala:57:102 
+[warn] 57 |    ConfigSource.fromCursor(fluentCursor().at(PathUtil.splitPath(namespace).map(p => p: PathSegment): _*))
+[warn]    |                                                                                                      ^
+[warn]    |The syntax `x: _*` is no longer supported for vararg splices; use `x*` instead
+[warn]    |This construct can be rewritten automatically under -rewrite -source 3.4-migration.
+[warn] -- Warning: /home/optick/work/pureconfig/core/src/main/scala/pureconfig/ConfigSource.scala:77:32 
+[warn] 77 |  @throws[ConfigReaderException[_]]
+[warn]    |                                ^
+[warn]    |`_` is deprecated for wildcard arguments of types: use `?` instead
+[warn]    |This construct can be rewritten automatically under -rewrite -source 3.4-migration.
+[warn] -- Warning: /home/optick/work/pureconfig/core/src/main/scala/pureconfig/DurationUtils.scala:50:9 
+[warn] 50 |  private[this] def words(s: String) = (s.trim split "\\s+").toList
+[warn]    |         ^^^^^^
+[warn]    |Ignoring [this] qualifier.
+[warn]    |The syntax `private[this]` will be deprecated in the future; just write `private` instead.
+[warn]    |See: https://docs.scala-lang.org/scala3/reference/dropped-features/this-qualifier.html
+[warn]    |This construct can be rewritten automatically under -rewrite -source 3.4-migration.
+[warn] -- Warning: /home/optick/work/pureconfig/core/src/main/scala/pureconfig/DurationUtils.scala:51:9 
+[warn] 51 |  private[this] def expandLabels(labels: String): List[String] = {
+[warn]    |         ^^^^^^
+[warn]    |Ignoring [this] qualifier.
+[warn]    |The syntax `private[this]` will be deprecated in the future; just write `private` instead.
+[warn]    |See: https://docs.scala-lang.org/scala3/reference/dropped-features/this-qualifier.html
+[warn]    |This construct can be rewritten automatically under -rewrite -source 3.4-migration.
+[warn] -- Warning: /home/optick/work/pureconfig/core/src/main/scala/pureconfig/DurationUtils.scala:56:9 
+[warn] 56 |  private[this] val timeUnitLabels = List(
+[warn]    |         ^^^^^^
+[warn]    |Ignoring [this] qualifier.
+[warn]    |The syntax `private[this]` will be deprecated in the future; just write `private` instead.
+[warn]    |See: https://docs.scala-lang.org/scala3/reference/dropped-features/this-qualifier.html
+[warn]    |This construct can be rewritten automatically under -rewrite -source 3.4-migration.
+[warn] -- Warning: /home/optick/work/pureconfig/core/src/main/scala/pureconfig/DurationUtils.scala:50:47 
+[warn] 50 |  private[this] def words(s: String) = (s.trim split "\\s+").toList
+[warn]    |                                               ^^^^^
+[warn]    |Alphanumeric method split is not declared infix; it should not be used as infix operator.
+[warn]    |Instead, use method syntax .split(...) or backticked identifier `split`.
+[warn]    |The latter can be rewritten automatically under -rewrite -source 3.4-migration.
+[warn] -- Warning: /home/optick/work/pureconfig/core/src/main/scala/pureconfig/DurationUtils.scala:154:44 
+[warn] 154 |  ).sortBy(_._1)(implicitly[Ordering[Long]].reverse)
+[warn]     |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[warn]     |Implicit parameters should be provided with a `using` clause.
+[warn]     |This code can be rewritten automatically under -rewrite -source 3.7-migration.
+[warn]     |To disable the warning, please use the following option:
+[warn]     |  "-Wconf:msg=Implicit parameters should be provided with a `using` clause:s"
+[warn] -- Warning: /home/optick/work/pureconfig/core/src/main/scala/pureconfig/backend/ConfigFactoryWrapper.scala:17:9 
+[warn] 17 |  private[this] val strictSettings = ConfigParseOptions.defaults.setAllowMissing(false)
+[warn]    |         ^^^^^^
+[warn]    |Ignoring [this] qualifier.
+[warn]    |The syntax `private[this]` will be deprecated in the future; just write `private` instead.
+[warn]    |See: https://docs.scala-lang.org/scala3/reference/dropped-features/this-qualifier.html
+[warn]    |This construct can be rewritten automatically under -rewrite -source 3.4-migration.
+[warn] -- Warning: /home/optick/work/pureconfig/core/src/main/scala/pureconfig/backend/PathUtil.scala:30:64 
+[warn] 30 |    if (elements.isEmpty) "" else ConfigUtil.joinPath(elements: _*)
+[warn]    |                                                                ^
+[warn]    |The syntax `x: _*` is no longer supported for vararg splices; use `x*` instead
+[warn]    |This construct can be rewritten automatically under -rewrite -source 3.4-migration.
+[warn] -- Warning: /home/optick/work/pureconfig/core/src/main/scala/pureconfig/error/ConfigReaderFailures.scala:15:47 
+[warn] 15 |    ConfigReaderFailures(failure, this.toList: _*)
+[warn]    |                                               ^
+[warn]    |The syntax `x: _*` is no longer supported for vararg splices; use `x*` instead
+[warn]    |This construct can be rewritten automatically under -rewrite -source 3.4-migration.
+[warn] -- Warning: /home/optick/work/pureconfig/core/src/main/scala/pureconfig/error/ConfigReaderFailures.scala:18:54 
+[warn] 18 |    ConfigReaderFailures(head, (tail ++ that.toList): _*)
+[warn]    |                                                      ^
+[warn]    |The syntax `x: _*` is no longer supported for vararg splices; use `x*` instead
+[warn]    |This construct can be rewritten automatically under -rewrite -source 3.4-migration.
+[warn] -- Warning: /home/optick/work/pureconfig/core/src/main/scala/pureconfig/error/FailureReason.scala:67:9 
+[warn] 67 |  private[this] def isSubsequence(s1: String, s2: String): Boolean = {
+[warn]    |         ^^^^^^
+[warn]    |Ignoring [this] qualifier.
+[warn]    |The syntax `private[this]` will be deprecated in the future; just write `private` instead.
+[warn]    |See: https://docs.scala-lang.org/scala3/reference/dropped-features/this-qualifier.html
+[warn]    |This construct can be rewritten automatically under -rewrite -source 3.4-migration.
+[warn] -- Warning: /home/optick/work/pureconfig/core/src/main/scala/pureconfig/package.scala:112:32 
+[warn] 112 |  @throws[ConfigReaderException[_]]
+[warn]     |                                ^
+[warn]     |`_` is deprecated for wildcard arguments of types: use `?` instead
+[warn]     |This construct can be rewritten automatically under -rewrite -source 3.4-migration.
+[warn] -- Warning: /home/optick/work/pureconfig/core/src/main/scala/pureconfig/package.scala:123:32 
+[warn] 123 |  @throws[ConfigReaderException[_]]
+[warn]     |                                ^
+[warn]     |`_` is deprecated for wildcard arguments of types: use `?` instead
+[warn]     |This construct can be rewritten automatically under -rewrite -source 3.4-migration.
+[warn] -- Warning: /home/optick/work/pureconfig/core/src/main/scala/pureconfig/package.scala:134:32 
+[warn] 134 |  @throws[ConfigReaderException[_]]
+[warn]     |                                ^
+[warn]     |`_` is deprecated for wildcard arguments of types: use `?` instead
+[warn]     |This construct can be rewritten automatically under -rewrite -source 3.4-migration.
+[warn] -- Warning: /home/optick/work/pureconfig/core/src/main/scala/pureconfig/package.scala:147:32 
+[warn] 147 |  @throws[ConfigReaderException[_]]
+[warn]     |                                ^
+[warn]     |`_` is deprecated for wildcard arguments of types: use `?` instead
+[warn]     |This construct can be rewritten automatically under -rewrite -source 3.4-migration.
+[warn] -- Warning: /home/optick/work/pureconfig/core/src/main/scala/pureconfig/package.scala:159:32 
+[warn] 159 |  @throws[ConfigReaderException[_]]
+[warn]     |                                ^
+[warn]     |`_` is deprecated for wildcard arguments of types: use `?` instead
+[warn]     |This construct can be rewritten automatically under -rewrite -source 3.4-migration.
+[warn] -- Warning: /home/optick/work/pureconfig/core/src/main/scala/pureconfig/package.scala:173:32 
+[warn] 173 |  @throws[ConfigReaderException[_]]
+[warn]     |                                ^
+[warn]     |`_` is deprecated for wildcard arguments of types: use `?` instead
+[warn]     |This construct can be rewritten automatically under -rewrite -source 3.4-migration.
+[warn] -- Warning: /home/optick/work/pureconfig/core/src/main/scala/pureconfig/package.scala:185:32 
+[warn] 185 |  @throws[ConfigReaderException[_]]
+[warn]     |                                ^
+[warn]     |`_` is deprecated for wildcard arguments of types: use `?` instead
+[warn]     |This construct can be rewritten automatically under -rewrite -source 3.4-migration.
+[warn] -- Warning: /home/optick/work/pureconfig/core/src/main/scala/pureconfig/package.scala:199:32 
+[warn] 199 |  @throws[ConfigReaderException[_]]
+[warn]     |                                ^
+[warn]     |`_` is deprecated for wildcard arguments of types: use `?` instead
+[warn]     |This construct can be rewritten automatically under -rewrite -source 3.4-migration.
+[warn] -- Warning: /home/optick/work/pureconfig/core/src/main/scala/pureconfig/package.scala:297:32 
+[warn] 297 |  @throws[ConfigReaderException[_]]
+[warn]     |                                ^
+[warn]     |`_` is deprecated for wildcard arguments of types: use `?` instead
+[warn]     |This construct can be rewritten automatically under -rewrite -source 3.4-migration.
+[warn] -- Warning: /home/optick/work/pureconfig/core/src/main/scala/pureconfig/package.scala:229:14 
+[warn] 229 |    if (Files isDirectory outputPath) {
+[warn]     |              ^^^^^^^^^^^
+[warn]     |Alphanumeric method isDirectory is not declared infix; it should not be used as infix operator.
+[warn]     |Instead, use method syntax .isDirectory(...) or backticked identifier `isDirectory`.
+[warn]     |The latter can be rewritten automatically under -rewrite -source 3.4-migration.
+[warn] -- Warning: /home/optick/work/pureconfig/core/src/main/scala/pureconfig/syntax/package.scala:26:42 
+[warn] 26 |      getResultOrThrow(reader.from(conf))(cl)
+[warn]    |                                          ^^
+[warn]    |Implicit parameters should be provided with a `using` clause.
+[warn]    |This code can be rewritten automatically under -rewrite -source 3.7-migration.
+[warn]    |To disable the warning, please use the following option:
+[warn]    |  "-Wconf:msg=Implicit parameters should be provided with a `using` clause:s"
+[warn] -- Warning: /home/optick/work/pureconfig/core/src/main/scala/pureconfig/syntax/package.scala:32:41 
+[warn] 32 |      getResultOrThrow(reader.from(cur))(cl)
+[warn]    |                                         ^^
+[warn]    |Implicit parameters should be provided with a `using` clause.
+[warn]    |This code can be rewritten automatically under -rewrite -source 3.7-migration.
+[warn]    |To disable the warning, please use the following option:
+[warn]    |  "-Wconf:msg=Implicit parameters should be provided with a `using` clause:s"
+[warn] -- Warning: /home/optick/work/pureconfig/core/src/main/scala/pureconfig/syntax/package.scala:38:42 
+[warn] 38 |      getResultOrThrow(conf.root().to[A])(cl)
+[warn]    |                                          ^^
+[warn]    |Implicit parameters should be provided with a `using` clause.
+[warn]    |This code can be rewritten automatically under -rewrite -source 3.7-migration.
+[warn]    |To disable the warning, please use the following option:
+[warn]    |  "-Wconf:msg=Implicit parameters should be provided with a `using` clause:s"
+[warn] -- [E197] Potential Issue Warning: /home/optick/work/pureconfig/core/src/main/scala-3/pureconfig/generic/derivation/CoproductConfigReaderDerivation.scala:19:4 
+[warn] 19 |    new ConfigReader[A] {
+[warn]    |    ^
+[warn]    |   New anonymous class definition will be duplicated at each inline site
+[warn]    |
+[warn]    | longer explanation available when compiling with `-explain`
+[warn] -- [E197] Potential Issue Warning: /home/optick/work/pureconfig/core/src/main/scala-3/pureconfig/generic/derivation/EnumConfigConvert.scala:13:4 
+[warn] 13 |    new EnumConfigConvert[A] {
+[warn]    |    ^
+[warn]    |   New anonymous class definition will be duplicated at each inline site
+[warn]    |
+[warn]    | longer explanation available when compiling with `-explain`
+[warn] -- [E197] Potential Issue Warning: /home/optick/work/pureconfig/core/src/main/scala-3/pureconfig/generic/derivation/EnumConfigReaderDerivation.scala:20:6 
+[warn] 20 |      new EnumConfigReader[A] {
+[warn]    |      ^
+[warn]    |   New anonymous class definition will be duplicated at each inline site
+[warn]    |
+[warn]    | longer explanation available when compiling with `-explain`
+[warn] -- [E197] Potential Issue Warning: /home/optick/work/pureconfig/core/src/main/scala-3/pureconfig/generic/derivation/EnumConfigWriterDerivation.scala:21:6 
+[warn] 21 |      new EnumConfigWriter[A] {
+[warn]    |      ^
+[warn]    |   New anonymous class definition will be duplicated at each inline site
+[warn]    |
+[warn]    | longer explanation available when compiling with `-explain`
+[warn] -- [E197] Potential Issue Warning: /home/optick/work/pureconfig/core/src/main/scala-3/pureconfig/generic/derivation/ProductConfigReaderDerivation.scala:23:8 
+[warn] 23 |        new ConfigReader[A] {
+[warn]    |        ^
+[warn]    |   New anonymous class definition will be duplicated at each inline site
+[warn]    |
+[warn]    | longer explanation available when compiling with `-explain`
+[warn] -- [E197] Potential Issue Warning: /home/optick/work/pureconfig/core/src/main/scala-3/pureconfig/generic/derivation/ProductConfigReaderDerivation.scala:43:8 
+[warn] 43 |        new ConfigReader[A] {
+[warn]    |        ^
+[warn]    |   New anonymous class definition will be duplicated at each inline site
+[warn]    |
+[warn]    | longer explanation available when compiling with `-explain`
+[warn] there was 1 deprecation warning; re-run with -deprecation for details
+[warn] 41 warnings found
